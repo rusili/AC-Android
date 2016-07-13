@@ -1,6 +1,6 @@
 # Coding Style
 
-AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) for all Java code. Students should be familiar with this style and honor it in all exercises, projects, homework submissions, and assessment code.
+AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) for all Java code. Students should be familiar with this style and format Java code accordingly in all exercises, projects, homework submissions, and assessments.
 
 ## Highlights
 
