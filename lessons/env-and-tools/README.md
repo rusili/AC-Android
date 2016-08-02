@@ -104,3 +104,10 @@ problem. When writing code, be sure to follow a similar process as App design.
 8. Deploy
 
 ## Intro to Pair Programming
+Pair programming is a term for two people working together on a single computer.
+Although one person is typing, both are actively solving the problem at hand.
+There should be a dialog between the participants, and both programmers should
+have a complete understanding of the architecture, algorithms, and state in
+the product. Pair programming produces less errors, helps to spread
+knowledge of the code base and teaches you how others think about code along
+with the tools they utilize.
