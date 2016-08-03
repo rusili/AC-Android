@@ -10,6 +10,7 @@
 -Setup Github account
 -The Command Line
 -Setup StackOverflow Account
+-Setup Slack Account
 -The App Design Process
 -Intro to Pair Programming
 
@@ -21,6 +22,8 @@
 -[Android Source Code](https://source.android.com/)
 -[Github](https://www.github.com)
 -[Git] (https://git-scm.com/docs/user-manual.html)
+-[StackOverflow] (https://stackoverflow.com/)
+-[Slack] (https://slack.com/downloads)
 
 # Lecture
 
@@ -78,6 +81,13 @@ any problem you encounter has an answer on this site. However you must never
 copy and paste code from an unknown source without first understanding how it
 is implemented. If you do so, it could easily introduce a new error in your
 code.
+
+## Setup Slack Account
+Slack is a chat messaging app, with many more features than sending text. People
+program chat bots and run them in Slack, which can do anything from downloading
+an animated file to recommending where to eat for lunch. Chat bots are poised to
+be the newest form of digital interaction in 2016, similar to SnapChat and Vine
+of the past. [Slack Bot Examples](http://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
 
 ## The App Design Process
 Building an app, whether its for a mobile phone or website, typically follows a
