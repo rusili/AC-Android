@@ -11,6 +11,7 @@
 -[Java coding in browser](https://repl.it/languages/java)
 -[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 -[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+[Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
 # Lecture
 
@@ -26,8 +27,7 @@ if (BOOLEAN_CONDITION) {
 }
 ```
 An if statement needs a boolean condition to operate. If that expression
-evaluates to true, then the code within the if block will run. Otherwise, the
-code within the block is skipped, and the program will continue.
+evaluates to true, then the code within the if block will run. Otherwise, the code within the block is skipped, and the program will continue.
 
 ```java
 boolean alwaysTrue = true;
@@ -37,7 +37,7 @@ if (alwaysTrue) {
 System.out.println("Then this code runs");
 ```
 
-An if statement will evaluate code within the parenthesis. The statement must
+An if statement will evaluate code within the parenthesis. The boolean statement must
 return a true or false value;
 
 ```java
@@ -63,7 +63,7 @@ The list of boolean operators:
 - < Less than
 - >= Greater than or equal to
 - <= Less than or equal to
-- && Condtional And
+- && Conditional And
 - || Conditional Or
 
 ```java
@@ -103,10 +103,29 @@ if (input > 9) {
 }
 ```
 
+## Boolean expressions
+A boolean expression is an expression that evaluates to either true or false. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
+
+What do you think the following code snippets do?
+
+```java
+int DOWNLOAD_IMAGES_REQUEST = 111;
+if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
+    System.out.println("We downloaded all the images!")
+}
+```
+
+```java
+    String word = readInput();
+    if(!word.isEmpty()){
+    	System.out.println("You entered " + word);
+    }
+```
+
+## Todo - Cover DeMorgan's Law and add in-class exercises.
+
 ## Switch statement
-Switch statements are the equivalent of if else statements, with one key
-difference. Of all blocks of code defined in an if else statement, only one will
-be executed. In a switch statement, multiple blocks of code can be executed.
+Switch statements are the equivalent of if else statements, with one key difference. Of all blocks of code defined in an if else statement, only one will be executed. In a switch statement, multiple blocks of code can be executed.
 First we demonstrate a switch statement runs one block of code at a time.
 
 ```java
@@ -126,7 +145,7 @@ default:
 }
 ```
 
-Is the same as the following if else statment:
+Is the same as the following if else statement:
 
 ```java
 int input = 5;
