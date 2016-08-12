@@ -11,7 +11,8 @@
 -[Java coding in browser](https://repl.it/languages/java)
 -[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 -[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
-[Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+-[Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+
 
 # Lecture
 
@@ -122,7 +123,7 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
     }
 ```
 
-## Todo - Cover DeMorgan's Law and add in-class exercises.
+[Exercise 1](if-OOps.md)
 
 ## Switch statement
 Switch statements are the equivalent of if else statements, with one key difference. Of all blocks of code defined in an if else statement, only one will be executed. In a switch statement, multiple blocks of code can be executed.
@@ -242,3 +243,8 @@ if (input == 1) {
 
 Notice how the default case could not be translated to an else block of code
 without an expression guarding its execution.
+
+[Exercise 2](user_validation.md)
+
+
+[Exit Ticket](http://bit.ly/2aPVSOy)
