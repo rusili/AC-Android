@@ -7,7 +7,7 @@
 |Abass| 2016-08-22 ||| [Control Structures](lessons/control-structures) ||
 |Jonathan| 2016-08-23 ||| [Enums and While Loops](lessons/enums-while) ||
 |Abass| 2016-08-24 ||| [For Loops](lessons/for-loops)<br>[Week 1 Review](lessons/week1-review)||
-|Jonathan| 2016-08-25 ||| [Week 1 Review](lessons/week1-review)||
+|Jonathan| 2016-08-25 ||| [Week 1 Review](lessons/week-1-review)||
 |Jonathan| 2016-08-27 ||| [Classes](lessons/classes-part1)||
 |Ramona| 2016-08-28 ||| [Classes](lessons/classes-part2)||
 |Abass| 2016-08-29 ||| [Arrays and ArrayLists](lessons/arrays-arraylists) ||
