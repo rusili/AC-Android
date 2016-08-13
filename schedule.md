@@ -24,7 +24,7 @@
 |[2016-08-22](https://docs.google.com/a/c4q.nyc/forms/d/1KOMjfexbq-L8YE8eIYsLdlac07m8qhl3OSSmew01O70/edit)|
 |[2016-08-23](https://docs.google.com/a/c4q.nyc/forms/d/14B2vkRnQRsk_D_UvloqX-RSgJxGiMFTYzp6RVDFahVM/edit)|
 |[2016-08-24](https://docs.google.com/a/c4q.nyc/forms/d/1NpMDOoJDboY778dbBy44fyIM66wrqZipiOrPdwb37ns/edit)|
-|[2016-08-25]()|
+|[2016-08-25](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/edit)|
 |[2016-08-27](https://docs.google.com/a/c4q.nyc/forms/d/1C501x_uOHuh1rq4cCTGlMJmdQl-uZ4YuAvBrYCgnypg/edit)|
 |[2016-08-28](https://docs.google.com/a/c4q.nyc/forms/d/119XcxdHgAJYDKscoc0M5ffUbMAKKxnuHaYOAZSTJqHs/edit)|
 |[2016-08-29](https://docs.google.com/a/c4q.nyc/forms/d/1d8tTX4B_S6H4RW2d6zriAU2cwan6ABSIieVRqXFuA0k/edit)|
