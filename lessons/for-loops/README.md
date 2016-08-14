@@ -9,8 +9,8 @@
 
 # Resources
 
-[Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
-[Java For-Loops Examples](http://www.java-examples.com/loop)
+- [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
+- [Java For-Loops Examples](http://www.java-examples.com/loop)
 
 
 # Lecture
