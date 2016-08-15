@@ -3,9 +3,9 @@
 
 #Objectives
 
--Write an If statement
--Write an If - Else statement
--Write a Switch statement
+* Write an If statement
+* Write an If - Else statement
+* Write a Switch statement
 
 #Resources
 -[Java coding in browser](https://repl.it/languages/java)
@@ -122,6 +122,15 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
     	System.out.println("You entered " + word);
     }
 ```
+
+
+```java
+public boolean isPalindrome(String input){
+    String reversed = input.reversed();
+    return reversed.equals(input);
+;}
+
+
 
 [Exercise 1](if-OOps.md)
 
@@ -246,6 +255,8 @@ without an expression guarding its execution.
 
 String comparison
   * When comparing two strings for equality, use the .equals() method not ==. The equals() method will check that two Strings have identical content while "=="checks whether both strings have the same in-memory reference.
+
+
 
 [Exercise 2](user_validation.md)
 
