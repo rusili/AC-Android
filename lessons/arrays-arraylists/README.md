@@ -10,9 +10,9 @@ Objectives
 - Retrieve values from both structures
 
 Resources
-[Array](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-[Index Out of Bounds Exception](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayIndexOutOfBoundsException.html)
-[Off-by-one Error](https://en.wikipedia.org/wiki/Off-by-one_error)
+- [Array](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Index Out of Bounds - Exception](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayIndexOutOfBoundsException.html)
+- [Off-by-one Error](https://en.wikipedia.org/wiki/Off-by-one_error)
 
 
 ## Arrays
@@ -33,8 +33,6 @@ public static void main(String[] args){
     }
 }
 ```
-
-[Array Img](array_img) //fixme
 
 *Declaring An Array*
 Declaring an array means creating a reference to that array. Here's how go declare an array of int's called numbers.
@@ -99,7 +97,7 @@ Important to remember
 - index vs. value;
 
 ## Exercise:
- 1) Create an array of Movie objects, which will store your top favorite movies. You will need to create a Java class for the movie object, which at a minimum should have a String variable as its name or title field.
+ 1) Create an array of Movie objects, which will store your top favorite movies. You will need to create a Java class for the movie object, which at a minimum should have a String variable as its title field.
 
  2) Print the names of the items in your favoriteMovies array in reverse.
 
@@ -121,7 +119,13 @@ Before we can use an `ArrayList`, we have to `import` it:
 import java.util.ArrayList;
 ```
 
-Next, we call the constructor; but we have to declare the type of object the `ArrayList` is going to hold. This is how you create a new `ArrayList` holding `String` objects.
+Before looking at the constructor for an arraylist, here are some distinguishing features of an  arraylist:
+
+1) Arraylists do NOT have a fixed size. The size() method returns the number of elements the list contains.
+2) May contain elements of the same type OR elements of different types.
+3) Common operations : add(), get(), remove(), size();
+
+Next, we call the constructor, but we have to declare the type of object the `ArrayList` is going to hold. This is how you create a new `ArrayList` holding `String` objects.
 
 ```java
 ArrayList<String> names = new ArrayList<String>();
@@ -198,13 +202,13 @@ System.out.println(names.contains("Veer")); // true
 > Yes!
 > ```
 
-An `ArrayList` can hold any type of object! For example, here is a constructor for an `ArrayList` holding our `Person` class from last week.
+An `ArrayList` can hold any type of object! For example, here is a constructor for an `ArrayList` holding our `Movie` class from last week.
 
 ```java
-ArrayList<Person> people = new ArrayList<Person>();
+ArrayList<Movie> people = new ArrayList<Movie>();
 ```
 
-> **Exercise:** Modify our program to save the user's input names as `Person` instances. Rather than storing `String` objects in the `ArrayList`, store `Person` objects by constructing them with the input name. You'll need to use the `Person` constructor to get a `Person` instance!
+> **Exercise:** Modify your program to prompt the user for their favorite movies and store each one  as a `Movie` instance. Rather than storing `String` objects in the `ArrayList`, store `Movie` objects by constructing them with the input name. You'll need to use the `Movie` constructor to get a `Movie` instance!
 
 # In-class assignment
 
