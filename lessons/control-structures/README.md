@@ -8,10 +8,10 @@
 * Write a Switch statement
 
 #Resources
-* [Java coding in browser](https://repl.it/languages/java)
-* [Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
-* [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
-* [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+-[Java coding in browser](https://repl.it/languages/java)
+-[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
+-[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+-[Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
 
 # Lecture
@@ -233,7 +233,7 @@ default:
 }
 ```
 
-Is the same as the following if else statment:
+Is the same as the following if else statement:
 
 ```java
 int input = 5;
@@ -253,6 +253,8 @@ if (input == 1) {
 Notice how the default case could not be translated to an else block of code
 without an expression guarding its execution.
 
+String comparison
+  * When comparing two strings for equality, use the .equals() method not ==. The equals() method will check that two Strings have identical content while "=="checks whether both strings have the same in-memory reference.
 
 
 
