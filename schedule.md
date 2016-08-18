@@ -16,20 +16,21 @@
 |Jonathan| 2016-09-01 ||| [Week 2 Review](lessons/week2-review)||
 
 **Prework:**
-|Date|Prework|Exit-Ticket|
-|:----------:|:--------:|:--:|
-| 2016-08-20 |    |       |
-| 2016-08-21 |[Java Nuts and Bolts](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)|[Exit Ticket](#)|
-| 2016-08-22 |[Oracle Docs](pre-work/08-22-2016-prework.md)    |    [Exit Ticket](#)    |
-| 2016-08-23 |[Pre-work](pre-work/08-23-2016-prework.md)    |    [Exit Ticket](#)    |
-| 2016-08-24 |[For-Loops]( https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)    |    [Exit Ticket](#)    |
-| 2016-08-25 |[    ]( #)    |        |
-| 2016-08-27 |[Classes and Objects    ](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    |    [Exit Ticket](#)    |
-| 2016-08-28 |[OOP-Classes Cont.](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)    |    [Exit Ticket](#)    |
-| 2016-08-29 |[Arrays]( https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)    |    [Exit Ticket](#)    |
-| 2016-08-30 |[Interfaces & Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)    |    [Exit Ticket](#)    |
-| 2016-08-31 |[Interfaces and Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)    |    [Exit Ticket](#)    |
-| 2016-09-01 |[    ]( #)    |    )    |
+
+|Date|
+|:----------:|
+| [2016-08-20]() |
+| [2016-08-21](08-21-2016-prework.md) |
+| [2016-08-22](08-22-2016-prework.md) |
+| [2016-08-23](08-23-2016-prework.md) |
+| [2016-08-24](08-24-2016-prework.md) |
+| [2016-08-25](08-25-2016-prework.md) |
+| [2016-08-27](08-27-2016-prework.md) |
+| [2016-08-28](08-28-2016-prework.md) |
+| [2016-08-29](08-29-2016-prework.md) |
+| [2016-08-30](08-30-2016-prework.md) |
+| [2016-08-31](08-31-2016-prework.md) |
+| [2016-09-01](09-01-2016-prework.md) |
 
 
 
