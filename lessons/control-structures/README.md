@@ -3,9 +3,9 @@
 
 #Objectives
 
--Write an If statement
--Write an If - Else statement
--Write a Switch statement
+* Write an If statement
+* Write an If - Else statement
+* Write a Switch statement
 
 #Resources
 -[Java coding in browser](https://repl.it/languages/java)
@@ -123,6 +123,15 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
     }
 ```
 
+
+```java
+public boolean isPalindrome(String input){
+    String reversed = input.reversed();
+    return reversed.equals(input);
+;}
+
+
+
 [Exercise 1](if-OOps.md)
 
 ## Switch statement
@@ -224,7 +233,7 @@ default:
 }
 ```
 
-Is the same as the following if else statment:
+Is the same as the following if else statement:
 
 ```java
 int input = 5;
@@ -243,6 +252,11 @@ if (input == 1) {
 
 Notice how the default case could not be translated to an else block of code
 without an expression guarding its execution.
+
+String comparison
+  * When comparing two strings for equality, use the .equals() method not ==. The equals() method will check that two Strings have identical content while "=="checks whether both strings have the same in-memory reference.
+
+
 
 [Exercise 2](user_validation.md)
 
