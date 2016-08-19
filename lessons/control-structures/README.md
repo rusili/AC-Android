@@ -3,9 +3,9 @@
 
 #Objectives
 
--Write an If statement
--Write an If - Else statement
--Write a Switch statement
+- Write an If statement
+- Write an If - Else statement
+- Write a Switch statement
 
 #Resources
 -[Java coding in browser](https://repl.it/languages/java)
