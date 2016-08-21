@@ -211,4 +211,4 @@ You can use [repl.it](https://repl.it/languages/java) to complete and submit the
 
 4. When you have completed all of the exercises, click the "Share" button then select Github to share the exercises to a Gist. 
 
-5. Copy the Gist URL and [submit it using this form](//TODO add hw submission form link) by ***Saturday 8/21 at 8pm***.
+5. Copy the Gist URL and [submit it using this form](//TODO add hw submission form link) by ***Saturday 8/28 at 8pm***.
