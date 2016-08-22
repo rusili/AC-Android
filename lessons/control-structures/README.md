@@ -258,8 +258,7 @@ String comparison
   * When comparing two strings for equality, use the .equals() method not ==. The equals() method will check that two Strings have identical content while "=="checks whether both strings have the same in-memory reference.
 
 
-
-[Exercise 2](user_validation.md)
+[Exercises](exercises)
 
 
 [Exit Ticket](http://bit.ly/2aPVSOy)
