@@ -33,5 +33,6 @@
   public static String readInput(){
  	   Scanner scanner = new Scanner(System.in);
     	String out = "";
-  return scanner.next();
+     return scanner.next();
+  }
 ```
