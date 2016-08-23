@@ -29,12 +29,9 @@
 [String API](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
 ```java
-public static String readInput(){
-  Scanner scanner = new Scanner(System.in);
-  String out = "";
-  while(scanner.hasNext()){
-      out += scanner.next();
-  }
-  return out;
-}
+  
+  public static String readInput(){
+ 	   Scanner scanner = new Scanner(System.in);
+    	String out = "";
+  return scanner.next();
 ```
