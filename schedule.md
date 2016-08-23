@@ -3,7 +3,7 @@
 |Instructor |  Date      |Warmup|Challenge| Lesson |Check-in|
 |:----------:|:----------:|:--------:|:--:|:--|:--:|
 |Jonathan| 2016-08-20 ||| [Environment and Tools Setup](lessons/env-and-tools)||
-|Ramona| 2016-08-21 ||| [Intro to Java](lessons/intro-to-java/intro-to-java.md)||
+|Ramona| 2016-08-21 ||| [Intro to Java](lessons/intro-to-java)||
 |Abass| 2016-08-22 ||| [Control Structures](lessons/control-structures) ||
 |Jonathan| 2016-08-23 ||| [Enums and While Loops](lessons/enums-while) ||
 |Abass| 2016-08-24 ||| [For Loops](lessons/for-loops)<br>[Methods](lessons/methods)||
