@@ -130,7 +130,7 @@ public boolean isPalindrome(String input){
     String reversed = input.reversed();
     return reversed.equals(input);
 ;}
-
+```
 
 
 [Exercise 1](if-OOps.md)
