@@ -127,9 +127,9 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
 
 ```java
 public boolean isPalindrome(String input){
-    String reversed = input.reversed();
+    String reversed = new StringBuilder(input).reverse().toString();
     return reversed.equals(input);
-;}
+}
 ```
 
 
