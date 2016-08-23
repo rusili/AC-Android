@@ -164,7 +164,7 @@ if (input == 1) {
   System.out.println("hello Tom");
 } else if (input == 2) {
 	System.out.println("hello Bob");
-} else if (input == 3) {}
+} else if (input == 3) {
 	System.out.println("hello world");
 } else {
 	System.out.println("Can't say hello that many times");
@@ -178,7 +178,7 @@ we stop execution with break statements, so that only one println statement
 runs. We can execute all statements as follows:
 
 ```java
-int input = 5;
+int input = 1;
 switch (input) {
 case 1:
   System.out.println("hello Tom");
@@ -194,7 +194,7 @@ default:
 Is the same as the following if else statment:
 
 ```java
-int input = 5;
+int input = 1;
 if (input == 1) {
   System.out.println("hello Tom");
   System.out.println("hello Bob");
