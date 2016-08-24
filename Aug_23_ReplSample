@@ -1,0 +1,72 @@
+import java.util.Scanner;
+
+class Main {
+	/*
+	+ 0 1 -> 1
+	- 0 1 -> -1
+	*/
+	
+  public static int addition(int inputA, int inputB){
+  	return inputA + inputB;
+  }
+  
+  public static int subtraction(int inputA, int inputB){
+  	return inputA - inputB;
+  }
+  
+  public static int division(int inputA, int inputB){
+  	return inputA / inputB;
+  }
+  
+  public static int multiplication(int inputA, int inputB){
+  	return inputA * inputB;
+  }
+  
+  enum Operations {
+  	ADDITION,
+  	SUBTRACTION,
+  	MULTIPLICATION,
+  	DIVISION
+  }
+  public static void main(String[] args) {
+  	 promptUser("Enter a operation: ");
+  	 String operator = readString();
+  	 promptUser("Enter first number: ");
+  	 String firstNumber = readString();
+  	 promptUser("Enter second number: ");
+  	 String secondNumber = readString();
+  	 System.out.println("Entered: " + operator + " " + firstNumber + " " + secondNumber);
+  	 
+  	 int result;
+  	 int inputA;
+  	 int inputB;
+  	 switch (convertStringToOperation(operator)) {
+  	 	case MULTIPLICATION:
+  	 		result = multiplication(inputA, inputB);
+  	 		break;
+   		case SUBTRACTION:
+   			result = subtraction(inputA, inputB);
+   			break;
+   		case DIVISION:
+   			result = division(inputA, inputB);
+   			break;
+   		case ADDITION:
+   			result = addition(inputA, inputB);
+   			break;
+  	 }
+  	 System.out.println("Result: " + result);
+  }
+  
+  public static Operations convertStringToOperation(String operator) {
+  	return ADDITION;
+  }
+  
+  public static void promptUser(String prompt){
+  	System.out.println(prompt);
+  }
+  
+  public static String readString(){
+  	 Scanner scanner = new Scanner(System.in);
+  	 return scanner.next();
+  }
+}
