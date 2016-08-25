@@ -7,7 +7,7 @@
 |Abass| 2016-08-22 |[Prework](pre-work/08-22-2016-prework.md)|| [Control Structures](lessons/control-structures) ||
 |Jonathan| 2016-08-23 |[Prework](pre-work/08-23-2016-prework.md)|| [Enums and While Loops](lessons/enums-while) |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1rWEIwPbYE_by4cZ9lR55XgBdCrTQ5WXTlTIumLangqg/)|
 |Abass| 2016-08-24 |[Prework](pre-work/08-24-2016-prework.md)|| [For Loops](lessons/for-loops)<br>[Methods](lessons/methods)||
-|Jonathan| 2016-08-25 |[Prework](pre-work/08-25-2016-prework.md)|| [Week 1 Review](lessons/week1-review)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/)|
+|Jonathan| 2016-08-25 |[Prework](pre-work/08-25-2016-prework.md)|| [Week 1 Review](lessons/week-1-review)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/)|
 |Jonathan| 2016-08-27 |[Prework](pre-work/08-27-2016-prework.md)|| [Classes](lessons/classes-part1)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/11COt3riU8L1ZDUDuL2CRAmkgfjZgD4mUwtboHTeqOew/)|
 |Ramona| 2016-08-28 |[Prework](pre-work/08-28-2016-prework.md)|| [Classes](lessons/classes-part2)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1X6gOZC-MF-dvjr8XlDHCEJd3TAuxOUmjQvP8bYN4z6k/)|
 |Abass| 2016-08-29 |[Prework](pre-work/08-29-2016-prework.md)|| [Arrays and ArrayLists](lessons/arrays-arraylists) ||
