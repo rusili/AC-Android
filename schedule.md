@@ -15,7 +15,7 @@
 |Abass| 2016-08-31 |[Prework](pre-work/08-31-2016-prework.md)|| [Interfaces and Abstract Classes](lessons/interfaces-abstract-part2)||
 |Jonathan| 2016-09-01 |[Prework](pre-work/09-01-2016-prework.md)|| [Week 2 Review](lessons/week2-review)||
 |Jonathan| 2016-09-03 |[Prework](pre-work/09-03-2016-prework.md)|| [Networking](lessons/networking)||
-|Ramona| 2016-09-04 ||| [Json and IntelliJ Onboarding](lessons/json-and-intellij)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
+|Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [Json and IntelliJ Onboarding](lessons/json-and-intellij)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
 |Abass| 2016-09-05 |[Prework](pre-work/09-05-2016-prework.md)|| [HashMaps and Sets](lessons/hashmaps-and-sets)||
 |Jonathan| 2016-09-06 |[Prework](pre-work/09-05-2016-prework.md)|| [Stacks and Queues](lessons/stacks-and-queues)||
 |Abass| 2016-09-07 ||| [Review Networking and Json](lessons/week3-review-part1)||
