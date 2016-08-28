@@ -29,8 +29,6 @@ This assignment is fairly open-ended, so be creative with your game ideas and ha
 - Accept input from the user with a `Scanner` object.
 - At least one `if`/`else-if`/`else` type control structure and one `switch` statement.
 - At least one `while` loop and one `for` loop.
-- At least one `ArrayList` and one primitive array.
-- At least one case of exception handling.
 
 ### Additional factors
 
