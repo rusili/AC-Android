@@ -8,13 +8,16 @@
 * Switch statements
 
 # Resources
-[Oracle Strings tutorial](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
-[Strings Api](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+* [Oracle Strings tutorial](https://docs.oracle.com/javase/tutorial/java/data/strings.html)
+* [Strings Api](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+
 # Lecture
+
 In preparation for your assessment today, we will spend an hour doing practice
 problems, and then take the exam.
 
 ## Review String functions
+
 > **Exercise** Write three examples for creating a String object. Use the empty
 string constructor, the constructor that accepts a char array and a constant
 assignment.
