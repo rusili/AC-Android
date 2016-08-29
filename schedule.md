@@ -18,7 +18,7 @@
 |Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [JSON + Web APIs](lessons/json-and-intellij)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
 |#| 2016-09-05 ||| Labor Day - No Class|
 |Jonathan| 2016-09-06 |[Prework](pre-work/09-05-2016-prework.md)|| [Stacks and Queues](lessons/stacks-and-queues)||
-|Abass| 2016-09-07 ||| [HashMaps and Sets](lessons/hashmaps-and-sets/)||
+|Abass| 2016-09-07 |[Prework](pre-work/09-07-2016-prework.md)|| [HashMaps and Sets](lessons/hashmaps-and-sets/)||
 |Jonathan| 2016-09-08 ||| [Review HashMaps, Sets, Stacks, Queues](lessons/week3-review-part2)||
 |Jonathan| 2016-09-10 ||| [Intro to Android. Lifecycle, Activities, Contexts](lessons/intro-to-android)||
 |Ramona| 2016-09-11 ||| [Android Views, Observer Architecture](lessons/intro-to-android2)||
