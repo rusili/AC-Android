@@ -1,12 +1,17 @@
+<<<<<<< HEAD
+title: Arrays and ArrayLists
+=======
 title: arrays and arraylists
+>>>>>>> 496272f8c07e130a459e39130f1f06b8a43c67f0
 tags: lists, arrays
 Standards:
 
 Objectives
-- Understand how to declare, create, and initialize arrays and arraylists.
+<<<<<<< HEAD
+- Understand how to declare, create, and initialize arrays and ArrayLists.
 - Distinguish between the two.
 - Add objects to arrays
-- Add objects to arraylist
+- Add objects to ArrayList
 - Retrieve values from both structures
 
 Resources
@@ -44,19 +49,24 @@ int[] numbers;
 So far, the reference to the array has been created, but the array itself is not yet created. In order to store and access elements, we must initialize the array.
 
 *initializing Array*
+
 Java provides two ways to initialize arrays.
 
 1) We can specify a length of the array using the following syntax:
 
 
 ```java
-numbers = new int[10]
+int[] numbers = new int[10]
 ```
 The above code initializes numbers to an array with a length of 10.
 Note the key word new, which is used to create a new instance of object.
 
 Here is a visual interpretation of the array:
 
+![array-zeroes](array-of-zeroes.jpg)
+
+Note: the numbering of elements starts from 0
+All arrays in Java start with the zero index! Also, the default value of every element in an array of integers is 0 prior to setting the values of each element.
 [array-zeroes](array-of-zeroes.jpg)
 
 Note: the numbering of elements starts from 0 All arrays in Java start with the zero index! Also, the default value of every element in an array of integers is 0 prior to setting the values of each element.
@@ -65,19 +75,27 @@ Note: the numbering of elements starts from 0 All arrays in Java start with the 
 2) We can also directly initialize an array with desired elements by using the follow syntax:
 
 ```java
-numbers = { 1, 2, 3, 4, 5};
-String[] names = {"Alice", "Bob", "Edsger", "Grace"}
-
+int[] numbers = { 1, 2, 3, 4, 5};
+String[] names = {"Alice", "Bob", "Edsger", "Grace"};
 ```
 Both ways will create an array of fixed-size and with the same element type. The only difference is that the latter initialization approach defaults to selected values.
 
 Note that we can create arrays of any type. Above, we also have an array of Strings.
 
 
-3) *Accessing Arrays*
+
+ *Accessing Arrays*
 Once your array has been declared and initialized, you can access any element by referencing the name of the array and the desired index. The only constraints are that the index number must be greater than or equal to zero (first index) and less than or equal to the array's length - 1 (last index).
 
-An array's .length property returns the numerical count of the array's
+
+```java
+int[] numbers = new int[10];
+```
+
+ *Accessing Arrays*
+Once your array has been declared and initialized, you can access any element by referencing the name of the array and the desired index. The only constraints are that the index number must be greater than or equal to zero (first index) and less than or equal to the array's length - 1 (last index).
+
+An array's .length property returns the number of elements in the array.
 
 ```java
 int firstNumberinArray = numbers[0];
@@ -90,7 +108,25 @@ numbers[4] = 100;
 ```
 
 
-***
+
+An array's `length` property returns the number of elements in the array.
+Consider the following code snippet:
+
+```java
+int[] numbers = new int[10];
+System.out.println(numbers.length); // 10
+```
+
+Be mindful of Off-by-one errors when using the array's length property. Remember that Java's indices begin at 0, but the length refers to the numbers of elements within the array, NOT the value of the last index.
+
+In our numbers, array, trying to access the element at the 10th index would yield an ArrayIndexOutOfBoundsException because the array's 10 elements are only within the range from 0 - 9 ( 0 to the array's length - 1).
+
+```java
+int[] numbers = new int[10];
+System.out.println(numbers[10]); // Throws ArrayIndexOutOfBoundsException: 10
+```
+
+
 Important to remember
 - Arrays must have elements of the same type
 - fixed length. Calling array.length will return the number of elements the array contains.
@@ -228,4 +264,4 @@ Your 1999 Toyota Corolla is worth $2000.
 ```
 
 
-[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1qFInKs9bdHUidM0mWyr-CuMFy9bYzBiOit9JQ4HgCAM/edit) 
+[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1qFInKs9bdHUidM0mWyr-CuMFy9bYzBiOit9JQ4HgCAM/edit)
