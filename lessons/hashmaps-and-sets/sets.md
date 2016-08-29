@@ -81,7 +81,7 @@ import java.util.HashSet;
 let's start with an empty `HashSet`. Call it `odd`.
 
 ```java
-HashSet<Integer> odd = new HashSet<Integer>();
+Set<Integer> odd = new HashSet<Integer>();
 ```
 
 #### add
@@ -150,8 +150,8 @@ An easy way to clone a set is to just pass the set you want to copy into the con
 
 
 ```java
-HashSet<Integer> odd2 = new HashSet<Integer>(odd);
-HashSet<Integer> odd3 = new HashSet<Integer>(odd);
+Set<Integer> odd2 = new HashSet<Integer>(odd);
+Set<Integer> odd3 = new HashSet<Integer>(odd);
 System.out.println(odd2 == odd2);
 System.out.println(odd2 == odd3);
 System.out.println(odd2.equals(odd3));

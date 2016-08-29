@@ -5,6 +5,7 @@ To learn about `HashMap`:
 - What is an _associative_ collection?
 - How to add keys and values.
 - How to look up keys to get values.
+- Review networking
 
 # Resources
 [Map]()
@@ -62,7 +63,7 @@ There are several ways to make a map in Java. Today, we'll use `java.util.HashMa
 Recall that with `ArrayList`, you have to tell Java the type of elements in angle brackets.  With `HashMap`, you have to tell Java the types of both the keys and the values.
 
 ```java
-HashMap<String, Integer> numberOfMoons = new HashMap<String, Integer>();
+Map<String, Integer> numberOfMoons = new HashMap<String, Integer>();
 ```
 
 The two types are the _key type_ and the _value type_, respectively.  In this case, the key type is `String` and the value type is `Integer`.
