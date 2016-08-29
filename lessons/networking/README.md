@@ -14,8 +14,9 @@
 * [Oracle Networking Tutorials](https://docs.oracle.com/javase/tutorial/networking/index.html)
 
 # Warmup
-[HackerRank Inheritance 1](https://www.hackerrank.com/challenges/java-inheritance-1)
-[HackerRank Inheritance 2](https://www.hackerrank.com/challenges/java-inheritance-2)
+* [HackerRank Inheritance 1](https://www.hackerrank.com/challenges/java-inheritance-1)
+* [HackerRank Inheritance 2](https://www.hackerrank.com/challenges/java-inheritance-2)
+
 # URLs and HTTP
 
 [Click here for slides.](https://docs.google.com/a/c4q.nyc/presentation/d/12S0rxujSdbRiYtdWjB2wdC4aRHfsuIqidgykSlw0s2g)
