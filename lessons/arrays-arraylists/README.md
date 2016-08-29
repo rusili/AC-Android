@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 title: Arrays and ArrayLists
+=======
+title: arrays and arraylists
+>>>>>>> 496272f8c07e130a459e39130f1f06b8a43c67f0
 tags: lists, arrays
 Standards:
 
 Objectives
+<<<<<<< HEAD
 - Understand how to declare, create, and initialize arrays and ArrayLists.
 - Distinguish between the two.
 - Add objects to arrays
@@ -62,6 +67,9 @@ Here is a visual interpretation of the array:
 
 Note: the numbering of elements starts from 0
 All arrays in Java start with the zero index! Also, the default value of every element in an array of integers is 0 prior to setting the values of each element.
+[array-zeroes](array-of-zeroes.jpg)
+
+Note: the numbering of elements starts from 0 All arrays in Java start with the zero index! Also, the default value of every element in an array of integers is 0 prior to setting the values of each element.
 
 
 2) We can also directly initialize an array with desired elements by using the follow syntax:
@@ -82,6 +90,14 @@ Once your array has been declared and initialized, you can access any element by
 
 ```java
 int[] numbers = new int[10];
+```
+
+ *Accessing Arrays*
+Once your array has been declared and initialized, you can access any element by referencing the name of the array and the desired index. The only constraints are that the index number must be greater than or equal to zero (first index) and less than or equal to the array's length - 1 (last index).
+
+An array's .length property returns the number of elements in the array.
+
+```java
 int firstNumberinArray = numbers[0];
 ```   
 
@@ -111,7 +127,6 @@ System.out.println(numbers[10]); // Throws ArrayIndexOutOfBoundsException: 10
 ```
 
 
-***
 Important to remember
 - Arrays must have elements of the same type
 - fixed length. Calling array.length will return the number of elements the array contains.
