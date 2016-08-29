@@ -3,7 +3,7 @@
 - Introduce the git and IntelliJ workflow
 - Work through last week's homework together
 - Resubmit our homework using our new git and IntelliJ workflow
-- Talk our about our problem solving toolkit
+- Talk about our problem solving toolkit
 - Intro the homework for this week
 
 # Tools 
