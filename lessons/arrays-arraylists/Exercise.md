@@ -18,6 +18,7 @@ Sample Input:
 "@MMViverito @C4QNYC @PerScholas launch task force on diversity, inclusion & equity in NYC's tech sector http://bit.ly/2bcfygs  #NYCCLabs"
 
 Expected Output: 
+
 "Mentions: @MMViverito, @C4QNYC @PerScholas
 Hashtags: NYCCLabs"
 
