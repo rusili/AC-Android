@@ -21,8 +21,6 @@
 
 [Click here for slides.](https://docs.google.com/a/c4q.nyc/presentation/d/12S0rxujSdbRiYtdWjB2wdC4aRHfsuIqidgykSlw0s2g)
 
-**Important:** Please **fork** this repo and then clone your fork.
-
 ## Encoding
 
 In Java, you can _encode_ a `char` as an `int` simply by casting it.
