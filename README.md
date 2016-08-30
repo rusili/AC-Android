@@ -3,4 +3,5 @@
 Welcome to Access Code!
 
 - [Schedule](schedule.md)
+- [Homework](homework/)
 - [Resources](resources/)
