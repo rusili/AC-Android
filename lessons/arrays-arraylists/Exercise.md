@@ -14,9 +14,10 @@
 
 2) Write a method that reads as input a single tweet and prints the tweet's Mentions and Hashtags.
 
-Sample Input: "@MMViverito @C4QNYC @PerScholas launch task force on diversity, inclusion & equity in NYCâ€™s tech sector http://bit.ly/2bcfygs  #NYCCLabs"
+Sample Input: 
+"@MMViverito @C4QNYC @PerScholas launch task force on diversity, inclusion & equity in NYC's tech sector http://bit.ly/2bcfygs  #NYCCLabs"
 
-Expected Output:
+Expected Output: 
 
 "Mentions: @MMViverito, @C4QNYC @PerScholas
 Hashtags: NYCCLabs"

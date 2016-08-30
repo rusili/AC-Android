@@ -1,3 +1,3 @@
-# Exit Ticket 09-01
+# Exit Ticket 08-29
 
-Today is an assessment, hence there will be no exit ticket
+Today is a review, hence there will be no exit ticket

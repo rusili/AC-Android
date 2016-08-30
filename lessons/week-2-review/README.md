@@ -4,7 +4,6 @@
 # Objectives
 * Review String functions
 * Writing a While Loop
-* Comparing values in Arrays
 * Switch statements
 
 # Resources
@@ -40,17 +39,6 @@ counting upwards.
 > **Exercise** Write a while loop that prints out "{A Number} bottles" 100
 times, once per line. '{A Number}' should be replaced with the numbers 99 to 0,
 counting downwards.
-
-## Comparing values in Arrays
-> **Exercise** Write a for loop that iterates through an array of integers, and
-prints out true each time a number is found that is less than 20.
-
-> **Exercise** Write a while loop that iterates through an array of integers
-until it sees the integer -40. For each integer, if the number is greater than
-40, the loop should print out "Big Number"
-
-> **Exercise** Write a block of code with a for loop that iterates through an array of integers, and at the end prints out the number of times the number 20 was seen.
-For example, on input {20, 4, 20, 5, 8, 8}, the code should print 2.
 
 ## Switch statements
 > **Exercise** Write a for loop that iterates through an array of integers, and
