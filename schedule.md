@@ -26,14 +26,3 @@
 |Jonathan| 2016-09-13 ||| [Activities, Contexts](lesson/activities-contexts)||
 |Abass| 2016-09-14 ||| [Review of Architecture](lesson/architecture-review) ||
 |Jonathan| 2016-09-15 ||| [Review of Android Lifecycle and Views](lesson/android-review)||
-
-
-**Homework:**
-
-|  Date      |Warmup|Challenge| Lesson |Check-in|
-|:----------:|:--------:|:--:|:--|:--:|
-| 2016-08-22 ||| [Methods](lessons/functions-intro) ||
-| 2016-08-23 ||| [Numbers and math](lessons/numbers-and-math) ||
-| 2016-08-24 ||| [Arrays](lessons/arrays) ||
-| 2016-08-25 ||| [Review](lessons/basic-java-review) ||
-| 2016-08-26 ||| [Assessment]() | &nbsp; |
