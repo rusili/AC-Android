@@ -4,7 +4,6 @@
 # Objectives
 * Review String functions
 * Writing a While Loop
-* Comparing values in Arrays
 * Switch statements
 
 # Resources
