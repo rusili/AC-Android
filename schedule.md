@@ -26,3 +26,8 @@
 |Jonathan| 2016-09-13 ||| [Activities, Contexts](lesson/activities-contexts)||
 |Abass| 2016-09-14 ||| [Review of Architecture](lesson/architecture-review) ||
 |Jonathan| 2016-09-15 ||| [Review of Android Lifecycle and Views](lesson/android-review)||
+
+# Office hours
+
+Mon + Wed, 6 - 7pm at CUNY Law
+Thu + Fri, 1 - 2pm on Slack
