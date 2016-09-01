@@ -29,5 +29,5 @@
 
 # Office hours
 
-Mon + Wed, 6 - 7pm at CUNY Law
-Thu + Fri, 1 - 2pm on Slack
+- Mon + Wed, 6 - 7pm at CUNY Law
+- Thu + Fri, 1 - 2pm on Slack
