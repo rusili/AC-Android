@@ -13,7 +13,7 @@
 |Abass| 2016-08-29 |[Prework](pre-work/08-29-2016-prework.md)|| [Week 2 Review](lessons/week-2-review) |[Exit Ticket](lessons/week-2-review/exit_ticket.md) |
 |Jonathan| 2016-08-30 |[Prework](pre-work/08-30-2016-prework.md)|| [Classes](lessons/classes-part1) |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1DxJZkhEvckbRxuX5odAv02Uy99nnaAMp0Cji5jRKyPY/edit)|
 |Abass| 2016-08-31 |[Prework](pre-work/08-31-2016-prework.md)|| [Interfaces and Abstract Classes](lessons/interfaces-abstract-part2)||
-|Jonathan| 2016-09-01 |[Prework](pre-work/09-01-2016-prework.md)|| [Arrays and ArrayLists](lessons/arrays-arraylists)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1qFInKs9bdHUidM0mWyr-CuMFy9bYzBiOit9JQ4HgCAM/edit)|
+|Jonathan| 2016-09-01 |[Prework](pre-work/09-01-2016-prework.md)|| [Arrays and ArrayLists](lessons/arrays-arraylists)|[Exit Ticket]|
 |Jonathan| 2016-09-03 |[Prework](pre-work/09-03-2016-prework.md)|| [Networking](lessons/networking)||
 |Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [JSON + Web APIs](lessons/json-and-intellij)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
 |#| 2016-09-05 ||| Labor Day - No Class|
