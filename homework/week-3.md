@@ -3,7 +3,7 @@
 
 # Tech Leads
 
-Please go to the link that has been Slacked out to make your own copy of the project repo. Once you have finished copying the repo, add you teammates as collaborators and share your new repo URL with them.
+Please go to the link that has been Slacked out to make your own copy of the project repo. Once you've finished copying the repo, add your teammates as collaborators and share your new repo URL with them.
 
 
 # Submission
