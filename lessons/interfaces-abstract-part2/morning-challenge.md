@@ -18,5 +18,15 @@
 
 5. Write a static method called `checkSameFavoriteFood` which accepts as input two `Student` instances and checks if they have the same favorite food. The method should return a boolean value.
 
-6. When you are finished, copy and paste the text from your Student.java class and submit it using the Morning Challenge Google Form (check Slack!).
+6. When you are finished, create a new repository on GitHub called `EX_09-04` (do not select the option to create the repo with a README). Using terminal, initialize the project folder as a git repository (`git init`), add a `.gitignore` file (see below). Set the remote origin to your new GitHub repository (`git remote add origin <GITHUB URL>`).
+
+7. Add (`git add .`), commit (`git commit -m "Add morning challenge"`) and push (`git push -u origin master`) your work. Submit a link to your new repo using the Morning Challenge Google Form (check Slack!).
+
+.gitignore :
+
+```
+.DS_Store
+out/
+*.class
+```
     
