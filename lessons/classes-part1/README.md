@@ -208,7 +208,7 @@ Many students looked at the source code for `SecretWord` and `Drawing` before re
 ...were asked because students were trying to figure out *how* `SecretWord` worked rather than what to do with it.
 
 # Review
-- Correction: I said, "Everything is an object," and this is not true. We'll talk about this later.
+- Correction: I said, "Everything is an object," but this is not true. There are objects to represent primitives, but primitives are not objects. An enum, although it can be used like a primitive, is actually a class.
 - *Definition:* A *class* is a blueprint for creating objects.
 - *Definition:* An *object* is an instance of a class.
 - We can create an instance using the `new` keyword, e.g. `String s = new String("Hi");`.

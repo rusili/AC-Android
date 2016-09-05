@@ -8,6 +8,8 @@
 - Understand the Java Class Hierachy
 - Understand Method Overriding
 - Introduction to Scope
+
+
 #Resources
 
 -[Oracle Tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)

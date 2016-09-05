@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 title: Arrays and ArrayLists
-=======
-title: arrays and arraylists
->>>>>>> 496272f8c07e130a459e39130f1f06b8a43c67f0
 tags: lists, arrays
-Standards:
 
 Objectives
-<<<<<<< HEAD
 - Understand how to declare, create, and initialize arrays and ArrayLists.
 - Distinguish between the two.
 - Add objects to arrays
