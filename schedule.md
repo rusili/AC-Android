@@ -23,10 +23,12 @@
 |Abass| 2016-08-31 |[Prework](pre-work/08-31-2016-prework.md)|| Review||
 |Jonathan| 2016-09-01 |[Prework](pre-work/09-01-2016-prework.md)|| Assessment ||
 |Jonathan| 2016-09-03 |[Prework](pre-work/09-03-2016-prework.md)|| [Interfaces and Abstract Classes I](lessons/interfaces-abstract-part1)||
-|Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [Interfaces and Abstract Classes II](lessons/interfaces-abstract-part2)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
+|Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [Arrays + ArrayLists](lessons/arrays-arraylists)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
 |🙂| 2016-09-05 ||| Labor Day - No Class||
 |Jonathan| 2016-09-06 |[Prework](pre-work/09-05-2016-prework.md)|| [Stacks and Queues](lessons/stacks-and-queues)||
 |Abass| 2016-09-07 ||| [HashMaps and Sets](lessons/hashmaps-and-sets/)||
 |Jonathan| 2016-09-08 ||| [Review HashMaps, Sets, Stacks, Queues](lessons/week3-review-part2)||
 |Jonathan| 2016-09-10 |[Prework](pre-work/09-10-2016-prework.md)|| [Networking](lessons/networking)||
 |Ramona| 2016-09-11 |[Prework](pre-work/09-11-2016-prework.md)|| [JSON + Web APIs](lessons/json-and-intellij)|||
+
+|||[Prework](pre-work/09-04-2016-prework.md)|| [Interfaces and Abstract Classes II](lessons/interfaces-abstract-part2)||
