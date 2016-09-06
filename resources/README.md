@@ -24,7 +24,7 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 - [Java Glossary](https://www.cs.kent.ac.uk/people/staff/djb/oop/glossary.html)
 - [Git Glossary](https://git-scm.com/docs/gitglossary)
 - [GitHub Glossary](https://help.github.com/articles/github-glossary/)
-- 
+
 ## Shortcuts
 
 - [Mac / OS X shortcuts](https://support.apple.com/en-us/HT201236)
