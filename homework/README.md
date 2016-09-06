@@ -6,7 +6,7 @@
 
 2. Using the Terminal app, initialize git in the project home directory (in `~/Desktop/accesscode/XX_MM-DD` run `git init`).
 
-3. Add a `.gitignore` file to the project home directory. For Java projects, it should contain at least:
+3. Add a `.gitignore` file to the project home directory. For our IntelliJ Java projects, it should contain at least:
 
     ```
 .DS_Store
