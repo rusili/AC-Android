@@ -11,7 +11,10 @@
     ```
 .DS_Store
 out/
+.idea/
 *.class
+*.iml
+*.iws
 ```
 
 3. Add and make an initial commit. From the project home directory:
