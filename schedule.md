@@ -26,5 +26,5 @@
 |Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [Arrays + ArrayLists](lessons/arrays-arraylists)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
 |🙂| 2016-09-05 ||| Labor Day - No Class||
 |Jonathan| 2016-09-06 |[Prework](pre-work/09-06-2016-prework.md)||[Interfaces and Abstract Classes I](lessons/interfaces-abstract-part1)||
-|Abass|2016-09-07||| [Interfaces and Abstract Classes II](lessons/interfaces-abstract-part2)||
+|Abass|2016-09-07||| [Interfaces and Abstract Classes II](lessons/interfaces-abstract-part2)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1-UUwAQElhxpA7jKaZHzffHN8fgfj3ktl5bCpqrsmaVA/edit)|
 
