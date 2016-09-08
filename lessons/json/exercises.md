@@ -54,7 +54,7 @@ a. A simple message with text attachment.
 }
 ```
 
-b.
+b. Message with buttons.
 ```json
 {
     "text": "Would you like to play a game?",
