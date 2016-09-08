@@ -30,7 +30,7 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 - [Mac / OS X shortcuts](https://support.apple.com/en-us/HT201236)
 - [IntelliJ / Android Studio shortcuts](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)
 
-## Java Practice Problems
+## Practice Problems
 
 - [Coding Bat - Java warmup problems](http://codingbat.com/java)
 - [Programming By Doing - Java problems across a range of difficulties](https://programmingbydoing.com/)
@@ -52,3 +52,9 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 - [Reading - Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
 - [Video - Mac OS X from the Command Line](https://www.youtube.com/playlist?list=PLtNErhYMkHnFgzIVC6tV-zk2yHSeNwb3y)
 - [Quick Reference - Terminal Cheatsheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
+
+## Java
+- [Interactive - Codeacademy: Java](https://www.codecademy.com/learn/learn-java)
+- [Reading - Think Java](http://greenteapress.com/thinkjava6/thinkjava.pdf)
+- [Video - Derek Banas's Java](https://www.youtube.com/watch?v=TBWX97e1E9g&list=PLE7E8B7F4856C9B19)
+- [Quick Reference - Java API](https://docs.oracle.com/javase/7/docs/api/)
