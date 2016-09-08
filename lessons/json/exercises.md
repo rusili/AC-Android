@@ -22,7 +22,7 @@ public class Pizza {
 ### Q2. Write a JSON object to represent the following instance of this all-new, snazzier `Pizza` class:
 
 ```java
-Pizza pizza = new Pizza("Provolone", false, new String[]{"Anchovies", "Olives", "Pineapple"});
+Pizza pizza = new Pizza("Provolone", new String[]{"Anchovies", "Olives", "Pineapple"}, false);
 
 // Pizza.java
 public class Pizza {
@@ -30,7 +30,7 @@ public class Pizza {
     String[] toppings;
     boolean fresh;
 	
-    public Pizza(String cheese, int toppingCount, String[] toppings, boolean fresh) {
+    public Pizza(String cheese, String[] toppings, boolean fresh) {
         this.cheese = cheese;
         this.toppings = toppings;
         this.fresh = fresh;
