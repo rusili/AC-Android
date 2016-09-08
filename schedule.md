@@ -27,6 +27,6 @@
 |🙂| 2016-09-05 ||| Labor Day - No Class||
 |Jonathan| 2016-09-06 |[Prework](pre-work/09-06-2016-prework.md)||[Interfaces and Abstract Classes I](lessons/interfaces-abstract-part1)||
 |Abass|2016-09-07|[Prework](http://programmers.stackexchange.com/questions/225674/why-define-a-java-object-using-interface-e-g-map-rather-than-implementation)|| [Interfaces and Abstract Classes II](lessons/interfaces-abstract-part2)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1-UUwAQElhxpA7jKaZHzffHN8fgfj3ktl5bCpqrsmaVA/edit)|
-|Jonathan||[Prework](pre-work/hasmaps-prework.md)|| [HashMaps](lessons/hashmaps-and-sets/hashmap.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JoSh6UferdmATdvqxk-LTEUlj3QM-oPgbW0PHLnLlhU/edit)|
+|Jonathan|2016-09-08|[Prework](pre-work/hasmaps-prework.md)|| [HashMaps](lessons/hashmaps-and-sets/hashmap.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JoSh6UferdmATdvqxk-LTEUlj3QM-oPgbW0PHLnLlhU/edit)|
 
 
