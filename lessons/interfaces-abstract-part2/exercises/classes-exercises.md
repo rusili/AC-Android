@@ -26,7 +26,7 @@ ex: makeKitten(garfield, catwoman) returns a Cat named "GarfieldCatwoman" with a
 - Write a method called `adoption` that takes 1 Cat and 1 Person as a parameters and sets the Cat's owner to be the Person.
 
 ```
-ex: Person jon = Person('Jon');
+ex: Person jon = new Person('Jon');
     adoption(garfield, jon); // Jon is now Garfield's owner!
 ```
 
