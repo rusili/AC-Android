@@ -29,3 +29,26 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 
 - [Mac / OS X shortcuts](https://support.apple.com/en-us/HT201236)
 - [IntelliJ / Android Studio shortcuts](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)
+
+## Java Practice Problems
+
+- [Coding Bat - Java warmup problems](http://codingbat.com/java)
+- [Programming By Doing - Java problems across a range of difficulties](https://programmingbydoing.com/)
+- [Project Euler - mathematical programming problems](https://projecteuler.net/archives)
+- [HackerRank - competitive code challenges](https://www.hackerrank.com/)
+- [Coderbyte - code challenges and tutorials](https://coderbyte.com/)
+- [Practice-It - multiple choice and open-ended questions](https://practiceit.cs.washington.edu/)
+
+## Git
+
+- [Interactive - try.github.io](https://try.github.io/)
+- [Reading - Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/introduction#start)
+- [Video - Learn Version Control with Git](https://www.git-tower.com/learn/git/videos/#episodes)
+- [Quick Reference - Git Docs](https://git-scm.com/docs)
+
+## Command Line
+
+- [Interactive - Codecademy: Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+- [Reading - Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
+- [Video - Mac OS X from the Command Line](https://www.youtube.com/playlist?list=PLtNErhYMkHnFgzIVC6tV-zk2yHSeNwb3y)
+- [Quick Reference - Terminal Cheatsheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
