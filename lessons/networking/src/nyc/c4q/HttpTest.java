@@ -1,4 +1,4 @@
-package nyc.c4q.ac21.ac20150322;
+package nyc.c4q;
 
 import java.net.URL;
 import java.util.Scanner;
@@ -13,6 +13,7 @@ public class HttpTest {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a url: ");
         String input = scanner.nextLine();
         URL url = HTTP.stringToURL(input);
         String document = HTTP.get(url);
