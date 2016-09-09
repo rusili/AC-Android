@@ -1,6 +1,9 @@
 |Instructor |  Date      |Prework|Challenge| Lesson |Exit Ticket|
 |:----------:|:----------:|:--------:|:--:|:--|:--:|
 ||||| [Review HashMaps, Sets, Stacks, Queues](lessons/week3-review-part2)||
-|||[Prework](pre-work/09-10-2016-prework.md)|| [Networking](lessons/networking)||
-|||[Prework](pre-work/09-11-2016-prework.md)|| [JSON + Web APIs](lessons/json-and-intellij)|||
-|||[Stacks and Queues](lessons/stacks-and-queues)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1aRVGucWtdZ8CDeWMxGpietYiGBcW8mg99m7K_2dyb1g/edit)|
+|Jonathan|2016-09-16||[Structure of an Android Project](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/1_Android-Studio-Structure-of-Android-Project.md)||
+|Ramona|2016-09-17||[Android Lifecycle](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/7_Android-Lifecycle.md)||
+|Abass|2016-09-18||[Android Manifest](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/4_Anatomy_Manifest.md)||
+|Jonathan|2016-09-19||[Android Resources](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/6_Android-Resources.md)||
+|Abass|2016-09-20||[Android Resources](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/6_Android-Resources.md)||
+|Jonathan|2016-09-21||||
