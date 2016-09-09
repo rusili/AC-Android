@@ -31,7 +31,7 @@
 |Jonathan|2016-09-10|[Prework](pre-work/09-10-2016-prework.md)|| [Networking](lessons/networking)||
 |Ramona|2016-09-11|[Prework](pre-work/09-11-2016-prework.md)|| [JSON](lessons/json)||
 |Abass|2016-09-12||| [Review HashMaps, Sets, Stacks, Queues](lessons/week3-review-part2)||
-|Jonathan||[Stacks and Queues](lessons/stacks-and-queues)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1aRVGucWtdZ8CDeWMxGpietYiGBcW8mg99m7K_2dyb1g/edit)|
+|Jonathan|2016-09-13|[Stacks and Queues](lessons/stacks-and-queues)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1aRVGucWtdZ8CDeWMxGpietYiGBcW8mg99m7K_2dyb1g/edit)|
 
 
 
