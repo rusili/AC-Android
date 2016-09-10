@@ -24,4 +24,4 @@ public class Student {
     
 	- Add a fourth game/button called 'Thermonuclear JSON!!!'.
 
-3. When you are finished, submit both JSON solutions using the Morning Challenge Google Form (check Slack!).
+3. When you are finished, paste both JSON solutions into a new [GitHub Gist](https://gist.github.com/) and submit the link using the Morning Challenge Google Form (check Slack!).
