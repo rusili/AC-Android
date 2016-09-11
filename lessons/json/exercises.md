@@ -40,110 +40,70 @@ public class Pizza {
 
 ### Q3. Write a JSON parser for the `Pizza` class (from Q2) that parses your pizza JSON object.
 
-### Q4. Write a Java class `Message` that represents the each of the following Slack `message` JSON objects.
+### Q4. Write a Java class `Attachment` that represents the following Slack JSON object.
 
-a. A simple message with text attachment.
 ```json
 {
-    "text": "I am a test message http://slack.com",
-    "attachments": [
-        {
-            "text": "And here's an attachment!"
-        }
-    ]
-}
-```
-
-b. Message with buttons.
-```json
-{
-    "text": "Would you like to play a game?",
-    "attachments": [
-        {
-            "text": "Choose a game to play",
-            "fallback": "You are unable to choose a game",
-            "callback_id": "wopr_game",
-            "color": "#3AA3E3",
-            "attachment_type": "default",
-            "actions": [
+            "fallback": "Required plain-text summary of the attachment.",
+            "color": "#36a64f",
+            "pretext": "Optional text that appears above the attachment block",
+            "author_name": "Bobby Tables",
+            "author_link": "http://flickr.com/bobby/",
+            "author_icon": "http://flickr.com/icons/bobby.jpg",
+            "title": "Slack API Documentation",
+            "title_link": "https://api.slack.com/",
+            "text": "Optional text that appears within the attachment",
+            "fields": [
                 {
-                    "name": "chess",
-                    "text": "Chess",
-                    "type": "button",
-                    "value": "chess"
-                },
-                {
-                    "name": "maze",
-                    "text": "Falken's Maze",
-                    "type": "button",
-                    "value": "maze"
-                },
-                {
-                    "name": "war",
-                    "text": "Thermonuclear War",
-                    "style": "danger",
-                    "type": "button",
-                    "value": "war",
-                    "confirm": {
-                        "title": "Are you sure?",
-                        "text": "Wouldn't you prefer a good game of chess?",
-                        "ok_text": "Yes",
-                        "dismiss_text": "No"
-                    }
+                    "title": "Priority",
+                    "value": "High",
+                    "short": false
                 }
-            ]
+            ],
+            "image_url": "http://my-website.com/path/to/image.jpg",
+            "thumb_url": "http://example.com/path/to/thumb.png",
+            "footer": "Slack API",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+            "ts": 123456789
         }
-    ]
-}
 ```
 
-### Q5. Write a JSON parser for the `Message` class that parses a Slack `message` JSON object.
+### Q5. Write a JSON parser for the `Attachment` class that parses a Slack `attachment` JSON object.
 
-### Q6. Write a Java class `Channel` that represents a Slack `channel` JSON object.
+### Q6. Write a Java class `User` that represents a Slack `user` JSON object.
 
 ```json
 {
-    "id": "C024BE91L",
-    "name": "fun",
-    "is_channel": "true",
-    "created": 1360782804,
-    "creator": "U024BE7LH",
-    "is_archived": false,
-    "is_general": false,
-
-    "members": [
-        "U024BE7LH",
-        
-    ],
-
-    "topic": {
-        "value": "Fun times",
-        "creator": "U024BE7LV",
-        "last_set": 1369677212
+    "id": "U023BECGF",
+    "name": "bobby",
+    "deleted": false,
+    "color": "9f69e7",
+    "profile": {
+        "first_name": "Bobby",
+        "last_name": "Tables",
+        "real_name": "Bobby Tables",
+        "email": "bobby@slack.com",
+        "skype": "my-skype-name",
+        "phone": "+1 (123) 456 7890",
+        "image_24": "https:\/\/...",
+        "image_32": "https:\/\/...",
+        "image_48": "https:\/\/...",
+        "image_72": "https:\/\/...",
+        "image_192": "https:\/\/...",
+        "image_512": "https:\/\/..."
     },
-    "purpose": {
-        "value": "This channel is for fun",
-        "creator": "U024BE7LH",
-        "last_set": 1360782804
-    },
-
-    "is_member": true,
-
-    "last_read": "1401383885.000061",
-    "latest": {
-        "text": "I am a test message http://slack.com",
-        "attachments": [
-            {
-                "text": "And here's an attachment!"
-            }
-        ]
-    },
-    "unread_count": 0,
-    "unread_count_display": 0
+    "is_admin": true,
+    "is_owner": true,
+    "is_primary_owner": true,
+    "is_restricted": false,
+    "is_ultra_restricted": false,
+    "has_2fa": false,
+    "two_factor_type": "sms",
+    "has_files": true
 }
 ```
 
-### Q7. Write a JSON parser for the `Channel` class that parses a Slack `channel` JSON object.
+### Q7. Write a JSON parser for the `User` class that parses a Slack `user` JSON object.
 
 ### Q8. Think of some web services that you like to use (e.g. Facebook, Twitter, Google Maps, Snapchat...). Search Google to find one that has a public API. 
     a. In what ways does the API allow developers to interact with the service? 
