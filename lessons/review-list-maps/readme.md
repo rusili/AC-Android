@@ -41,8 +41,28 @@ When dealing with a new data structure, you will want to know how to
 - instantiate it
 - add elements to it
 - retrieve elements from it.
+- Can we iterate through it?
 
-Take a few minutes to run these operations in IntelliJ for both structures.
+The ArrayList class, for example, has multiple overloaded constructors.
+```java
+List l1 = new ArrayList(); //This constructor builds an empty ArrayList
+List l2 = new ArrayList(Collection c);
+//This constructor builds an ArrayList  that is initialized with the elements of the collection c.
+List l3 = new ArrayList(int capacity);
+ //This constructor builds an ArrayList that is initialized to have an initial capacity equal to capacity. The capacity of the ArrayList can grow automatically as elements are added to the list.
+```
+
+Take a few minutes to apply the different constructors of an ArrayList.
+Then, try adding and removing elements from the List,
+
+The HashMap class also has a few overloaded constructors, but for now, we will work with these two:
+
+```java
+HashMap map = new HashMap(); //Constructs an empty HashMap
+
+HashMap map1 = new HashMap(int initialCapacity); //Constructs an empty HashMap with the specified initial capacity
+
+```
 
 Some questions we may ask about our data structure
 
