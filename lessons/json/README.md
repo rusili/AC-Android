@@ -6,7 +6,7 @@
 - Summarize how the internet works
 - Review the HTTP request/response protocol and how web requests are made
 - Define what web APIs are and practice interacting with them
-- Understand what `JSON` is and how to manually parse it
+- Understand what JSON is and how to manually parse it
 
 # Resources
 - [Code Beautify JSON Viewer](http://codebeautify.org/jsonviewer)
