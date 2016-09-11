@@ -98,4 +98,4 @@ The abstract data types and interfaces allow collections to be manipulated indep
 - [More Maps exercises](https://github.com/C4Q/AC3.3/blob/master/lessons/hashmaps-and-sets/exercises/maps-exercises.md)
 
 
-[Exit Ticket](docs.google.com/spreadsheets/d/1Dhso6GXmD60tvOJPc88RNfnOJVQH_yYJrFiuEBd0gVU/edit#gid=891675450)
+[Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeRVYWHfySrBNbkMXvSOtOg_StucefV8DwI6z5uqgyyBP5Zow/viewform)
