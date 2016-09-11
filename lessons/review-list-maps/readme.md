@@ -36,6 +36,8 @@ We don't really need to dive into such detail about the hierarchy of these struc
 
   Because abstract classes need to be subclasses, they cannot be declared as final. "They are also opposite of each other, abstract keyword enforces to extend a class, for using it, on the other hand, final keyword prevents a class from being extended. In real world also, abstract signifies incompleteness, while final is used to demonstrate completeness. Bottom line is, you can not make your class abstract and final in Java, at same time, it’s a compile time error.
 
+### On Structures
+
 When dealing with a new data structure, you will want to know how to
 
 - instantiate it
