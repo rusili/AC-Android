@@ -48,10 +48,12 @@ When dealing with a new data structure, you will want to know how to
 The ArrayList class, for example, has multiple overloaded constructors.
 ```java
 List l1 = new ArrayList(); //This constructor builds an empty ArrayList
+
 List l2 = new ArrayList(Collection c);
 //This constructor builds an ArrayList  that is initialized with the elements of the collection c.
+
 List l3 = new ArrayList(int capacity);
- //This constructor builds an ArrayList that is initialized to have an initial capacity equal to capacity. The capacity of the ArrayList can grow automatically as elements are added to the list.
+ /*This constructor builds an ArrayList that is initialized to have an initial capacity equal to capacity. The capacity of the ArrayList can grow automatically as elements are added to the list.*/
 ```
 
 Take a few minutes to apply the different constructors of an ArrayList.
