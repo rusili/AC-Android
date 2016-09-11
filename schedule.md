@@ -30,7 +30,7 @@
 |Jonathan|2016-09-08|[Prework](pre-work/hasmaps-prework.md)| [HashMaps](lessons/hashmaps-and-sets/hashmap.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JoSh6UferdmATdvqxk-LTEUlj3QM-oPgbW0PHLnLlhU/edit)|
 |Jonathan|2016-09-10|[Prework](pre-work/09-10-2016-prework.md)| [Networking](lessons/networking)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1mHJvTayV9bYwu2FlxkH9PerWMlm3DWUmGKF9Qkyvg50/edit)|
 |Ramona|2016-09-11|[Prework](pre-work/09-11-2016-prework.md)| [JSON](lessons/json)||
-|Abass|2016-09-12|| [Review ArrayLists, Hashmaps, Abstract Classes](lessons/review-arrays-hashmaps-abstract)||
+|Abass|2016-09-12|[Prework](pre-work/09-12-2016-prework.md)| [Review ArrayLists, Hashmaps, Abstract Classes](lessons/review-arrays-hashmaps-abstract)|[Exit Ticket](docs.google.com/spreadsheets/d/1Dhso6GXmD60tvOJPc88RNfnOJVQH_yYJrFiuEBd0gVU/edit#gid=891675450)|
 |Jonathan|2016-09-13|[Prework](pre-work/09-13-2016-prework.md)|[Stacks and Queues](lessons/stacks-and-queues)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1aRVGucWtdZ8CDeWMxGpietYiGBcW8mg99m7K_2dyb1g/edit)|
 |Abass|2016-09-14|| [Generics](lessons/generics)||
 |Jonathan|2016-09-15|[Prework](pre-work/09-15-2016-prework.md)|[Review - Stacks, Queues, Generics](lessons/review-stacks-queues-generics)||
