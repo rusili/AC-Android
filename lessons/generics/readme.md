@@ -24,8 +24,8 @@ Distinct instances of the same type of object may need to be capable of represen
 Think back to our examples of the HashMap data structure and ArrayLists.
 
 ```java
-public class HashMap<K,V> extends AbstractMap<K,V>
-    implements Map<K,V>{
+public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>{
+
 }
 ```
 
