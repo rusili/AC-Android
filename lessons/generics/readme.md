@@ -11,7 +11,6 @@
 # Resources
 
 - [Java Docs](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
-- link to resource 2
 
 # Lecture
 
