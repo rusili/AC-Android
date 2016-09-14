@@ -31,7 +31,7 @@
 |Jonathan|2016-09-10|[Prework](pre-work/09-10-2016-prework.md)| [Networking](lessons/networking)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1mHJvTayV9bYwu2FlxkH9PerWMlm3DWUmGKF9Qkyvg50/edit)|
 |Ramona|2016-09-11|[Prework](pre-work/09-11-2016-prework.md)| [JSON](lessons/json)||
 |Abass|2016-09-12|[Prework](pre-work/09-12-2016-prework.md)| [Review ArrayLists, Hashmaps, Abstract Classes](lessons/review-list-maps)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1Q0IlDk5gPyFFE_1qtkS4p67kCi5ZHt3puIdOXO-HjSQ/edit)|
-|Jonathan|2016-09-13|[Prework](pre-work/09-13-2016-prework.md)|[Stacks and Queues](lessons/stacks-and-queues)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1aRVGucWtdZ8CDeWMxGpietYiGBcW8mg99m7K_2dyb1g/edit)|
+|Jonathan|2016-09-13|[Prework](pre-work/09-13-2016-prework.md)|[Stacks and Queues](lessons/stacks-and-queues)||
 |Abass|2016-09-14|[Prework](pre-work/09-14-2016-prework.md) |[Generics](lessons/generics)||
 |Jonathan|2016-09-15|[Prework](pre-work/09-15-2016-prework.md)|Assessment||
 |Jonathan|2016-09-17|[Prework](pre-work/09-17-2016-prework.md)|[Structure of an Android Project](lessons/structure-android-project/Structure-of-Android-Project.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/11TC_GZks3kZKetMBFE4MVOYtcYJUTOs2FrH6Ch1vj68/edit)|
