@@ -26,7 +26,7 @@ Think back to our examples of the HashMap data structure and ArrayLists.
 ```java
 public class HashMap<K,V> extends AbstractMap<K,V>
     implements Map<K,V>{
-    }
+}
 ```
 
 We can see that the HashMap class, its Abstract parent class, and implemented interface all have a reference to some K type for key, and V type for value. 
