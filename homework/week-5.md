@@ -27,4 +27,4 @@ Push your completed tutorial app to a new GitHub repository and provide a link o
 
 **3)** Choose one project that you completed during Unit 0: Text Based Adventure Game, SignBoard or SlackBot. Identify **three** small features and/or bug fixes that you would like to work on. 
 
-Create a new branch for each task; open a pull request and merge into master when it is complete. Provide a link to each closed PR on the HW submission form.
+Create a new branch for each task and complete the work; open a pull request and merge into master when it is complete. Provide a link to each closed PR on the HW submission form.
