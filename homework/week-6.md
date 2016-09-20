@@ -6,10 +6,11 @@ In this project, you'll be building a memory game for Android similar to <a href
 
 ![memory game](http://www.neatstuff.net/games/Simon.JPG)
 
-
 The memory game has four colored buttons, each flashing or "lighting up" when it is pressed or activated by the app. Each round in the game consists of the app lighting up one or more buttons in order, after which the player must press the buttons in the same order to advance to the next round. 
 
 For each new round, the app will light up the buttons in the same order as in the previous rounds, then add a new randomly selected button to the end of the sequence. The number of buttons that light up and then must be pressed is always equal to the current round number.
+
+Download [CopyCat - Simon Says Game (Android)](https://play.google.com/store/apps/details?id=com.jgames.shapegame&hl=en) or [Simon - iOS](https://itunes.apple.com/us/app/simon-vintage-electronic-game/id909886468?mt=8) for an example of a memory game app.
 
 ##### Wireframe
 
@@ -49,8 +50,6 @@ Player presses: Y R B Y **Y**
 
 Player loses because they pressed Y instead of G!
 ```
-
-Download [CopyCat - Simon Says Game (Android)](https://play.google.com/store/apps/details?id=com.jgames.shapegame&hl=en) or [Simon - iOS](https://itunes.apple.com/us/app/simon-vintage-electronic-game/id909886468?mt=8) for an example of a memory game app.
 
 ### Basic Requirements
 - Must not crash during demo.
