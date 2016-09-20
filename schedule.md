@@ -36,5 +36,8 @@
 |Jonathan|2016-09-15|[Prework](pre-work/09-15-2016-prework.md)|Assessment||
 |Jonathan|2016-09-17|[Prework](pre-work/09-17-2016-prework.md)|[Structure of an Android Project](lessons/structure-android-project/Structure-of-Android-Project.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/11TC_GZks3kZKetMBFE4MVOYtcYJUTOs2FrH6Ch1vj68/edit)|
 |Ramona|2016-09-18|[Prework](lessons/android-lifecycle/prework.md)|[Android Lifecycle](lessons/android-lifecycle/)||
-|Abass|2016-09-19||[Android Manifest](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/4_Anatomy_Manifest.md)||
-|Jonathan|2016-09-20|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
+|🙂| 2016-09-19 || No Class||
+|Jonathan|2016-09-20|[Prework](pre-work/09-20-2016-prework.md)|First Android App||
+|Abass|2016-09-21||[Android Manifest](https://github.com/accesscode-2-1/unit-1/blob/master/lessons/4_Anatomy_Manifest.md)||
+|Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
+
