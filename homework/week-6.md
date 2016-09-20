@@ -15,7 +15,7 @@ For each new round, the app will light up the buttons in the same order as in th
 
 The app will feature four colored buttons and a text box indicating the current round. The color, position, style and design of the UI elements are up to your team to decide.
 
-![wireframe](image/memory_game.png)
+<img src="image/memory_game.png" width="250">
 
 ##### Text example of gameplay flow:
 
