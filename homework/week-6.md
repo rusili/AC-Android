@@ -46,7 +46,7 @@ Player presses: Y R B Y
 
 Round 5:
 App lights up : Y R B Y G
-Player presses: Y R B Y **Y**
+Player presses: Y R B Y Y
 
 Player loses because they pressed Y instead of G!
 ```
