@@ -11,6 +11,12 @@ The memory game has four colored buttons, each flashing or "lighting up" when it
 
 For each new round, the app will light up the buttons in the same order as in the previous rounds, then add a new randomly selected button to the end of the sequence. The number of buttons that light up and then must be pressed is always equal to the current round number.
 
+##### Wireframe
+
+The app will feature four colored buttons and a text box indicating the current round. The color, position, style and design of the UI elements are up to your team to decide.
+
+![wireframe](image/memory_game.png)
+
 ##### Text example of gameplay flow:
 
 ```
