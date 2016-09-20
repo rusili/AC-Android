@@ -68,7 +68,7 @@ Download [CopyCat - Simon Says Game (Android)](https://play.google.com/store/app
 ### Feeling stuck? Here are some ideas to get started...
 - Start by building the activity's layout XML with the four Buttons and TextView round number display. Run the app to confirm that the layout looks right. When you're ready, start wiring it to your Java code with `findViewById()`.
 - Consider how you will choose which random button to light up during each new round. How will you "remember" the order of buttons from previous rounds so that the same pattern will be repeated for each new round? Think about what data structure (e.g. Array, ArrayList, HashMap, etc...) would be best to hold this information. 
-- Try building out the logic of the game first as a Java app (similar to the gameplay example above). For each round, use `System.out.println()` to print the button pattern and `Scanner` to accept an input pattern from the player. If the patterns don't match, the player loses! Once your Java app is complete, copy the code over and modify it to work in an Android project.
+- Try building out the logic of the game first as a Java app (similar to the gameplay example above). For each round, use `System.out.println()` to print the button pattern and Scanner to accept an input pattern from the player. If the patterns don't match, the player loses! Once your Java app is complete, copy the code over and modify it to work in an Android project.
 
 ### Submission
 
