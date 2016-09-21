@@ -12,9 +12,9 @@ For each of the following exercises, create a new XML resource file in your `res
 
 4) Add 40dp margin to each of the `TextViews`. Run the app and observe the layout.
 
-5) Change the gravity on the top `TextView` to top. Change the gravity on the middle `TextView` to center. Change the gravity on the bottom `TextView` to bottom. Run the app and observe the layout.
+5) Change the layout gravity on the top `TextView` to top. Change the layout gravity on the middle `TextView` to center. Change the layout gravity on the bottom `TextView` to bottom. Run the app and observe the layout.
 
-6) Change the layout gravity on the `LinearLayout` to bottom. Run the app and observe the layout.
+6) Remove the layout gravity properties from the `TextViews`. Change the gravity on the `LinearLayout` to bottom. Run the app and observe the layout.
 
 ### Q2) 
 
