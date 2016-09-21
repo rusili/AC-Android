@@ -6,7 +6,7 @@
 - Learn how activity layouts are built in XML.
 - Practice positioning child views in both LinearLayout and RelativeLayouts.
 - Practice configuring XML attributes for common view widgets.
-- Learn how to make a Toast
+- Learn how to make a Toast.
 
 # Resources
 
