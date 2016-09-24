@@ -5,7 +5,7 @@
 - To gain a better understanding of object oriented principles
 - To explore how Android manages external resources such as strings, layouts, and drawables.
 
-#### Do Now (Morning)
+#### Classes review
 
 Title: Ship, CruiseShip, and CargoShip 
 
@@ -172,9 +172,9 @@ string is the resource type and hello is the resource name. You can use this syn
 - dots per inch (dip) - resolution divided by screen area
 - density independent pixels (dp)
 
-![ pic1 ] ( ../images/density.png )
+![ pic1 ] ( ./images/density.png )
 <br />
-![ pic2 ] ( ../images/pixel-density-3.png )
+![ pic2 ] ( ./images/pixel-density-3.png )
 <br />
 [ density independent pixels - youtube ] (https://www.youtube.com/watch?v=zhszwkcay2A)
 
