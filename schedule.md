@@ -40,4 +40,4 @@
 |Jonathan|2016-09-20|[Prework](pre-work/09-20-2016-prework.md)|First Android App|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1IMJZUoH_ynBNldEdqbotr_10WocWH4mBZWSlT4WFQSw/edit)|
 |Ramona|2016-09-21||[XML Layouts](lessons/layout-xml)||
 |Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|Professional Development - Studying||
-|Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
+|Jonathan|2016-09-24|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
