@@ -18,6 +18,7 @@ We can think of the resources directory of an Android app as containing static b
 ```xml
 <resources>
     <string name="app_name">Android Grocery Store</string>
+</resources>
 ```   
 External resources may be generally referenced in Java code by using the R keyword which stands for resource. The following java code for example, programmatically changes an imageview's background.
 
@@ -30,8 +31,8 @@ imageView.setImageResource(R.drawable.marshmallow);
 
 
 
-# Notable
- In this example, R.drawable.marshmallow is actually an integer type serving as a reference to the marshmallow image and not the image itself. The data type for R.drawable.marshmallow is type int.
+
+ NB: In this example, R.drawable.marshmallow is actually an integer type serving as a reference to the marshmallow image and not the image itself.
 
 ## Other Resources
 
@@ -67,9 +68,9 @@ We can also reference resource properties in other xml files. Here's an xml snip
 
 
 
-## On Resources
+## Some thoughts on Resources
 - External resources are distinct from Java source code because they are in a different format (xml)
-- Also distinct because we can have multiple definitions of a resource to be used in different circumstances.
+- Also distinct because we can have multiple definitions of a resource to be used in different circumstances. (think: internationalization and localization)
 
 
 
@@ -81,7 +82,7 @@ We can also reference resource properties in other xml files. Here's an xml snip
 
 We can also use resources to represent String arrays and Integer arrays. This code snippet shows an xml file containing an array of the most recent Android flavors.
 
-```
+```xml
 <resources>
     <string-array
         name="android-flavors">
@@ -111,8 +112,30 @@ Start with finding some birthday card images from the internet to add to your dr
 
 In Android, adapter views are views whose children are determined by an adapter. Examples include ListView, GridView, and Spinner.
 
-We will use the [array adapter](https://developer.android.com/reference/android/widget/ArrayAdapter.html) class to populate our spinner with the necessary content.
+We will use the [array adapter](https://developer.android.com/reference/android/widget/ArrayAdapter.html) class to populate our spinner dropdown menu with the necessary content. We will need to
 
+1) instantiate our spinner in Java code
+2) Instantiate an ArrayAdapter with the array of months.
+3) Call `setAdapter()` on the spinner view to populate its child views
+4) Use an OnItemSelectedListener to determine which item was selected.
+
+```java
+// Retrieving array of months from xml
+String[] months = getResources().getStringArray(R.array.string_array_months);
+
+/*Instantiating a new ArrayAdapter and supplying the following parameters:
+1) the current context (MainActivity.this)
+
+2) a layout containing a textview for rendering each subview of the spinner
+
+3) The array of months or data set*/
+ArrayAdapter adapter = new ArrayAdapter(this, R.layout.text_layout, months);
+
+// Sets the adapter for the spinner providing the data and look for the spinner widget.
+spinner.setAdapter(adapter);
+```
+
+### Individual exercises
 
 - Add a button to your MainActivity that navigates the user to another activity with a listview of language choices to get the birthday greeting in.
 
