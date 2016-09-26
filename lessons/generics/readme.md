@@ -11,7 +11,6 @@
 # Resources
 
 - [Java Docs](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
-- link to resource 2
 
 # Lecture
 
@@ -20,28 +19,36 @@ Recall that abstract classes are a special kind of class that are used just for 
 
 Why would we use an abstract class over an interface? An interface defines what an object can do, while an abstract class defines what an object is.
 
-Different subclasses of a class may need to be capable of representing different types of data.
+Distinct instances of the same type of object may need to be capable of representing different types of data. Java's Collections framework leverages Java's static typing to eliminate errors for end users (the programmers who will use these collections).
 
 Think back to our examples of the HashMap data structure and ArrayLists.
 
 ```java
-Map map = new HashMap();
+public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>{
 
-List list = new ArrayList();
-
+}
 ```
 
-The HashMap example above does not raise any compile errors, but it can still be improved. This initialization does not leverage Java's type-safety features.
+We can see that the HashMap class, its Abstract parent class, and implemented interface all have a reference to some K type for key, and V type for value. 
 
-You should favor specifying types for your object declarations and initialization.
+
 
 ```java
-Map<String, AbstractCar> map = new HashMap<>();
+Map<String, AbstractCar> map = new HashMap<>(); //Good
 
-List<Integer> numbers = new ArrayList<>();
+List<Integer> numbers = new ArrayList<>();  //Good
 ```
 
-Compare the two examples above. It is generally a good idea to specify what data types you want these container objects to hold. Best practice is to use these structures to contain the same type of elements (or subclasses of a given type).
+It is best practice to specify these types when declaring and creating new instances of Container objects like HashMap and ArrayList. 
+
+```java
+Map map = new HashMap();  //Anti-pattern
+
+List list = new ArrayList();  //Anti-pattern
+
+```
+Why do you think the first example is preferred to the latter?
+The HashMap example above does not raise any compile errors, but it can still be improved.It is generally a good idea to specify what data types you want these container objects to hold. Equally important is to use containers to contain the same type of elements (or subclasses of a given type).
 
 
 # Generics
@@ -102,10 +109,10 @@ String s = list.get(0);   // no cast
 
 ### Naming type parameters
 
-The recommended naming convention is to use uppercase, single-letter names for type parameters. For common generic patterns, the recommended names are:
+The recommended naming convention is to use uppercase, single-letter names for type parameters. For common generic patterns, some recommended names are:
 K - A key, such as the key to a map
 V - A value, such as the contents of a List, Set, or the values in a Map
-E - An exception class
+E - Element - Can also be An exception class
 T - A generic type
 
 
