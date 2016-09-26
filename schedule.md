@@ -41,3 +41,10 @@
 |Ramona|2016-09-21||[XML Layouts](lessons/layout-xml)||
 |Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|Professional Development - Studying||
 |Jonathan|2016-09-24|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
+
+# Unit 2
+
+|Instructor |  Date      |Prework| Lesson |Exit Ticket|
+|:----------:|:----------:|:--------:|:--:|:--:|
+|Abass| 2016-09-25 || [Android Resources 2](lessons/android-resources-2)||
+|Abass| 2016-09-26 || [Menus and Shared Preferences](lessons/menus-and-preferences)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1TaqobsWRTkoweKf89K6nm4WkBGtqYY1UQEQQWdDA_cs/edit?usp=drive_web)|
