@@ -16,12 +16,11 @@
 
 # Lecture
 
-During this lecture, we will work through the steps of building a fragment found here:
+During this lecture, we will work through the steps of building a fragment found here:<br>
 [Android Creating A Fragment](https://developer.android.com/training/basics/fragments/index.html).
 
 
 ## Build a Fragment to Display your Profile Page for the Grocery Store Employee handbook
-
 ### Build a Profile Page
 - Create an Android app with one xml page. Name the xml %firstname_lastname%.xml
 - On the xml page add a picture of yourself
@@ -30,8 +29,7 @@ During this lecture, we will work through the steps of building a fragment found
 - On the xml page add a text view with a nick name
 - On the xml page add a text view with 4 sentences to be your bio
 
-
- ### Build a Fragment
- - Add a fragment and activity to your Profile Page app.
- - In the createView function, have the fragment instantiate and return your %firstname_lastname% layout file.
- - In the onCreate function, attach onClickListeners to each of your buttons
+### Build a Fragment
+- Add a fragment and activity to your Profile Page app.
+- In the createView function, have the fragment instantiate and return your %firstname_lastname% layout file.
+- In the onCreate function, attach onClickListeners to each of your buttons
