@@ -50,4 +50,5 @@
 |Abass| 2016-09-26 || [Menus and Shared Preferences](lessons/menus-and-preferences)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1TaqobsWRTkoweKf89K6nm4WkBGtqYY1UQEQQWdDA_cs/edit?usp=drive_web)|
 |Jonathan| 2016-09-27 |[Prework](pre-work/09-27-2016-prework.md)| [Android Fragments](lessons/android-fragments/README.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1wW_rn3t81Xqsh_yDvA26HI1nSuZ5T2_b0HlXBD9bZxM/edit)|
 |Abass| 2016-09-28 || Review||
+|Jonathan| 2016-09-029|[Prework](pre-work/09-29-2016-prework.md)| Assessment ||
 |Benno| 2016-10-02 |[Prework](lessons/intro-to-data-structures/prework.md)| [Intro to Data Structures](lessons/intro-to-data-structures/)||
