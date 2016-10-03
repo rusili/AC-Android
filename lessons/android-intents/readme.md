@@ -78,6 +78,8 @@ To send data from one activity to another, we need to make sure to associate an 
 
 Extras are just arbitrary data that a calling activity can include with its intent. The OS will forward the intent to the recipient activity, which can access the extras and retrieve the data.
 
+An extra is structured as a key-value pair, and by now we are experts on key-value pairs.
+
 
 ``` java
 public Intent putExtra(String name, boolean value);
