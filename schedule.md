@@ -53,5 +53,5 @@
 |Jonathan| 2016-09-29|[Prework](pre-work/09-29-2016-prework.md)| Assessment ||
 |Jonathan| 2016-10-01|[Prework](pre-work/10-01-2016-prework.md)| [Android Fragments Again](lessons/android-fragments/README.md) ||
 |Benno| 2016-10-02 |[Prework](lessons/intro-to-data-structures/prework.md)| [Intro to Data Structures](lessons/intro-to-data-structures/)||
-|Abass| 2016-10-03 |[Prework](https://developer.android.com/reference/android/content/Intent.html)| Android Intents Exposed||
+|Abass| 2016-10-03 |[Prework](https://developer.android.com/reference/android/content/Intent.html)| [Android Intents Exposed](lessons/android-intents)|[Exit Ticket](#)|
 
