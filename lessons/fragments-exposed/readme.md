@@ -1,4 +1,4 @@
-- title: Android Fragments
+- title: Navigating with Android Fragments
 - tags: android, activities, lifecycle, fragments
 
 # Objectives
@@ -14,7 +14,7 @@
 - [Communicating w/ Fragment](https://developer.android.com/training/basics/fragments/communicating.html)
 
 # Lecture
-Pre-work for today's class is to find 4 images to use for fragments in an Android app.
+Pre-work for today's class is to find 4 images of your favorite memes to use for fragments in an Android app.
 
 So far, we already know that fragments represent behavior or a portion of UI in an app.
 
