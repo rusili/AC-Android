@@ -55,3 +55,4 @@
 |Benno| 2016-10-02 |[Prework](lessons/intro-to-data-structures/prework.md)| [Intro to Data Structures](lessons/intro-to-data-structures/)||
 |Abass| 2016-10-03 |[Prework](pre-work/10-03-2016-prework.md)| [Android Intents Exposed](lessons/android-intents)|[Exit Ticket](#)|
 |Jonathan| 2016-10-04 || [Android Shared Preferences and Navigation](lessons/shared-preferences)||
+|Abass| 2016-10-05 || [Fragments Exposed](lessons/fragments-exposed)||
