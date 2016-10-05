@@ -11,7 +11,7 @@
 # Resources
 
 - [Fragments](https://developer.android.com/guide/components/fragments.html)
-- [Fragment Lifecycle](#)
+- [Communicating w/ Fragment](https://developer.android.com/training/basics/fragments/communicating.html)
 
 # Lecture
 Pre-work for today's class is to find 4 images to use for fragments in an Android app.
@@ -35,9 +35,11 @@ Likewise, your activity can call methods in the fragment by acquiring a referenc
 ExampleFragment fragment = (ExampleFragment) getFragmentManager().findFragmentById(R.id.example_fragment);
 ```
 
-- While communication between a fragment and its bound activity is fairly straightforward, no way for a fragment to communicate with another fragment.
+- While communication between a fragment and its bound activity is fairly straightforward, a fragment cannot communicate directly with another fragment.
 
-i.e, MemeFragment1 cannot communicate directly with MemeFragment2 without first communicating with its HostActivity.
+"Often you will want one Fragment to communicate with another, for example to change the content based on a user event. All Fragment-to-Fragment communication is done through the associated Activity. Two Fragments should never communicate directly."
+
+tldr - MemeFragment1 cannot communicate directly with MemeFragment2 without first communicating with its HostActivity.
 
 
 # In-Class Exercise
