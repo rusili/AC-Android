@@ -53,7 +53,7 @@ Create an xml layout equipped with buttons for each meme that your app will disp
 - On the xml page add an imageview with your desired meme
 - On the xml page add a textview with the name of the meme
 
-### Build a Fragment
+### Build your Fragments
 - Add your fragments to your project as individual Java classes
 
 
