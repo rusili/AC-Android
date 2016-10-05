@@ -42,13 +42,14 @@ ExampleFragment fragment = (ExampleFragment) getFragmentManager().findFragmentBy
 tldr - MemeFragment1 cannot communicate directly with MemeFragment2 without first communicating with its attached activity.
 
 
+
 # In-Class Exercise
 
-## Build a Fragment to represent a chooser page
+### Build a Fragment to represent a chooser page
 Create an xml layout equipped with buttons for each meme that your app will display. Feel free to use this app as a reference: [Memester](https://github.com/abassawo/Memester)
 
 
-## Design a fragment for each meme
+### Design a fragment for each meme
 - Create an xml layout for each meme. Name the xml %fragment_memename%.xml
 - On the xml page add an imageview with your desired meme
 - On the xml page add a textview with the name of the meme
@@ -61,3 +62,9 @@ Create an xml layout equipped with buttons for each meme that your app will disp
 - In your chooser page, Override onViewCreated(), and attach onClickListeners to each of your buttons.
 
 - Clicking meme1 should signal to MainActivity to host the fragment for Meme1
+
+
+
+### Independent Research and Discussion- 
+
+Fragment Arguments - Every fragment instance can have a Bundle object attached to it. A bundle contains key-value pairs that work like intent extras of an Activity. How can we use bundles to simplify the architecture of our meme fragments?
