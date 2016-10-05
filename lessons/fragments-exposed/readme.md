@@ -65,6 +65,6 @@ Create an xml layout equipped with buttons for each meme that your app will disp
 
 
 
-### Independent Research and Discussion- 
+### Independent Research and Discussion 
 
-Fragment Arguments - Every fragment instance can have a Bundle object attached to it. A bundle contains key-value pairs that work like intent extras of an Activity. How can we use bundles to simplify the architecture of our meme fragments?
+Fragment Arguments - Every fragment instance can have a Bundle object attached to it. A bundle contains key-value pairs that work like intent extras of an Activity. How can we use this to simplify the architecture of our meme fragments?
