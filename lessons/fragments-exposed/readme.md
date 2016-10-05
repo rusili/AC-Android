@@ -39,7 +39,7 @@ ExampleFragment fragment = (ExampleFragment) getFragmentManager().findFragmentBy
 
 "Often you will want one Fragment to communicate with another, for example to change the content based on a user event. All Fragment-to-Fragment communication is done through the associated Activity. Two Fragments should never communicate directly."
 
-tldr - MemeFragment1 cannot communicate directly with MemeFragment2 without first communicating with its HostActivity.
+tldr - MemeFragment1 cannot communicate directly with MemeFragment2 without first communicating with its attached activity.
 
 
 # In-Class Exercise
