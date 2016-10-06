@@ -56,5 +56,5 @@
 |Abass| 2016-10-03 |[Prework](pre-work/10-03-2016-prework.md)| [Android Intents Exposed](lessons/android-intents)|[Exit Ticket](#)|
 |Jonathan| 2016-10-04 || [Android Shared Preferences and Navigation](lessons/shared-preferences)||
 |Abass| 2016-10-05 || [Fragments Exposed](lessons/fragments-exposed)||
-|Jonathan| 2016-10-06 || Test 3 Review ||
+|Jonathan| 2016-10-06 || Test 3 Review |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JMuIpD_crYntZ8QdiU3N9pURBoEHIY1VaJuUHRPPSso/edit)|
 
