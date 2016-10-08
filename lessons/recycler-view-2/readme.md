@@ -90,7 +90,7 @@ You will need to import the RecyclerView class from a specific Google support li
 ### Data checklist - Hooking up our POJO
 
 We will start by creating a movies.json file that we will copy directly into our Resources directory.
-Here's a [js file](https://github.com/C4Q/AC3.1/blob/master/homeworks/week02/js/main.js) that includes an object of Movies called data:
+Here's a [javascript file](https://gist.github.com/abassawo/975f7d9a9d90e2d9d5683454dd981ffa) that includes an object of Movies called data:
 
 
 - Let's look at our expected JSON response, and figure out what our mirroring Java class would look like.
