@@ -22,7 +22,7 @@ Each list item will be generated from [EmployeeDescription](
 https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook/EmployeeDescription.java), a class that represents an individual worker of the grocery store.
 
 
-It is important to understand how all the classes in the [employeeHandbook](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/tree/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook) package relate.
+It is important to understand how all the classes in the [EmployeeHandbook](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/tree/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook) package relate.
 
 - Where is the RecyclerView created
 - How is the RecyclerView Adapter related to the RecyclerView
