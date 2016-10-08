@@ -24,9 +24,9 @@ https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/
 
 It is important to understand how all the classes in the [EmployeeHandbook](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/tree/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook) package relate.
 
-- Where is the RecyclerView created
-- How is the RecyclerView Adapter related to the RecyclerView
-- What is the purpose of [EmployeeViewHolder](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook/EmployeeViewHolder.java)
+- Where is the RecyclerView created?
+- How is the RecyclerView Adapter related to the RecyclerView?
+- What is the purpose of [EmployeeViewHolder](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook/EmployeeViewHolder.java)?
 - Where does the data for [onBindViewHolder](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook/EmployeeListAdapter.java#L31) come from?
 - What is the purpose of the [bind](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook/EmployeeViewHolder.java#L29) function?
 
