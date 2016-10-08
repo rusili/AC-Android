@@ -33,4 +33,4 @@ It is important to understand how all the classes in the [EmployeeHandbook](http
 ## Assignment
 - Add an employee description representing yourself.
 - Modify the codebase to launch an [EmployeeView](https://github.com/JsjRoboticsClassroom/AndroidGroceryStore/blob/master/app/src/main/java/nyc/c4q/grocerystore/employeeHandbook/EmployeeView.java) activity when your employee description is selected.
-- Modify the EmployeeView class so that when it is launched with only your Employee Description, it will display your fragment.
+- Modify the EmployeeView class so that when it is launched it will load an xml layout named employee_view. The employee_view.xml will have only a FrameLayout within it. When the EmployeeView activity is launched after selecting your Employee Description, it should display your fragment. Other students will also be calling the EmployeeView activity, so you must account for this.
