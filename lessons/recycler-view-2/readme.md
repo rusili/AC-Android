@@ -6,9 +6,10 @@
 - Build an app that parses a JSON object of movies into a list of POJO's, and displays this collection or list in a recycler view.
 
 # Resources
-
-- [JSON](#)
-- [Pojo](#)
+- [JSON]()
+- [JSONObject](#https://developer.android.com/reference/org/json/JSONObject.html)
+- [Pojo](http://www.martinfowler.com/bliki/POJO.html)
+- [Json 2 Pojo](http://www.jsonschema2pojo.org/)
 - [Creating Lists](https://developer.android.com/training/material/lists-cards.html)
 
 # Lecture
