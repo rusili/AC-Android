@@ -58,4 +58,4 @@
 |Abass| 2016-10-05 || [Fragments Exposed](lessons/fragments-exposed)||
 |Jonathan| 2016-10-06 || Test 3 Review |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JMuIpD_crYntZ8QdiU3N9pURBoEHIY1VaJuUHRPPSso/edit)|
 |Jonathan| 2016-10-08|[Prework](pre-work/10-08-2016-prework.md)| [RecyclerView](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | Exit Ticket |
-|Abass| 2016-10-09|[Prework](#)| [RecyclerView continued](#) | Exit Ticket |
+|Abass| 2016-10-09|[Prework](#)| [RecyclerView 2](lessons/recycler-view-2) | Exit Ticket |
