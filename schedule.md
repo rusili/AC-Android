@@ -1,12 +1,38 @@
-# Unit 1
-
-
 ## Office hours
 
 - Mon + Wed, 6 - 7pm at CUNY Law
+- Sun, 6 - 8pm at C4Q HQ
 - Thu + Fri, 1 - 2pm on Slack
 
 ## Classes
+
+# Unit 3
+
+|Instructor |  Date      |Prework| Lesson |Exit Ticket|
+|:----------:|:----------:|:--------:|:--:|:--:|
+|Erick| 2016-10-15 | | | |
+|Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
+
+# Unit 2
+
+|Instructor |  Date      |Prework| Lesson |Exit Ticket|
+|:----------:|:----------:|:--------:|:--:|:--:|
+|Abass| 2016-09-25 || [Android Resources 2](lessons/android-resources-2)||
+|Abass| 2016-09-26 || [Menus and Shared Preferences](lessons/menus-and-preferences)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1TaqobsWRTkoweKf89K6nm4WkBGtqYY1UQEQQWdDA_cs/edit?usp=drive_web)|
+|Jonathan| 2016-09-27 |[Prework](pre-work/09-27-2016-prework.md)| [Android Fragments](lessons/android-fragments/README.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1wW_rn3t81Xqsh_yDvA26HI1nSuZ5T2_b0HlXBD9bZxM/edit)|
+|Abass| 2016-09-28 || Review||
+|Jonathan| 2016-09-29|[Prework](pre-work/09-29-2016-prework.md)| Assessment ||
+|Jonathan| 2016-10-01|[Prework](pre-work/10-01-2016-prework.md)| [Android Fragments Again](lessons/android-fragments/README.md) ||
+|Benno| 2016-10-02 |[Prework](lessons/intro-to-data-structures/prework.md)| [Intro to Data Structures](lessons/intro-to-data-structures/)||
+|Abass| 2016-10-03 |[Prework](pre-work/10-03-2016-prework.md)| [Android Intents Exposed](lessons/android-intents)|[Exit Ticket](#)|
+|Jonathan| 2016-10-04 || [Android Shared Preferences and Navigation](lessons/shared-preferences)||
+|Abass| 2016-10-05 || [Fragments Exposed](lessons/fragments-exposed)||
+|Jonathan| 2016-10-06 || Test 3 Review |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JMuIpD_crYntZ8QdiU3N9pURBoEHIY1VaJuUHRPPSso/edit)|
+|Jonathan| 2016-10-08|[Prework](pre-work/10-08-2016-prework.md)| [RecyclerView](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | |
+|Abass| 2016-10-09|[Prework](pre-work/10-09-2016-prework.md)| [RecyclerView 2](lessons/recycler-view-2) | |
+|Jonathan| 2016-10-11|[Prework](pre-work/10-11-2016-prework.md)| [Adding Recycler View to AndroidGroceryStore](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | |
+
+# Unit 1
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
 |:----------:|:----------:|:--------:|:--:|:--:|
@@ -41,24 +67,3 @@
 |Ramona|2016-09-21||[XML Layouts](lessons/layout-xml)||
 |Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|Professional Development - Studying||
 |Jonathan|2016-09-24|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
-
-# Unit 2
-
-|Instructor |  Date      |Prework| Lesson |Exit Ticket|
-|:----------:|:----------:|:--------:|:--:|:--:|
-|Abass| 2016-09-25 || [Android Resources 2](lessons/android-resources-2)||
-|Abass| 2016-09-26 || [Menus and Shared Preferences](lessons/menus-and-preferences)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1TaqobsWRTkoweKf89K6nm4WkBGtqYY1UQEQQWdDA_cs/edit?usp=drive_web)|
-|Jonathan| 2016-09-27 |[Prework](pre-work/09-27-2016-prework.md)| [Android Fragments](lessons/android-fragments/README.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1wW_rn3t81Xqsh_yDvA26HI1nSuZ5T2_b0HlXBD9bZxM/edit)|
-|Abass| 2016-09-28 || Review||
-|Jonathan| 2016-09-29|[Prework](pre-work/09-29-2016-prework.md)| Assessment ||
-|Jonathan| 2016-10-01|[Prework](pre-work/10-01-2016-prework.md)| [Android Fragments Again](lessons/android-fragments/README.md) ||
-|Benno| 2016-10-02 |[Prework](lessons/intro-to-data-structures/prework.md)| [Intro to Data Structures](lessons/intro-to-data-structures/)||
-|Abass| 2016-10-03 |[Prework](pre-work/10-03-2016-prework.md)| [Android Intents Exposed](lessons/android-intents)|[Exit Ticket](#)|
-|Jonathan| 2016-10-04 || [Android Shared Preferences and Navigation](lessons/shared-preferences)||
-|Abass| 2016-10-05 || [Fragments Exposed](lessons/fragments-exposed)||
-|Jonathan| 2016-10-06 || Test 3 Review |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1JMuIpD_crYntZ8QdiU3N9pURBoEHIY1VaJuUHRPPSso/edit)|
-|Jonathan| 2016-10-08|[Prework](pre-work/10-08-2016-prework.md)| [RecyclerView](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | |
-|Abass| 2016-10-09|[Prework](pre-work/10-09-2016-prework.md)| [RecyclerView 2](lessons/recycler-view-2) | |
-|Jonathan| 2016-10-11|[Prework](pre-work/10-11-2016-prework.md)| [Adding Recycler View to AndroidGroceryStore](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | |
-|Erick| 2016-10-15 | | | |
-|Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
