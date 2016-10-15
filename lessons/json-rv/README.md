@@ -32,3 +32,13 @@ Make sure your git status is clean. Switch to `git checkout rv_exercise`. Your t
 - Create a layout that can display a weather icon, the title, and description of the weather forecast.
 
 ![weather-mock](weather_app_mock.png)
+
+#### Vocabulary
+
+- **JSON** - Javascript Object Notation
+- **POJO** - Plain Old Java Object
+- **serialize/deserialize** - the process of converting into a series of bytes for the purpose of data transfer. We serialize POJOs to JSON, and deserialize JSON to Java.
+- **RecyclerView** - a lower level replacement for ListView, requiring more set up but has better tooling than ListView. The name comes from its extensive, View recycling logic for optimized performance by re-using Views rather than re-inflating from XML repeatedly (which is expensive).
+- **LayoutManager** - The class that RecyclerView delegates to in order to determine how to lay out the child views. There are several built in LayoutManagers including GridLayoutManager, LinearLayoutManager, etc.
+- **Adapter** - A type of object that serves as a bridge between your POJOs and Views. 
+- **ViewHolder** - An object that caches View instances so you don't need to find them repeatedly through `findViewById` calls
