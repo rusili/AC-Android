@@ -1,7 +1,7 @@
 ## JsonWeather
 #### Exercises in writing POJOs that represent json data
 
-Slides: https://goo.gl/a3kUdQ [PDF](10%2F15%2F16 - JSON and RecyclerView.pdf)
+Slides: https://goo.gl/a3kUdQ [PDF](10%252F15%252F16%20-%20JSON%20and%20RecyclerView.pdf)
 
 ## Instructions:
 
