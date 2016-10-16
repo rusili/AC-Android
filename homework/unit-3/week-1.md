@@ -12,3 +12,7 @@ Create a new branch for each task and complete the work then open a pull request
 - Create at least **5** [user stories](http://codesqueeze.com/the-easy-way-to-writing-good-user-stories/) for your app.
 - Draw at least **2** [wireframes](https://developer.android.com/training/design-navigation/wireframing.html#wireframe) for your app. You can use an [online tool](https://wireframe.cc/), or if you prefer, just pencil and paper (take a photo of the drawing to submit).
 - Create a list of specific **features** for your app. Create a new project board on Trello by copying the AC3.3 Project Template. Add each feature as a card to the project backlog. Give each card an **estimate** and a **priority**, then arrange the cards by priority with the highest priority features at the top of the project backlog.
+
+### Submission
+
+Students will work **individually** to complete this project over the next week. All code should be completed and pushed by **10/22 at 9pm**. Please provide a link to your Trello board (make sure visibility is set to 'Public') and your wireframes (a link to a photo or screenshot). Check Slack for the submission form link.
