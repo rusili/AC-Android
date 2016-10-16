@@ -10,7 +10,7 @@
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
 |:----------:|:----------:|:--------:|:--:|:--:|
-|Erick| 2016-10-15 | | | |
+|Erick| 2016-10-15 | -- | [JSON/POJO and RecyclerView review](lessons/json-rv) | [Exit Ticket](https://docs.google.com/forms/d/1zGSOsbd7qz_v_F3VsSJCynKXLYtvxB44cnWlbhzoiWI/edit) |
 |Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
 
 # Unit 2
