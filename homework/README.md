@@ -1,16 +1,25 @@
+# Unit 3
+
+|Week|Date Assigned|Homework|Due Date|
+|:----------:|:----------:|:--------:|:--:|
+|1|2016-10-16|[Refactoring + Project Planning](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-1.md)|2016-10-22 at 9pm|
+|2|2016-10-23|[Open-ended Android App](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-2.md)|2016-10-29 at 9pm|
+
 # Unit 2 
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
-|5|2016-09-18|[Build First App & Questions](https://github.com/C4Q/AC3.3/blob/master/homework/week-5.md)|2016-09-24 at 9pm|
+|1|2016-09-18|[Build First App & Questions](https://github.com/C4Q/AC3.3/blob/master/homework/unit-2/week-1.md)|2016-09-24 at 9pm|
+|2|2016-09-25|[Memory Game](https://github.com/C4Q/AC3.3/blob/master/homework/unit-2/week-2.md)|2016-10-01 at 9pm|
+|3 + 4|2016-10-02|[Scientific Calculator](https://github.com/C4Q/AC3.3/blob/master/homework/unit-2/week-3%2B4.md)|2016-10-15 at 9pm|
 
 # Unit 1
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
-|1|2016-08-21|[Java Problems](https://github.com/C4Q/AC3.3/blob/master/homework/week-1.md)|2016-08-27 at 8pm|
-|2|2016-08-28|[Write a text-based game](https://github.com/C4Q/AC3.3/blob/master/homework/week-2.md)|2016-09-03 at 8pm|
-|3|2016-09-04|[signboard project](https://github.com/C4Q/AC3.3/blob/master/homework/week-3.md)|2016-09-10 at 8pm|
+|1|2016-08-21|[Java Problems](https://github.com/C4Q/AC3.3/blob/master/homework/unit-1/week-1.md)|2016-08-27 at 8pm|
+|2|2016-08-28|[Write a text-based game](https://github.com/C4Q/AC3.3/blob/master/homework/unit-1/week-2.md)|2016-09-03 at 8pm|
+|3|2016-09-04|[signboard project](https://github.com/C4Q/AC3.3/blob/master/homework/unit-1/week-3.md)|2016-09-10 at 8pm|
 |4|2016-09-11|[SlackBot](https://github.com/ramonaharrison/SlackBot) |2016-09-17 at 9pm|
 
 
