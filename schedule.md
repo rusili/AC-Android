@@ -12,6 +12,7 @@
 |:----------:|:----------:|:--------:|:--:|:--:|
 |Erick| 2016-10-15 | -- | [JSON/POJO and RecyclerView review](lessons/json-rv) | [Exit Ticket](https://docs.google.com/forms/d/1zGSOsbd7qz_v_F3VsSJCynKXLYtvxB44cnWlbhzoiWI/edit) |
 |Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
+|Jonathan| 2016-10-19|[Prework](pre-work/10-19-2016-prework.md)| Review Fragment Navigation | Exit Ticket |
 
 # Unit 2
 
