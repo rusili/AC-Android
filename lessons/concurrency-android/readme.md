@@ -17,7 +17,7 @@ Students will understand:
 - [Processes and Threads, an Overview](https://www.youtube.com/watch?v=IcIFJ5V3Ibg)
 - [Components and the UI Thread](https://www.youtube.com/watch?v=A0PAhoHzlsQ)
 - [Android Multithreading Overview](https://www.youtube.com/watch?v=lznss-0gEHU)
- AsyncTasks](https://www.youtube.com/watch?v=V4q0sTIntsk)
+- [AsyncTasks](https://www.youtube.com/watch?v=V4q0sTIntsk)
 
 
 ### Do Now (Morning)
