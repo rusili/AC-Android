@@ -14,7 +14,6 @@ Students will understand:
 - [Concurrency](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
 - [Processes and Threads](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html)
 - [AsyncTask](https://developer.android.com/reference/android/os/AsyncTask.html)
-- #15 [Intro to
 - [Processes and Threads, an Overview](https://www.youtube.com/watch?v=IcIFJ5V3Ibg)
 - [Components and the UI Thread](https://www.youtube.com/watch?v=A0PAhoHzlsQ)
 - [Android Multithreading Overview](https://www.youtube.com/watch?v=lznss-0gEHU)
