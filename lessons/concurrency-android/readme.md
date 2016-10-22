@@ -40,19 +40,19 @@ Rule 2: Add necessary permissions
 
 ### Definitions
 
-Jank: Any stuttering, flickering or just plain halting that users see when an app (or site) isn't keeping up with the refresh rate. Jank is the result of frames taking too long for a browser to make, and it negatively impacts your users and how they experience your site or app.
+**Jank**: Any stuttering, flickering or just plain halting that users see when an app (or site) isn't keeping up with the refresh rate. Jank is the result of frames taking too long for a browser to make, and it negatively impacts your users and how they experience your site or app.
 
   - Demo - JankyApp
 
-Asynchronous - When you execute something asynchronously, you can move on to another task before it finishes.
+**Asynchronous** - When you execute something asynchronously, you can move on to another task before it finishes.
 
-Synchronous - When you execute something synchronously, you wait for it to finish before moving on to another task. (Also referred to as blocking)
+**Synchronous** - When you execute something synchronously, you wait for it to finish before moving on to another task. (Also referred to as blocking)
 
-Thread: A thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.
+**Thread** - A thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.
 
-Process: A running program; all the threads in a process have access to shared memory, and each process running has its own memory. The CPU of a machine handles running several processes at once.
+**Process** - A running program; all the threads in a process have access to shared memory, and each process running has its own memory. The CPU of a machine handles running several processes at once.
 
-Thread - represents one path of execution in a process. Threads can run concurrently, which makes them tricky to reason about.
+**Thread** - represents one path of execution in a process. Threads can run concurrently, which makes them tricky to reason about.
 
 Race Condition - Running more than one thread inside the same application does not by itself cause problems. The problems arise when multiple threads access the same resources. For instance the same memory (variables, arrays, or objects), systems (databases, web services etc.) or files.
 
@@ -83,14 +83,19 @@ Some methods from AsyncTask run on the UI thread, while some run in a background
 
 ### Exercises (Afternoon)
 
-We will load information from the internet. Modify your project to fetch Chuck Norris jokes from the following web resource:
+We will load information from the internet. 
+
+Modify your project to fetch Chuck Norris jokes from the following web resource:
 
 http://api.icndb.com/jokes/random/
 
 
 ### 3rd Party Libraries for Consuming Web
-[OkHttp](http://square.github.io/okhttp/)
-[Retrofit](https://square.github.io/retrofit/)
-[Gson]
 
-## Exercise - Modify your code to fetch data from http://api.icndb.com/jokes/categories. Load your data into a RecyclerView in your fragment.
+- [OkHttp](http://square.github.io/okhttp/)
+- [Retrofit](https://square.github.io/retrofit/)
+- [Gson](https://github.com/google/gson)
+
+## Exercise  
+
+Modify your code to fetch data from http://api.icndb.com/jokes/categories. Load your data into a RecyclerView in your fragment.
