@@ -11,13 +11,13 @@ Students will understand:
 
 
 #### Resources
-[Concurrency](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
-[Processes and Threads](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html)
-[AsyncTask](https://developer.android.com/reference/android/os/AsyncTask.html)
-* #15 [Intro to
-* #1 [Processes and Threads, an Overview](https://www.youtube.com/watch?v=IcIFJ5V3Ibg)
-* #4 [Components and the UI Thread](https://www.youtube.com/watch?v=A0PAhoHzlsQ)
-* #5 [Android Multithreading Overview](https://www.youtube.com/watch?v=lznss-0gEHU)
+- [Concurrency](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
+- [Processes and Threads](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html)
+- [AsyncTask](https://developer.android.com/reference/android/os/AsyncTask.html)
+- #15 [Intro to
+- [Processes and Threads, an Overview](https://www.youtube.com/watch?v=IcIFJ5V3Ibg)
+- [Components and the UI Thread](https://www.youtube.com/watch?v=A0PAhoHzlsQ)
+- [Android Multithreading Overview](https://www.youtube.com/watch?v=lznss-0gEHU)
  AsyncTasks](https://www.youtube.com/watch?v=V4q0sTIntsk)
 
 
