@@ -116,7 +116,7 @@ The following command compiles the HelloWorld class:
 The following command runs the HelloWorld example:
 
 ```
-> java -cp classes:jetty-all-uber.jar org.eclipse.jetty.embedded.HelloWorld
+> java -cp classes:jetty-all-uber.jar nyc.c4q.HelloWorld
 ```
 
 You can now point your browser at [http://locathost:8080](http://localhost:8080) to see your hello world page.
