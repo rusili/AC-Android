@@ -16,6 +16,7 @@
 |Abass| 2016-10-22| [Prework](pre-work/10-22-2016-prework.md) | [Concurrency Android](lessons/concurrency-android) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/19ZtP0_6i9bNiHt1188HwUwhjxJIL4HLlcEf8l_CLPX4/edit) |
 |Ramona| 2016-10-23| | [Retrofit](lessons/retrofit-intro) | |
 |Jonathan| 2016-10-24| [Prework](pre-work/10-24-2016-prework.md)| [JSON to Views](lessons/JSON%20to%20Views) | |
+|Jonathan| 2016-10-25| | [JSON to Views](lessons/JSON%20to%20Views) | Exit Ticket |
 
 # Unit 2
 
