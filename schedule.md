@@ -17,6 +17,8 @@
 |Ramona| 2016-10-23| | [Retrofit](lessons/retrofit-intro) | |
 |Jonathan| 2016-10-24| [Prework](pre-work/10-24-2016-prework.md)| [JSON to Views](lessons/JSON%20to%20Views) | |
 |Jonathan| 2016-10-25| | [JSON to Views](lessons/JSON%20to%20Views) | Exit Ticket |
+|Jonathan| 2016-10-26 || Assessment ||
+
 
 # Unit 2
 
