@@ -18,6 +18,7 @@
 |Jonathan| 2016-10-24| [Prework](pre-work/10-24-2016-prework.md)| [JSON to Views](lessons/JSON%20to%20Views) | |
 |Jonathan| 2016-10-25| | [JSON to Views](lessons/JSON%20to%20Views) | |
 |Jonathan| 2016-10-26 || Assessment ||
+|Erick| 2016-10-29 | -- | [Callback/Retrofit Review + Linked List](lessons/retrofit-review) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1s2F1gS1RhwhUt7RROYPJ9F3HRVOtjQQIp4KW-_vafBY/edit)
 
 
 # Unit 2
