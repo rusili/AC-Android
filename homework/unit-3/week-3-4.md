@@ -8,7 +8,8 @@ The purpose of this project is to create a [Google Now](https://www.google.com/s
 * The app must have at least one Activity -- more if it makes sense. The activity should include a list of interactive cards implemented with Android’s [RecyclerView and CardView](https://developer.android.com/training/material/lists-cards.html) APIs.
 * The app should include at least three types of cards: 
     * One card should present data that is stored and updated on the user’s phone using Shared Preferences (e.g. To-do card, Reminder card).
-    * Two cards should present data provided through a web API (e.g. Weather card, Twitter card, Maps card, Photo of the Day). Check out http://www.programmableweb.com/apis/directory for API ideas! ***Each team member should be responsible for implementing one of these cards!***
+    * Two cards should present data provided through a web API (e.g. Weather card, Twitter card, Maps card, Photo of the Day). Check out http://www.programmableweb.com/apis/directory for API ideas! 
+    * ***Each team member should be responsible for implementing one of these cards!***
 * Use [Retrofit](https://square.github.io/retrofit/) to handle HTTP requests and parse JSON data using the Gson converter.
 * The app should look great in both landscape and portrait modes.
 * The app should not crash or hang and should handle for when networking/internet is slow or unavailable.
