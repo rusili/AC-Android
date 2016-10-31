@@ -286,74 +286,41 @@ A linked list is a way of storing information.  A linked list consists of a seri
 
 ![Linked List Access](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
-<details>
-	<summary>Runtime</summary>
-	O(n)
-</details>
-
-<details>
-	<summary>Explanation</summary>
-	In order to access the node at index 4, we need to 	visit every node before it.
-</details>
+- Runtime: O(n)
+- Explanation: In order to access the node at index 4, we need to 	visit every node before it.
 
 ### Insert an element
 
 ![Linked List Insertion](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/CPT-LinkedLists-addingnode.svg/474px-CPT-LinkedLists-addingnode.svg.png)
 
 
-<details>
-	<summary>Runtime</summary>
-	O(1)
-</details>
-
-
-<details>
-	<summary>Explanation</summary>
-	We can insert a node in constant time by changing the 	pointer of the previous node to point to the new 	node.
-</details>
+- Runtime: O(1)
+- Explanation: We can insert a node in constant time by changing the 	pointer of the previous node to point to the new 	node.
 
 
 ### Find an element
 
 ![Linked List Find](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
-<details>
-	<summary>Runtime</summary>
-	O(n)
-</details>
-
-
-<details>
-	<summary>Explanation</summary>
-	In order to find an element, we have to look at each 	node in the linked list.
-</details>
-
+- Runtime: O(n)
+- Explanation: In order to find an element, we have to look at each 	node in the linked list.
 
 ### Delete an element
 
 ![Linked List Delete](https://modernpathshala.com/Images/singly-linked-list/Article/276195620161604035916Delete-Node-In-Linked-List.JPG)
 
 
-<details>
-	<summary>Runtime</summary>
-	O(1)
-</details>
-
-
-<details>
-	<summary>Explanation</summary>
-	We need to change the pointer of a node to the node 	after the node we want to delete.
-</details>
-
+- Runtime: O(1)
+- Explanation: We need to change the pointer of a node to the node 	after the node we want to delete.
 
 ### Node Implementation
 
 We can make a functional linked list of Ints with only a Node class.
 
-```swift
+```java
 class Node {
-    var key: Int!
-    var next: Node?
+    private Integer value;
+    private Node next;
 }
 ```
 
@@ -361,14 +328,12 @@ But what if we want to be able to make our Linked List Node not limited just to 
 
 ### Generics
 
-[Swift Documenation](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html)
+Generics are a powerful tool in Java that lets us extend code to multiple different types.  The symbol: 'T' indicates a generic.  Let's rewrite the code from above:
 
-Generics are a powerful tool in Swift that lets us extend code to multiple different types.  The symbol: 'T' indicates a generic.  Let's rewrite the code from above:
-
-```swift
+```java
 class Node<T> {
-	var key: T!
-	var next: Node?
+	private T value;
+	private Node<T> next;
 }
 ```
 
