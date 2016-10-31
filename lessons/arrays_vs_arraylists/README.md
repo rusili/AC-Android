@@ -248,24 +248,6 @@ Java does _not_ support two- or higher-dimensional arrays!  However, you can emu
 
 <div></div>
 
-> :dart: **Exercise:** Implement your own `ArrayList` from scratch.  It should be functionally identical to the original.
->
-> 1. Write unit tests for `ArrayList<Double>`.
->   - Make sure you test each method.
->   - Make sure you test cases with empty and non-empty lists.
->   - Make sure you test error conditions as well as correct usage.
-> 1. Verify that your tests work as expected on the standard `ArrayList` class.
-> 1. Create your own `ArrayList<T>` that implements `List<T>`.  Use IntelliJ to fill in all the methods you need.
-> 1. Implement the methods, running tests as you go.
-
-<div></div>
-
-> :dart: **Exercise:** A **native collection** is a collection class specific to a single native type.  Java developers often use a native collection instead of a generic collection to avoid boxing/unboxing operations, reduce memory use, and improve performance.
->
-> Write a `DoubleArrayList` class that accepts and returns `double` values instead of `Double` objects.
->
-> Write some simple benchmarks for the basic operations, and compare performance of your class versus `ArrayList<Double>`.
-
 ## Linked List
 
 A linked list is a way of storing information.  A linked list consists of a series of nodes.  Each node contains data, as well as a pointer to the next node in the series.
