@@ -21,6 +21,8 @@
 |Erick| 2016-10-29 | -- | [Callback/Retrofit Review + Linked List](lessons/retrofit-review) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1s2F1gS1RhwhUt7RROYPJ9F3HRVOtjQQIp4KW-_vafBY/edit)
 |Ramona| 2016-10-30 | -- | [Debugging Workshop](lessons/debugging) | [Exit Ticket](https://drive.google.com/open?id=1CX3omRc0bZ9oseubzrxvsrVwgeY91KlJBOj40IO-0VQ)|
 |Jonathan| 2016-10-31 | | [Arrays vs ArrayLists](lessons/arrays_vs_arraylists) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1BS4ETWSH3JNFuJjbXkzNL12ba6zI_0TQV1cvJ_1l2J8/edit) |
+|🙂| 2016-11-01 || Google Forum - No Class||
+|Jonathan| 2016-11-02 | | [Arrays vs ArrayLists](lessons/arrays_vs_arraylists) | |
 
 
 # Unit 2
