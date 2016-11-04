@@ -13,7 +13,18 @@
 |Erick| 2016-10-15 | -- | [JSON/POJO and RecyclerView review](lessons/json-rv) | [Exit Ticket](https://docs.google.com/forms/d/1zGSOsbd7qz_v_F3VsSJCynKXLYtvxB44cnWlbhzoiWI/edit) |
 |Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
 |Jonathan| 2016-10-19|[Prework](pre-work/10-19-2016-prework.md)| [Review Fragment Navigation](lessons/android-fragments2) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1pxmSgLZocvwFPhXPIJ02yuzd1ZCVv7NkDIz05KgtiPo/edit) |
-|Abass| 2016-10-22| -- | [Concurrency Android](lessons/concurrency-android) | [Exit Ticket](#) |
+|Abass| 2016-10-22| [Prework](pre-work/10-22-2016-prework.md) | [Concurrency Android](lessons/concurrency-android) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/19ZtP0_6i9bNiHt1188HwUwhjxJIL4HLlcEf8l_CLPX4/edit) |
+|Ramona| 2016-10-23| | [Retrofit](lessons/retrofit-intro) | |
+|Jonathan| 2016-10-24| [Prework](pre-work/10-24-2016-prework.md)| [JSON to Views](lessons/JSON%20to%20Views) | |
+|Jonathan| 2016-10-25| | [JSON to Views](lessons/JSON%20to%20Views) | |
+|Jonathan| 2016-10-26 || Assessment ||
+|Erick| 2016-10-29 | -- | [Callback/Retrofit Review + Linked List](lessons/retrofit-review) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1s2F1gS1RhwhUt7RROYPJ9F3HRVOtjQQIp4KW-_vafBY/edit)
+|Ramona| 2016-10-30 | -- | [Debugging Workshop](lessons/debugging) | [Exit Ticket](https://drive.google.com/open?id=1CX3omRc0bZ9oseubzrxvsrVwgeY91KlJBOj40IO-0VQ)|
+|Jonathan| 2016-10-31 | | [Arrays vs ArrayLists](lessons/arrays_vs_arraylists) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1BS4ETWSH3JNFuJjbXkzNL12ba6zI_0TQV1cvJ_1l2J8/edit) |
+|🙂| 2016-11-01 || Google Forum - No Class||
+|Jonathan| 2016-11-02 | | [Arrays vs ArrayLists](lessons/arrays_vs_arraylists) | |
+|Abass| 2016-11-05 |[Prework](pre-work/11-05-2016-prework.md) | Debugging | |
+
 
 # Unit 2
 
