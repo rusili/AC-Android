@@ -119,6 +119,10 @@ Therefore, you would want to checkout the branch you'd like to update before run
 
 ### What is a merge conflict?
 
+Merge conflicts arise when there are differences within the same lines between the base commit and the branch that you’re trying to merge in. For example, if two people changed the same lines in the same file, or if one person decided to delete a line while the other person decided to modify that same line, Git simply cannot know what is correct.
+
+Finally, after solving all conflicts, a merge conflict situation needs to be concluded by a regular commit to mark it's resolution.
+
 ### How do I resolve a merge conflict?
 
 ### What tools can I use to resolve a merge conflict?
