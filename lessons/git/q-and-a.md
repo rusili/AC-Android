@@ -159,6 +159,8 @@ Stash is a way to store your current changes and restore your project to the las
 
 ### How does git keep track of so much code in memory?
 
+Git keeps track of the code by keeping snapshots of the commits that you make. When you commit, git basically saved a snapshot of the project and records a manifest of what the files look like at that point and stores a reference to that. It also compresses the data that is saved with the idea of “delta compression".
+
 # WORKFLOW
 
 ### How do we get that git button to appear in the IDE?
