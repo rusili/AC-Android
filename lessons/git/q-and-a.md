@@ -21,6 +21,8 @@ This associates the name `origin` with https://github.com/user/repo.git. Now whe
 
 You can also use the `command git remote set-url` to change a remote's URL.
 
+We can list remotes for our local repo by running `git remote -v`.
+
 ### What is git push?
 
 `git push` will find the commits you have on your local branch that the corresponding branch on the remote repository does not have, and send them to the corresponding branch on the remote repository.
