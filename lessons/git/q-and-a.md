@@ -134,6 +134,8 @@ Therefore, you would want to checkout the branch you'd like to update before run
 
 ### How / when should we be using git stash?
 
+`git stash` is used when you are working on a project that is not yet completed and want a clean working directory to work on something else. You stash it and can come back to work on it again later.  Stashing will save both staged and unstaged work.  The command is `git stash` and when you are ready to get back your stashed work the command is `git stash pop`.
+
 ### How do I restore a stash?
 
 Stash is a way to store your current changes and restore your project to the last commit. This command is particularly useful in the case where you are actively updating your code with a team. An example of this would be if you were in the midst of writing your code, and someone on your team has committed changes. In this scenario, Stash is a useful command to store your changes away and pull the updated repo without any commit issues or merge conflicts. If you want to go back to pull your stash, there are a number of useful commands:
