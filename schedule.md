@@ -25,7 +25,7 @@
 |Jonathan| 2016-11-02 | | [Arrays vs ArrayLists](lessons/arrays_vs_arraylists) | |
 |Abass| 2016-11-05 |[Prework](pre-work/11-05-2016-prework.md) | [Debugging like a Pro](lessons/debugging-pro) |--- |
 |Ramona| 2016-11-06 | | [Git Review](lessons/git) | |
-|Jonathan| 2016-11-07 | | [Writing Test Code](lessons/testing) | Exit Ticket |
+|Jonathan| 2016-11-07 | | [Writing Test Code](lessons/testing) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1bXnTvnPJ8XP9FmPfcQUPzFuwcRS3GDJ9guE-dOZvodE/edit) |
 
 
 # Unit 2
