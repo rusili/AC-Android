@@ -6,6 +6,7 @@
 - Write a JUnit Test
 
 # Resources
+- [Setup JUnit in IntelliJ](https://www.jetbrains.com/help/idea/2016.2/testing.html)
 - [Example TDD Article](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/)
 
 # Testing
@@ -59,3 +60,6 @@ Testing is an integral part of the software development lifecycle. Today, most b
 
 # Writing tests
 Today we will be writing Java code and running tests against them. We will follow a development methodology known as TDD or Test Driven Development to design an application and write tests against it verifying functionality.
+
+
+https://github.com/JsjRoboticsClassroom/JUnitExample
