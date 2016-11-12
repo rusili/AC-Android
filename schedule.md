@@ -28,6 +28,7 @@
 |Jonathan| 2016-11-07 | | [Writing Test Code](lessons/testing) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1bXnTvnPJ8XP9FmPfcQUPzFuwcRS3GDJ9guE-dOZvodE/edit) |
 |🙂| 2016-11-08 || Election Night - No Class||
 |Jonathan| 2016-11-09 | | [Embedded Systems](lessons/embeddedSystems) | |
+|Erick| 2016-11-12 | -- | [MVC / Clean Code](lessons/mvc) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1Yxjr9EKNGF5RexWx7M7xQOO8sniG7yA4AsJLAFolPL0/edit)
 
 
 # Unit 2
