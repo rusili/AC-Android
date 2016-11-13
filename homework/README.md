@@ -2,6 +2,12 @@
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
+|1|2016-11-13|[Refactoring + Testing Codelab](https://github.com/C4Q/AC3.3/blob/master/homework/unit-4/week-1.md)|2016-11-19 at 9pm|
+
+# Unit 3
+
+|Week|Date Assigned|Homework|Due Date|
+|:----------:|:----------:|:--------:|:--:|
 |1|2016-10-16|[Refactoring + Project Planning](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-1.md)|2016-10-22 at 9pm|
 |2|2016-10-23|[Open-ended Android App](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-2.md)|2016-10-29 at 9pm|
 |3 + 4|2016-10-30|[Now Feed](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-3-4.md)|2016-11-12 at 9pm|
