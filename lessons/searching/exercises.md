@@ -30,6 +30,6 @@ public static int binarySearch(int[] array, target) {
 - Your program makes a new guess and so on until it guesses the right number. 
 - Then extend your program so that the player can pick any positive number, not just ones up to 10000.
 
-### 4) **BONUS** There are two approaches that your binary search algorithm might take: *iterative or recursive*. Determine which approach the algorithm that you wrote takes. If you algorithm is iterative, try to rewrite it using the recursive approach; if it is recursive, rewrite it using the iterative approach.
+### 4) **BONUS** There are two approaches that your binary search algorithm might take: *iterative or recursive*. Determine which approach the algorithm that you wrote is taking. If your algorithm is iterative, try to rewrite it using the recursive approach; if it is recursive, rewrite it using the iterative approach.
 
 ### 5) Read up on [the solution](http://datagenetics.com/blog/july22012/index.html) to the [two egg problem](morning-challenge.md).
