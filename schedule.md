@@ -6,6 +6,12 @@
 
 ## Classes
 
+# Unit 4
+
+|Instructor |  Date      |Prework| Lesson |Exit Ticket|
+|:----------:|:----------:|:--------:|:--:|:--:|
+|Ramona| 2016-11-13 | -- | [Searching](lessons/searching) | [Exit Ticket](https://goo.gl/forms/g6SF2m9bhSWKIZam2) |
+
 # Unit 3
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
