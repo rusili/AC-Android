@@ -4,6 +4,10 @@
 # Objectives
 - Exposure to a realistic interview assignment
 
+# Note
+The server for this lesson is located at https://github.com/JsjRoboticsClassroom/Nov14thSever
+
+
 # Lecture
 Today you will be building an Android app, that must communicate with a JSON
 server, and display content on the screen depending on the response from the
