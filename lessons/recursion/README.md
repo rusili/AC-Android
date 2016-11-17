@@ -46,3 +46,17 @@ public int recursiveAdd(List<Integer> numbers){
 
 The ability to identify edge cases, and abstract them from the common case will 
 be crucial for rewriting procedural algorithms in a recursive fashion.
+
+
+Example Recursive Problem
+```
+/*
+     Given a number, write a recursive function that will print
+     all valid  arrangements of parenthesis, if the number represents
+     the closed pairs of parenthesis. For example
+
+     parenthesis(3) should print
+
+      (())(), ()(())
+   */
+```
