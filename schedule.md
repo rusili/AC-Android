@@ -13,7 +13,7 @@
 |Ramona| 2016-11-13 | -- | [Searching](lessons/searching) | [Exit Ticket](https://goo.gl/forms/g6SF2m9bhSWKIZam2) |
 |Jonathan| 2016-11-14 | [Prework](pre-work/11-14-2016.md) | [An App From Scratch](https://github.com/C4Q/AC3.3/tree/master/lessons/apps-from-scratch) |  |
 |Jonathan| 2016-11-15 | [Prework](pre-work/11-14-2016.md) | [An App From Scratch With Instructions](https://github.com/C4Q/AC3.3/tree/master/lessons/apps-from-scratch/SecondDay.md) |  |
-|Jonathan| 2016-11-16 | | Recursion | Exit Ticket |
+|Jonathan| 2016-11-16 | | [Recursion](lessons/recursion) | Exit Ticket |
 # Unit 3
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
