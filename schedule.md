@@ -14,6 +14,7 @@
 |Jonathan| 2016-11-14 | [Prework](pre-work/11-14-2016.md) | [An App From Scratch](https://github.com/C4Q/AC3.3/tree/master/lessons/apps-from-scratch) |  |
 |Jonathan| 2016-11-15 | [Prework](pre-work/11-14-2016.md) | [An App From Scratch With Instructions](https://github.com/C4Q/AC3.3/tree/master/lessons/apps-from-scratch/SecondDay.md) |  |
 |Jonathan| 2016-11-16 | | [Recursion](lessons/recursion) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/175TIU0aUWA2FmOIrr8SS7f9KHmyS2C6C74X5GnPQteU/edit) |
+|Abass| 2016-11-19 | | [MVC in Practice](lessons/mvc-in-practice) | |
 # Unit 3
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
