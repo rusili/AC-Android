@@ -20,11 +20,12 @@
 
 ## What is a database?
 
-**relational database** - a database that organizes information into one or more *tables*.
-**table** - a collection of data organized into *rows* and *columns*. Tables are sometimes referred to as *relations*.
-**column** - a set of data values of a particular type.
-**row** - a single record in a table.
-**schema** - a collection of database objects (tables) associated with one particular database username. This username is called the *schema owner*. You may have one or multiple schemas in a database.
+
+- **relational database** - a database that organizes information into one or more *tables*.
+- **table** - a collection of data organized into *rows* and *columns*. Tables are sometimes referred to as *relations*.
+- **column** - a set of data values of a particular type.
+- **row** - a single record in a table.
+- **schema** - a collection of database objects (tables) associated with one particular database username. This username is called the *schema owner*. You may have one or multiple schemas in a database.
 
 All data stored in a relational database is of a certain **data type**. SQLite, the relational database management system we'll be using, has the following data types:
 
@@ -52,10 +53,10 @@ SQLite also does not have a type set aside for storing dates and/or times. Inste
 
 SQL (Structured Query Language) is a programming language designed to manipulate and manage data stored in relational databases.
 
-**SQL statement** - text that the database recognizes as a valid command.
-**clause** - the part of a SQL statement that performs a specific task. By convention, clauses are written in capital letters. Clauses are sometimes referred to as *commands*.
-**parameter** - a list of columns, data types, or values that are passed to a *clause* as an argument.
-**query** -  a statement used to extract data from the database in a readable format according to the user's request. 
+- **SQL statement** - text that the database recognizes as a valid command.
+- **clause** - the part of a SQL statement that performs a specific task. By convention, clauses are written in capital letters. Clauses are sometimes referred to as *commands*.
+- **parameter** - a list of columns, data types, or values that are passed to a *clause* as an argument.
+- **query** -  a statement used to extract data from the database in a readable format according to the user's request. 
 
 The structure of SQL statements vary. The number of lines used doesn't matter - a statement can be written in a single line or split up across multiple lines for readability. Statements always end in a semi-colon `;`.
 
@@ -112,8 +113,8 @@ DELETE FROM table_name WHERE some_column = some_value;
 **1)** Complete Codeacademy's SQL Manipulation exercises (1 - 10) and the Manipulation multiple choice quiz. You'll need to create an account if you haven't already. Do not continue past the quiz for now.
 
 **2)** Go to [sqlfiddle.com](http://sqlfiddle.com/#!5/). Make sure the dropdown at the top-left is selecting "SQLite (WebSQL)".
-- In the *Schema Panel* (left side), create a table named `cats`. The table should have the following columns: `id` (INTEGER), `name` (TEXT), `last_fed` (INTEGER) and `is_hungry` (BOOLEAN).
-- Next in the *Schema Panel*, write statements to insert five cats into the cats table: id: 1, name: Furry, last_fed: , is_hungry: 1, id: 2, name: Harry, last_fed: , is_hungry: 0, id: 3, name: Mike, last_fed: , is_hungry: 1, plus two of your choosing. Click "Build Schema" to build your database schema.
+- In the *Schema Panel* (left side), create a table named `cats`. The table should have the following columns: `id` (INTEGER), `name` (TEXT), `last_fed` (LONG) and `is_hungry` (BOOLEAN).
+- Next in the *Schema Panel*, write statements to insert five cats into the cats table: id: 1, name: Furry, last_fed: 0, is_hungry: 1, id: 2, name: Harry, last_fed: 568431567, is_hungry: 0, id: 3, name: Mike, last_fed: 454345453, is_hungry: 1, plus two of your choosing. Click "Build Schema" to build your database schema.
 - In the *SQL Panel* (right side), compose and run a statement to select all of the cats from the cats table.
 - In the *SQL Panel* (right side), compose and run an update statement to feed Furry now. He is no longer hungry. Select all cats from the table to confirm that your update worked.
 - Mike got tired of the pampered life and ran away. Compose and run a statement to delete him from the table. Select all cats from the table to confirm that your delete worked.
