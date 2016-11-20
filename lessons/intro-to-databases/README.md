@@ -158,4 +158,4 @@ Once you have the file downloaded, open it in DB Browser. What do you see?
 
 **8) BONUS:** Create a new activity, DogActivity.java (or choose another animal that you like). Duplicate the cat logic to create a new POJO, adapter and table in your database, then display a list of animals in your new activity.
 
-### Exit Ticket
+### [Exit Ticket](https://goo.gl/forms/Mimlu5kAA3zjJBpu1)
