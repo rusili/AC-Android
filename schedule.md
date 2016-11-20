@@ -16,6 +16,8 @@
 |Jonathan| 2016-11-16 | | [Recursion](lessons/recursion) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/175TIU0aUWA2FmOIrr8SS7f9KHmyS2C6C74X5GnPQteU/edit) |
 |Abass| 2016-11-19 | | [MVC in Practice](lessons/mvc-in-practice) | |
 |Ramona| 2016-11-20 | | [Intro to Databases + SQLite](lessons/intro-to-databases) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSd0IMZog6__HNuSRHfn4lIpmJ8K7-1GHxwlc5VDhEdcSGsVIg/viewform?c=0&w=1) |
+|Jonathan| 2016-11-16 | | More Recursion | |
+
 
 # Unit 3
 
