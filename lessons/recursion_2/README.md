@@ -15,7 +15,7 @@ Today we will solve several recursive problems.
 
      parenthesis(3) should print
 
-      ()()(), (()()), ((())), 
+      ()()(), (()()), ((())), (())(), ()(())
       
       parenthesis(4) should print
       
