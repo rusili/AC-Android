@@ -18,7 +18,7 @@
 |Ramona| 2016-11-20 | | [Intro to Databases + SQLite](lessons/intro-to-databases) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSd0IMZog6__HNuSRHfn4lIpmJ8K7-1GHxwlc5VDhEdcSGsVIg/viewform?c=0&w=1) |
 |Jonathan| 2016-11-21 | | [More Recursion](lessons/recursion_2) | |
 |Jonathan| 2016-11-22 | | Testing Code and Recursive Functions | [Exit Ticket](https://docs.google.com/forms/d/1hdnu8eoyou6saW4iAEgMsaeKSVOLkWk4JWG0w3LGnkY/edit) |
-
+|Jonathan| 2016-11-28 | [Prework](pre-work/11-28-2016.md) | Midterm Review and Design Patterns |  |
 
 
 
