@@ -19,7 +19,7 @@
 |Jonathan| 2016-11-21 | | [More Recursion](lessons/recursion_2) | |
 |Jonathan| 2016-11-22 | | Test Review | |
 |Jonathan| 2016-11-23 | | Test 7 | |
-|Jonathan| 2016-11-28 | [Prework](pre-work/11-28-2016.md) | Midterm Review and Design Patterns | Exit Ticket |
+|Jonathan| 2016-11-28 | [Prework](pre-work/11-28-2016.md) | [Midterm Review and Design Patterns](lessons/midterm-design-patterns) | Exit Ticket |
 
 
 
