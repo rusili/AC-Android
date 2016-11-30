@@ -20,7 +20,7 @@
 |Jonathan| 2016-11-22 | | Test Review | |
 |Jonathan| 2016-11-23 | | Test 7 | |
 |Jonathan| 2016-11-28 | [Prework](pre-work/11-28-2016.md) | [Midterm Review and Design Patterns](lessons/midterm-design-patterns) | |
-|Jonathan| 2016-11-29 | [Prework](pre-work/11-28-2016.md) | [Midterm Review and Design Patterns](lessons/midterm-design-patterns) | Exit Ticket |
+|Jonathan| 2016-11-29 | [Prework](pre-work/11-28-2016.md) | [Midterm Review and Design Patterns](lessons/midterm-design-patterns) | [Exit Ticket](https://docs.google.com/forms/d/11z46yzIB6za-YQAiOW48-kmuOYZXwXRfJ-vO_5wKj-U) |
 
 
 
