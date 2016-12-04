@@ -36,7 +36,7 @@ NotificationManager notificationManager = (NotificationManager) getSystemService
 notificationManager.notify(NOTIFICATION_ID, builder.build());
 ```
 
-## PendingIntents
+## Pending Intents
 
 Notifications can also have actions attached that the user can perform by clicking, in the form of a `PendingIntent` which will fire when the user presses on the notification item.
 
@@ -76,7 +76,7 @@ A `PendingIntent` is *a description of an Intent and a target action to perform 
 >    - An implicit Intent
 >    - An explicit Intent
 
-## Background Services
+## Background Services with IntentService
 
 A **service** is a component which runs in the background without direct user interaction. Since a service doesn't have a visible UI, it is not bound to the lifecycle of an activity and is able to run in the background even while the user is not viewing or interacting with your app. 
 
@@ -142,7 +142,7 @@ You can start your `IntentService` from any `Activity` or `Fragment`. Once you c
 
 > **Exercise:** Create an IntentService, `MyNotificationService.java` that displays a notification to the user in its `onHandleIntent()`. Register the service in your manifest and launch it from your `MainActivity.java` `onCreate()`.
 
-## BroadcastReceiver
+## Broadcast Receiver
 
 A **broadcast receiver** is a component that responds to system-wide broadcast announcements. Many broadcasts originate from the system (e.g broadcast announce that the device has booted, the screen has turned off, the battery is low, or a picture was captured). Add permissions to `AndroidManifest.xml` in order to intercept system broadcasts:
 
@@ -176,7 +176,7 @@ Register your receiver in `AndroidManifest.xml`:
 
 > **Exercise:**  Extend `WakefulBroadcastReceiver` to start your `MyNotificationService` and display a notification to the user when your device boots. Reboot your device to confirm that your solution works.
 
-## AlarmManager
+## Alarm Manager
 
 Suppose we wanted to periodically execute a background task, such as show a notification to the user with `MyNotificationService` every 15 minutes. In this case, we don't necessarily want a long running task that runs forever and could drain battery life significantly. Using `AlarmManager`, we can setup a scheduler that triggers our `IntentService` to run at a chosen interval.
 
