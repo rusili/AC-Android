@@ -43,4 +43,4 @@ Students will work **in teams** to complete this project over the next **two wee
 * Create a Github repo and add all team members as collaborators.
 * Create a new Android Studio project and push it to the repo.
 * Use any additional time to start researching and/or implementing features.
-* [Submit your meeting notes and a link to your Trello board and Github repo by the end of class today](https://goo.gl/forms/xujBMv9OCAqbnF9K2).
+* [Submit your meeting notes and a link to your Trello board and Github repo by the end of class today](https://goo.gl/forms/axiF0IdMPt0sESDJ3).
