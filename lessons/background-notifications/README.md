@@ -167,7 +167,7 @@ public class BootBroadcastReceiver extends WakefulBroadcastReceiver {
 Register your receiver in `AndroidManifest.xml`:
 
 ```xml
-<receiver android:name="com.codepath.example.BootBroadcastReceiver">  
+<receiver android:name=".BootBroadcastReceiver">  
     <intent-filter>  
         <action android:name="android.intent.action.BOOT_COMPLETED" />  
     </intent-filter>  
