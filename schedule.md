@@ -22,7 +22,7 @@
 |Jonathan| 2016-11-28 | [Prework](pre-work/11-28-2016.md) | [Midterm Review and Design Patterns](lessons/midterm-design-patterns) | |
 |Jonathan| 2016-11-29 | [Prework](pre-work/11-28-2016.md) | [Midterm Review and Design Patterns](lessons/midterm-design-patterns) | [Exit Ticket](https://docs.google.com/forms/d/11z46yzIB6za-YQAiOW48-kmuOYZXwXRfJ-vO_5wKj-U) |
 |Erick| 2016-12-03 | -- | [Testing and Writing Testable Code](lessons/testing2) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1FLF0MgopYA4eO1XwYP6wKIg7wn2s-iOmTRArVyjWmMs) |
-|Erick| 2016-12-03 | -- | [Notifications & Background Services](lessons/background-notifications) | [Exit Ticket](https://goo.gl/forms/u4gaaMU4m7q6nTBo2) |
+|Ramona| 2016-12-04 | -- | [Notifications & Background Services](lessons/background-notifications) | [Exit Ticket](https://goo.gl/forms/u4gaaMU4m7q6nTBo2) |
 
 
 # Unit 3
