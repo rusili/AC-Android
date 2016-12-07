@@ -25,6 +25,7 @@
 |Ramona| 2016-12-04 | -- | [Notifications & Background Services](lessons/background-notifications) | [Exit Ticket](https://goo.gl/forms/u4gaaMU4m7q6nTBo2) |
 |Jonathan| 2016-12-05 | | [Design Patterns](lessons/design-patterns/README.md ) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLScsf7PY6Ek_kS091tSAjmeAQCJWeDN4g_4PgiBmroCUG0hkRQ/viewform) |
 |Jonathan| 2016-12-06 | | [Test Review](lessons/apps-from-scratch/ThirdDay.md) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSd4gViwdQFt5xikmEefJD7pDlNs85tCCb9ZORctQxbFbjZBpQ/viewform) |
+|Jonathan| 2016-12-06 | | [Test Review](lessons/apps-from-scratch/ThirdDay.md) | |
 
 # Unit 3
 
