@@ -6,6 +6,12 @@
 
 ## Classes
 
+# Unit 5
+
+|Instructor |  Date      |Prework| Lesson |Exit Ticket|
+|:----------:|:----------:|:--------:|:--:|:--:|
+|Ramona| 2016-12-11 | | [Solving Technical Questions](lessons/whiteboarding) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeQZVcP47HOwxbLeSx4romL6TrN9xYmbkkYF8L7SazH9ZcSPw/viewform?c=0&w=1) |
+
 # Unit 4
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
@@ -26,6 +32,7 @@
 |Jonathan| 2016-12-05 | | [Design Patterns](lessons/design-patterns/README.md ) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLScsf7PY6Ek_kS091tSAjmeAQCJWeDN4g_4PgiBmroCUG0hkRQ/viewform) |
 |Jonathan| 2016-12-06 | | [Test Review](lessons/apps-from-scratch/ThirdDay.md) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSd4gViwdQFt5xikmEefJD7pDlNs85tCCb9ZORctQxbFbjZBpQ/viewform) |
 |Jonathan| 2016-12-06 | | [Test Review](lessons/apps-from-scratch/ThirdDay.md) | |
+
 
 # Unit 3
 
