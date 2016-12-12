@@ -11,7 +11,7 @@
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
 |:----------:|:----------:|:--------:|:--:|:--:|
 |Ramona| 2016-12-11 | | [Solving Technical Questions](lessons/whiteboarding) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeQZVcP47HOwxbLeSx4romL6TrN9xYmbkkYF8L7SazH9ZcSPw/viewform?c=0&w=1) |
-
+|Jonathan| 2016-12-12 | |Model - View - Controller Revisited | Exit Ticket |
 # Unit 4
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
