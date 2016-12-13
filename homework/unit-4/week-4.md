@@ -8,7 +8,7 @@ The purpose of this project is to create an [Android Neko Easter Egg](http://www
 
 ### Requirements
 
-* Use `IntentService`, `BroadcastReceiver` and `AlarmManager` to display a notification to the user than a new cat has arrived. Every time a new cat arrives, add it to the user's collection (SQLite database).
+* Use `IntentService`, `BroadcastReceiver` and `AlarmManager` to display a notification to the user that a new cat has arrived. Every time a new cat arrives, add it to the user's collection (SQLite database).
 * The app must have at least one `Activity` -- more if it makes sense. The activity should display all of the cats that have been collected so far in a grid-layout [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/GridLayoutManager.html).
     * Each `RecyclerView` item should include an icon/image (try a google search for [open source icon packs](http://www.flaticon.com/free-icons/cat_1667)) of the cat and the cat's name.
     * Clicking on the item allows the user to edit the cat's name. The edited name is then stored to the database and displayed whenever the user opens the app in the future.
