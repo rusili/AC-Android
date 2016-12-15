@@ -13,7 +13,7 @@
 |Ramona| 2016-12-11 | | [Solving Technical Questions](lessons/whiteboarding) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeQZVcP47HOwxbLeSx4romL6TrN9xYmbkkYF8L7SazH9ZcSPw/viewform?c=0&w=1) |
 || 2016-12-12 | |Extended Office Hours ||
 |Jonathan| 2016-12-13 | |[Model - View - Controller Revisited](https://github.com/C4Q/AC3.3/tree/master/lessons/mvp_revisited) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLSfAwmh4uN4wvCONtY-fvhWJlgJLQTLjljdmpOD2Vwk8T9R7cA/viewform) |
-|Jonathan| 2016-12-14 | |Practical Exam Portion Redo | Exit Ticket |
+|Jonathan| 2016-12-14 | |Practical Exam Portion Redo | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSdba3xZkAqlZ3uupdQf7D47JKE9I8PB0EcIrJGJ_coW7IAI3Q/viewform) |
 # Unit 4
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
