@@ -47,6 +47,25 @@ We will begin by reviewing two common O(n<sup>2</sup>) algorithms because they a
 |Quicksort | O(nlog(n))
 
 
+## Bubble Sort
+
+In video form:
+
+[![Bubble Sort](http://img.youtube.com/vi/nBBMunN4_Fs/0.jpg)](https://www.youtube.com/watch?v=nBBMunN4_Fs "Insertion Sort")
+
+What bubble sort does is look at at each pair of numbers.  If they are ordered correctly, we keep them in the same order.  Otherwise, we swap them.  Then, we go back to the start of the list and repeat. We keep doing this until we can run through the array without making any swaps. This algorithm gets its name from the way values eventually "bubble" up to their proper position in the sorted array.
+
+[Bubble Sort Demo](https://www.youtube.com/watch?v=8Kp-8OGwphY)
+
+> Exercise: Write a pseudocode process for how bubble sort would work.
+
+> Exercise: Implement bubble sort in Java.
+
+> Exercise: What is the worst-case runtime of bubble sort? Can you think of any strategies to make it more efficient?
+
+> Exercise: Run your three test methods against your bubble sort algorithm to confirm that your implementation is correct.
+
+
 ## Insertion Sort
 
 Insertion sort is a fairly intuitive algorithm for sorting a list.
@@ -79,26 +98,6 @@ Here's a step by step process for how that would work:
 > Exercise: What is the worst-case runtime of insertion sort? Can you think of any strategies to make it more efficient?
 
 > Exercise: Write three test methods for your sorting algorithm and run them to confirm that your implementation is correct.
-
-
-## Bubble Sort
-
-In video form:
-
-[![Bubble Sort](http://img.youtube.com/vi/nBBMunN4_Fs/0.jpg)](https://www.youtube.com/watch?v=nBBMunN4_Fs "Insertion Sort")
-
-What bubble sort does is look at at each pair of numbers.  If they are ordered correctly, we keep them in the same order.  Otherwise, we swap them.  Then, we go back to the start of the list and repeat. We keep doing this until we can run through the array without making any swaps. This algorithm gets its name from the way values eventually "bubble" up to their proper position in the sorted array.
-
-[Bubble Sort Demo](https://www.youtube.com/watch?v=8Kp-8OGwphY)
-
-> Exercise: Write a pseudocode process for how bubble sort would work.
-
-> Exercise: Implement bubble sort in Java.
-
-> Exercise: What is the worst-case runtime of bubble sort? Can you think of any strategies to make it more efficient?
-
-> Exercise: Run your three test methods against your bubble sort algorithm to confirm that your implementation is correct.
-
 
 ## Merge Sort
 
