@@ -119,11 +119,11 @@ The following diagram shows the complete merge sort process for an example array
 
 ![Merge sort](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/300px-Merge_sort_algorithm_diagram.svg.png)
 
-> Exercise: Implement merge sort in Java. You can use the following method stubs + helper to get started:
+> Exercise: Implement merge sort in Java. If you like, you can use the following method stubs + helper to get started:
 
 ```java
 public class MergeSort {
-
+    
     public static void main(String[] args) {
         int[] array = {108, 42, 3, 12, 19, 22, 200, 16};
 
@@ -136,22 +136,22 @@ public class MergeSort {
         System.out.println();
     }
 
-    public static void mergeSort(int[] array, int l, int r) {
-        if (l < r) {
+    public static void mergeSort(int[] array, int leftIndex, int rightIndex) {
+        if (leftIndex < rightIndex) {
             // Find the middle point
-            int m = (l + r) / 2;
+            int middleIndex = (leftIndex + rightIndex) / 2;
 
             // Sort first and second halves
-            mergeSort(array, l, m);
-            mergeSort(array, m + 1, r);
+            mergeSort(array, leftIndex, middleIndex);
+            mergeSort(array, middleIndex + 1, rightIndex);
 
             // Merge the sorted halves
-            merge(array, l, m, r);
+            merge(array, leftIndex, middleIndex, rightIndex);
         }
     }
 
-    public static void merge(int[] array, int l, int m, int r) {
-        // TODO: implement merge!
+    public static void merge(int[] array, int leftIndex, int middleIndex, int rightIndex) {
+        // TODO merge the sorted halves!
     }
 }
 ```
