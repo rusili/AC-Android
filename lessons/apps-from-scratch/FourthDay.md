@@ -18,8 +18,7 @@ your application working on.
 - In your activity, you must have a fragment.
 - In this fragment, you must have a view that scrolls content.
 - The user must be able to scroll through each of the house listings returned from the url.
-- For each house, you must show the style, price and location.
-- The view that displays all the house information should be 150dp in height.
+- For each house, you must show the style, price and location in a view that is 150dp in height.
 
 The url is dynamic. If you are receiving the same content each time you go to that 
 website, you should verify your browser / app is not caching the result. 
