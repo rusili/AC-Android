@@ -8,7 +8,7 @@
 We will be building an app using a JSON server  
 We will be using an interface at the following website:
 
-[Test Json](http://http://jsjrobotics.nyc/cgi-bin/class_12_20_2016.pl)
+[Test Json](http://jsjrobotics.nyc/cgi-bin/class_12_20_2016.pl)
 
 Your assignment is to build an Android application.
 It must run on a Nexus 5 Api 25 Emulator, or any cell phone you can demonstrate 
