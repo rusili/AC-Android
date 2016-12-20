@@ -15,7 +15,7 @@
 |Jonathan| 2016-12-13 | |[Model - View - Controller Revisited](https://github.com/C4Q/AC3.3/tree/master/lessons/mvp_revisited) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLSfAwmh4uN4wvCONtY-fvhWJlgJLQTLjljdmpOD2Vwk8T9R7cA/viewform) |
 |Jonathan| 2016-12-14 | |Practical Exam Portion Redo | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSdba3xZkAqlZ3uupdQf7D47JKE9I8PB0EcIrJGJ_coW7IAI3Q/viewform) |
 |Ramona| 2016-12-18 | | [Sorting](lessons/sorting) | [Exit Ticket](https://goo.gl/forms/KXgXe2dmiSvBCgzq1) |
-|Jonathan| 2016-12-19 | [Prework](pre-work/12-19-2016.md) |Http Revisited | Exit Ticket |
+|Jonathan| 2016-12-19 | [Prework](pre-work/12-19-2016.md) | [Http Revisited](lessons/http-revisted) | Exit Ticket |
 
 
 # Unit 4
