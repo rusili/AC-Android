@@ -16,7 +16,7 @@
 |Jonathan| 2016-12-14 | |Practical Exam Portion Redo | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSdba3xZkAqlZ3uupdQf7D47JKE9I8PB0EcIrJGJ_coW7IAI3Q/viewform) |
 |Ramona| 2016-12-18 | | [Sorting](lessons/sorting) | [Exit Ticket](https://goo.gl/forms/KXgXe2dmiSvBCgzq1) |
 |Jonathan| 2016-12-19 | [Prework](pre-work/12-19-2016.md) | [Http Revisited](lessons/http-revisted) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLScQkMzniJUXGk4i5zrnq_Y4wT6V2nHJPC0esLglUyt7KMpPjQ/viewform) |
-|Jonathan| 2016-12-20 | | [App from Scratch](lessons/apps-from-scratch/FourthDay.md) | Exit Ticket |
+|Jonathan| 2016-12-20 | | [App from Scratch](lessons/apps-from-scratch/FourthDay.md) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSdaGPYCfBVlrK3mg8hJviELFB9vO0WPH0yW2Pc5gwyNNndCEA/viewform) |
 
 # Unit 4
 
