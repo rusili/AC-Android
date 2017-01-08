@@ -35,7 +35,9 @@ A secondary purpose of this project is to get better at team project workflow an
 * Each team must use a Trello board to plan and track work on this project. Please submit a link to your team's Trello board by the end of class today using the meeting form below.
 
 ### Bonus features
-* Take a picture (i.e. open the camera) from within the app.
+* Architect your app according to MVC principles.
+* Unit test your model and/or controller classes.
+* Allow the user to take a picture (i.e. open the camera) from within the app.
 * Allow user to choose from different fonts and text colors.
 * Implement your own custom or composite views.
 * Research Material Design and create a beautiful, consistent UI that adheres to Material principles.
