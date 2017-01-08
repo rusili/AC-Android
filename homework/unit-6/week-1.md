@@ -21,7 +21,7 @@ A secondary purpose of this project is to get better at team project workflow an
 - Did you meet deadlines in a timely manner and contribute a fair share to the project?
 - Were you present at and actively participating in team meetings?
 - Did you exhibit good research abilities and were you capable of working well independently?
-- Did you collaborate well with other team members and work well with the team in debugging, distributing responsibilities and problem solving.
+- Did you collaborate well with other team members and work well with the team in debugging, distributing responsibilities and problem solving?
 
 ### Requirements
 
