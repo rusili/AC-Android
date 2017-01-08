@@ -16,7 +16,7 @@ Users should be able to:
 - Save a meme to the device's photo gallery.
 - Share the meme using other social apps (such as Hangouts, Slack or Twitter).
 
-A secondary purpose of this project is to get better at team project workflow and collaboration in preparation for your final portfolio projects. Each team member will complete a [Google form](https://goo.gl/forms/HgQvPiyR6esh1ePt2) to share peer feedback for the teamwork component of this project. Your peers (and yourself) will be asked to evaluate you on:
+A secondary purpose of this project is to get better at team project workflow and collaboration in preparation for your final portfolio projects. Each team member will complete a [Google form](https://goo.gl/forms/HgQvPiyR6esh1ePt2) to share peer feedback for the teamwork component of this project. Your peers (and yourself) will be asked to evaluate your performance during the project on:
 
 - Did you meet deadlines in a timely manner and contribute a fair share to the project?
 - Were you present at and actively participating in team meetings?
@@ -38,7 +38,7 @@ A secondary purpose of this project is to get better at team project workflow an
 * Architect your app according to MVC principles.
 * Unit test your model and/or controller classes.
 * Allow the user to take a picture (i.e. open the camera) from within the app.
-* Allow user to choose from different fonts and text colors.
+* Allow the user to choose from different fonts and text colors.
 * Implement your own custom or composite views.
 * Research Material Design and create a beautiful, consistent UI that adheres to Material principles.
 * Integrate a web API of your choice.
