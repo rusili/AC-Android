@@ -50,6 +50,8 @@ Students will work **in teams** to complete this project over the next **two wee
 
 ### Meeting Agenda
 
+[Link to groups](groups.md)
+
 * Review project requirements as a team.
 * Nominate a tech lead - preference goes to members who haven't served yet as leads on their previous teams.
 * Define what meme type each team member will be implementing, how each feature will be separated/integrated, and any other details relevant to the features you're completing.
