@@ -8,14 +8,14 @@
 	Meltem Yildirim,
 	Queena Bergen,
 	Yojana Sharma,
-	Josiel  Lopez,
-	Akasha Archer
+	Josiel  Lopez
 	
 **Group 3**	
 	hakeem sackes-bramble,
 	Wesnie Marcelin,
 	Mila Urakhchinskaya,
-	Shawn Speaks
+	Shawn Speaks,
+	Akasha Archer
 	
 **Group 4**	
 	Leigh Douglas,
