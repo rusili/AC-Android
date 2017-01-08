@@ -1,3 +1,16 @@
+# Unit 6
+
+|Week|Date Assigned|Homework|Due Date|
+|:----------:|:----------:|:--------:|:--:|
+|-1 + 1|2016-01-08|[Meme Studio](https://github.com/C4Q/AC3.3/blob/master/homework/unit-6/week-1.md)|2016-01-21 at 9pm|
+
+# Unit 5
+
+|Week|Date Assigned|Homework|Due Date|
+|:----------:|:----------:|:--------:|:--:|
+|3 + 4|2016-12-17|[Java Bootcamp / Now Feed Redux](https://github.com/C4Q/AC3.3/blob/master/homework/unit-5/week-3-4.md)|2016-01-07 at 9pm|
+
+
 # Unit 4
 
 |Week|Date Assigned|Homework|Due Date|
