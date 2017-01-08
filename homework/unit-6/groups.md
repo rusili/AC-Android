@@ -8,7 +8,8 @@
 	Meltem Yildirim,
 	Queena Bergen,
 	Yojana Sharma,
-	Josiel  Lopez
+	Josiel  Lopez,
+	Akasha Archer
 	
 **Group 3**	
 	hakeem sackes-bramble,
