@@ -16,6 +16,7 @@ Users should be able to:
 - Save a meme to the device's photo gallery.
 - Share the meme using other social apps (such as Hangouts, Slack or Twitter).
 
+### Teamwork
 A secondary purpose of this project is to get better at team project workflow and collaboration in preparation for your final portfolio projects. Each team member will complete a [Google form](https://goo.gl/forms/HgQvPiyR6esh1ePt2) to share peer feedback for the teamwork component of this project. Your peers (and yourself) will be asked to evaluate your performance during the project on:
 
 - Did you meet deadlines in a timely manner and contribute a fair share to the project?
@@ -23,7 +24,7 @@ A secondary purpose of this project is to get better at team project workflow an
 - Did you exhibit good research abilities and were you capable of working well independently?
 - Did you collaborate well with other team members and work well with the team in debugging, distributing responsibilities and problem solving?
 
-### Requirements
+### Feature requirements
 
 * The app should should allow the user to access images from the device's photo gallery -- this isn't something we've covered in class, so it will require independent research!
 * Save the completed meme to device storage. Reading / writing from storage should happen on a background thread.
