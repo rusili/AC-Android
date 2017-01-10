@@ -20,7 +20,7 @@
 |Jonathan| 2017-1-3 | | [App From Scratch](https://github.com/C4Q/AC3.3/blob/master/lessons/apps-from-scratch/FifthDay.md) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLSdhSdT4GIjsvsECJxQ5BDyhZ3ZVeO8Bhm4XNqyHja4p2xYWGA/viewform) |
 |Erick| 2017-1-7 | -- | [Design Patterns 2](lessons/design-patterns2) | [Exit Ticket](https://goo.gl/forms/gIq6JNOr4Eftl6f03) |
 |Ramona| 2017-01-08 | -- | [Hash Tables](lessons/hash-tables) | [Exit Ticket](https://goo.gl/forms/t55VLaOFUDY4dbx63) |
-|Jonathan| 2017-1-3 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | Exit Ticket |
+|Jonathan| 2017-1-09 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | Exit Ticket |
 
 
 # Unit 4
