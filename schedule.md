@@ -21,6 +21,7 @@
 |Erick| 2017-1-7 | -- | [Design Patterns 2](lessons/design-patterns2) | [Exit Ticket](https://goo.gl/forms/gIq6JNOr4Eftl6f03) |
 |Ramona| 2017-01-08 | -- | [Hash Tables](lessons/hash-tables) | [Exit Ticket](https://goo.gl/forms/t55VLaOFUDY4dbx63) |
 |Jonathan| 2017-1-09 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSckCQmjcW998YiqdVsXZ1OMy8PH5jXNFb9gcI_NSs_riParyg/viewform) |
+|Jonathan| 2017-1-10 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSe18kPNG4W8MYtBAJxENNAaNnef4sb3sVLfOn_L6XsGdTEevA/viewform) |
 
 
 # Unit 4
