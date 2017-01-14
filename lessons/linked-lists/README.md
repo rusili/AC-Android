@@ -3,9 +3,12 @@
 
 # Objectives
 
-- Create a linked list class and implement common methods: Add a node, remove a node, access a node, find a node. 
-- Create a stack class, create a queue class and implement common methods.
+- Review linked lists and implementations of their common methods. 
+- Review stacks and queues and implementations of their common methods. 
 - Identify the runtime complexity of each implemented operation.
+- Understand the difference between singly vs. doubly linked lists.
+- Understand a circular linked list and its implementation.
+- Practice traversing linked lists to search for a target value and/or return the list length.
 
 # Resources
 
@@ -16,16 +19,6 @@
 - [CS50 - Queues](https://study.cs50.net/queues)
 
 # Lecture
-
-## A quick Array review...
-
-An array is a data structure that is designed to store a group of objects of the same or different types. Arrays can hold primitives as well as references. Each item, or value, in an array is called an element, and each element is accessed by its integer index. 
-
-Arrays offer constant time access to any value in the array.
-
-Arrays are not very dynamic. Adding or removing an element near the middle of a list means that a large number of elements in the array need to be shifted to make room for the newly added element or to fill in the gap created by the deleted element.
-
-Arrays cannot expand or shrink. When the number of elements in the data structure exceeds the size of the backing array, a new array needs to be allocated and the data from the old array needs to be copied into the new array. This is an expensive operation.
 
 ## Linked Lists
 
@@ -44,11 +37,80 @@ A linked list is a dynamic data structure, allocating the needed memory while th
 
 One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at the head and follow the references until you get to that item. Also, they have a tendency to use more memory than an array as the references require extra storage space.
 
+## Traversal
+
+A visit to every node of a data structure is called a **traversal**.
+
+To traverse a singly-linked list, we begin at the first node and follow each next link until we come to the end:
+
+```
+// Pseudocode
+
+ current node = first node
+ while current node is not null
+     (do something with current node's data)
+     current node = next node
+```
+
+### Exercises:
+
+1. Write a method `listLength(Node list)` that receives the head of a singly linked list and returns the number of nodes in the linked list. What is the worst-case runtime complexity of your algorithm?
+
+```java
+Node next;
+Object data;
+
+public Node(Object data) { 
+	this.value = data;
+	this.next = null ;
+} 
+
+Node list = new Node("Apple");
+list.next = new Node("Orange") 
+list.next.next = new Node("Banana");
+list.next.next.next = new Node("Carrot");
+list.next.next.next.next = new Node("Beet");
+ 
+listLength(list); // returns 5 
+``` 
+
+2. Write a method called `searchLinkedList(Node head, Object target)` that receives the head of a linked list and target search value, and returns `true` if the target is in the list, or `false` if the target is not in the list. What is the worst-case runtime complexity of your algorithm?
+
+```java
+searchLinkedList(list, "Apple"); // returns true
+searchLinkedList(list, "Pear"); // returns false
+```
+
 ## Types of linked lists
 
-- **Singly-linked**: simplest form as described above.
-- **Doubly-linked**: a list that has two references, one to the next node and another to previous node.
-- **Circular-linked**: the last node of the list points back to the first node (or the head) of the list.
+### Singly-linked lists
+
+In a singly-linked list every node contains some data and a link to the next node, which allows to keep the structure.
+
+![singly linked](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/816px-Singly-linked-list.svg.png)
+
+### Doubly-linked lists
+
+In a doubly linked list, each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence.
+
+![doubly linked](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/1220px-Doubly-linked-list.svg.png)
+
+### Circular linked lists
+
+A **circular linked list** is a variation of linked list in which the first element points to the last element and the last element points to the first element. Both singly -linked lists and doubly-linked lists can be circular.
+
+![circular linked](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/700px-Circularly-linked-list.svg.png)
+
+- In a singly-linked list, the `next` pointer of the last node points to the head node.
+- In a doubly-linked list, the `next` pointer of the last node points to the head node and the previous pointer of the head node points to the last node.
+
+### Exercises
+
+1. Write a method `insertAfter(Node node, Node newNode)` that inserts `newNode` directly after the existing `node` in a singly-linked list.
+
+2. Modify your `listLength(Node list)` and `searchLinkedList(Node list, Object target)` solutions to handle a circular singly-linked list.
+
+3. Can you traverse a singly-linked list backwards? What about a circular singly-linked list?
 
 ## Stacks
 
@@ -72,4 +134,10 @@ Queue interface:
 - `boolean isEmpty()` - return `true` if no items, otherwise `false`.
 - `E front()` - return item at the front of the queue without removing it, O(1).
 
-## [Exercises](exercises.md)
+### Exercises
+
+1.  Write a `moveToTop` function that takes in a queue and a value, and moves that value to the top of the queue.
+
+2. Review your solutions to and complete any of the [List, Stack and Queue Implementation Exercises](exercises.md) that you haven't already.
+
+## [Exit Ticket](https://goo.gl/forms/RzGGMo5rGUPzC0y62)

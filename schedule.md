@@ -22,6 +22,7 @@
 |Ramona| 2017-01-08 | -- | [Hash Tables](lessons/hash-tables) | [Exit Ticket](https://goo.gl/forms/t55VLaOFUDY4dbx63) |
 |Jonathan| 2017-1-09 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSckCQmjcW998YiqdVsXZ1OMy8PH5jXNFb9gcI_NSs_riParyg/viewform) |
 |Jonathan| 2017-1-10 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSe18kPNG4W8MYtBAJxENNAaNnef4sb3sVLfOn_L6XsGdTEevA/viewform) |
+|Ben| 2017-1-15 | | [Linked Lists, Stacks and Queues](https://github.com/C4Q/AC3.3/tree/master/lessons/linked-lists) | [Exit Ticket](https://goo.gl/forms/RzGGMo5rGUPzC0y62) |
 
 
 # Unit 4
