@@ -62,4 +62,4 @@ Where else have we seen generics in the past?
 
 [Generics Exercise](generics_exercise_a.md)
 
-[Exit Ticket]()
+[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1GKtumVacEZZjqbKCirDKOAYSASNrlH0aW5NXHi6r58M/edit)
