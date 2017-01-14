@@ -60,6 +60,6 @@ Where else have we seen generics in the past?
  ```
 
 
-[Generics Exercise](/generics_exercise)
+[Generics Exercise](generics_exercise_a.md)
 
 [Exit Ticket]()
