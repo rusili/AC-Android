@@ -89,9 +89,9 @@ a bundle with putSerializable. Then the data can be read by the receiver and inf
 # Assignment
 
 Your task is to build an activity that plays a single song, looping in the background.
-When the activity starts, it should start or connect to a service running in the background.
-The activity must determine whether the service is already playing a song.
-If the service is playing a song already, the activity should show a pause button.
-If the service is not playing a song already, the activity should show a play button.
-If the service is playing, there should be a stop service button. When it is clicked, the service should stop.
-If the service is stopped, there should be a disabled stop service button.
+- When the activity starts, it should start or connect to a service running in the background.
+- The activity must determine whether the service is already playing a song.
+- If the service is playing a song already, the activity should show a pause button.
+- If the service is not playing a song already, the activity should show a play button.
+- If the service is playing, there should be a stop service button. When it is clicked, the service should stop.
+- If the service is stopped, there should be a disabled stop service button.
