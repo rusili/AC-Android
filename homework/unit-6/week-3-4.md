@@ -14,7 +14,7 @@ Civic Hall, 118 W. 22nd Street, 12th Floor
 Due by 10:00pm
 
 - Define your app idea, including selecting any external APIs and/or data sets that your app will consume.
-- Create a project Trello board using the AC 3.3 Sprint Template. Make sure all team members have edit access to the board and that the visibility is set to 'Public'. Submit Trello Board link via the Google Form.
+- Create a project Trello board using the [AC 3.3 Sprint Template](https://trello.com/b/pz8oJNK2/ac-3-3-sprint-template). Make sure all team members have edit access to the board and that the visibility is set to 'Public'. Submit Trello Board link via the Google Form.
 - Create feature cards for the project and add them to your Trello board backlog. Give each feature a priority and an estimate and rank them by priority in the backlog.
 - Create at least 3 wireframes (a pencil and paper drawing is ok!) that demonstrate your app's screens.
 - Create a Github repo and add all team members as collaborators. Create a new Android Studio project and push it to the repo. You will submit your GitHub repo link via the Google Form.
