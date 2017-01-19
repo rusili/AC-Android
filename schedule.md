@@ -24,7 +24,7 @@
 |Jonathan| 2017-1-10 | | [Custom Views](https://github.com/C4Q/AC3.3/tree/master/lessons/custom-views) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSe18kPNG4W8MYtBAJxENNAaNnef4sb3sVLfOn_L6XsGdTEevA/viewform) |
 |Abass| 2017-1-14| | [Generics](https://github.com/C4Q/AC3.3/blob/master/lessons/android_generics/generics.md) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1GKtumVacEZZjqbKCirDKOAYSASNrlH0aW5NXHi6r58M/edit) |
 |Ben| 2017-1-15 | | [Linked Lists, Stacks and Queues](https://github.com/C4Q/AC3.3/tree/master/lessons/linked-lists) | [Exit Ticket](https://goo.gl/forms/RzGGMo5rGUPzC0y62) |
-|Jonathan | 2017-1-18 | -- | [Services](lessons/serialization) | Exit Ticket |
+|Jonathan | 2017-1-18 | -- | [Services](lessons/serialization) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSdGr9J9ZAotz8I_Q9t5FjZtVgoeMcAWnRimUj-13G_OK0lMag/viewform) |
 
 
 # Unit 4
