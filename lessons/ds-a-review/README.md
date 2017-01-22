@@ -24,7 +24,7 @@ The goal of this lesson is to practice and prepare for next Saturday's DS+A Ques
 
 ![greyscale image](https://processing.org/tutorials/2darray/imgs/points.jpg)
 
-**2)** Write a program that returns a two-dimensional array that represents an 8×8 grid, using newline characters to separate lines. At each element there is either a space or a “#” character. The characters should form a chess board. Iterating over the entire 2D array and printing each character should show something like this:
+**2)** Write a method that returns a two-dimensional array that represents an 8×8 grid, using newline characters to separate lines. At each element there is either a space or a “#” character. The characters should form a chess board. Iterating over the entire 2D array and printing each character should show something like this:
 
 ```
      # # # #
@@ -37,7 +37,7 @@ The goal of this lesson is to practice and prepare for next Saturday's DS+A Ques
     # # # #
 ```
 
-When you have a program that generates this pattern, define a variable `int size = 8` and change the program so that it works for any size, outputting a grid of the given width and height.
+When you have a method that generates this pattern, define a parameter `int size` so that it works for any size (not just 8), outputting a grid of the given width and height.
 
 **3)** Write a method `int[][] addPairs(int[] array, int k)` that receives an array of numbers and returns all the pairs that sum up to a specified value `k`. What is the worst-case runtime complexity of your solution?
 
