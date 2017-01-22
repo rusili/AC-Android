@@ -7,6 +7,9 @@
 - Prepare for the DS+A Quest! 
 
 # Resources
+- [Two-Dimensional Arrays](https://processing.org/tutorials/2darray/)
+- [Khan Academy - Recursion](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion)
+- [AC 3.3 Linked Lists Lesson](../linked-lists)
 - [Big-O Cheat Sheet](http://bigocheatsheet.com/)
 
 # Lecture
@@ -48,7 +51,9 @@ pairSums(new int[]{0, 2, 4, 6, 8, 10}, 10) // returns {{0, 10}, {2, 8}, {4, 6}}
 
 ## Recursion
 
-**1)** Given a string, compute recursively (no loops) a new string where all the lowercase 'x' chars have been changed to 'y' chars.
+**1)** How would you implement a program that counts from 1 to 10, printing out each number, without using loops?
+
+**2)** Given a string, compute recursively (no loops) a new string where all the lowercase 'x' chars have been changed to 'y' chars.
 
 ```java
 changeXY("codex") → "codey"
@@ -56,7 +61,7 @@ changeXY("xxhixx") → "yyhiyy"
 changeXY("xhixhix") → "yhiyhiy"
 ```
 
-**2)** Write a method `String removeDuplicates(String input)` that receives a string and **RECURSIVELY** removes any **CONSECUTIVE** duplicates.
+**3)** Write a method `String removeDuplicates(String input)` that receives a string and **RECURSIVELY** removes any **CONSECUTIVE** duplicates.
 
 ```java
 removeDuplicates("access"); // returns "aces"
@@ -64,7 +69,11 @@ removeDuplicates("code"); // returns "code"
 removeDuplicates("awwhhhh yeahhhhhhhh"); // returns "awh yeah"
 ```
 
-**3)** Complete [isEvenWord()](https://dl.dropboxusercontent.com/u/24773027/Screen%20Shot%202015-11-03%20at%2011.40.57%20AM.png).
+**4)** Complete [isEvenWord()](https://dl.dropboxusercontent.com/u/24773027/Screen%20Shot%202015-11-03%20at%2011.40.57%20AM.png).
+
+**5)** Why use recursion at all when you could use loops instead? Check [this Stack Overflow thread](https://stackoverflow.com/questions/3021/what-is-recursion-and-when-should-i-use-it) for an interesting conversation on the topic.
+
+**6)** Where are some places where you see recursion in the real world, or where do you see the possibility of using recursion to help you solve some problem in your daily life?
 
 ## Linked Lists, Stacks and Queues
 
