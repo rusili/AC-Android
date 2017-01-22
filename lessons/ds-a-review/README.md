@@ -133,3 +133,5 @@ searchLinkedList(list, "Pear"); // returns false
 ## Tries (advanced)
 
 If you're feeling comfortable with the above DS + A review material, move ahead to the [Trie project](tries.md).
+
+## [Exit Ticket](https://goo.gl/forms/lcp6RDbuOALHLIha2)
