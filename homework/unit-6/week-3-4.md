@@ -24,4 +24,4 @@ Due by 10:00pm
 **Saturday, February 4, 2017**
 Due by 10:00pm
 - Submit your MVP by 10:00pm.
-- Be ready to demo the following afternoon!
+- Be ready to demo the following afternoon! Please review [the presentation guidelines](https://docs.google.com/presentation/d/1j3xeG9RZaw1KUueBTE3iUgveHP5_DK-kS3Xm6fnBfVk/edit?usp=sharing) and be prepared for the demo.
