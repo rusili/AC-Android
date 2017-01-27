@@ -20,6 +20,7 @@ Due by 10:00pm
 - Create a Github repo and add all team members as collaborators. Create a new Android Studio project and push it to the repo. You will submit your GitHub repo link via the Google Form.
 - Create a team Slack channel.
 
+## [Google Form](https://goo.gl/forms/Clrku9yeqUXCg2UF3)
 
 **Saturday, February 4, 2017**
 Due by 10:00pm
