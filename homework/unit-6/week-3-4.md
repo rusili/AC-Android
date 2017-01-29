@@ -26,3 +26,9 @@ Due by 10:00pm
 Due by 10:00pm
 - Submit your MVP by 10:00pm.
 - Be ready to demo the following afternoon! Please review [the presentation guidelines](https://docs.google.com/presentation/d/1j3xeG9RZaw1KUueBTE3iUgveHP5_DK-kS3Xm6fnBfVk/edit?usp=sharing) and be prepared for the demo.
+
+## Team roles
+
+- **Technical Lead - ** In charge of maintaining the health of master branch and ensure that master is always safe to pull from (every commit in master should be a working, non crashing build).  Is responsible for understanding how the pieces of other teammates code talk to each other.  Makes final decisions on project architecture in conversation with other team members, who own specific features.
+- **Project Manager - ** Creates agendas for check-ins with technical and design mentors.  Is responsible for the health of the Trello.  Facilitates standups and retros.  Assigns every feature to a team member - each team member should be assigned MVP features.
+- **Demo Lead - ** Leads the pitch-creation process.  Delegates components of the demo to team members.  Ensures that all pitch drafts are completed on time.
