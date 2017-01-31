@@ -11,7 +11,7 @@
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
 |:----------:|:----------:|:--------:|:--:|:--:|
-|Jonathan | 2017-01-30 | -- | NYC Big Apps | Exit Ticket |
+|Jonathan | 2017-01-30 | -- | [NYC Big Apps](lessons/apps-from-scratch/NYC-Big-Apps.md) | Exit Ticket |
 
 # Unit 5
 
