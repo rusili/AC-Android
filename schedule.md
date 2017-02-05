@@ -16,6 +16,8 @@
 |Jonathan | 2017-01-23 | -- | [Offline and Navigation](lessons/offline-and-navigation) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLScMOh4lyZK7xFESDyiexD2fVtwMyGeHRZLef6z6d01oEIXADQ/viewform) |
 |Jonathan | 2017-01-30 | -- | [NYC Big Apps](lessons/apps-from-scratch/NYC-Big-Apps.md) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLSe3QiK9j7OHxT0PjFeJ_Zc3NqLIRCcff-CL6p9wnkuCZcSPrw/viewform) |
 |Jonathan | 2017-02-01 | -- | [NYC Big Apps](lessons/apps-from-scratch/NYC-Big-Apps.md) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLSdq-HdYghRShMIAJlF90jzmOSc8FFrE9TMv-GgE3QS50LKskA/viewform) |
+|Ramona | 2017-02-05 | -- | [DS+A Review II](lessons/ds-a-review-ii) |  |
+
 # Unit 5
 
 |Instructor |  Date      |Prework| Lesson |Exit Ticket|
