@@ -43,11 +43,12 @@ f. A deck of playing cards.
 
 1) Implement a program that counts from 1 to 10, printing out each number, without using loops.
 
-2) Write a recursive method called `recursiveZip` that zips two arrays. You should not use `for` loops, `while` loops, or any other non-recursive array methods.
+2) Write a recursive method called `recursiveZip` that zips two strings. You should not use `for` loops, `while` loops, or any other non-recursive methods.
 
 ```
-recursiveZip({1, 2, 3}, {4, 5, 6}); // {1, 4, 2, 5, 3, 6}
-recursiveZip({"cat", "dog", "bat"}, {"bear", "frog", "mouse", "rabbit", "elephant"}); // {"cat", "dog", "bat", "bear", "frog", "mouse", "rabbit", "elephant"}
+recursiveZip("cat", "dog"); // "cdaotg"
+recursiveZip("acegi", "bdfhj"); // "abcdefghij"
+
 ```
 
 3)  Given a string that represents a [Roman Numeral](http://literacy.kent.edu/Minigrants/Cinci/romanchart.htm), write a recursive method that will print the decimal representation of the number.
