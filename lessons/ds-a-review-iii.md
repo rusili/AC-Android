@@ -67,3 +67,13 @@ Represents the number 34, and will be returned in an array: [3, 4]
 
 
 9) Describe at least three properties of a node in a doubly linked list.
+
+### Recursion Problems
+
+1) Write a recursive function to reverse the words in a string, i.e., ”cat is running” becomes ”running is cat”.
+
+2) [Hard] A word is considered "elfish" if it contains the letters: `e`, `l`, and `f` in it, in any order. 
+
+For example, we would say that the following words are elfish: `whiteleaf`, `tasteful`, `unfriendly`, and `waffles`, because they each contain those letters.
+- Write a recursive function `elfish(String word)` that, given a word, returns a boolean telling us if that word is elfish or not.
+- Write a more generalized recursive function called `xish(String first, String second)` that, given two words, returns true if all the letters of the first word are contained in the second.
