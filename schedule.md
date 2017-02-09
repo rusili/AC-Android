@@ -19,6 +19,7 @@
 |Ramona | 2017-02-05 | -- | [DS+A Review II](lessons/ds-a-review-ii) |  |
 |Jonathan | 2017-02-06 | -- | [Final Exam Prep](lessons/final-exam/README.md) | [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSe9OzPEGkXF_eh-RfptkI_eCqpOkoP6Fvjxgv31gwGXx2tEsg/viewform) |
 |Jonathan | 2017-02-07 | -- | [Tiered App From Scratch](lessons/final-exam/Tiered-App-From-Scratch.md) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/e/1FAIpQLSeKAKIFg2Bl2XWqtNQDcKdfYDYPx4MAAFqv9ygYyVICGXebhw/viewform) |
+|Ramona | 2017-02-08 | -- | [Exercises](lessons/ds-a-review-iii.md) | [Exit Ticket](https://goo.gl/forms/Q6sHEPKoMuLOPAmZ2) |
 
 # Unit 5
 
