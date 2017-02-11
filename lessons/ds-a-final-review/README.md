@@ -105,10 +105,8 @@ public class Node {
 1) Given the definition of a `Node` above, implement a linked list data structure with the following interface:
 
 - `void add(int index, Object element)` - inserts `element` at index.
-- `void add(Object element)` - appends `element` to the end of the list.
 - `Object get(int index)` - returns the data at index without removing its node.
 - `Object remove(int index)` - removes the node at index and returns its data.
-- `void set(int index, Object element)` - replaces the data at index in this list with the specified element.
 - `int size()` - return the number of nodes.
 - `boolean isEmpty()` - return `true` if no nodes, otherwise `false`.
 
