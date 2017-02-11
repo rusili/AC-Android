@@ -106,11 +106,11 @@ public class Node {
 
 - `void add(int index, Object element)` - inserts `element` at index.
 - `void add(Object element)` - appends `element` to the end of the list.
-- `Object get(int index)` - returns the item at index without removing it.
-- `Object remove(int index)` - removes the item at index and returns it.
-- `void set(int index, Object element)` - replaces the item at index in this list with the specified item.
-- `int size()` - return the number of items.
-- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
+- `Object get(int index)` - returns the data at index without removing its node.
+- `Object remove(int index)` - removes the node at index and returns its data.
+- `void set(int index, Object element)` - replaces the data at index in this list with the specified element.
+- `int size()` - return the number of nodes.
+- `boolean isEmpty()` - return `true` if no nodes, otherwise `false`.
 
 ## Queues
 
@@ -127,10 +127,10 @@ public class Node {
 
 1) Given the definition of a `Node` above, implement a queue data structure with the following interface:
 - `void enqueue(Object element)` - inserts `element` at the rear of the queue.
-- `Object dequeue()` - remove item from front of queue.
-- `int size()` - return the number of items.
-- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
-- `Object front()` - return item at the front of the queue without removing it.
+- `Object dequeue()` - remove node from front of queue and return its data.
+- `int size()` - return the number of nodes.
+- `boolean isEmpty()` - return `true` if no nodes, otherwise `false`.
+- `Object front()` - return data at the front of the queue without removing its node.
 
 ## Stacks
 
@@ -147,10 +147,10 @@ public class Node {
 
 1) Given the definition of a `Node` above, implement a stack data structure with the following interface:
 - `void push(Object element)` - inserts `element` at the top of the stack.
-- `Object pop()` - remove item at the top of the stack.
-- `int size()` - return the number of items.
-- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
-- `Object top()` - return item at the top of the stack without removing it.
+- `Object pop()` - remove node at the top of the stack and return its data.
+- `int size()` - return the number of nodes.
+- `boolean isEmpty()` - return `true` if no nodes, otherwise `false`.
+- `Object top()` - return data at the top of the stack without removing its node.
 
 ### More Recursion Exercises
 
