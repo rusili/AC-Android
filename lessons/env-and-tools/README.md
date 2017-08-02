@@ -1,7 +1,7 @@
 # Environment and Tools
 
 ## Objectives
-* Install Intelli J
+* Install IntelliJ
 * Install Android Studio
 * Run Java programs on repl.it
 * Set up Github account
@@ -19,9 +19,9 @@
 * [Android Source Code](https://source.android.com/)
 * [Github](https://www.github.com)
 * [Git Manual](https://git-scm.com/docs/user-manual.html)
-*p [Git Install](Git.md)
-* [StackOverflow] (https://stackoverflow.com/)
-* [Slack] (https://slack.com/downloads)
+* [Git Install](Git.md)
+* [StackOverflow](https://stackoverflow.com/)
+* [Slack](https://slack.com/downloads)
 * [IntelliJ Install](IntelliJ.md)
 
 ## Lecture
