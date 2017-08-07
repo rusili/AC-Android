@@ -1,7 +1,7 @@
 # Intro to Java
 - tags: java, data types, strings, math
 
-# Objectives
+## Objectives
 
 - Define programming and programming languages.
 - Describe the components that make up the Java platform.
@@ -10,7 +10,7 @@
 - Use Java to perform basic arithmetic operations.
 - Print output to the console.
 
-# Resources
+## Resources
 
 - [repl.it](https://repl.it/languages/java)
 - [Java History](http://papa.det.uvigo.es/~theiere/cursos/Curso_Java/history.html)
@@ -20,11 +20,11 @@
 - [List of Java keywords (reserved words)](https://en.wikipedia.org/wiki/List_of_Java_keywords)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
-# Lecture
+## Lecture
 
 Welcome! 🌻
 
-## What is programming?
+### What is programming?
 
 Programming is a creative process by which we can instruct a computer in how to do a task.
 
@@ -40,7 +40,7 @@ In a basic way, we could summarize programming as:
 1. Figuring out, step-by-step, how you would solve a problem.
 2. Explaining your solution to the computer in a shared language.
 
-## What is a programming language?
+### What is a programming language?
 
 A programming language is a language designed to be read and written by humans and to be interpreted and carried out by computers.
 
@@ -48,7 +48,7 @@ What are some examples of programming languages?
 
 How are the programs we write interpreted and carried out by computers?
 
-## What is Java?
+### What is Java?
 
 Java is a programming language and computing platform that was released by Sun Microsystems (now Oracle) in 1995.
 
@@ -82,13 +82,13 @@ Some jargon:
 
 * **JDK** - Java Development Kit, contains the basics needed to develop a Java program (including the JRE as well as tools such as javac).
 
-Exercises -
+### Exercises -
 
 1. [Command Line Java](command-line-java.md) (*We'll do this first one together*)
 
 2. [Java Exercises](exercises.md#java)
 
-## Java Output
+### Java Output
 
 To output a string to the console, use `System.out.println(*some string*)`
 
@@ -106,7 +106,7 @@ Go to [repl.it](https://repl.it/languages/java) and try it out!
 [Exercises](exercises.md#printing)
 
 
-## Variables & data types
+### Variables & data types
 
 In programming, **variables** are kinds of values that can be stored and manipulated. 
 
@@ -166,7 +166,7 @@ String hello = "Hello, " + "world!";
 
 [Exercises](exercises.md#data-types)
 
-## Naming & assigning variables
+### Naming & assigning variables
 
 Java is a **strongly-typed** language, meaning variables are of an explicit type when they are assigned. Use `=` to assign a value to a variable.
 
@@ -215,7 +215,7 @@ You can find a full list of reserved words [here](https://docs.oracle.com/javase
 
 [Exercises](exercises.md#assigning)
     
-## Math & Operators
+### Math & Operators
 
 We can use Java to perform basic arithmetic. The order of operations is just like standard arithmetic: parentheses, exponents, multiplication and division, addition and subtraction (PEMDAS).
 
