@@ -1,4 +1,4 @@
-## Command-line Java
+# Command-line Java
 
 The command line is an environment that expects you to type commands, and that executes these one by one and prints out the result.  For example, the `Terminal` app on OSX.
 
