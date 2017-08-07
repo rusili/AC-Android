@@ -114,7 +114,7 @@ A variable's **data type** determines the values it may contain and the operatio
 
 * **boolean** - represents a truth and has only two possible values, `true` or `false`. A boolean can be inverted with the `!` operator. Booleans can also be created by comparing two variables. 
 
-    ```java
+```
 boolean isCar = true;
 boolean areWeThereYet = false;
 boolean answer = 7 > 3;
