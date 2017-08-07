@@ -262,7 +262,8 @@ without an expression guarding its execution.
 
 String comparison
   * When comparing two strings for equality, use the ```.equals()``` method not ```==```. The ```.equals()``` method will check that two Strings have identical content, while ```==``` checks whether both strings have the same in-memory reference.
-```
+
+```java
 String studentName = "John";
 String teacherName = "John";
 
