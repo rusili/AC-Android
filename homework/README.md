@@ -1,24 +1,25 @@
-# Unit 6
+# Homework Assignments
+
+## Unit 6
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
 |-1 + 1|2016-01-08|[Meme Studio](https://github.com/C4Q/AC3.3/blob/master/homework/unit-6/week-1.md)|2016-01-21 at 9pm|
 
-# Unit 5
+## Unit 5
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
 |3 + 4|2016-12-17|[Java Bootcamp / Now Feed Redux](https://github.com/C4Q/AC3.3/blob/master/homework/unit-5/week-3-4.md)|2016-01-07 at 9pm|
 
-
-# Unit 4
+## Unit 4
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
 |1|2016-11-13|[Refactoring + Testing Codelab](https://github.com/C4Q/AC3.3/blob/master/homework/unit-4/week-1.md)|2016-11-19 at 9pm|
 |3 + 4|2016-12-04|[Android Neko Clone](https://github.com/C4Q/AC3.3/blob/master/homework/unit-4/week-4.md)|2016-12-17 at 9pm|
 
-# Unit 3
+## Unit 3
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
@@ -26,7 +27,7 @@
 |2|2016-10-23|[Open-ended Android App](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-2.md)|2016-10-29 at 9pm|
 |3 + 4|2016-10-30|[Now Feed](https://github.com/C4Q/AC3.3/blob/master/homework/unit-3/week-3-4.md)|2016-11-12 at 9pm|
 
-# Unit 2 
+## Unit 2 
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
@@ -34,7 +35,7 @@
 |2|2016-09-25|[Memory Game](https://github.com/C4Q/AC3.3/blob/master/homework/unit-2/week-2.md)|2016-10-01 at 9pm|
 |3 + 4|2016-10-02|[Scientific Calculator](https://github.com/C4Q/AC3.3/blob/master/homework/unit-2/week-3%2B4.md)|2016-10-15 at 9pm|
 
-# Unit 1
+## Unit 1
 
 |Week|Date Assigned|Homework|Due Date|
 |:----------:|:----------:|:--------:|:--:|
@@ -42,8 +43,6 @@
 |2|2016-08-28|[Write a text-based game](https://github.com/C4Q/AC3.3/blob/master/homework/unit-1/week-2.md)|2016-09-03 at 8pm|
 |3|2016-09-04|[signboard project](https://github.com/C4Q/AC3.3/blob/master/homework/unit-1/week-3.md)|2016-09-10 at 8pm|
 |4|2016-09-11|[SlackBot](https://github.com/ramonaharrison/SlackBot) |2016-09-17 at 9pm|
-
-
 
 ##### Feeling stuck? Try reading the [Problem Solving](explanation/w1_q13.md) guide or referencing the [toolkit](../lessons/tools).
 
@@ -55,7 +54,7 @@
 
 3. Add a `.gitignore` file to the project home directory. For our IntelliJ Java projects, it should contain at least:
 
-    ```
+```
 .DS_Store
 out/
 .idea/
@@ -66,7 +65,7 @@ out/
 
 3. Add and make an initial commit. From the project home directory:
 
-    ```
+```
 git add .
 git commit -m "Initial commit"
 ```
@@ -75,18 +74,18 @@ git commit -m "Initial commit"
 
 5. From the "Quick setup" screen that follows, copy the **SSH URL** to your clipboard, which looks like:
 
-    ```
+```
 git@github.com:<YOUR USERNAME>/XX_MM_DD.git
 ```
 
 6. Add remote and push. Return to Terminal and type:
 
-    ```
+```
 git remote add origin <PASTE GITHUB URL>
 git push origin master
 ```
 
-    Refresh the page in your browser and see that GitHub has received your project.
+Refresh the page in your browser and see that GitHub has received your project.
 
 7. When the assignment is complete and all commits are pushed, share the **GitHub repository URL** (begins with https://github.com...) along with your **name** and **ID** through the relevant Google Form -- check the **\#forms** channel on Slack!
 
