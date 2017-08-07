@@ -82,7 +82,7 @@ Some jargon:
 
 * **JDK** - Java Development Kit, contains the basics needed to develop a Java program (including the JRE as well as tools such as javac).
 
-### Exercises -
+### Exercises
 
 1. [Command Line Java](command-line-java.md) (*We'll do this first one together*)
 
@@ -103,7 +103,7 @@ public class Hello {
 
 Go to [repl.it](https://repl.it/languages/java) and try it out!
 
-[Exercises](exercises.md#printing)
+[Exercises: Printing to the Console](exercises.md#printing)
 
 
 ### Variables & data types
@@ -164,7 +164,7 @@ Two strings can be **concatenated** using the ```+``` operator:
 String hello = "Hello, " + "world!";
 ```
 
-[Exercises](exercises.md#data-types)
+[Exercises: Exploring Data Types](exercises.md#data-types)
 
 ### Naming & assigning variables
 
@@ -213,7 +213,7 @@ Some example reserved words: `int`, `for`, `if`, `else`, `this`, `new`, `return`
 
 You can find a full list of reserved words [here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) or [here](https://en.wikipedia.org/wiki/List_of_Java_keywords).
 
-[Exercises](exercises.md#assigning)
+[Exercises: Assigning Variables](exercises.md#assigning)
     
 ### Math & Operators
 
@@ -277,7 +277,7 @@ double result = 7.0/2.0;
 |   ++   |    Increment   |
 |   --   |    Decrement   |
 
-[Exercises](exercises.md#math)
+[Exercises: Math and Arithmetic Expressions](exercises.md#math)
 
 ## More printing + Strings
 
@@ -287,8 +287,8 @@ The full documentation for the String class is here: [Java Docs: Strings](http:/
 
 Let's complete some more exercises to experiment with Strings and printing:
 
-[Exercises](exercises.md#strings)
+[Exercises: Working with Strings](exercises.md#strings)
 
 ## Exit Ticket
 
-[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1k5_otHg_g2IDzgzbdxEBKsd-U47z717lvOO2rB38DQQ/)
+[Exit Ticket - Please complete at the end of class](https://docs.google.com/a/c4q.nyc/forms/d/1k5_otHg_g2IDzgzbdxEBKsd-U47z717lvOO2rB38DQQ/)
