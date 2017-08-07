@@ -8,6 +8,7 @@
 * The Command Line
 * Set up StackOverflow Account
 * Set up Slack Account
+* Set up Canvas Account
 * The App Design Process
 * Intro to Pair Programming
 
