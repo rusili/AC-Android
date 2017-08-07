@@ -13,12 +13,11 @@
 - [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 - [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
-# Lecture
+# Lecture: Control Structures in Java
 
-## Control structures
 Programming requires telling a computer to make decisions based on inputs. There
 are several ways to direct the flow of a program, using control structures. The
-simplest is the if statement.
+simplest is the ```if``` statement.
 
 ## If Statement
 ```java
@@ -26,8 +25,7 @@ if (BOOLEAN_CONDITION) {
   // do something
 }
 ```
-An ```if``` statement needs a boolean condition to operate. If that expression
-evaluates to ```true```, then the code within the if block will run. Otherwise, the code within the block is skipped, and the program will continue.
+An ```if``` statement needs a boolean condition to operate. If that expression evaluates to ```true```, then the code within the if block will run. Otherwise, the code within the block is skipped, and the program will continue.
 
 ```java
 boolean alwaysTrue = true;
@@ -81,8 +79,7 @@ System.out.println("Then this code runs");
 ```
 
 ## If - Else statement
-At the end of an ```if``` statement, you can put an ```else``` statement. This code will
-run if the code in the ```else``` statement is skipped.
+At the end of an ```if``` statement, you can put an ```else``` statement. In the code below, the ```if``` code block will run (the condition evaluates to ```true```), while the code in the ```else``` statement is skipped:
 
 ```java
 boolean alwaysTrue = true;
@@ -92,6 +89,19 @@ if (alwaysTrue) {
   System.out.println("This code never runs");
 }
 ```
+
+However, in the code below, the ```if``` code block will NOT run (the condition evaluates to ```false```) and will be skipped, while the code in the ```else``` statement will run instead:
+
+```java
+boolean alwaysFalse = false;
+if (alwaysFalse) {
+  System.out.println("This code never runs");
+} else {
+  System.out.println("This code always runs");
+}
+```
+
+What do you think this code does?
 
 ```java
 // Read input returns an integer read from System.in
