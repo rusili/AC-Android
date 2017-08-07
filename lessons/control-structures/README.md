@@ -1,19 +1,17 @@
-- title: Control Structures
+# Control Structures in Java
 - tags: java if else switch
 
-# Objectives
+## Objectives
 
 - Write an If statement
 - Write an If - Else statement
 - Write a Switch statement
 
-# Resources
+## Resources
 - [Java coding in browser](https://repl.it/languages/java)
 - [Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 - [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 - [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
-
-
 
 # Lecture
 
@@ -28,8 +26,8 @@ if (BOOLEAN_CONDITION) {
   // do something
 }
 ```
-An if statement needs a boolean condition to operate. If that expression
-evaluates to true, then the code within the if block will run. Otherwise, the code within the block is skipped, and the program will continue.
+An ```if``` statement needs a boolean condition to operate. If that expression
+evaluates to ```true```, then the code within the if block will run. Otherwise, the code within the block is skipped, and the program will continue.
 
 ```java
 boolean alwaysTrue = true;
@@ -39,8 +37,8 @@ if (alwaysTrue) {
 System.out.println("Then this code runs");
 ```
 
-An if statement will evaluate code within the parenthesis. The boolean statement must
-return a true or false value;
+An ```if``` statement will evaluate code within the parenthesis. The boolean statement must
+return a ```true``` or ```false``` value;
 
 ```java
 // Read input returns an integer read from System.in
