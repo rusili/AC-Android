@@ -114,7 +114,7 @@ A variable's **data type** determines the values it may contain and the operatio
 
 * **boolean** - represents a truth and has only two possible values, `true` or `false`. A boolean can be inverted with the `!` operator. Booleans can also be created by comparing two variables. 
 
-```
+```java
 boolean isCar = true;
 boolean areWeThereYet = false;
 boolean answer = 7 > 3;
@@ -128,7 +128,7 @@ boolean answer = 7 > 3;
 
 * **long** - an integer  between -2<sup>63</sup> and 2<sup>63</sup>-1.
 
-    ```java
+```java
 byte myAge = 28;
 short activeCitiBikesInNyc = 6603;
 int yearsSinceDinosaurs = 65000000;
@@ -139,14 +139,14 @@ long humansOnEarth = 7400000000;
 
 * **double** - a real number, double-precision 64-bit floating point. In most cases this is the default type used to represent decimal values. 
 
-    ```java
+```java
 float percentOfPizza = 33.3f;
 double pi = 3.14159265359d;
 ```
 
 * **char** - a single [Unicode](http://unicode.org/charts/) character.
 
-    ```java
+```java
 char initial = 'R';
 char nine = '9';
 char newLine = '\n';
@@ -155,7 +155,7 @@ char newLine = '\n';
 In addition to these eight, Java also has special support for character strings which allows them to assigned and used like a primitive data type. Wrapping a character string in double quotes will automatically create a new **String** object.
 
 ```java
-    String example = "This is a string";
+String example = "This is a string";
 ```
 
 Two strings can be **concatenated** using the ```+``` operator:
