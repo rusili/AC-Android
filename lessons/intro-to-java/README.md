@@ -1,4 +1,4 @@
-- title: Intro to Java
+# Intro to Java
 - tags: java, data types, strings, math
 
 # Objectives
