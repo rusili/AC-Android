@@ -87,6 +87,10 @@ program chat bots and run them in Slack, which can do anything from downloading
 an animated file to recommending where to eat for lunch. Chat bots are poised to
 be the newest form of digital interaction, similar to Snapchat and Vine of the past. [Slack Bot Examples](http://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
 
+## Setup Canvas Account
+
+TBD
+
 ## The App Design Process
 Building an app, whether its for a mobile phone or website, typically follows a
 process.
