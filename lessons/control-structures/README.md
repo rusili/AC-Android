@@ -274,7 +274,8 @@ if (studentName.equals(teacherName)) {
 // DO NOT DO THIS
 if (studentName == teacherName) {
     System.out.println("This is not a good idea!");
-}```
+}
+```
 
 
 [Exercises](exercises)
