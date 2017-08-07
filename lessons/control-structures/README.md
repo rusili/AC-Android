@@ -261,7 +261,20 @@ Notice how the default case could not be translated to an else block of code
 without an expression guarding its execution.
 
 String comparison
-  * When comparing two strings for equality, use the .equals() method not ==. The equals() method will check that two Strings have identical content while "=="checks whether both strings have the same in-memory reference.
+  * When comparing two strings for equality, use the ```.equals()``` method not ```==```. The ```.equals()``` method will check that two Strings have identical content, while ```==``` checks whether both strings have the same in-memory reference.
+```
+String studentName = "John";
+String teacherName = "John";
+
+// DO THIS
+if (studentName.equals(teacherName)) {
+    System.out.println("They have the same content!");
+}
+
+// DO NOT DO THIS
+if (studentName == teacherName) {
+    System.out.println("This is not a good idea!");
+}```
 
 
 [Exercises](exercises)
