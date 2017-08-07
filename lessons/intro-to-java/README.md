@@ -120,7 +120,7 @@ boolean areWeThereYet = false;
 boolean answer = 7 > 3;
 ```
 
-* **byte** - a small integer between -128 and 127.
+* '**'byte'**' - a small integer between -128 and 127.
 
 * **short** - a small integer between -32,768 and 32,767.
 
