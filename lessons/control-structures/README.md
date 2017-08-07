@@ -110,18 +110,17 @@ What do you think the following code snippets do?
 
 ```java
 int DOWNLOAD_IMAGES_REQUEST = 111;
-if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
-    System.out.println("We downloaded all the images!")
+if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK) {
+    System.out.println("We downloaded all the images!");
 }
 ```
 
 ```java
 String word = readInput();
-if(!word.isEmpty()){
+if(!word.isEmpty()) {
     System.out.println("You entered " + word);
 }
 ```
-
 
 ```java
 public boolean isPalindrome(String input){
@@ -129,7 +128,6 @@ public boolean isPalindrome(String input){
     return reversed.equals(input);
 }
 ```
-
 
 [Exercise 1](if-OOps.md)
 
@@ -154,7 +152,7 @@ default:
 }
 ```
 
-Is the same as the following if else statement:
+Is the same as the following if-else statement:
 
 ```java
 int input = 5;
