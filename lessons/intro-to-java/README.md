@@ -90,7 +90,7 @@ Some jargon:
 
 ### Java Output
 
-To output a string to the console, use `System.out.println(`**`some string`**`)`
+To output a string to the console, use `System.out.println(`**`"some string"`**`)`
 
 ```java
 public class Hello {
