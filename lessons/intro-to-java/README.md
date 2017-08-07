@@ -20,7 +20,7 @@
 - [List of Java keywords (reserved words)](https://en.wikipedia.org/wiki/List_of_Java_keywords)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
-## Lecture
+# Lecture
 
 Welcome! 🌻
 
