@@ -57,14 +57,14 @@ boolean isLessThanZeroOrGreaterThanFive = input < 0 || input > 5;
 ```
 
 The list of boolean operators:
-- == Equals
-- != Not Equals
-- > Greater than
-- < Less than
-- >= Greater than or equal to
-- <= Less than or equal to
-- && Conditional And
-- || Conditional Or
+- ```==``` Equals
+- ```!=``` Not Equals
+- ```>``` Greater than
+- ```<``` Less than
+- ```>=``` Greater than or equal to
+- ```<=``` Less than or equal to
+- ```&&``` Conditional And
+- ```||``` Conditional Or
 
 ```java
 if (false || true) {
@@ -81,8 +81,8 @@ System.out.println("Then this code runs");
 ```
 
 ## If - Else statement
-At the end of an if statement, you can put an else statement. This code will
-run if the code in the else statement is skipped.
+At the end of an ```if``` statement, you can put an ```else``` statement. This code will
+run if the code in the ```else``` statement is skipped.
 
 ```java
 boolean alwaysTrue = true;
@@ -104,7 +104,7 @@ if (input > 9) {
 ```
 
 ## Boolean expressions
-A boolean expression is an expression that evaluates to either true or false. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
+A ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
 
 What do you think the following code snippets do?
 
@@ -134,7 +134,7 @@ public boolean isPalindrome(String input){
 [Exercise 1](if-OOps.md)
 
 ## Switch statement
-Switch statements are the equivalent of if else statements, with one key difference. Of all blocks of code defined in an if else statement, only one will be executed. In a switch statement, multiple blocks of code can be executed.
+Switch statements are the equivalent of if else statements, with one key difference. Of all blocks of code defined in an if else statement, only one will be executed. In a ```switch``` statement, multiple blocks of code can be executed.
 First we demonstrate a switch statement runs one block of code at a time.
 
 ```java
