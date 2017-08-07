@@ -116,10 +116,10 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
 ```
 
 ```java
-    String word = readInput();
-    if(!word.isEmpty()){
-    	System.out.println("You entered " + word);
-    }
+String word = readInput();
+if(!word.isEmpty()){
+    System.out.println("You entered " + word);
+}
 ```
 
 
