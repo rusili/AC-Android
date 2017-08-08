@@ -20,14 +20,14 @@
 A ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. The result of an evaluated expression can be stored in a ```boolean``` variable. What will be printed on the screen after this code is run?
 
 ```java
-// Is 5 greater that 2?
+// Is 5 greater than 2?
 boolean thisEvaluatesToTrue = 5 > 2;
 System.out.println(thisEvaluatesToTrue);
 ```
 What about this one?
 
 ```java
-// Is 10 less that 3?
+// Is 10 less than 3?
 boolean thisEvaluatesToFalse = 10 < 3;
 System.out.println(thisEvaluatesToFalse);
 ```
