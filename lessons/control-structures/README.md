@@ -47,7 +47,7 @@ Boolean expressions are evaluated using a number of boolean operators:
 
 The AND (```&&```) and OR (```||```) operators are used whenever we want to evaluate two ```boolean``` values, or expressions which evaluate to ```boolean``` values.
 
-The statement "It is warm outside if the sun is shining AND the temperature is high" could be written as:
+The statement "It is warm outside when the sun is shining AND the temperature is high" could be written as:
 
 ```java
 boolean isSunShining = true;
@@ -67,7 +67,7 @@ The operator ```&&``` described with a **truth table**:
 | false| true |  false |
 | false| false|  false |
 
-The statement "It is Summertime if the month is either July OR August" could be written as:
+The statement "It is Summertime when the month is either July OR August" could be written as:
 
 ```java
 boolean isJuly = false;
@@ -76,7 +76,7 @@ boolean isAugust = true;
 boolean isSummertime = isJuly || isAugust;
 ```
 
-When using the AND ```||``` operator, **ONLY ONE** of the values in the expression **MUST** be ```true``` in order for the expression to evaluate to ```true```.
+When using the OR ```||``` operator, **ONLY ONE** of the values in the expression **MUST** be ```true``` in order for the expression to evaluate to ```true```.
 
 The operator ```||``` described with a **truth table**:
 
