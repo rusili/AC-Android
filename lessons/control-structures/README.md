@@ -76,7 +76,7 @@ boolean isAugust = true;
 boolean isSummertime = isJuly || isAugust;
 ```
 
-When using the OR ```||``` operator, **ONLY ONE** of the values in the expression **MUST** be ```true``` in order for the expression to evaluate to ```true```.
+When using the OR ```||``` operator, a **MINIMUM OF ONE** of the values in the expression **MUST** be ```true``` in order for the expression to evaluate to ```true```.
 
 The operator ```||``` described with a **truth table**:
 
