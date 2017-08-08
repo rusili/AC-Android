@@ -15,9 +15,81 @@
 
 # Lecture: Control Structures in Java
 
-Programming requires telling a computer to make decisions based on inputs. There
-are several ways to direct the flow of a program, using control structures. The
-simplest is the ```if``` statement.
+## Boolean Expressions
+
+A ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. The result of an evaluated expression can be stored in a ```boolean``` variable. What will be printed on the screen after this code is run?
+
+```java
+// Is 5 greater that 2?
+boolean thisEvaluatesToTrue = 5 > 2;
+System.out.println(thisEvaluatesToTrue);
+```
+What about this one?
+
+```java
+// Is 10 less that 3?
+boolean thisEvaluatesToFalse = 10 < 3;
+System.out.println(thisEvaluatesToFalse);
+```
+
+Boolean expressions are evaluated using a number of boolean operators:
+
+- ```==``` Equals
+- ```!=``` Not Equals
+- ```>``` Greater than
+- ```<``` Less than
+- ```>=``` Greater than or equal to
+- ```<=``` Less than or equal to
+- ```&&``` Conditional And
+- ```||``` Conditional Or
+
+### ```&&``` and ```||``` Boolean Operators
+
+The AND (```&&```) and OR (```||```) operators are used whenever we want to evaluate two ```boolean``` values, or expressions which evaluate to ```boolean``` values.
+
+The statement "It is warm outside if the sun is shining AND the temperature is high" could be written as:
+
+```java
+boolean isSunShining = true;
+boolean isTemperatureHigh = true;
+
+boolean isWarmOutside = isSunShining && isTemperatureHigh;
+```
+
+When using the AND ```&&``` operator, all values in the expression **MUST** be ```true``` in order for the expression to evaluate to ```true```.
+
+The operator ```&&``` described with a **truth table**:
+
+|   p  |   q  | p && q |
+|:----:|:----:|:------:|
+| true | true |  true  |
+| true | false|  false |
+| false| true |  false |
+| false| false|  false |
+
+The statement "It is Summertime if the month is either July OR August" could be written as:
+
+```java
+boolean isJuly = false;
+boolean isAugust = true;
+
+boolean isSummertime = isJuly || isAugust;
+```
+
+When using the AND ```||``` operator, **ONLY ONE** of the values in the expression **MUST** be ```true``` in order for the expression to evaluate to ```true```.
+
+The operator ```||``` described with a **truth table**:
+
+|   p  |   q  | p \|\| q |
+|:----:|:----:|:------:|
+| true | true |  true  |
+| true | false|  true  |
+| false| true |  true  |
+| false| false|  false |
+
+## Control Structures
+
+Programming requires telling a computer to make decisions based on inputs. There are several ways to direct the flow of a program, using control structures. The simplest is the ```if``` statement.
 
 ## If Statement
 ```java
@@ -54,16 +126,6 @@ int input = readInput();
 boolean isLessThanZeroOrGreaterThanFive = input < 0 || input > 5;
 ```
 
-The list of boolean operators:
-- ```==``` Equals
-- ```!=``` Not Equals
-- ```>``` Greater than
-- ```<``` Less than
-- ```>=``` Greater than or equal to
-- ```<=``` Less than or equal to
-- ```&&``` Conditional And
-- ```||``` Conditional Or
-
 ```java
 if (false || true) {
   System.out.println("This code always runs");
@@ -77,24 +139,6 @@ if (false && true) {
 }
 System.out.println("Then this code runs");
 ```
-
-The operator ```&&``` described with a **truth table**:
-
-|   p  |   q  | p && q |
-|:----:|:----:|:------:|
-| true | true |  true  |
-| true | false|  false |
-| false| true |  false |
-| false| false|  false |
-
-The operator ```||``` described with a **truth table**:
-
-|   p  |   q  | p \|\| q |
-|:----:|:----:|:------:|
-| true | true |  true  |
-| true | false|  true  |
-| false| true |  true  |
-| false| false|  false |
 
 ## If - Else statement
 At the end of an ```if``` statement, you can put an ```else``` statement. In the code below, the ```if``` code block will run (the condition evaluates to ```true```), while the code in the ```else``` statement is skipped:
@@ -131,8 +175,8 @@ if (input > 9) {
 }
 ```
 
-## Boolean expressions
-A ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
+## Boolean Expressions in Control Structures
+As described earlier, a ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
 
 What do you think the following code snippets do?
 
