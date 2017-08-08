@@ -78,6 +78,24 @@ if (false && true) {
 System.out.println("Then this code runs");
 ```
 
+The operator ```&&``` described with a **truth table**:
+
+|   p  |   q  | p && q |
+|:----:|:----:|:------:|
+| true | true |  true  |
+| true | false|  false |
+| false| true |  false |
+| false| false|  false |
+
+The operator ```||``` described with a **truth table**:
+
+|   p  |   q  | p || q |
+|:----:|:----:|:------:|
+| true | true |  true  |
+| true | false|  true  |
+| false| true |  true  |
+| false| false|  false |
+
 ## If - Else statement
 At the end of an ```if``` statement, you can put an ```else``` statement. In the code below, the ```if``` code block will run (the condition evaluates to ```true```), while the code in the ```else``` statement is skipped:
 
