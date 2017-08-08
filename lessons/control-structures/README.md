@@ -89,7 +89,7 @@ The operator ```&&``` described with a **truth table**:
 
 The operator ```||``` described with a **truth table**:
 
-|   p  |   q  | p ```||``` q |
+|   p  |   q  | p \|\| q |
 |:----:|:----:|:------:|
 | true | true |  true  |
 | true | false|  true  |
