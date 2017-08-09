@@ -86,10 +86,9 @@ Now try to use the `Scanner` yourself, but first...
 
 ## If Else Problems
 
-#### Exercise:
-[Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
+#### Exercise 01: [Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
 
-**Exercise:** [What if](http://programmingbydoing.com/a/what-if.html)
+#### Exercise 02: [What if](http://programmingbydoing.com/a/what-if.html)
 
 ## Switch Statement Problems
 
