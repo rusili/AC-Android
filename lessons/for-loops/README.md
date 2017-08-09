@@ -13,6 +13,7 @@
 
 ### Video
 * [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
+* [Video: For Loops](https://www.youtube.com/watch?v=42QGewg7AU4)
 
 ### Documentaion
 - [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
