@@ -95,18 +95,18 @@ For this exercise, we will refactor (modify) the code in the link above to print
 
 ## Switch Statement Problems
 
-#### Exercise 03: Big Number, Small Number  
+#### Exercise 03: "Big Number, Small Number"
 Write a ```switch``` statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". Otherwise, print "Small Number".
 
-#### Exercise 04: Really Big Number
+#### Exercise 04: "Really Big Number"
 Write a switch statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". If the integer is greater than five and nine, print "Really Big Number" Otherwise, print "Small Number".
 
 ## While Loop Problems
 
-#### Exercise 05: I Saw 99!
+#### Exercise 05: "Saw 99!"
 Write a while loop that continuously reads integers from ```System.in```, until it reads 99. After reading 99, the code should print "Saw 99".
 
-#### Exercise 06: I Saw 99, And Other Numbers Too!
+#### Exercise 06: "Saw 99, And Other Numbers Too!"
 Write a while loop that continuously reads integers from ```System.in```, until it reads 99. After reading 99, the code should print "Saw 99". Until 99 is read, if the input number is less than 50, the code should print "Small Number". If the input number is greater than 50, the code should print "Large Number".
 
 ## Pair Programming While loops
