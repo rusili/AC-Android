@@ -14,13 +14,13 @@
 ### Video
 * [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
 * [Video: For Loops](https://www.youtube.com/watch?v=42QGewg7AU4)
+* [Video: Methods](www.youtube.com/watch?v=-eoNHtILOs4)
 
 ### Documentaion
 - [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
 - [Java For-Loops Examples](http://www.java-examples.com/loop)
 - [Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
 - [Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
-
 
 # Lecture
 
