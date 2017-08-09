@@ -1,5 +1,5 @@
 # While Loops
-- tags: java enums while loops
+- tags: java, while loops, do-while loops, while, do-while
 
 ## Objectives
 * Write a While Loop
@@ -126,8 +126,7 @@ What happens if we switch the order of the two statements in the loop body?
 
 A statement like `count = count - 5` is so common that Java gives us a shorter form: `count -= 5`.   Likewise for `+=`, `*=`, _etc_.
 
-
-#### break
+### break
 
 Java provides a special word that you can use only inside a loop: `break` says, Stop this loop right now!  So, we could count like this instead.
 
@@ -162,7 +161,28 @@ What are the first and last numbers this loop will print?
 
 > **Exercise:** http://programmingbydoing.com/a/adding-values-in-a-loop.html
 
-### How Android is built from Java
+## Do-While Loops
+
+**Do-While** loops work much in the same way as a traditional ```while``` loop, except that **a do-while loop will run at least once, whether the condition is met or not**.
+
+```java
+// A traditional while loop: This code block will never run
+while (false) {
+    System.out.println("This will never print.");
+}
+
+// This will run at least once
+do {
+    System.out.println("This will print just once, and the while loop will not run, because its condition evaluates to false.");
+} while(false);
+
+// This will run at least once, then run as many times as the while condition allows
+do {
+    System.out.println("This will print at least once, followed by the while loop running over, and over, and over....");
+} while(true);
+```
+
+## How Android is built from Java
 Java is a programming language that can be used to build any program a
 developer conceives of. Android is a collection of applications and interfaces,
 referred to as a stack, that allow Java programs to interact with hardware.
