@@ -12,6 +12,12 @@
 
 ## Resources
 
+### Videos
+
+* [Video: Printing 'Hello World!' to the console](https://www.youtube.com/watch?v=7WiPGP_0AUA)
+* [Video: Using Variables in Java](https://www.youtube.com/watch?v=oPBWC4_Zmj0)
+* [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
+
 - [repl.it](https://repl.it/languages/java)
 - [Java History](http://papa.det.uvigo.es/~theiere/cursos/Curso_Java/history.html)
 - [Oracle's Java Tutorials](https://docs.oracle.com/javase/tutorial/)
