@@ -1,7 +1,7 @@
-- title: For Loops and Methods
+# For Loops and Methods
 - tags: loops, for, strings
 
-# Objectives
+## Objectives
 
 - Understand the components of a for loop
 - Properly use 'continue' and 'break'
@@ -9,7 +9,7 @@
 - Understand how to define functions
 - Understand how to properly call functions in Java
 
-# Resources
+## Resources
 
 - [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
 - [Java For-Loops Examples](http://www.java-examples.com/loop)
@@ -33,7 +33,6 @@ for (initialization; termination; increment) {
 }
 ```
 
-
 1. The *initialization* is executed once, beginning the loop.
 2. When the *termination* expression is `false`, the loop terminates; this is analogous to the condition in a `while` statement. i.e, the condition must remain true for the loop to continue.
 3. The *increment* expression is executed after each iteration; this can also decrement.
@@ -53,32 +52,28 @@ All loops have a body, and any code within the body of your loop will run howeve
 - Loops include conditional logic.
 - You may also need to add an if-statement to the body of your loop.
 
-
-
-
 The hardest part about `for` loops is properly stopping the loop. Programmers often make mistakes when setting the termination condition for a loop. In particular, we are often off-by-one. This kind of bug it so common, it has its own [Wikipedia page](http://en.wikipedia.org/wiki/Off-by-one_error).
 
+#### Exercise: [Counting Machine](http://programmingbydoing.com/a/counting-machine.html)
+**Simple** Write a program that counts from 0 to a user-specified number.
+
+#### Exercise: [Counting Machine Revisited](http://programmingbydoing.com/a/counting-machine-revisited.html)
+**Intermediate** Now let the user input the initial value, the max value, and the increment.
+
+#### Exercise: "FizzBuzz" [FizzBuzz](http://programmingbydoing.com/a/fizzbuzz.html)
+**Difficult** "FizzBuzz" is a very famous program, up there with "Hello World!". Write "FizzBuzz" using a ```for``` loop. 
 
 
-> **Exercise:** [Counting Machine](http://programmingbydoing.com/a/counting-machine.html): Write a program that counts from 0 to a user-specified number.
 
-
-> **Exercise:** [harder] [Counting Machine Revisited](http://programmingbydoing.com/a/counting-machine-revisited.html): Now let the user input the initial value, the max value, and the increment.
-
-> **Exercise:** "FizzBuzz" is a very famous program, up there with "Hello World!". Write [FizzBuzz](http://programmingbydoing.com/a/fizzbuzz.html) using a `for` loop.
-
-
-
-`break` and `continue`
-=
+## The `break` and `continue` keywords
 
 Remember `break`?
 
-> *Definition:* `break` terminates a loop or switch statement and transfers execution to the statement immediately following the loop or switch.
+**Definition:** `break` terminates a loop or switch statement and transfers execution to the statement immediately following the loop or switch.
 
 Java also has another useful keyword, `continue`:
 
-> *Definition:* `continue` jumps to the next iteration of the loop.
+**Definition:** `continue` jumps to the next iteration of the loop.
 
 `continue` can be useful for skipping over some unnecessary computation.
 
@@ -91,8 +86,9 @@ for (int i = 1; i <= 20; i++) {
 }
 ```
 
+#### Exercise:
 
-> **Exercise:** Simplify your code for FizzBuzz using `continue`.
+Simplify your code for FizzBuzz using `continue`.
 
 ## Methods
 
