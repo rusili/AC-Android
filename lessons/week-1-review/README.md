@@ -109,7 +109,7 @@ Until 99 is read, if the input number is less than 50, the code should print
 
 ## Pair Programming While loops
 
-In this project, we are going to build a typewriter. The keys of the typewriter
+<!---In this project, we are going to build a typewriter. The keys of the typewriter
 will be represented by an enum class.
 ```java
 public enum Keyboard_Keys {
@@ -146,4 +146,4 @@ G
 
 * Be sure to look at the functions of Enums and Strings to use as many built
 in functions as possible. Instructors were able to solve this problem with 17
-lines of code.
+lines of code.--->
