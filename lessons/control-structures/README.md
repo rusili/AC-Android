@@ -196,7 +196,7 @@ public boolean isPalindrome(String input){
 
 [Exercise 1](if-OOps.md)
 
-## ```Else If``` Code Blocks
+## ```else if``` Code Blocks
 
 TBD
 
