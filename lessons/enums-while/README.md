@@ -118,9 +118,9 @@ you ate all the M&Ms
 
 Make sure you can't eat more M&Ms than you have left.
 
-Using a while loop, we can count.
-
 ## Counting with Loops
+
+Using a while loop, we can count.
 
 ```java
 int count = 0;
