@@ -59,13 +59,13 @@ All loops have a body, and any code within the body of your loop will run howeve
 
 The hardest part about `for` loops is properly stopping the loop. Programmers often make mistakes when setting the termination condition for a loop. In particular, we are often off-by-one. This kind of bug it so common, it has its own [Wikipedia page](http://en.wikipedia.org/wiki/Off-by-one_error).
 
-#### Exercise: [Counting Machine](http://programmingbydoing.com/a/counting-machine.html) (**Simple**)
+#### Exercise: [Counting Machine](http://programmingbydoing.com/a/counting-machine.html) (Simple)
 Write a program that counts from 0 to a user-specified number.
 
-#### Exercise: [Counting Machine Revisited](http://programmingbydoing.com/a/counting-machine-revisited.html) (**Intermediate**)
+#### Exercise: [Counting Machine Revisited](http://programmingbydoing.com/a/counting-machine-revisited.html) (Intermediate)
 Now let the user input the initial value, the max value, and the increment.
 
-#### Exercise: "FizzBuzz" [FizzBuzz](http://programmingbydoing.com/a/fizzbuzz.html) (**Difficult**)
+#### Exercise: [FizzBuzz](http://programmingbydoing.com/a/fizzbuzz.html) (Difficult)
 "FizzBuzz" is a very famous program, up there with "Hello World!". Write "FizzBuzz" using a ```for``` loop. 
 
 ## The `break` and `continue` keywords
