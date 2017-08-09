@@ -1,7 +1,7 @@
-- title: Week 1 Review
-- tags: java if else switch while enums for
+# Week 1 Review
+- tags: java, if, else, switch, while, for
 
-#Objectives
+## Objectives
 
 * Reading input from command line
 * Solve If Else Problems
@@ -9,7 +9,7 @@
 * Solve While Loop Problems
 * Pair Programming
 
-#Resources
+## Resources
 
 * [Java coding in browser](https://repl.it/languages/java)
 * [Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
@@ -26,10 +26,11 @@ Previously, we learned how to print. Remember the syntax?
 
 But just printing gets a bit boring. Today, we're going to learn how to ask the user for feedback. In programming, we call this *reading user input*. Let's talk about how.
 
-**Scanner**
+### Scanner
 
-In Java, a simple program that reads user input looks like this:
+In Java, a simple program that reads user input can look like this:
 
+    ```java
     import java.util.Scanner;
 
     public class Echo {
@@ -40,8 +41,9 @@ In Java, a simple program that reads user input looks like this:
             System.out.println(something);
         }
     }
+    ```
 
-First, we *import the `Scanner`*, meaning we tell the Java compiler to include some code written by another developer. Then to create a new `Scanner`, we type:
+First, we *import* the ```Scanner```, meaning we tell the Java compiler to include some code written by another developer. Then to create a new `Scanner`, we type:
 
     Scanner input = new Scanner(System.in);
 
