@@ -111,7 +111,7 @@ An ```if``` statement will evaluate code within the parentheses. The boolean sta
 return a ```true``` or ```false``` value:
 
 ```java
-// Read input returns an integer read from System.in
+// readInput() returns an integer read from System.in
 int input = readInput();
 if (input > 9) {
   System.out.println("A number greater than 9");
@@ -184,13 +184,6 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK) {
 String word = readInput();
 if(!word.isEmpty()) {
     System.out.println("You entered " + word);
-}
-```
-
-```java
-public boolean isPalindrome(String input){
-    String reversed = new StringBuilder(input).reverse().toString();
-    return reversed.equals(input);
 }
 ```
 
