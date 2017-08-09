@@ -73,7 +73,7 @@ Now try to use the `Scanner` yourself, but first...
 - Don't just copy and paste! Programming, like playing an instrument or speaking another language, requires muscle memory. It is important that you get used to *typing* Java for yourself. Also, you will notice things you would not otherwise if you are forced to type them.
 - At the top of every exercise, write a *document comment*. A document comment is description of the program for another user (or your future self). Get used to documenting your work! Here is an example document comment for the previous exercise:
 
-```
+```java
     /**
      * Access Code 4.3
      * Jamie Ramirez-Khan
@@ -86,27 +86,27 @@ Now try to use the `Scanner` yourself, but first...
 
 ## If Else Problems
 
-> **Exercise:** [Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
+**Exercise:** [Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
 
-> **Exercise:** [What if](http://programmingbydoing.com/a/what-if.html)
+**Exercise:** [What if](http://programmingbydoing.com/a/what-if.html)
 
 ## Switch Statement Problems
 
-> **Exercise:**  Write a switch statement that checks an integer read from
+**Exercise:**  Write a switch statement that checks an integer read from
 System.in. If the integer is greater than five, print "Big Number". Otherwise,
 print "Small Number"
 
-> **Exercise:**   Write a switch statement that checks an integer read from
+**Exercise:**   Write a switch statement that checks an integer read from
 System.in. If the integer is greater than five, print "Big Number". If the
 integer is greater than five and 9, print "Really Big Number" Otherwise,
 print "Small Number";
 
 ## While Loop Problems
 
-> **Exercise:**   Write a while loop that continuously reads integers from
+**Exercise:**   Write a while loop that continuously reads integers from
 System.in, until it reads 99. After reading 99, the code should print "Saw 99".
 
-> **Exercise:**   Write a while loop that continuously reads integers from
+**Exercise:**   Write a while loop that continuously reads integers from
 System.in, until it reads 99. After reading 99, the code should print "Saw 99".
 Until 99 is read, if the input number is less than 50, the code should print
 "Small Number". If the input number is greater than 50, the code should print
