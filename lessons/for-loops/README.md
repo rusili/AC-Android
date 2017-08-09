@@ -11,6 +11,10 @@
 
 ## Resources
 
+### Video
+* [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
+
+### Documentaion
 - [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
 - [Java For-Loops Examples](http://www.java-examples.com/loop)
 - [Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
