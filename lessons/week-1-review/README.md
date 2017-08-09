@@ -99,7 +99,7 @@ For this exercise, we will refactor (modify) the code in the link above to print
 Write a ```switch``` statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". Otherwise, print "Small Number".
 
 #### Exercise 04: Really Big Number
-Write a switch statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". If the integer is greater than five and 9, print "Really Big Number" Otherwise, print "Small Number".
+Write a switch statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". If the integer is greater than five and nine, print "Really Big Number" Otherwise, print "Small Number".
 
 ## While Loop Problems
 
