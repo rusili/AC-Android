@@ -54,9 +54,11 @@ Don't worry if you don't know exactly what this does. Think of this like driving
 
 ### Functions
 
-The `Scanner` gives you the programmer some magical powers called *functions*. A function, like the gas and break pedals on a car, allows you to interact with the `Scanner`. For example, we can ask the `Scanner` to ask the user for an `int` like this:
+The ```Scanner``` gives you the programmer some magical powers called *functions*. A function, like the gas and break pedals on a car, allows you to interact with the `Scanner`. For example, we can ask the `Scanner` to ask the user for an `int` like this:
 
-    int usersAge = input.nextInt();
+```java
+int usersAge = input.nextInt();
+```
 
 [This page](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html) has a full list of `Scanner` functions.
 
@@ -73,8 +75,8 @@ Now try to use the `Scanner` yourself, but first...
 
 ```
     /**
-     * Access Code 2.1
-     * Gregory Gundersen
+     * Access Code 4.3
+     * Jamie Ramirez-Khan
      * AskingQuestions.java
      * This class prompts the user for some personal data and then repeats it back to them.
      */
