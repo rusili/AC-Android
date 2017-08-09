@@ -86,7 +86,8 @@ Now try to use the `Scanner` yourself, but first...
 
 ## If Else Problems
 
-**Exercise:** [Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
+#### Exercise:
+[Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
 
 **Exercise:** [What if](http://programmingbydoing.com/a/what-if.html)
 
