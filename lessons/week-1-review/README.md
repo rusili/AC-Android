@@ -30,18 +30,18 @@ But just printing gets a bit boring. Today, we're going to learn how to ask the 
 
 In Java, a simple program that reads user input can look like this:
 
-    ```java
-    import java.util.Scanner;
+```java
+import java.util.Scanner;
 
-    public class Echo {
-        public static void main(String[] args) {
-            Scanner input = new Scanner(System.in);
-            System.out.println("Say something:");
-            String something = input.next();
-            System.out.println(something);
-        }
+public class Echo {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Say something:");
+        String something = input.next();
+        System.out.println(something);
     }
-    ```
+}
+```
 
 First, we *import* the ```Scanner```, meaning we tell the Java compiler to include some code written by another developer. Then to create a new `Scanner`, we type:
 
