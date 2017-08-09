@@ -6,13 +6,13 @@
 * Learn about how Android is built from Java
 
 ## Resources
-[comment]: <> ([Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html))
+<!---* [Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)--->
 * [Activity Lifecycle](https://developer.android.com/training/basics/activity-lifecycle/starting.html)
 * [Android Architecture](https://source.android.com/devices/)
 * [Android Open Source Project](https://source.android.com/)
 
 # Lecture: While Loops
-[comment]: <> (## Enums
+<!---(## Enums
 Enums are used to represent constant values in code, that are related to each
 other. Since our goal is to always write code that is self explanatory, enums
 are a great tool for replacing magic numbers in code. For example, which is
@@ -74,7 +74,7 @@ calculator (addition, subtraction, division, multiplication).
 > **Exercise:** Write four if statements that compares an input against each
 Operation value. Leave the body of the if statement empty.
 > **Exercise:** Write a switch statement that compares an input against each
-Operation value. For each operation, print out its Operation name.)
+Operation value. For each operation, print out its Operation name.--->
 
 ## While loops
 
