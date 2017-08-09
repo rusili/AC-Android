@@ -100,23 +100,27 @@ As with an `if` statement, the `condition` is a boolean expression.  The code th
 
 As with `if`, you can leave out the curly braces if the body contains a single statement.
 
-> **Exercise:** Write a program that tracks how many M&Ms you have left, as you eat them.  It should look like this:
->
-> ```
-> 100 M&Ms left
-> eat how many? 20
-> 80 M&Ms left
-> eat how many? 60
-> 20 M&Ms left
-> eat how many? 18
-> 2 M&Ms left
-> eat how many? 2
-> you ate all the M&Ms
-> ```
+#### Exercise 01: "M&M Tracker"
+Write a program that tracks how many M&Ms you have left, as you eat them.  It should look like this:
+```
+100 M&Ms left
+eat how many? 20
+80 M&Ms left
+eat how many? 60
+20 M&Ms left
+eat how many? 18
+2 M&Ms left
+eat how many? 2
+you ate all the M&Ms
+```
 
-> **Exercise:** [harder] Make sure you can't eat more M&Ms than you have left.
+#### Exercise 02: "M&M Overdraft Protection" [harder] 
+
+Make sure you can't eat more M&Ms than you have left.
 
 Using a while loop, we can count.
+
+## Counting with Loops
 
 ```java
 int count = 0;
@@ -128,14 +132,16 @@ while (count < 10) {
 
 What happens if we switch the order of the two statements in the loop body?
 
-> **Exercise:** Change this to count _down_ from 10.  The last number should be 1.
->
-> **Exercise:** [harder] Change this to count down from 100 to 10 by 5, and then from 9 to 1.  The numbers it prints should be 100, 95, 90, ..., 20, 15, 10, 9, 8, ..., 2, 1.  At the end, print "blastoff".
+#### Exercise 03: "Countdown"
+Change the code above from counting up to 10, to counting _down_ from 10. The last number should be 1.
 
+#### Exercise 04: "Blastoff!" [harder]
+Change this to count down from 100 to 10 by 5, and then from 9 to 1.  The numbers it prints should be 100, 95, 90, ..., 20, 15, 10, 9, 8, ..., 2, 1.  At the end, print "blastoff".
+
+### Incrementing and Decrementing
 A statement like `count = count - 5` is so common that Java gives us a shorter form: `count -= 5`.   Likewise for `+=`, `*=`, _etc_.
 
-### break
-
+### The ```break``` keyword
 Java provides a special word that you can use only inside a loop: `break` says, Stop this loop right now!  So, we could count like this instead.
 
 ```java
@@ -152,22 +158,24 @@ Generally, `while (true)` will cause the loop to run forever!  But we "break out
 
 What are the first and last numbers this loop will print?
 
-> **Exercise:** http://programmingbydoing.com/a/keep-guessing.html
->
-> Use `break` to end the game when the player guesses correctly.
->
-> For this program to be fun, you'll have to generate a random number between 1 and 10 (inclusive).  Here's how to do it:
->
-> ```java
-> Random random = new Random();
-> int number = random.nextInt(10) + 1;
-> ```
+#### Exercise 05: [Keep Guessing](http://programmingbydoing.com/a/keep-guessing.html)
+Use `break` to end the game when the player guesses correctly.
 
-> **Exercise:** Change your program so that it doesn't use `break`.  Instead use a boolean variable that is false until the player guesses the number correctly.
+For this program to be fun, you'll have to generate a random number between 1 and 10 (inclusive).  Here's how to do it:
 
-> **Exercise:** [harder] Change the program to pick a random number between 1 and 1000.  Play it a few times.  What's the best strategy to guess the random number as quickly as possible?
+```java
+Random random = new Random();
+int number = random.nextInt(10) + 1;
+```
 
-> **Exercise:** http://programmingbydoing.com/a/adding-values-in-a-loop.html
+#### Exercise 06: "Boolean Flag"
+Change your program so that it doesn't use `break`.  Instead use a boolean variable that is false until the player guesses the number correctly.
+
+#### Exercise 07: "Larger Random Range" [harder]
+Change the program to pick a random number between 1 and 1000.  Play it a few times.  What's the best strategy to guess the random number as quickly as possible?
+
+#### Exercise 08: [Adding Values in a Loop](http://programmingbydoing.com/a/adding-values-in-a-loop.html)
+Write a program that gets several integers from the user. Sum up all the integers they give you. Stop looping when they enter a 0. Display the total at the end.
 
 ## Do-While Loops
 
