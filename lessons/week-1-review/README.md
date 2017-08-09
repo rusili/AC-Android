@@ -64,7 +64,8 @@ int usersAge = input.nextInt();
 
 Let's go through the first exercise together.
 
-> **Exercise:** [Asking Questions](http://programmingbydoing.com/a/asking-questions.html)
+#### Mid-Lecture Exercise: [Asking Questions](http://programmingbydoing.com/a/asking-questions.html)
+For this exercise, we will ask the user a number of questions back-to-back, store thier answers in variables, and print their answers back to them. Follow the link above for more information.
 
 Now try to use the `Scanner` yourself, but first...
 
@@ -94,25 +95,19 @@ For this exercise, we will refactor (modify) the code in the link above to print
 
 ## Switch Statement Problems
 
-**Exercise 03:**  Write a switch statement that checks an integer read from
-System.in. If the integer is greater than five, print "Big Number". Otherwise,
-print "Small Number".
+#### Exercise 03: Big Number, Small Number  
+Write a ```switch``` statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". Otherwise, print "Small Number".
 
-**Exercise 04:**   Write a switch statement that checks an integer read from
-System.in. If the integer is greater than five, print "Big Number". If the
-integer is greater than five and 9, print "Really Big Number" Otherwise,
-print "Small Number";
+#### Exercise 04: Really Big Number
+Write a switch statement that checks an integer read from ```System.in```. If the integer is greater than five, print "Big Number". If the integer is greater than five and 9, print "Really Big Number" Otherwise, print "Small Number".
 
 ## While Loop Problems
 
-**Exercise 05:**   Write a while loop that continuously reads integers from
-System.in, until it reads 99. After reading 99, the code should print "Saw 99".
+#### Exercise 05: I Saw 99!
+Write a while loop that continuously reads integers from ```System.in```, until it reads 99. After reading 99, the code should print "Saw 99".
 
-**Exercise 06:**   Write a while loop that continuously reads integers from
-System.in, until it reads 99. After reading 99, the code should print "Saw 99".
-Until 99 is read, if the input number is less than 50, the code should print
-"Small Number". If the input number is greater than 50, the code should print
-"Large Number".
+#### Exercise 06: I Saw 99, And Other Numbers Too!
+Write a while loop that continuously reads integers from ```System.in```, until it reads 99. After reading 99, the code should print "Saw 99". Until 99 is read, if the input number is less than 50, the code should print "Small Number". If the input number is greater than 50, the code should print "Large Number".
 
 ## Pair Programming While loops
 
