@@ -115,7 +115,7 @@
 |Jonathan| 2016-08-20 || [Environment and Tools Setup](lessons/env-and-tools)||
 |Ramona| 2016-08-21 |[Prework](pre-work/08-21-2016-prework.md)| [Intro to Java](lessons/intro-to-java)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1k5_otHg_g2IDzgzbdxEBKsd-U47z717lvOO2rB38DQQ/)|
 |Abass| 2016-08-22 |[Prework](pre-work/08-22-2016-prework.md)| [Control Structures](lessons/control-structures) ||
-|Jonathan| 2016-08-23 |[Prework](pre-work/08-23-2016-prework.md)| [Enums and While Loops](lessons/enums-while) ||
+|Jonathan| 2016-08-23 |[Prework](pre-work/08-23-2016-prework.md)| [While Loops](lessons/enums-while) ||
 |Abass| 2016-08-24 |[Prework](pre-work/08-24-2016-prework.md)| [For Loops](lessons/for-loops)<br>[Methods](lessons/methods)||
 |Jonathan| 2016-08-25 |[Prework](pre-work/08-25-2016-prework.md)| [Week 1 Review](lessons/week-1-review)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/)|
 |Jonathan| 2016-08-27 |[Prework](pre-work/08-27-2016-prework.md)| [Classes](lessons/classes-part1)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/11COt3riU8L1ZDUDuL2CRAmkgfjZgD4mUwtboHTeqOew/)|
