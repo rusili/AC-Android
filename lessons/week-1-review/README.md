@@ -17,12 +17,13 @@
 * [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
 # Lecture
-Input
-=
+### Input
 
 Previously, we learned how to print. Remember the syntax?
 
-    System.out.println("I am printing a line!");
+```java
+System.out.println("I am printing a line!");
+```
 
 But just printing gets a bit boring. Today, we're going to learn how to ask the user for feedback. In programming, we call this *reading user input*. Let's talk about how.
 
@@ -45,11 +46,13 @@ public class Echo {
 
 First, we *import* the ```Scanner```, meaning we tell the Java compiler to include some code written by another developer. Then to create a new `Scanner`, we type:
 
-    Scanner input = new Scanner(System.in);
+```java
+Scanner input = new Scanner(System.in);
+```
 
 Don't worry if you don't know exactly what this does. Think of this like driving: you don't need to know how a car engine works in order to drive a car. In programming, we call this *abstraction*. We don't care *how* the `Scanner` works, but we know what it *does*. What can you do with a `Scanner`?
 
-**Functions**
+### Functions
 
 The `Scanner` gives you the programmer some magical powers called *functions*. A function, like the gas and break pedals on a car, allows you to interact with the `Scanner`. For example, we can ask the `Scanner` to ask the user for an `int` like this:
 
