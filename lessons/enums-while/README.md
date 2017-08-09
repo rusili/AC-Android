@@ -8,6 +8,13 @@
 
 ## Resources
 <!---* [Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)--->
+### While Loops
+* [Video: While Loops](https://www.youtube.com/watch?v=vnAYHVwrO4c)
+* [Tutorial: Loop Control](https://www.tutorialspoint.com/java/java_loop_control.htm)
+* [Tutorial: While Loops](https://www.tutorialspoint.com/java/java_while_loop.htm)
+* [Tutorial: Do-While Loops](https://www.tutorialspoint.com/java/java_do_while_loop.htm)
+
+### Android Links
 * [Activity Lifecycle](https://developer.android.com/training/basics/activity-lifecycle/starting.html)
 * [Android Architecture](https://source.android.com/devices/)
 * [Android Open Source Project](https://source.android.com/)
