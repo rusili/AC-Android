@@ -29,7 +29,7 @@
 
 ## Vocabulary
 |Term|Definition|
-|:------|:---------|
+|::|:---------|
 |platform|an environment for running other programs|
 |virtual|the opposite of physical|
 |virtual machine|a computer that doesn't exist as physical hardware, instead it is "emulated" by software|
