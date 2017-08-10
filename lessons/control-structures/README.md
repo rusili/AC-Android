@@ -12,6 +12,7 @@
 
 * [Video: If Statements](https://www.youtube.com/watch?v=jjx5mJOcLqM)
 * [Video: Switch Statements](https://www.youtube.com/watch?v=oLpUfseieuE)
+* [Video: Ternary Operators](https://www.youtube.com/watch?v=igc_jsQIoxY)
 
 ### Documentation
 
