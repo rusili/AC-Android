@@ -5,7 +5,11 @@ We'll be using Git and GitHub in this class to save and share our code. It will 
 * You should already have Git installed on your computer.
 * You already have a GitHub username!
 
-[Let's set up Git!](https://help.github.com/articles/set-up-git/)
+* [Let's set up Git!](https://help.github.com/articles/set-up-git/)
+
+* [Setting up your Username in Git](https://help.github.com/articles/setting-your-username-in-git/)
+
+* [Setting your commit Email address in Git](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
 
 ## Setting up SSH Keys
 
