@@ -102,7 +102,7 @@ The operator ```||``` described with a **truth table**:
 
 Programming requires telling a computer to make decisions based on inputs. There are several ways to direct the flow of a program, using control structures. The simplest is the ```if``` statement.
 
-## ```if``` Statement
+## ```if``` statement
 ```java
 if (BOOLEAN_CONDITION) {
   // do something
@@ -355,7 +355,7 @@ Let's break it down step-by-step:
 |boolean|isCorrectExpression|=|(5>3)|?|true|false|
 
 
-[Exercises](exercises)
+[Exercises](TODO - Canvas Link)
 
 
-[Exit Ticket](http://bit.ly/2aPVSOy)
+[Exit Ticket](TODO - Canvas Link)
