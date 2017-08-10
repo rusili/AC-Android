@@ -21,6 +21,16 @@
 - [Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
 - [Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
 
+## Vocabulary
+
+|Term|Definition|
+|:--:|:---------|
+|Initialization|?|
+|Termination|?|
+|Condition|?|
+|Increment|?|
+|Decrement|?|
+
 # Lecture
 
 Loops are a very power control structure, and a great way for your program to do a repeated set of actions.
@@ -29,7 +39,7 @@ A for-loop has three important components that help determine how many times it 
 
 - Initialization
 - Termination/Condition
-- Increment
+- Increment/Decrement
 
 ```java
 for (initialization; termination; increment) {
@@ -41,7 +51,7 @@ for (initialization; termination; increment) {
 2. When the *termination* expression is `false`, the loop terminates; this is analogous to the condition in a `while` statement. i.e, the condition must remain true for the loop to continue.
 3. The *increment* expression is executed after each iteration; this can also decrement.
 
-As with `if` and `while`, for loops have a body denoted by a pair of opening and closing braces.
+As with `if` and `while`, for loops have a body denoted by a pair of opening braces ```{``` and closing braces ```}```.
 
 All loops have a body, and any code within the body of your loop will run however many times your loop runs.
 
