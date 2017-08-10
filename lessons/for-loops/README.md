@@ -30,6 +30,10 @@
 |Condition|?|
 |Increment|?|
 |Decrement|?|
+|Method|?|
+|Declaration|?|
+|Parameter|?|
+|Argument|?|
 
 # Lecture
 
@@ -180,8 +184,6 @@ void printHelloWorldNTimes(int N){
 
 
 > **In-class assignment:** [String exercise](exercises/string-loops.md)
-
-
 
 > **In-class assignment:** [hard] []
 Below is a quote from [Grace Hopper](http://en.wikipedia.org/wiki/Grace_Hopper), the inventor of the first compiler. Write a program that uses a `for` loop to count how many times she says the word "data". You'll need to call two `String` functions in order to complete this assignment. Make sure to verify your answer.
