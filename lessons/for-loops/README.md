@@ -25,7 +25,7 @@
 
 |Term|Definition|
 |:--:|:---------|
-|Initialization|assigning a variable for the first time|
+|Initialization|assigning a value to a variable for the first time|
 |Termination|the end of an action|
 |Condition|an expression or evaluation of an expression which must be either ```true``` OR ```false```|
 |Increment|increasing a variable's value by 1; for example: ```i++``` or ```++i```|
