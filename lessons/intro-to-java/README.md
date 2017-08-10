@@ -1,5 +1,4 @@
 # Intro to Java
-- tags: java, data types, strings, math
 
 ## Objectives
 
@@ -31,7 +30,7 @@
 ## Vocabulary
 |Term|Definition|
 |:-:|:-------:|
-|platform|a number|
+|platform|an environment for running other programs|
 |virtual|a number|
 |virtual machine|a number|
 |compiler|a number|
