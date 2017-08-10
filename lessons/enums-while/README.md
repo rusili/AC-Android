@@ -3,7 +3,6 @@
 ## Objectives
 * Write a While Loop
 * Write a Do-While Loop
-* Learn about how Android Apps are built from Java
 
 ## Resources
 <!---* [Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)--->
