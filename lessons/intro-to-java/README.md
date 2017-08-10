@@ -82,26 +82,6 @@ These files are then compiled by the **javac** compiler into `.class` files cont
 
 ![diagram of flow from Java source to machine language](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
-Some jargon:
-
-* **platform** - an environment for running other programs.
-
-* **virtual** - the opposite of physical.
-
-* **virtual machine** - a computer that doesn't exist as physical hardware, instead it is "emulated" by software.
-
-* **compiler** - a program that translates source code into machine code.
-
-* **bytecode** - the machine language of the Java Virtual Machine.
-
-* **javac** - the Java compiler than translates Java source files into bytecode class files.
-
-* **JVM** - Java Virtual Machine, a virtual machine that interprets Java bytecode and enables your computer to run it as a program.
-
-* **JRE** - Java Runtime Environment, a software package that contains what is needed to run a Java program (including the JVM).
-
-* **JDK** - Java Development Kit, contains the basics needed to develop a Java program (including the JRE as well as tools such as javac).
-
 ### Exercises
 
 1. [Command Line Java](command-line-java.md) (*We'll do this first one together*)
