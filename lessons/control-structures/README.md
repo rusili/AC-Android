@@ -121,9 +121,6 @@ if (alwaysTrue) {
 System.out.println("Then this code runs");
 ```
 
-An ```if``` statement will evaluate code within the parentheses. The boolean statement must
-return a ```true``` or ```false``` value:
-
 ```java
 // readInput() returns an integer read from System.in
 int input = readInput();
@@ -131,6 +128,9 @@ if (input > 9) {
   System.out.println("A number greater than 9");
 }
 ```
+
+An ```if``` statement will evaluate code within the parentheses. The boolean statement must
+return a ```true``` or ```false``` value:
 
 ```java
 if (false || true) {
