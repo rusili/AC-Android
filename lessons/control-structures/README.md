@@ -195,7 +195,7 @@ if (input > 9) {
 } else {
   System.out.println("Input is less than 9 and 6");
 }
-
+```
 ## Boolean Expressions in Control Structures
 As described earlier, a ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
 
