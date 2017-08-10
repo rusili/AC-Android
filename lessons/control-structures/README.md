@@ -21,8 +21,8 @@
 
 ### Programming Environment
 
-- [Java coding in browser](https://repl.it/languages/java)
-- [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+- [repl.it: Java coding in browser](https://repl.it/languages/java)
+- [CodingBat: Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
 # Lecture: Control Structures in Java
 
