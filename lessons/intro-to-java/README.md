@@ -31,14 +31,14 @@
 |Term|Definition|
 |:-:|:-------:|
 |platform|an environment for running other programs|
-|virtual|a number|
-|virtual machine|a number|
-|compiler|a number|
-|bytecode|a number|
-|javac|a number|
-|JVM|a number|
-|JRE|a number|
-|JDK|a number|
+|virtual|the opposite of physical|
+|virtual machine|a computer that doesn't exist as physical hardware, instead it is "emulated" by software|
+|compiler|a program that translates source code into machine code|
+|bytecode|the machine language of the Java Virtual Machine|
+|javac|the Java compiler than translates Java source files into bytecode class files|
+|JVM|Java Virtual Machine, a virtual machine that interprets Java bytecode and enables your computer to run it as a program|
+|JRE|Java Runtime Environment, a software package that contains what is needed to run a Java program (including the JVM)|
+|JDK|Java Development Kit, contains the basics needed to develop a Java program (including the JRE as well as tools such as javac)|
 
 # Lecture
 
