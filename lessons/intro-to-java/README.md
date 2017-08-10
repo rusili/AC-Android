@@ -31,7 +31,15 @@
 ## Vocabulary
 |Term|Definition|
 |:-:|:-------:|
-|one|a number|
+|platform|a number|
+|virtual|a number|
+|virtual machine|a number|
+|compiler|a number|
+|bytecode|a number|
+|javac|a number|
+|JVM|a number|
+|JRE|a number|
+|JDK|a number|
 
 # Lecture
 
