@@ -28,7 +28,6 @@
 - [repl.it](https://repl.it/languages/java)
 
 ## Vocabulary
-|:-:|:--------:|
 |Term|Definition|
 |:-:|:---------|
 |platform|an environment for running other programs|
