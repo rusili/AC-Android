@@ -30,6 +30,8 @@
 |Condition|an expression or evaluation of an expression which must be either ```true``` OR ```false```|
 |Increment|increasing a variable's value by 1; for example: ```i++``` or ```++i```|
 |Decrement|decreasing a variable's value by 1; for example: ```i--``` or ```--i```|
+|```break```|?|
+|```continue```|?|
 |Method|a reusable block of code (function) that may be called/run within another block of code|
 |Declaration|states the type of a variable (or ```return``` type for **methods**), along with its name|
 |Parameter|?|
