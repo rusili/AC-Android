@@ -348,6 +348,11 @@ The statement "If 5 is greater than 3, the expression is correct - otherwise, it
 boolean isCorrectExpression = (5 > 3) ? true : false
 ```
 
+Let's break it down step-by-step:
+
+|Type|Variable|Assignment|Condition|If Condition is True|Store This|Otherwise, Store This|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|boolean|isCorrectExpression|=|(5>3)|?|true|false|
 
 
 [Exercises](exercises)
