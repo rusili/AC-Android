@@ -1,10 +1,12 @@
-# Objectives
+# Classes and Objects, Part 01
+
+## Objectives
 - How to instantiate a class.
 - How to use a class's methods.
 - To know the difference between primitive and reference types.
 - To become comfortable reading API documentation.
 
-# What you should know by now...
+## What you should know by now...
 - How to print out using `System.out.println`.
 - How to use primitive types, e.g. `int`, `char`, `boolean`, etc.
 - How to use `String`s.
@@ -15,17 +17,15 @@
 - How to call methods
 - How to declare a method
 
-
-# Warmup
+## Warmup
 As part of an in class competition, you will solve as many string questions as
 you can from HackerRank, in the next 30 minutes.
 
 [HackerRank](https://www.hackerrank.com/domains/java/java-strings/difficulty/all/page/1)
-# Review
+## Review
 - [`DrawRocket.java`](https://github.com/accesscode-2-1/unit-0/blob/master/in-class%20exercise%20solutions/DrawRocket.java)
 
-# Objects and classes
-##### Lesson
+## Lecture
 - Object-oriented programming
 - Creating classes
 - Using static methods
@@ -79,7 +79,7 @@ What's an instance? "Instance" and "object" mean the same thing; typically, "ins
 
 ![suburbs](https://github.com/accesscode-2-1/unit-0/blob/master/images/suburbs.jpg)
 
-##### Creating a class
+### Creating a class
 
 You've already used classes and objects. They're impossible to avoid, because in Java, **nearly everything is an object.** Some things aren't and we'll talk about those later.
 
