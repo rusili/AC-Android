@@ -338,6 +338,14 @@ if (studentName == teacherName) {
     System.out.println("This is not a good idea!");
 }
 ```
+## Ternary Operator Statements
+
+Another control statement which may come in handy when making decisions is called the Ternary Operator Statement, or the If-Then-Else statement. It gets its name from the ```?``` operator it uses to control the flow of a program.
+
+The statement "If 5 is greater than 3, it is correct - else, it is incorrect" can be written in code like this:
+
+```boolean isCorrect = 5 > 3 ? true : false```
+
 
 
 [Exercises](exercises)
