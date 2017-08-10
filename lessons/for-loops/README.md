@@ -84,7 +84,9 @@ A continue statement causes the loop to skip the remainder of its body and immed
 
 ```java
 for (int i = 1; i <= 20; i++) {
-    if (i % 2 == 0) continue;
+    if (i % 2 == 0) {
+    	continue;
+    }
     System.out.println(i);
 }
 ```
