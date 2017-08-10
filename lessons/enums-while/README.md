@@ -1,5 +1,4 @@
 # While Loops
-- tags: java, while loops, do-while loops, while, do-while
 
 ## Objectives
 * Write a While Loop
