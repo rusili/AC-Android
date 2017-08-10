@@ -3,7 +3,7 @@
 ## Objectives
 
 - Understand the components of a for loop
-- Properly use 'continue' and 'break'
+- Properly use ```continue``` and ```break```
 - Iterate through a String using a standard loop
 - Understand how to define Methods
 - Understand how to properly call methods in Java
