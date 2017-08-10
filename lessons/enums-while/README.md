@@ -84,9 +84,11 @@ Operation value. Leave the body of the if statement empty.
 > **Exercise:** Write a switch statement that compares an input against each
 Operation value. For each operation, print out its Operation name.--->
 
-## While loops
+## Loops
 
-* _loop_ - code that is run over and over again
+A **loop** is a block of code that is run over and over again, with or without specific changes, as long as certain conditions are met.
+
+## While loops
 
 Java's simplest loop construct is the `while` statement.  It looks like this:
 
