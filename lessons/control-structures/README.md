@@ -55,6 +55,8 @@ Boolean expressions are evaluated using a number of boolean operators:
 |```>=```|Greater than or equal to|
 |```<=```|Less than or equal to|
 |```&&```|Conditional And|
+|```\|\|```|Conditional Or|
+
 ### ```&&``` and ```||``` Boolean Operators
 
 The AND (```&&```) and OR (```||```) operators are used whenever we want to evaluate two ```boolean``` values, or expressions which evaluate to ```boolean``` values.
