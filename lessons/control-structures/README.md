@@ -132,7 +132,6 @@ if (input > 9) {
 }
 ```
 
-
 ```java
 if (false || true) {
   System.out.println("This code always runs");
@@ -182,9 +181,20 @@ if (input > 9) {
 }
 ```
 
-## ```else if``` Code Blocks
+## ```else if``` statement
 
-TBD
+An ```else if``` statement can also be added to the end of an ```if``` statement, to take further control of a program's flow. It can be seen as a combination of both the ```if``` and ```else``` statements, in that the ```else if``` only runs if the previous ```if``` statement's condition is not met, **AND** its own condition is **ALSO** met. Let's refactor (modify) the above code, so that it includes an ```else if``` statement that handles an input which is less than 9, but greater than 6:
+
+```java
+// Read input returns an integer read from System.in
+int input = readInput();
+if (input > 9) {
+  System.out.println("Input is greater than 9");
+} else if (input > 6) {
+  System.out.println("Input is less than 9, but greater than 6");
+} else {
+  System.out.println("Input is less than 9 and 6");
+}
 
 ## Boolean Expressions in Control Structures
 As described earlier, a ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
