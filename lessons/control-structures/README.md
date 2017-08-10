@@ -102,7 +102,7 @@ The operator ```||``` described with a **truth table**:
 
 Programming requires telling a computer to make decisions based on inputs. There are several ways to direct the flow of a program, using control structures. The simplest is the ```if``` statement.
 
-## If Statement
+## ```if``` Statement
 ```java
 if (BOOLEAN_CONDITION) {
   // do something
@@ -179,6 +179,10 @@ if (input > 9) {
 }
 ```
 
+## ```else if``` Code Blocks
+
+TBD
+
 ## Boolean Expressions in Control Structures
 As described earlier, a ```boolean``` expression is an expression that evaluates to either ```true``` or ```false```. Such expressions can take several forms. The simplest is the direct comparison of the value of a Boolean value to a boolean literal.
 
@@ -197,10 +201,6 @@ if(!word.isEmpty()) {
     System.out.println("You entered " + word);
 }
 ```
-
-## ```else if``` Code Blocks
-
-TBD
 
 ## Switch statement
 Switch statements are the equivalent of if else statements, with one key difference. Of all blocks of code defined in an if else statement, only one will be executed. In a ```switch``` statement, multiple blocks of code can be executed.
