@@ -5,6 +5,7 @@
 - Write an If statement
 - Write an If - Else statement
 - Write a Switch statement
+- Write a Ternary Operator Expression
 
 ## Resources
 
