@@ -1,5 +1,4 @@
 # For Loops and Methods
-- tags: loops, for, strings
 
 ## Objectives
 
