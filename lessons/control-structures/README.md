@@ -46,14 +46,16 @@ System.out.println(thisEvaluatesToFalse);
 
 Boolean expressions are evaluated using a number of boolean operators:
 
-- ```==``` Equals
-- ```!=``` Not Equals
-- ```>``` Greater than
-- ```<``` Less than
-- ```>=``` Greater than or equal to
-- ```<=``` Less than or equal to
-- ```&&``` Conditional And
-- ```||``` Conditional Or
+|Operator|Meaning|
+|:-:|:--|
+|```==```|Equals|
+|```!=```|Not Equals|
+|```>```|Greater than|
+|```<```|Less than|
+|```>=```|Greater than or equal to|
+|```<=```|Less than or equal to|
+|```&&```|Conditional And|
+|```||```|Conditional Or|
 
 ### ```&&``` and ```||``` Boolean Operators
 
