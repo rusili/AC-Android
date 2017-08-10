@@ -1,5 +1,4 @@
 # Control Structures in Java
-- tags: java if else switch
 
 ## Objectives
 
@@ -8,9 +7,20 @@
 - Write a Switch statement
 
 ## Resources
-- [Java coding in browser](https://repl.it/languages/java)
+
+### Videos
+
+* [Video: If Statements](https://www.youtube.com/watch?v=jjx5mJOcLqM)
+* [Video: Switch Statements](https://www.youtube.com/watch?v=oLpUfseieuE)
+
+### Documentation
+
 - [Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 - [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+
+### Programming Environment
+
+- [Java coding in browser](https://repl.it/languages/java)
 - [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
 # Lecture: Control Structures in Java
