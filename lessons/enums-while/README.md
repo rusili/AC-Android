@@ -211,6 +211,7 @@ do {
 } while(true);
 ```
 
+<!---
 ## How Android is built from Java
 Java is a programming language that can be used to build any program a
 developer conceives of. Android is a collection of applications and interfaces,
@@ -245,3 +246,4 @@ a system as complicated. Nor must one choose Java as the language to design it
 in. Many programming languages exist, each one expressing logic in a different
 pattern. Learning a different programming language will often teach you to think
 about code in a new way.
+--->
