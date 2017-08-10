@@ -144,7 +144,7 @@ if (false && true) {
 System.out.println("Then this code runs");
 ```
 
-## If - Else statement
+## ```else``` statement
 At the end of an ```if``` statement, you can put an ```else``` statement. In the code below, the ```if``` code block will run (the condition evaluates to ```true```), while the code in the ```else``` statement is skipped:
 
 ```java
