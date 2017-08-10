@@ -100,7 +100,7 @@ while (condition) {
 
 As with an `if` statement, the `condition` is a boolean expression.  The code that runs over and over again is the _body_ of the loop.  Before the first and every subsequent iteration, Java evaluates the condition; if it comes out false, the loop ends and Java continues with the following code.  Note that if the condition initially evaluates false, the loop body is never evaluated.
 
-As with `if`, you can leave out the curly braces if the body contains a single statement. However, code blocks are easier to recognize when curly braces are used. For example:
+As with `if`, you can leave out the curly braces if the body contains a single statement. For example:
 ```java
 // With curly braces
 while(true) {
@@ -112,6 +112,7 @@ while(true) {
 while(true)
     System.out.println("This also works, but is not as easy to recognize!);
 ```
+However, it is considered a best practice to include curly braces when creating code blocks, as it makes the intention of code much clearer for others to read.
 
 #### Exercise 01: "M&M Tracker"
 Write a program that tracks how many M&Ms you have left, as you eat them.  It should look like this:
