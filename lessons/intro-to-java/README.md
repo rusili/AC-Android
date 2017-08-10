@@ -13,18 +13,25 @@
 ## Resources
 
 ### Videos
-
 * [Video: Printing 'Hello World!' to the console](https://www.youtube.com/watch?v=7WiPGP_0AUA)
 * [Video: Using Variables in Java](https://www.youtube.com/watch?v=oPBWC4_Zmj0)
 * [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
 
-- [repl.it](https://repl.it/languages/java)
+### Documentation
 - [Java History](http://papa.det.uvigo.es/~theiere/cursos/Curso_Java/history.html)
 - [Oracle's Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - [Print Statements](https://www.cis.upenn.edu/~matuszek/General/JavaSyntax/print-statements.html)
 - [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 - [List of Java keywords (reserved words)](https://en.wikipedia.org/wiki/List_of_Java_keywords)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+### Programming Environment
+- [repl.it](https://repl.it/languages/java)
+
+## Vocabulary
+|Term|Definition|
+|:-:|:-------:|
+|one|a number|
 
 # Lecture
 
