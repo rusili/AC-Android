@@ -350,7 +350,7 @@ boolean isCorrectExpression = (5 > 3) ? true : false
 
 Let's break it down step-by-step:
 
-|Type|Variable|Assignment|Condition|If Condition is True|Store This|Otherwise, Store This|
+|Type|Variable|Assignment|Condition|If Condition is True|Variable is assigned this value|Otherwise, it is assigned this value|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |boolean|isCorrectExpression|=|(5>3)|?|true|false|
 
