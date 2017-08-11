@@ -91,7 +91,7 @@ Slack is our less-formal, more immediate messaging/chat app. It should be used f
 4. Enter your name and choose a user name.
 5. Create a password.
 6. You should be brought to the web app, ready to go!
-7. Download and install desktop client from http://slack.com
+7. Optionally download and install desktop client from http://slack.com
 8. Optionally install the mobile client.
 
 
