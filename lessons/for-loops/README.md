@@ -34,8 +34,8 @@
 |```continue```|jumps to the next iteration of the loop|
 |Method|a reusable block of code (function) that may be called/run within another block of code|
 |Declaration|states the type of a variable (or ```return``` type for **methods**), along with its name|
-|Parameter|?|
-|Argument|?|
+|Parameter|a variable in the declaration of a method, which the code within a method can use to manipulate arguments|
+|Argument|data passed into a method's parameters|
 
 # Lecture
 
