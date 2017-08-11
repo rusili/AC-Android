@@ -1,6 +1,6 @@
 ## Office hours
 
-- Mon + Wed, 6 - 7pm at C4Q HQ
+- Thursday, 7pm - 10om at C4Q HQ
 - Sun, 6 - 8pm at C4Q HQ
 - Thu + Fri, 1 - 2pm on Slack
 
