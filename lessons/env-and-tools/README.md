@@ -97,6 +97,8 @@ Slack is our less-formal, more immediate messaging/chat app. It should be used f
 
 ## Setup Canvas Account
 
+[Canvas](https://canvas.instructure.com/) is our key organizational tool. You'll find a schedule of lessons and assignments in it.
+
 You should have received an email already from Canvas asking you to register before you can participate in the class.
 
 If you haven't already please create a new account and make sure you set your Time Zone to "Eastern Time". You can then accept the invitation.
