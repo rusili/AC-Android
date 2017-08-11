@@ -97,7 +97,9 @@ Slack is our less-formal, more immediate messaging/chat app. It should be used f
 
 ## Setup Canvas Account
 
-TBD
+You should have received an email already from Canvas asking you to register before you can participate in the class.
+
+If you haven't already please create a new account and make sure you set your Time Zone to "Eastern Time". You can then accept the invitation.
 
 ## The App Design Process
 Building an app, whether its for a mobile phone or website, typically follows a
