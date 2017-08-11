@@ -88,6 +88,13 @@ program chat bots and run them in Slack, which can do anything from downloading
 an animated file to recommending where to eat for lunch. Chat bots are poised to
 be the newest form of digital interaction, similar to Snapchat and Vine of the past. [Slack Bot Examples](http://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
 
+1. To sign up for slack go to this [link](https://join.slack.com/t/c4qbridge-androidnw/shared_invite/MjI1MDQyOTI0ODcxLTE1MDIyMjYxODktNTg4NWIwYTQwMg). 
+2. You will be prompted to enter your email address. Enter it and hit the green button.
+3. Check your email for the confirmation and click "Confirm Email".
+4. Enter your name and choose a user name.
+5. Create a password.
+6. You should be brought to the web app, ready to go!
+
 ## Setup Canvas Account
 
 TBD
