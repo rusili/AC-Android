@@ -83,10 +83,7 @@ is implemented. If you do so, it could easily introduce a new error in your
 code.
 
 ## Setup Slack Account
-Slack is a chat messaging app, with many more features than sending text. People
-program chat bots and run them in Slack, which can do anything from downloading
-an animated file to recommending where to eat for lunch. Chat bots are poised to
-be the newest form of digital interaction, similar to Snapchat and Vine of the past. [Slack Bot Examples](http://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
+Slack is our less-formal, more immediate messaging/chat app. It should be used for quick short term communication and is not preferred for anything you would want to save long term.
 
 1. To sign up for slack go to this [link](https://join.slack.com/t/c4qbridge-androidnw/shared_invite/MjI1MDQyOTI0ODcxLTE1MDIyMjYxODktNTg4NWIwYTQwMg). 
 2. You will be prompted to enter your email address. Enter it and hit the green button.
@@ -94,6 +91,9 @@ be the newest form of digital interaction, similar to Snapchat and Vine of the p
 4. Enter your name and choose a user name.
 5. Create a password.
 6. You should be brought to the web app, ready to go!
+7. Download and install desktop client from http://slack.com
+8. Optionally install the mobile client.
+
 
 ## Setup Canvas Account
 
