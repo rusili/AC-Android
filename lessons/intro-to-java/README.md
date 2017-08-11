@@ -289,6 +289,6 @@ Let's complete some more exercises to experiment with Strings and printing:
 
 [Exercises: Working with Strings](exercises.md#strings)
 
-## Exit Ticket
+## Next Steps
 
-[Exit Ticket - Please complete at the end of class](https://docs.google.com/a/c4q.nyc/forms/d/1k5_otHg_g2IDzgzbdxEBKsd-U47z717lvOO2rB38DQQ/)
+Please visit the Android Bridge Calendar on Canvas, and select **Midday Check-in: Intro to Java** to complete the daily check-in!
