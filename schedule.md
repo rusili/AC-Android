@@ -1,8 +1,6 @@
 ## Office hours
 
-- Thursday, 7pm - 10om at C4Q HQ
-- Sun, 6 - 8pm at C4Q HQ
-- Thu + Fri, 1 - 2pm on Slack
+- Thursday, 7pm - 10pm at C4Q HQ
 
 ## Classes
 
