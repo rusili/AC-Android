@@ -367,8 +367,3 @@ Let's break it down step-by-step:
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |boolean|isCorrectExpression|=|(5>3)|?|true|false|
 
-
-[Exercises](TODO - Canvas Link)
-
-
-[Exit Ticket](TODO - Canvas Link)
