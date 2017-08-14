@@ -228,6 +228,28 @@ do {
 } while(true);
 ```
 
+## Next Steps: Accepting User Input
+
+Until now, we have been using variables to manually store values within our programs. However, in order for our programs to grow in effectiveness, we need to add the option for our users to enter input.
+
+Java programs can accept input from a variety of sources: Android views, websites, files, mouse clicks, servers, etc... - in this course, we will primarily accept input from users through the keyboard.
+
+There are several ways to do this. The one we will introduce today, but use more often in the coming weeks, is with something called a Scanner object.
+
+```java
+Scanner scanner = new Scanner(System.in);
+String name = scanner.next();
+```
+
+We will talk more about what a **Scanner** object is, and what the ```new``` keyword means in a later lecture. At this point, just know that this line of code will take a single word entered by the user on the keyboard, and after the user presses the ```enter``` key, the word will be saved as a ```String``` in the variable ```name```.
+
+```scanner.next()``` isn't the only method, or function, associated with ```Scanner```:
+
+|Method|Meaning|
+|:----:|:------|
+|\.next()|returns the 1st String without spaces after it|
+
+
 <!---
 ## How Android is built from Java
 Java is a programming language that can be used to build any program a
