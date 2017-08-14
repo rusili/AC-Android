@@ -257,8 +257,12 @@ We will talk more about what a **Scanner** object is, and what the ```new``` key
 
 |Method|Meaning|
 |:----:|:------|
-|\.next()|returns the 1st String without spaces after it|
-|\.nextLine|returns the entire String entered by a user|
+|\.next()|returns the 1st or next ```String``` without spaces after it|
+|\.nextLine()|returns the entire ```String``` entered by a user|
+|\.nextInt()|returns the 1st or next ```int``` value entered by a user|
+|\.nextDouble()|returns the 1st or next ```double``` value entered by a user|
+|\.nextBoolean()|returns the 1st or next ```boolean``` value entered by a user|
+|**...and many, many more!**|
 
 ## Exercises
 
