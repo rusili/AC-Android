@@ -248,6 +248,8 @@ We will talk more about what a **Scanner** object is, and what the ```new``` key
 |Method|Meaning|
 |:----:|:------|
 |\.next()|returns the 1st String without spaces after it|
+|\.nextLine|returns the entire String entered by a user|
+
 
 
 <!---
