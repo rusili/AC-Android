@@ -25,7 +25,7 @@ Let's review Strings! As we've seen before, if we want to declare and initialize
 String musician = "Louis Armstrong";
 ```
 
-If we wanted to get the value of that String variable, we could simply reference the value somehow, or use it in another method or variable, like this:
+If we wanted to get the value of that String variable, we could simply reference the variable somehow, or use it in another method or variable, like this:
 
 ```java
 System.out.println(musician);
