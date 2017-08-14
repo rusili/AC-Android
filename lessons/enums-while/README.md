@@ -129,7 +129,7 @@ while(true)
     System.out.println("This also works, but is not as easy to recognize!);
 ```
 However, it is considered a best practice to include curly braces when creating code blocks, as it makes the intention of code much clearer for others to read.
-
+<!--
 #### Exercise 01: "M&M Tracker"
 Write a program that tracks how many M&Ms you have left, as you eat them.  It should look like this:
 ```
@@ -148,6 +148,8 @@ you ate all the M&Ms
 
 Make sure you can't eat more M&Ms than you have left.
 
+--->
+
 ## Counting with Loops
 
 Using a while loop, we can count.
@@ -162,11 +164,15 @@ while (count < 10) {
 
 What happens if we switch the order of the two statements in the loop body?
 
+<!--
+
 #### Exercise 03: "Countdown"
 Change the code above from counting up to 10, to counting _down_ from 10. The last number should be 1.
 
 #### Exercise 04: "Blastoff!" [harder]
 Change this to count down from 100 to 10 by 5, and then from 9 to 1.  The numbers it prints should be 100, 95, 90, ..., 20, 15, 10, 9, 8, ..., 2, 1.  At the end, print "blastoff".
+
+--->
 
 ### Incrementing and Decrementing
 A statement like `count = count - 5` is so common that Java gives us a shorter form: `count -= 5`.   Likewise for `+=`, `*=`, _etc_.
@@ -188,6 +194,8 @@ Generally, `while (true)` will cause the loop to run forever!  But we "break out
 
 What are the first and last numbers this loop will print?
 
+<!--
+
 #### Exercise 05: [Keep Guessing](http://programmingbydoing.com/a/keep-guessing.html)
 Use `break` to end the game when the player guesses correctly.
 
@@ -206,6 +214,8 @@ Change the program to pick a random number between 1 and 1000.  Play it a few ti
 
 #### Exercise 08: [Adding Values in a Loop](http://programmingbydoing.com/a/adding-values-in-a-loop.html)
 Write a program that gets several integers from the user. Sum up all the integers they give you. Stop looping when they enter a 0. Display the total at the end.
+
+--->
 
 ## Do-While Loops
 
@@ -250,7 +260,9 @@ We will talk more about what a **Scanner** object is, and what the ```new``` key
 |\.next()|returns the 1st String without spaces after it|
 |\.nextLine|returns the entire String entered by a user|
 
+## Exercises
 
+Please look at your Calendars to find and follow the link to the In-class exercises for today. We will work on the first two together as a class (M&M Questions), then work on our own, and eventually with each other, for the remainder of the questions.
 
 <!---
 ## How Android is built from Java
