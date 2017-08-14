@@ -262,7 +262,7 @@ We will talk more about what a **Scanner** object is, and what the ```new``` key
 |\.nextInt()|returns the 1st or next ```int``` value entered by a user|
 |\.nextDouble()|returns the 1st or next ```double``` value entered by a user|
 |\.nextBoolean()|returns the 1st or next ```boolean``` value entered by a user|
-|**...and many, many more!**|
+|**...and many, many more!**|You can find a complete list [here](https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html)|
 
 ## Exercises
 
