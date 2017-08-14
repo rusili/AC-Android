@@ -17,6 +17,24 @@
 * [Android Architecture](https://source.android.com/devices/)
 * [Android Open Source Project](https://source.android.com/)
 
+## Warm Up
+
+Let's review Strings! As we've seen before, if we want to declare and initialize a String variable by assigning it a value, we can do something like this:
+
+```java
+String musician = "Louis Armstrong";
+```
+
+If we wanted to get the value of that String variable, we could simply reference the value somehow, or use it in another method or variable, like this:
+
+```java
+System.out.println(musician);
+```
+
+But what if we wanted to get just **ONE** of the letters, or _characters_ from the String, like the letter 'u'? What if we didn't even know what the character was, and we just wanted the third one in the String?
+
+**Hint** - If you were to google "charAt() Java", that might be helpful....
+
 # Lecture: While Loops
 <!---(## Enums
 Enums are used to represent constant values in code, that are related to each
