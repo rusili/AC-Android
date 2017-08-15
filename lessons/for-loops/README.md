@@ -61,6 +61,16 @@ As with `if` and `while`, for loops have a body denoted by a pair of opening bra
 
 All loops have a body, and any code within the body of your loop will run however many times your loop runs.
 
+This is an example of a ```for``` loop, that prints the value of ```i```, if ```int i``` is an even number:
+
+```java
+for(int i = 0; i < 4; i++) {
+    if(i % 2 == 0) {
+    	System.out.println(i)
+    }
+}
+```
+
 **Exercise** Rewrite the following `while` loop as a `for` loop:
  ```java
  int i = 0;
@@ -75,7 +85,6 @@ All loops have a body, and any code within the body of your loop will run howeve
 The hardest part about `for` loops is properly stopping the loop. Programmers often make mistakes when setting the termination condition for a loop. In particular, we are often off-by-one. This kind of bug it so common, it has its own [Wikipedia page](http://en.wikipedia.org/wiki/Off-by-one_error).
 
 <!--
-
 #### Exercise: [Counting Machine](http://programmingbydoing.com/a/counting-machine.html) (Simple)
 Write a program that counts from 0 to a user-specified number.
 
