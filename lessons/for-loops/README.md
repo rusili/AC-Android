@@ -117,18 +117,18 @@ Simplify your code for FizzBuzz using `continue`.
 
 ## Methods
 
-Methods are another effective way for programmers to automate things, allowing us to repeatedly call a set of code on a number of inputs without retyping the code.
+Methods are another effective way for programmers to automate things, allowing us to repeatedly run a block of code ("call" a Method) on a number of inputs without retyping the code.
 
-A method is a piece of code that can perform one or many operations, then return something back to whatever happened to “call” the method. Or, a method will perform some operations, without needing to return anything when it’s done, the flow of code will just continue back from whatever called the method.  Either way, a method will execute some block of useful code that can be called repeatedly from anywhere in your program
+A method is a piece of code that can perform one or many operations, then return something back to whatever block of code “called” the method. Or, a method will perform some operations, without needing to return anything when it’s done, and the flow of code will just continue back from whatever point the method was initially called. Either way, a method will execute some block of useful code that can be called repeatedly from anywhere in your program.
 
 ```System.out.println()``` is an example of a method call. It takes a single String as its input parameter and prints it.
 
 Java provides many methods you may find familiar. Here are two particularly helpful methods for iterating through strings.
 
-- `String.length()` and
-- `String.charAt()`
+- ```String.length()```
+- ```String.charAt()```
 
-Here is how they are invoked in Java:
+Here is how they are **invoked** in Java:
 
 ```java
 System.out.println("Queens!".length()); // 7
@@ -149,19 +149,27 @@ We can also declare or define our own methods to add to our Java classes by spec
 
 ### Composition of Methods
 
- The first line of a method is know as it's declaration. Here, we declare the method's return type, name, and its parameters in the declaration. The block of code within the curly braces of a function is known as the body of the function. This code is evaluated and run each time a method is called. the The block methods except those that return void require a return statement within the body. Code written after a return statement is generally unreachable because once the method returns, the code flow exits from the method and returns a value
+Just as with variables - we must declare a method with types, before we use them.
+
+However, a method's type is different from a variable's type. A variable type is the **type of value stored** in a variable, while a method type is the **type of the value returned** after the method is finished running.
+
+The first line of a method is known as it's declaration. Here, we declare the method's return type, name, and its parameters in the declaration. The block of code within the curly braces of a function is known as the body of the function. This code is evaluated and run each time a method is called. the The block methods except those that return void require a return statement within the body. Code written after a return statement is generally unreachable because once the method returns, the code flow exits from the method and returns a value
 
 The following method is defined to take a number as an input and return a boolean.
 ```java    
-//Method Defintion
-boolean isOdd(int number){
+// Method Defintion
+
+boolean isOdd(int number) {
    return number % 2 != 0;
 }
 ```
-//Method Call
-isOdd(4)   //return false.
+```java
+// Method Call - with this value (or argument) passed into the parameter,
+// it will return the boolean value 'false'.
 
+isOdd(4);
 
+```
 ```java
 void printHelloWorldNTimes(int N){
      for(int i = 0; i < N; i++){
