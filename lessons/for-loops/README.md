@@ -197,4 +197,3 @@ Below is a quote from [Grace Hopper](http://en.wikipedia.org/wiki/Grace_Hopper),
 > > "Clearly, we must break away from the sequential and not limit the computers. We must state definitions and provide for priorities and descriptions of **data**. We must state relationships, not procedures."
 --->
 
-### [Exit Ticket](http://bit.ly/2aFLSKE)
