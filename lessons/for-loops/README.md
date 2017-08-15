@@ -74,6 +74,8 @@ All loops have a body, and any code within the body of your loop will run howeve
 
 The hardest part about `for` loops is properly stopping the loop. Programmers often make mistakes when setting the termination condition for a loop. In particular, we are often off-by-one. This kind of bug it so common, it has its own [Wikipedia page](http://en.wikipedia.org/wiki/Off-by-one_error).
 
+<!--
+
 #### Exercise: [Counting Machine](http://programmingbydoing.com/a/counting-machine.html) (Simple)
 Write a program that counts from 0 to a user-specified number.
 
@@ -83,19 +85,19 @@ Now let the user input the initial value, the max value, and the increment.
 #### Exercise: [FizzBuzz](http://programmingbydoing.com/a/fizzbuzz.html) (Difficult)
 "FizzBuzz" is a very famous program, up there with "Hello World!". Write "FizzBuzz" using a ```for``` loop. 
 
+--->
+
 ## The `break` and `continue` keywords
 
 Remember `break`?
 
-**Definition:** `break` terminates a loop or switch statement and transfers execution to the statement immediately following the loop or switch.
+The keyword `break` terminates a loop or switch statement and transfers execution to the statement immediately following the loop or switch.
 
-Java also has another useful keyword, `continue`:
+Java also has another useful keyword, `continue` - which jumps to the next iteration of the loop.
 
-**Definition:** `continue` jumps to the next iteration of the loop.
+The keyword `continue` can be useful for skipping over some unnecessary computation.
 
-`continue` can be useful for skipping over some unnecessary computation.
-
-A continue statement causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+A ```continue``` statement causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
 
 ```java
 for (int i = 1; i <= 20; i++) {
@@ -105,50 +107,49 @@ for (int i = 1; i <= 20; i++) {
     System.out.println(i);
 }
 ```
+<!--
 
 #### Exercise:
 
 Simplify your code for FizzBuzz using `continue`.
 
+--->
+
 ## Methods
 
 Methods are another effective way for programmers to automate things, allowing us to repeatedly call a set of code on a number of inputs without retyping the code.
 
-*Definition*
- A method is a piece of code that could perform some operations, then return something back to whatever happened to “call” the method. Or, a method will perform some operations, without needing to return anything when it’s done, the flow of code will just continue back from whatever called the method.  Either way, a method will execute some block of useful code that can be called repeatedly from anywhere in your program
+A method is a piece of code that can perform one or many operations, then return something back to whatever happened to “call” the method. Or, a method will perform some operations, without needing to return anything when it’s done, the flow of code will just continue back from whatever called the method.  Either way, a method will execute some block of useful code that can be called repeatedly from anywhere in your program
 
-  System.out.println() is an example of a method call. It takes a single String as its input parameter and prints it.
+```System.out.println()``` is an example of a method call. It takes a single String as its input parameter and prints it.
 
-  Java provides many methods you may find familiar. Here are two particularly helpful methods for iterating through strings.
+Java provides many methods you may find familiar. Here are two particularly helpful methods for iterating through strings.
 
-  - `String.length()` and
-  - `String.charAt()`
+- `String.length()` and
+- `String.charAt()`
 
-  here is how they are invoked in Java:
+Here is how they are invoked in Java:
 
-  ```java
-  System.out.println("Queens!".length()); // 7
-  ```
+```java
+System.out.println("Queens!".length()); // 7
+```
 
-  The function `String.charAt()` returns the `char` at the index provided. For example:
+The function `String.charAt()` returns the `char` at the index provided. For example:
 
-  ```java
-  System.out.println("Queens!".charAt(3)); // e
-  ```
+```java
+System.out.println("Queens!".charAt(3)); // e
+```
 
-
-  We can also declare or define our own methods to add to our Java classes by specifying a name, required parameters, and return types. It's crucial to pay attention to four important things:
-
+We can also declare or define our own methods to add to our Java classes by specifying a name, required parameters, and return types. It's crucial to pay attention to four important things:
 
 - What will the method do?
 - What name will the method have?
 - What parameters are required? - the number of parameters and the type(s) are important!- (When calling the method, you must provide the same number of parameters, same exact types as specified, and in the right order.)
 - What type of value, if any, will the method return? (The data type of the return value must match the method's declared return type; EX: you can't return an integer value from a method declared to return a boolean.)
 
-*Composition of Methods*
+### Composition of Methods
 
  The first line of a method is know as it's declaration. Here, we declare the method's return type, name, and its parameters in the declaration. The block of code within the curly braces of a function is known as the body of the function. This code is evaluated and run each time a method is called. the The block methods except those that return void require a return statement within the body. Code written after a return statement is generally unreachable because once the method returns, the code flow exits from the method and returns a value
-
 
 The following method is defined to take a number as an input and return a boolean.
 ```java    
