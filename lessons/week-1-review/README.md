@@ -98,6 +98,16 @@ Now, you might have noticed that if you placed these methods in the ```class``` 
 
 <img src="https://github.com/C4Q/AC-Android/blob/master/lessons/week-1-review/images/non_static_context.PNG" alt="non-static context error" style="width:250px;height:316px;">
 
+Yikes! That looks scary! However, the compiler is trying to help you! We will talk about the difference between static and non-static methods and variables at a later date. However, just know that if you are trying to call a method inside another method with the keyword ```static``` in its declaration, the method you are calling should also be static. There are ways around this (instantiation, etc.), and we will explore them at a later date.
+
+So, let's refactor (modify) our method a bit to add the keyword ```static```, so that it will run as expected:
+
+```java
+static void returnNothing() {
+    System.out.println("This prints to the screen, but returns nothing else after it is called.");
+}
+```
+
 <!--
 
 **Ground Rules for Exercises**
