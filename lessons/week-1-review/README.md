@@ -96,7 +96,7 @@ boolean returnBoolean() {
 
 Now, you might have noticed that if you placed these methods in the ```class``` **Main** in repl.it, then try to call them from within the curly braces of the ```public static void main(String[] args)``` method, you will get an error, probably something like this:
 
-<img src="https://www.github.com/AC-Android/lessons/week-1-review/images/non_static_context.PNG" alt="non-static context error" style="width:604px;height:765px;">
+<img src="https://github.com/C4Q/AC-Android/blob/master/lessons/week-1-review/images/non_static_context.PNG" alt="non-static context error" style="width:604px;height:765px;">
 
 <!--
 
