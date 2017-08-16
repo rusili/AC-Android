@@ -69,7 +69,8 @@ Let's go through the first exercise together.
 #### Mid-Lecture Exercise: [Asking Questions](http://programmingbydoing.com/a/asking-questions.html)
 For this exercise, we will ask the user a number of questions back-to-back, store thier answers in variables, and print their answers back to them. Follow the link above for more information.
 
-Now try to use the `Scanner` yourself, but first...
+Now try to use the `Scanner` yourself!
+<!--
 
 **Ground Rules for Exercises**
 
@@ -86,6 +87,8 @@ Now try to use the `Scanner` yourself, but first...
 ```
 
 - After every exercise, commit your work to GitHub!
+
+--->
 
 ## If Else Problems
 
