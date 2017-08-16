@@ -96,7 +96,7 @@ boolean returnBoolean() {
 
 Now, you might have noticed that if you placed these methods in the ```class``` **Main** in repl.it, then try to call them from within the curly braces of the ```public static void main(String[] args)``` method, you will get an error, probably something like this:
 
-
+![non-static](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 <!--
 
