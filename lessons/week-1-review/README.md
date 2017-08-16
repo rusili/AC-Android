@@ -3,7 +3,8 @@
 
 ## Objectives
 
-* Reading input from command line
+* Review reading input from command line
+* Review declaring static methods
 * Solve If Else Problems
 * Solve Switch Statement Problems
 * Solve While Loop Problems
