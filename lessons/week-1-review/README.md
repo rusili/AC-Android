@@ -70,6 +70,18 @@ Let's go through the first exercise together.
 For this exercise, we will ask the user a number of questions back-to-back, store thier answers in variables, and print their answers back to them. Follow the link above for more information.
 
 Now try to use the `Scanner` yourself!
+
+## Methods
+
+Let's review **Methods** in Java - how they are declared, how they accept arguments into their parameters (if any), and the return types of the values they return.
+
+When you create a method declaration - the first step is to determine its return type. If you want to write a method which runs a block of code when it is called, but returns nothing, we can write something like this:
+
+```java
+void returnNothing() {
+    System.out.println("This prints to the screen, but returns nothing else after it is called.");
+}
+
 <!--
 
 **Ground Rules for Exercises**
