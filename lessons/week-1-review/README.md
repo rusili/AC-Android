@@ -82,6 +82,17 @@ void returnNothing() {
     System.out.println("This prints to the screen, but returns nothing else after it is called.");
 }
 ```
+The ```void``` keyword lets the compiler know that when this method is called, and finishes running the code in its code block, it will not ```return``` a value to whatever code block the method was originally called.
+
+If we want our method to both ***DO*** something **AND** return a value of a specific type, then we will use a return type other than ```void```:
+
+```java
+boolean returnBoolean() {
+    System.out.println("This prints to the screen, but it will also RETURN a boolean value after it is called.");
+    return true;
+}
+
+```
 
 <!--
 
