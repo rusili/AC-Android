@@ -25,7 +25,7 @@ Previously, we learned how to print. Remember the syntax?
 System.out.println("I am printing a line!");
 ```
 
-But just printing gets a bit boring. Today, we're going to learn how to ask the user for feedback. In programming, we call this *reading user input*. Let's talk about how.
+But just printing gets a bit boring. Today, we're going to review how to ask the user for feedback. In programming, we call this *reading user input*. Let's talk about how.
 
 ### Scanner
 
@@ -59,6 +59,8 @@ The ```Scanner``` gives you the programmer some magical powers called *functions
 ```java
 int usersAge = input.nextInt();
 ```
+
+Functions in Java are called **Methods**.
 
 [This page](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html) has a full list of `Scanner` functions.
 
