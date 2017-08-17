@@ -45,7 +45,13 @@ public class Echo {
 }
 ```
 
-First, we *import* the ```Scanner```, meaning we tell the Java compiler to include some code written by another developer. Then to create a new `Scanner`, we type:
+First, we *import* the ```Scanner```, meaning we tell the Java compiler to include some code written by another developer. 
+
+```java
+import java.util.Scanner;
+```
+
+Then to create a new `Scanner`, we type:
 
 ```java
 Scanner input = new Scanner(System.in);
