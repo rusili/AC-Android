@@ -50,7 +50,7 @@ We've already talked about methods. A method models the behavior of an object--i
 
 ### But why?
 
-<---
+<!--
 ![NYC](https://github.com/accesscode-2-1/unit-0/blob/master/images/nyc.jpg)
 --->
 
