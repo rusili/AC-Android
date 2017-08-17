@@ -22,8 +22,11 @@ As part of an in class competition, you will solve as many string questions as
 you can from HackerRank, in the next 30 minutes.
 
 [HackerRank](https://www.hackerrank.com/domains/java/java-strings/difficulty/all/page/1)
+
+<!--
 ## Review
 - [`DrawRocket.java`](https://github.com/accesscode-2-1/unit-0/blob/master/in-class%20exercise%20solutions/DrawRocket.java)
+--->
 
 ## Lecture
 - Object-oriented programming
@@ -33,21 +36,23 @@ you can from HackerRank, in the next 30 minutes.
 - References vs. values
 
 ### Object-oriented programming
-Object-oriented programming is a style of computer programming in which the programmer represents the real world using "objects." An *object* is a very generic term in software development and will have different meanings depending on the context and language. For now, this definition is enough:
-
-> *Definition:* An *object* is a group of primitive types, methods, and other objects.
+Object-oriented programming is a style of computer programming in which the programmer represents the real world using "objects." An *object* is a very generic term in software development and will have different meanings depending on the context and language. For now, this definition is enough. For now, think of an *object* as a group of primitive types, methods, and other objects.
 
 Real world objects have state and behavior. For example, a car has state (color, make, model) and behavior (turning, accelerating). Object-oriented programming is an attempt to model this combination of state and behavior in a modular, comprehensible way.
 
+<!--
 ![Object-oriented programming](https://github.com/accesscode-2-1/unit-0/blob/master/images/car.jpg)
 
 *Figure: A car can be thought of as an object with certain state and behavior.*
+--->
 
 We've already talked about methods. A method models the behavior of an object--it *does something*.
 
 ### But why?
 
+<---
 ![NYC](https://github.com/accesscode-2-1/unit-0/blob/master/images/nyc.jpg)
+--->
 
 **Objects help us to build big programs.**
 
