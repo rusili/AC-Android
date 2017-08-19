@@ -36,7 +36,7 @@ public static void pieIsBaked() {
 }
 ```
 
-You can think of every pie you bake using that recipe as an object of the Class ```Pie```. It doesn't have a primitive type like ```int``` or ```boolean``` - it has a class type, the way ```String``` primitives are of class type ```String```. All eight primitive types use keywords written in all lowercase - but all class types are declared using proper case - meaning the first letter is capitalized, while the remainer of the letters are written in **camelCase** format.
+You can think of every pie you bake using that recipe as an object of the Class ```Pie```. It doesn't have a primitive type like ```int``` or ```boolean``` - it has a class type, the way ```String``` primitives are of class type ```String```. All eight primitive types use keywords written in all lowercase - but all class types are declared using proper case - meaning the first letter is capitalized, while the remainder of the letters are written in **camelCase** format.
 
 As you can see, all of the variables inside class ```Pie``` are ```static``` - this means that they "belong" to the class. If you want to get a public static variable from a class, you could do something like this:
 
