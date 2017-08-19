@@ -3,7 +3,7 @@
 ## Objectives
 * Participants will describe what a class is
 * Participants will describe what an object is
-* Participants will instantiate their own classes and objects
+* Participants will write their own classes, and instantiate their own objects from classes
 
 ## Resources
 * [Video: Classes and Objects](www.youtube.com/watch?v=OHw2t8BaIUg)
@@ -28,7 +28,7 @@ Think of it this way - imagine you are a baker, and you want to make a pie. It w
 class Pie {
 
 public static String crust = "filo dough";
-public static String pieFilling= "cherry";
+public static String pieFilling = "cherry";
 public static int diameter = 12;
 
 public static void pieIsBaked() {
