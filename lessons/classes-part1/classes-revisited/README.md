@@ -32,7 +32,7 @@ public static String pieFilling = "cherry";
 public static int diameter = 12;
 
 public static void pieIsBaked() {
-	System.out.println("I am a " + fillingType + " pie!");
+	System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -142,7 +142,7 @@ public static int getDiameter() {
 }
 
 public static void pieIsBaked() {
-	System.out.println("I am a " + fillingType + " pie!");
+	System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -170,7 +170,7 @@ public int getDiameter() {
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + fillingType + " pie!");
+	System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -224,11 +224,11 @@ public int getDiameter() {
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + fillingType + " pie!");
+	System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
-We wrote a constructor, that's the exact name of the class, made sure it was public, then used it to reassign values of our field variables to whatever the chef passes into the parameters!
+We wrote a constructor, that's the exact name of the class, made sure it was public, then used it to reassign values of our field variables to whatever the baker passes into the parameters!
 
 You'll notice that we placed the constructor between the variables, and the other methods in the class. Typically, the order is as follows:
 * import statements (none in this example, but they would be at the top, above and outside classes)
@@ -305,7 +305,7 @@ public void pieIsBaked() {
 
 We added a default empty constructor, so if anyone instantiates a pie, without passing in any arguments to parameters, they'll get a cherry pie, just like the original recipe stated it to be! And now we have the opportunity to instantiate different types of pies whenever we want, based on the recipe, but with little tweaks here-and-there, to add variety and flexibility - without ever having to change the original recipe!
 
-So, there is one thing we can do to make our code better. It won't change the way things look on the screen, but it will make out code cleaner.
+So, there is one thing we can do to make our code better. It won't change the way things look on the screen, but it will make our code cleaner.
 
 In the default constructor, we can actually call the other constructor, and fill it with the assignments we originally initialized our variables with:
 
@@ -352,3 +352,6 @@ Alright. That was a ton. Here's a hamster eating a burrito:
 What we did was called **Overloading**, in that we had several different constructors, and Java was able to tell them apart - even though they had the same name, because their parameters are different. Programmers use method overloading all the time, to perform similar tasks, with different inputs.
 
 Another thing we learned was the keyword ```this```. The ```this``` keyword is used to refer to the instance of the class being instantiated. In other words, we are saying that these rules only apply to the object we've just created, and nothing more.
+
+#### Getters and Setters
+
