@@ -355,3 +355,101 @@ Another thing we learned was the keyword ```this```. The ```this``` keyword is u
 
 #### Getters and Setters
 
+So, we've seen **getter** methods before - we created public methods that return the values of our private field variables. And we set, or **initialized** our field variables with a **constructor** at **instantiation**. 
+
+```java
+class Pie {
+
+private String crust;
+private String pieFilling;
+private int diameter;
+
+public Pie() {
+	this("filo dough", "cherry", 12);
+}
+
+public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
+	crust = chefChoiceCrust;
+	pieFilling = chefChoicePieFilling;
+	diameter = chefChoiceDiameter;
+}
+
+public String getCrust() {
+	return crust;
+}
+
+public String getPieFilling() {
+	return pieFilling;
+}
+
+public int getDiameter() {
+	return diameter;
+}
+
+public void pieIsBaked() {
+	System.out.println("I am a " + pieFilling + " pie!");
+}
+```
+
+However, there may be times when you'll have to change the values of variables within an object, after it has been instantiated. In these cases, we can use **setter** methods:
+
+```java
+class Pie {
+
+private String crust;
+private String pieFilling;
+private int diameter;
+
+public Pie() {
+	this("filo dough", "cherry", 12);
+}
+
+public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
+	crust = chefChoiceCrust;
+	pieFilling = chefChoicePieFilling;
+	diameter = chefChoiceDiameter;
+}
+
+public String getCrust() {
+	return crust;
+}
+
+public String getPieFilling() {
+	return pieFilling;
+}
+
+public int getDiameter() {
+	return diameter;
+}
+
+public void getCrust(String crust) {
+	crust = newCrust;
+}
+
+public void getPieFilling(String newPieFilling) {
+	pieFilling = newPieFilling;
+}
+
+public void setDiameter(int newDiameter) {
+	diameter = newDiameter;
+}
+
+public void pieIsBaked() {
+	System.out.println("I am a " + pieFilling + " pie!");
+}
+```
+
+As you can see, these methods are ```void```, because they do not return anything, but instead do things to our field variables. This is weird for this example, but we can use a **setter** method to essentially suck out the filling, and replace it with a new filling:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    
+    Pie cherryPie = new Pie();
+	cherryPie.pieIsBaked();
+	cherryPie.setPieFilling("Sour Cherry");
+	cherryPie.pieIsBaked();
+  }
+}
+
+Huzzah! We have just bizzarly sucked out the old filling, and replaced it with a new one! Congrats!
