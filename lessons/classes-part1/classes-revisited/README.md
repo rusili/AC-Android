@@ -299,7 +299,7 @@ public int getDiameter() {
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + fillingType + " pie!");
+	System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -339,7 +339,7 @@ public int getDiameter() {
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + fillingType + " pie!");
+	System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
