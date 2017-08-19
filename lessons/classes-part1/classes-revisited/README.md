@@ -74,7 +74,7 @@ class Main {
 }
 ```
 
-Congrats - you've just changed the recipe! This means that from now on, anyone who uses your recipe to make your pies will no longer make a pie with "dough", but instead "graham cracker"!
+Congrats - you've just changed the recipe! This means that from now on, anyone who uses your recipe to make your pies will no longer make a pie with "filo dough", but instead "graham cracker"!
 
 So, let's make our first pie!
 
