@@ -6,13 +6,13 @@
 * Participants will write their own classes, and instantiate their own objects from classes
 
 ## Resources
-* [Video: Classes and Objects](www.youtube.com/watch?v=OHw2t8BaIUg)
-* [Video: Methods](www.youtube.com/watch?v=-eoNHtILOs4)
-* [Video: Getters and Return Values](www.youtube.com/watch?v=foX28s2Qw0w)
-* [Video: Method Parameters](https://www.youtube.com/watch?v=fXVI4xuvozg)
-* [Video: Setters and 'this'](www.youtube.com/watch?v=x-gBJ6q3Ufc)
-* [Video: Constructors](www.youtube.com/watch?v=oSiN1J_G01Q)
-* [Video: Static and Final Keywords](www.youtube.com/watch?v=yImBET6EO8c)
+* ![Video: Classes and Objects](www.youtube.com/watch?v=OHw2t8BaIUg)
+* ![Video: Methods](www.youtube.com/watch?v=-eoNHtILOs4)
+* ![Video: Getters and Return Values](www.youtube.com/watch?v=foX28s2Qw0w)
+* ![Video: Method Parameters](https://www.youtube.com/watch?v=fXVI4xuvozg)
+* ![Video: Setters and 'this'](www.youtube.com/watch?v=x-gBJ6q3Ufc)
+* ![Video: Constructors](www.youtube.com/watch?v=oSiN1J_G01Q)
+* ![Video: Static and Final Keywords](www.youtube.com/watch?v=yImBET6EO8c)
 
 # Lecture
 
