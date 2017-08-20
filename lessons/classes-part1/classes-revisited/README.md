@@ -6,7 +6,7 @@
 * Participants will write their own classes, and instantiate their own objects from classes
 
 ## Resources
-* ![Video: Classes and Objects](www.youtube.com/watch?v=OHw2t8BaIUg)
+* ![Video: Classes and Objects](http://www.youtube.com/watch?v=OHw2t8BaIUg)
 * ![Video: Methods](www.youtube.com/watch?v=-eoNHtILOs4)
 * ![Video: Getters and Return Values](www.youtube.com/watch?v=foX28s2Qw0w)
 * ![Video: Method Parameters](https://www.youtube.com/watch?v=fXVI4xuvozg)
