@@ -45,4 +45,34 @@ Great! The variable ```apple``` is of the type ```Apple```, and at runtime, will
 
 However, we can't really do much with this object. We have no access to its fields (they are set to **private**), and we haven't assigned any values to these fields. We've created an object, but it is a poorly constructed one.
 
-First, let's 
+First, let's write a constructor which will allow a user to assign values to each field, every time an object is instantiated:
+
+```java
+public class Apple {
+  private boolean isRipe;
+  private int seedCount;
+  
+  public Apple(boolean isRipe, int seedCount) {
+    this.isRipe = isRipe;
+    this.seedCount = seedCount;
+  }
+
+}
+```
+
+We used the keyword ```this```, because....
+
+Excellent! Now, a user can instantiate an object of type ```Apple```, and assign values to that instance's fields:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    Apple apple = new Apple(true, 6);
+  }
+
+}
+```
+
+So, we've created our object, we've improved our constructor so that it may accept arguments (input values) into parameters, and we've assigned values to the fields of this particular instance of the class ```Apple```.
+
+This object is much more robust, but at this point, we can only create an object with values - we cannot **get** any values from this object's fields (variables). 
