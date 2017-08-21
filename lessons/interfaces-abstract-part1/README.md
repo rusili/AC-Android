@@ -43,8 +43,8 @@ Classes can be derived from other classes, thereby inheriting fields and methods
 
 When you want to create a new class and there is already a class that includes some of the code that you want, you can derive your new class from the existing class. In doing this, you can reuse the fields and methods of the existing class without having to write (and debug!) them yourself in order to adapt your new class to new situations
 
-![ Animal Hierarchy ] (img/animalHiearchy3.jpg)
-![ upcasting downcasting ] ( img/updown_upcasting.png )
+![ Animal Hierarchy ](img/animalHiearchy3.jpg)
+![ upcasting downcasting ]( img/updown_upcasting.png)
 
 
 Other than `Object` ( shown above ), which has no superclass, every class has one and only one direct superclass.
@@ -67,7 +67,7 @@ A subclass inherits all the public methods and fields from its superclass.
 The Object class, defined in the java.lang package, defines and implements behavior common to all classes—including the ones that you write. In the Java platform, many classes derive directly from Object, other classes derive from some of those classes, and so on, forming a hierarchy of classes.
 
 All Classes in the Java Platform are Descendants of Object
-![classes-object] (img/classes-object.gif)
+![classes-object](img/classes-object.gif)
 
 At the top of the hierarchy, Object is the most general of all classes. Classes near the bottom of the hierarchy provide more specialized behavior.
 
@@ -142,7 +142,8 @@ A subclass inherits all of the public and protected members of its parent, no ma
 >#### Side Note: Don't remember the difference between public, protected and package-private?
 >[java access modifiers ] (img/java_accessmodifiers.jpg)
 <br />
->[java access modifiers (graphic ) ] (img/java_accessmodifiers_graphic.jpg)
+
+![java access modifiers](img/java_accessmodifiers_graphic.jpg)
 
 If the subclass is in the same package as its parent, it also inherits the package-private members of the parent. You can use the inherited members as is, replace them, hide them, or supplement them with new members:
 
@@ -201,7 +202,7 @@ Here the instanceof operator verifies that obj refers to a MountainBike so that 
 
 ## Overriding and Hiding Methods
 
-![ method overriding ] (img/methodOverriding.gif)
+![ method overriding ](img/methodOverriding.gif)
 
 
 ### Instance Methods
