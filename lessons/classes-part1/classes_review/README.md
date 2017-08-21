@@ -112,3 +112,39 @@ class Main {
 
 }
 ```
+
+After creation, we cannot modify our `Apple` objects because the fields are private with no `setter` methods.
+Todo: Add `setter` methods to update the value of `seedCount` and `isRipe` in the `Apple` class. The new `Apple` class with `setters` should look like:
+
+```java
+public class Apple {
+  private boolean isRipe;
+  private int seedCount;
+  
+  public Apple(boolean isRipe, int seedCount) {
+    this.isRipe = isRipe;
+    this.seedCount = seedCount;
+  }
+  
+  public boolean getIsRipe() {
+    return isRipe;
+  }
+
+  public int getSeedCount() {
+    return seedCount;
+  }
+
+  public void setIsRipe(boolean isRipe) {
+    this.isRipe = isRipe;
+  }
+
+  public void setSeedCount(int seedCount) {
+    this.seedCount = seedCoutn;
+  }
+
+}
+```
+
+Todo: Create a class `Orange` that has fields `isRipe` and `seedCount`. Should have a `getName()` method that returns "Orange [seedCount] [isRipe]".
+
+Todo: Create a class `BananaPlantain`, similar to Orange but with a constructor that takes another String param `name` and sets the field name.
