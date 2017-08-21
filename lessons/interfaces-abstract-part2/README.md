@@ -1,17 +1,17 @@
 - title: Interfaces and Abstract Classes
 - tags: java interface abstract
 
-#Objectives
+# Objectives
 
 - Implement an Interface
 - Extend an Abstract Class
 
-#Resources
+# Resources
 
 -[Oracle Tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)
 
-##Interfaces
-![ puzzle pieces ] ( img/puzzle_pieces.gif )
+## Interfaces
+![ puzzle pieces ]( img/puzzle_pieces.gif )
 
 <br />
 There are a number of situations in software engineering when it is important for disparate groups of programmers to agree to a "contract" that spells out how their software interacts. Each group should be able to write their code without any knowledge of how the other group's code is written. Generally speaking, interfaces are such contracts.
@@ -405,7 +405,7 @@ public interface HandleInvalidTimeZoneClient extends TimeClient {
 ```
 Any class that implements the interface `HandleInvalidTimeZoneClient` will use the implementation of `getZonedDateTime` specified by this interface instead of the one specified by the interface TimeClient.
 
-##The equals() Method
+## The equals() Method
 
 The equals() method compares two objects for equality and returns true if they are equal. The equals() method provided in the Object class uses the identity operator (==) to determine whether two objects are equal. For primitive data types, this gives the correct result. For objects, however, it does not. The equals() method provided by Object tests whether the object references are equal—that is, if the objects compared are the exact same object.
 
@@ -440,13 +440,13 @@ You should always override the equals() method if the identity operator is not a
 Note: If you override equals(), you must override hashCode() as well.
 
 
-##The hashCode() Method
+## The hashCode() Method
 
 The value returned by hashCode() is the object's hash code, which is the object's memory address in hexadecimal.
 
 By definition, if two objects are equal, their hash code must also be equal. If you override the equals() method, you change the way two objects are equated and Object's implementation of hashCode() is no longer valid. Therefore, if you override the equals() method, you must also override the hashCode() method as well.
 
-##The getClass() Method
+## The getClass() Method
 
 You cannot override getClass.
 
@@ -462,7 +462,7 @@ void printClassName(Object obj) {
 The Class class, in the java.lang package, has a large number of methods (more than 50). For example, you can test to see if the class is an annotation (isAnnotation()), an interface (isInterface()), or an enumeration (isEnum()). You can see what the object's fields are (getFields()) or what its methods are (getMethods()), and so on.
 
 
-###Writing Final Classes and Methods
+### Writing Final Classes and Methods
 
 You can declare some or all of a class's methods final. You use the final keyword in a method declaration to indicate that the method cannot be overridden by subclasses. The Object class does this—a number of its methods are final.
 
@@ -481,7 +481,7 @@ Methods called from constructors should generally be declared final. If a constr
 Note that you can also declare an entire class final. A class that is declared final cannot be subclassed. This is particularly useful, for example, when creating an immutable class like the String class.
 
 
-##Polymorphism
+## Polymorphism
 
 The dictionary definition of polymorphism refers to a principle in biology in which an organism or species can have many different forms or stages. This principle can also be applied to object-oriented programming and languages like the Java language. Subclasses of a class can define their own unique behaviors and yet share some of the same functionality of the parent class.
 
