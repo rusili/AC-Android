@@ -60,7 +60,7 @@ public class Apple {
 }
 ```
 
-We used the keyword ```this```, because....
+We used the keyword ```this```, because the parameter names in the constructor are spelled exactly as the fields of that class are - and during assignment, we want Java to tell the difference between the two. We are stating explicitly, for this instance of class ```Apple```, we are assigning the argument passed into the constructor's parameter ```isRipe```, to the class field ```isRipe```, and the same for ```seedCount```.
 
 Excellent! Now, a user can instantiate an object of type ```Apple```, and assign values to that instance's fields:
 
