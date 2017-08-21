@@ -1,7 +1,7 @@
 - title: Interfaces and Abstract Classes
 - tags: java inheritance
 
-#Objectives
+# Objectives
 
 - Learn object object-oriented vocabulary
 - Understand inheritance
@@ -10,7 +10,7 @@
 - Introduction to Scope
 
 
-#Resources
+# Resources
 
 -[Oracle Tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)
 
@@ -36,7 +36,7 @@
 - abstract
 - override
 
-#Inheritance
+# Inheritance
 Classes can be derived from other classes, thereby inheriting fields and methods from those classes.
 
 > Definition: A class that is derived from another class is called a `subclass` (also a derived class, extended class, or child class). The class from which the subclass is derived is called a `superclass` (also a base class or a parent class).
@@ -71,7 +71,7 @@ All Classes in the Java Platform are Descendants of Object
 
 At the top of the hierarchy, Object is the most general of all classes. Classes near the bottom of the hierarchy provide more specialized behavior.
 
-####An Example of Inheritance
+#### An Example of Inheritance
 
 Here is the sample code for a possible implementation of a Bicycle class.
 
@@ -135,11 +135,11 @@ public class MountainBike extends Bicycle {
 ```
 MountainBike inherits all the fields and methods of Bicycle and adds the field `seatHeight` and a method, `setHeight`, to set it. Except for the constructor, it is as if you had written a new MountainBike class entirely from scratch, with four fields and five methods. However, you didn't have to do all the work! This would be especially valuable if the methods in the Bicycle class were complex and had taken substantial time to debug.
 
-###What You Can Do in a Subclass
+### What You Can Do in a Subclass
 
 A subclass inherits all of the public and protected members of its parent, no matter what package the subclass is in.
 
->####Side Note: Don't remember the difference between public, protected and package-private?
+>#### Side Note: Don't remember the difference between public, protected and package-private?
 >[java access modifiers ] (img/java_accessmodifiers.jpg)
 <br />
 >[java access modifiers (graphic ) ] (img/java_accessmodifiers_graphic.jpg)
@@ -170,7 +170,7 @@ then `myBike` is of type `MountainBike`.
 
 `MountainBike` is descended from `Bicycle` and `Object`. Therefore, a `MountainBike` is a `Bicycle` and is also an `Object`, and it can be used wherever `Bicycle` or `Object` objects are called for.
 
-####The reverse is not necessarily true: a Bicycle may be a MountainBike, but it isn't necessarily. Similarly, an Object may be a Bicycle or a MountainBike, but it isn't necessarily.
+#### The reverse is not necessarily true: a Bicycle may be a MountainBike, but it isn't necessarily. Similarly, an Object may be a Bicycle or a MountainBike, but it isn't necessarily.
 
 Casting shows the use of an object of one type in place of another type, among the objects permitted by inheritance and implementations. For example, if we write
 
@@ -199,12 +199,12 @@ if (obj instanceof MountainBike) {
 ```
 Here the instanceof operator verifies that obj refers to a MountainBike so that we can make the cast with knowledge that there will be no runtime exception thrown.
 
-##Overriding and Hiding Methods
+## Overriding and Hiding Methods
 
 ![ method overriding ] (img/methodOverriding.gif)
 
 
-###Instance Methods
+### Instance Methods
 
 An instance method in a subclass with the same signature and return type as an instance method in the superclass overrides the superclass's method.
 
@@ -214,7 +214,7 @@ The ability of a subclass to override a method allows a class to inherit from a 
 
 ![overrides](img/overrides.png)
 
-###Static Methods
+### Static Methods
 
 If a subclass defines a static method with the same signature as a static method in the superclass, then the method in the subclass hides the one in the superclass.
 
@@ -267,7 +267,7 @@ The following table summarizes what happens when you define a method with the sa
 | `Subclass Instance Method` | `Overrides` | Generates a compile-time error |
 | `Subclass Static Method` | `Generates a compile-time error` | Hides |
 
-###Modifiers
+### Modifiers
 
 The access specifier for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the superclass can be made public, but not private, in the subclass.
 
@@ -275,7 +275,7 @@ You will get a compile-time error if you attempt to change an instance method in
 
 Note: In a subclass, you can overload the methods inherited from the superclass. Such overloaded methods neither hide nor override the superclass instance methods—they are new methods, unique to the subclass.
 
-###Object as a Superclass
+### Object as a Superclass
 
 The Object class, in the java.lang package, sits at the top of the class hierarchy tree. Every class is a descendant of the Object class. Every class you use or write inherits the instance methods of Object. You need not use any of these methods, but, if you choose to do so, you may need to override them with code that is specific to your class. The methods inherited from Object are below:
 
