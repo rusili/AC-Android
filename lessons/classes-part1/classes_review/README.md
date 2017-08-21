@@ -60,7 +60,7 @@ public class Apple {
 }
 ```
 
-We used the keyword ```this```, because the parameter names in the constructor are spelled exactly as the fields of that class are - and during assignment, we want Java to tell the difference between the two. We are stating explicitly, for this instance of class ```Apple```, we are assigning the argument passed into the constructor's parameter ```isRipe```, to the class field ```isRipe```, and the same for ```seedCount```.
+We used the keyword ```this```, because the parameter names in the constructor are spelled exactly as the fields of that class are spelled - and during assignment, we want Java to tell the difference between the two. We are stating explicitly, for this instance of class ```Apple```, we are assigning the argument passed into the constructor's parameter ```isRipe```, to the class field ```isRipe```, and the same for ```seedCount```.
 
 Excellent! Now, a user can instantiate an object of type ```Apple```, and assign values to that instance's fields:
 
@@ -75,4 +75,40 @@ class Main {
 
 So, we've created our object, we've improved our constructor so that it may accept arguments (input values) into parameters, and we've assigned values to the fields of this particular instance of the class ```Apple```.
 
-This object is much more robust, but at this point, we can only create an object with values - we cannot **get** any values from this object's fields (variables). 
+This object is much more robust, but at this point, we can only create an object with values - we cannot **get** any values from this object's fields (variables).
+
+We can get the values from these private fields by adding public **getter** methods to our class, and calling these methods on our instantiated objects. First, let's add them:
+
+```java
+public class Apple {
+  private boolean isRipe;
+  private int seedCount;
+  
+  public Apple(boolean isRipe, int seedCount) {
+    this.isRipe = isRipe;
+    this.seedCount = seedCount;
+  }
+  
+  public boolean getIsRipe() {
+    return isRipe;
+  }
+
+  public int getSeedCount() {
+    return seedCount;
+  }
+
+}
+```
+
+Now that we've created **getter** methods, let's use them on our object:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    Apple apple = new Apple(true, 6);
+    apple.getIsRipe();
+    apple.getSeedCount();
+  }
+
+}
+```
