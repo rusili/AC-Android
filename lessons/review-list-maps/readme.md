@@ -1,5 +1,5 @@
-- title: Review of Abstract Classes, Lists, and Maps
-- tags: abstract,
+# Review of Abstract Classes, Lists, and Maps
+- tags: abstract
 
 # Objectives:
   Review abstract classes and how to use the following data structures to organize data.
@@ -96,6 +96,3 @@ The abstract data types and interfaces allow collections to be manipulated indep
 - Clone the following repo - https://github.com/abassawo/ParkingGarage and follow the README instructions.
 
 - [More Maps exercises](https://github.com/C4Q/AC3.3/blob/master/lessons/hashmaps-and-sets/exercises/maps-exercises.md)
-
-
-[Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeRVYWHfySrBNbkMXvSOtOg_StucefV8DwI6z5uqgyyBP5Zow/viewform)
