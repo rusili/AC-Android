@@ -1,5 +1,4 @@
 # Review of Abstract Classes, Lists, and Maps
-- tags: abstract
 
 ## Objectives:
 - Review abstract classes and how to use the following data structures to organize data.
