@@ -35,6 +35,8 @@
 
 Data structures are an important part of any programming language, especially Java. The Java programming language has a great number of data structures used to store elements/data in a myriad number of ways. Some of the more popular data structures you may encounter are Arrays, ArrayLists, and HashMaps.
 
+### Arrays
+
 Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippets below:
 
 ```java
@@ -75,6 +77,14 @@ intArray[intArray.length - 1];
 intArray[2] = 25;
 
 ```
+
+### Lists, particularly ArrayLists
+
+
+
+### Maps, particularly HashMaps
+
+
 
 <!--
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
