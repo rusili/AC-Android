@@ -38,7 +38,7 @@ Data structures are an important part of any programming language, especially Ja
 Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippets below:
 
 ```java
-// int elements assigned to an int array, setting its length to only 5 elements
+// int elements directly assigned to an int array, setting its length to only 5 elements
 
 int[] intArray = {3, 6, 9, 12, 15};
 ```
