@@ -70,6 +70,10 @@ intArray[0];
 
 intArray[intArray.length - 1];
 
+// This will allow the user to access an element in the array, by its index, and assign it a value
+
+intArray[2] = 25;
+
 ```
 
 <!--
