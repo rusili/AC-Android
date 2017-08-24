@@ -46,8 +46,32 @@ int[] intArray = {3, 6, 9, 12, 15};
 ```java
 // int array declared, and initialized with an array of exactly 5 int elements
 
-int[] intArray = new int[5]
+int[] intArray = new int[5];
 ```
+
+A programmer who wants to know how many elements have been assigned to an array, or how many indices for elements have been allocated during initialization of this array, may use the ```.length``` property, which may be called on all array objects:
+
+```java
+// This will return the length, or the number of elements assigned to the array object
+
+intArray.length;
+```
+
+All elements in an array have an index number. The first element has an index number of 0, and the index of the last element is equal to the length of the array, minus 1.
+
+A programmer may also access or reassign elements within the array, by using the element's index:
+
+```java
+// This will allow a user to access the first element of the array, at index 0
+
+intArray[0];
+
+// This will allow the user to access the last element of the array, regardless of actual index number
+
+intArray[intArray.length - 1];
+
+```
+
 <!--
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
 
