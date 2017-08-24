@@ -1,12 +1,18 @@
 # Review of Abstract Classes, Lists, and Maps
 - tags: abstract
 
-# Objectives:
-  Review abstract classes and how to use the following data structures to organize data.
+## Objectives:
+- Review abstract classes and how to use the following data structures to organize data.
 - ArrayLists
 - HashMaps
 
-# Resources
+## Vocabulary
+
+|Term|Definition|
+|:--:|:---------|
+|**Array**|An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed|
+
+## Resources
 
 - [Java docs](http://docs.oracle.com/javase/tutorial/collections/intro/index.html)
 - [Abstract Classes](http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
