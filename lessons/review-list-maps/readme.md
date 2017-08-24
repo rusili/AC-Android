@@ -27,19 +27,20 @@
 - [Video: Arrays in Java](http://www.youtube.com/watch?v=Mfacb9T4biQ)
 - [Video: ArrayLists](http://www.youtube.com/watch?v=mkCTxtLe7XU)
 - [Video: HashMaps](http://www.youtube.com/watch?v=-JOSjIan2g0)
-- 
-
+- [Video: Inheritance](http://www.youtube.com/watch?v=wzW-251bGgM)
+- [Video: Abstract Classes](http://www.youtube.com/watch?v=CUC522qMGe8)
+- [Video: Interfaces](http://www.youtube.com/watch?v=UumX4mQKQlA)
 
 # Lecture
 
-Knowledge of data structures is super important for programmers to understand how to approach different kinds of problems. A data structure is a particular way of organizing data in a computer so that it can be used efficiently.
+Data structures are an important part of any programming language, especially Java. The Java programming language has a great number of data structures used to store elements/data in a myriad number of ways. Some of the more popular data structures you may encounter are Arrays, ArrayLists, and HashMaps.
 
+Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippet below:
 
-Example:
-
-  - ArrayList
-
-  - HashMap  
+```java
+// int elements assigned to an int array, setting its length to only 5 elements
+int[] intArray = {3, 6, 9, 12, 15};
+```
 
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
 
