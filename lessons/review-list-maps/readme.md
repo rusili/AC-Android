@@ -35,19 +35,28 @@
 
 Data structures are an important part of any programming language, especially Java. The Java programming language has a great number of data structures used to store elements/data in a myriad number of ways. Some of the more popular data structures you may encounter are Arrays, ArrayLists, and HashMaps.
 
-Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippet below:
+Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippets below:
 
 ```java
 // int elements assigned to an int array, setting its length to only 5 elements
+
 int[] intArray = {3, 6, 9, 12, 15};
 ```
 
+```java
+// int array defined, and initialized with an array of exactly 5 int elements
+
+int[] intArray = new int[5]
+```
+<!--
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
 
   - ArrayList extends the AbstractList class and implements the following interfaces (List, RandomAccess, Cloneable, and java.io.Serializable).
   - HashMap which extends AbstractMap<K, V> and implements Map<K, V>, Cloneable, and Serializable
 
 We don't really need to dive into such detail about the hierarchy of these structures, but in short A Java class containing data fields and records AND methods that operate on some content may serve as a data structure.
+
+--->
 
 ### On Abstract classes
 
