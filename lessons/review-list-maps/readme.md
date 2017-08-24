@@ -78,11 +78,11 @@ intArray[2] = 25;
 
 ```
 
-### Lists, particularly ArrayLists
+### Lists, and ArrayLists
 
 
 
-### Maps, particularly HashMaps
+### Maps, and HashMaps
 
 
 
