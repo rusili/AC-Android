@@ -44,7 +44,7 @@ int[] intArray = {3, 6, 9, 12, 15};
 ```
 
 ```java
-// int array defined, and initialized with an array of exactly 5 int elements
+// int array declared, and initialized with an array of exactly 5 int elements
 
 int[] intArray = new int[5]
 ```
