@@ -37,18 +37,18 @@ Data structures are an important part of any programming language, especially Ja
 
 ### Arrays
 
-Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippets below:
+Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of String elements ( String[] ) can be seen in the code snippets below:
 
 ```java
-// int elements directly assigned to an int array, setting its length to only 5 elements
+// String elements directly assigned to an int array, setting its length to only 5 elements
 
-int[] intArray = {3, 6, 9, 12, 15};
+String[] stringArray = {"John", "Amy", "Theo", "Bharat", "Cristella"};
 ```
 
 ```java
-// int array declared, and initialized with an array of exactly 5 int elements
+// String array declared, and initialized with an array of exactly 5 int elements
 
-int[] intArray = new int[5];
+String[] stringArray = new String[5];
 ```
 
 A programmer who wants to know how many elements have been assigned to an array, or how many indices for elements have been allocated during initialization of this array, may use the ```.length``` property, which may be called on all array objects:
@@ -56,7 +56,7 @@ A programmer who wants to know how many elements have been assigned to an array,
 ```java
 // This will return the length, or the number of elements assigned to the array object
 
-intArray.length;
+stringArray.length;
 ```
 
 All elements in an array have an index number. The first element has an index number of 0, and the index of the last element is equal to the length of the array, minus 1.
@@ -66,21 +66,77 @@ A programmer may also access or reassign elements within the array, by using the
 ```java
 // This will allow a user to access the first element of the array, at index 0
 
-intArray[0];
+stringArray[0];
 
 // This will allow the user to access the last element of the array, regardless of actual index number
 
-intArray[intArray.length - 1];
+stringArray[stringArray.length - 1];
 
 // This will allow the user to access an element in the array, by its index, and assign it a value
 
-intArray[2] = 25;
+stringArray[2] = "Hyun";
 
 ```
 
 ### Lists, and ArrayLists
 
+An ArrayList behaves very much like an array, in that you may find out the number of elements in it, add elements only of a certain type, where each element has an index, and you can access/change the value of an element by calling it with its index. However, with an array, you cannot increase its size once you have initialized it, without replacing the entire array with a new one, containing both the old and new elements. You can, however, do this with an ArrayList.
 
+```java
+// First, you instantiate an ArrayList
+
+ArrayList<String> stringArrayList = new ArrayList<>();
+```
+
+You might have seen the keyword ```String``` in angle brackets next to the static type **ArrayList**, as in ```ArrayList<String>``` - this is similar to how you might create an array of type ```String[]```:
+
+```java
+String[] stringArray = new String[5];
+```
+
+You are essentially stating that the ArrayList you are instatiating will only accept elements of type ```String``` - this is called the ArrayList's **type parameter**. When we do this, under the hood, we are leveraging the power of something called **generics** (we will not cover this today, but soon).
+
+Now that we have this ArrayList object called ```stringArrayList```, let's add elements to it! We can do this with a method called ```.add()```, and we simply pass an argument of type ```String``` into the method's parameter:
+
+```java
+stringArrayList.add("Juan-Carlos");
+stringArrayList.add("Ashique");
+stringArrayList.add("Oksana");
+```
+
+The method ```.add()``` will add a new element to the end of the ArrayList.
+
+Now that we've added elements to our ArrayList, let's find out its length. The method we can call for that is ```.size()```:
+
+```java
+stringArrayList.size();
+```
+
+If we want to update a value at a certain index that already exists, you can use the method ```.set()```:
+
+```java
+stringArrayList.set(1, "Pawel");
+```
+
+With that method call, we have just updated the value of the element at index 1 from "Ashique", to "Pawel"!
+
+If we want to add an element between two other elements, we can call the method ```.add()```, but with the specific index we want to add our element to:
+
+```java
+stringArrayList.add(1, "Selma");
+```
+
+This will shift all of the other elements to the next index, while adding the string "Selma" to index 1.
+
+If we want to remove an element, we can call the method ```remove()```, passing in an index to the parameter:
+
+```java
+stringArrayList.remove(1);
+```
+
+This will shift all of the other elements after the passed-in index, back by one index, effectively removing the element at that index.
+
+ArrayLists are a very flexible data structure when it comes to adding elements in a numbered order. However, unless you know the index of the element you wish to access, you will most likely have to check every single element to confirm that you are accessing the correct one. Also, the values stored at each index might change with use, and so calling an element by its index might bring unexpected results.
 
 ### Maps, and HashMaps
 
