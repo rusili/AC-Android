@@ -17,8 +17,17 @@
 
 ## Resources
 
+### Documents
+
 - [Java docs](http://docs.oracle.com/javase/tutorial/collections/intro/index.html)
 - [Abstract Classes](http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+
+### Videos
+
+- [Video: Arrays in Java](http://www.youtube.com/watch?v=Mfacb9T4biQ)
+- [Video: ArrayLists](http://www.youtube.com/watch?v=mkCTxtLe7XU)
+- [Video: HashMaps](http://www.youtube.com/watch?v=-JOSjIan2g0)
+- 
 
 
 # Lecture
