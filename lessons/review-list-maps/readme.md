@@ -1,9 +1,9 @@
 # Review of Abstract Classes, Lists, and Maps
 
 ## Objectives:
-- Review abstract classes and how to use the following data structures to organize data.
-- ArrayLists
-- HashMaps
+- Review abstract classes
+- Review ArrayLists
+- Review HashMaps
 
 ## Vocabulary
 
