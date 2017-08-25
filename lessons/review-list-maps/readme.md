@@ -168,12 +168,14 @@ kindsOfPets.get("dog");
 
 There is a catch to using a HashMap - although each value may be different, all of the keys you put into this data structure must be unique. Which means, if you use the key "dog" more than once to enter a definition, you won't be adding a second definition, you will instead replace the previous one:
 
+
+```java
 // Original entry
 kindsOfPets.put("dog", "a domestic canine pet");
 
 // Replaced entry
 kindsOfPets.put("dog", "a person's most hyperbolically bestest friend ever!");
-
+```
 <!--
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
 
