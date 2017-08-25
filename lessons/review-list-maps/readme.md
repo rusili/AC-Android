@@ -148,7 +148,7 @@ HashMap<String, String> kindsOfPets = new HashMap<>();
 
 This is very similar to how we created an ArrayList object earlier, except that this time, there are two **type parameters** - one for the **key** (the word you will use to get the value you wish to store), and one for the **value** (the actual value you wish to recall when using the key).
 
-Now that we have our HashMap, let's add some values to it:
+Now that we have our HashMap, let's add some values to it, by using the method ```.put()```, and passing in two ```String``` values - one for the key, and one for the value:
 
 ```java
 kindsOfPets.put("cat", "a domestic feline pet");
@@ -158,13 +158,22 @@ kindsOfPets.put("hamster", "a domestic rodent pet");
 
 There are several obvious differences between an ArrayList and a HashMap, from what we can already see - there are no indices, meaning you do not add them to a certain location, or a certain order, within the data structure. Also, instead of assigning an elemnt to a particular index, we have made an association between a word, and a definition.
 
-Let's say, after putting a word and its definition into a HashMap, we also want to get a definition out of a HashMap, by using it's word:
+Let's say, after putting a word and its definition into a HashMap, we also want to get a definition (value) out of a HashMap, by using it's word (key). We can simply use the method ```.get()``` on the HashMap object:
 
 ```java
 // This will retreive the definition "a domestic canine pet"
 
 kindsOfPets.get("dog");
 ```
+
+There is a catch to using a HashMap - although each value may be different, all of the keys you put into this data structure must be unique. Which means, if you use the key "dog" more than once to enter a definition, you won't be adding a second definition, you will instead replace the previous one:
+
+// Original entry
+kindsOfPets.put("dog", "a domestic canine pet");
+
+// Replaced entry
+kindsOfPets.put("dog", "a person's most hyperbolically bestest friend ever!");
+
 <!--
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
 
