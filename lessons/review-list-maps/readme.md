@@ -249,7 +249,7 @@ public class Chair extends Furniture {
 }
 ```
 
-IntelliJ forces you to override this method, and add your own method body. This class has not only inherited the LEG\_COUNT field and method, but it created its own version of the ```texttileType()``` method, which was previously only a method signature in the parent class.
+IntelliJ forces you to override this method, and add your own method body. This class has not only inherited the LEG\_COUNT field and method, but it created its own version of the ```textileType()``` method, which was previously only a method signature in the parent class.
 
 Abstract classes can implement interfaces as well by using the ```implement``` keyword. However, because they are abstract, they don't need to implement all methods. The AbstractList interface implements common methods, which allows concrete implementations like ArrayList to be free from the burden of implementing all methods, if they implemented the List interface directly.
 
