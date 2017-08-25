@@ -136,6 +136,18 @@ stringArrayList.remove(1);
 
 This will shift all of the other elements after the passed-in index, back by one index, effectively removing the element at that index.
 
+ArrayLists also have a very handy method called ```.contains()```, which allows a user to check to see if an element is even in an ArrayList, before having to start a lengthy search with a loop, by returning ```true``` or ```false``` if the element exists somewhere in the ArrayList:
+
+```java
+// This will return true
+
+stringArrayList.contains("Ashique");
+
+// This will return false
+
+stringArrayList.contains("Alan");
+```
+
 ArrayLists are a very flexible data structure when it comes to adding elements in a numbered order. However, unless you know the index of the element you wish to access, you will most likely have to check every single element to confirm that you are accessing the correct one. Also, the values stored at each index might change with use, and so calling an element by its index might bring unexpected results.
 
 ### Maps, and HashMaps
@@ -192,63 +204,3 @@ We don't really need to dive into such detail about the hierarchy of these struc
 
   Because abstract classes need to be subclasses, they cannot be declared as final. "They are also opposite of each other, abstract keyword enforces to extend a class, for using it, on the other hand, final keyword prevents a class from being extended. In real world also, abstract signifies incompleteness, while final is used to demonstrate completeness. Bottom line is, you can not make your class abstract and final in Java, at same time, it’s a compile time error.
 
-### On Structures
-
-When dealing with a new data structure, you will want to know how to
-
-- instantiate it
-- add elements to it
-- retrieve elements from it.
-- Can we iterate through it?
-
-The ArrayList class, for example, has multiple overloaded constructors.
-```java
-List l1 = new ArrayList(); //This constructor builds an empty ArrayList
-
-List l2 = new ArrayList(Collection c);
-//This constructor builds an ArrayList  that is initialized with the elements of the collection c.
-
-List l3 = new ArrayList(int capacity);
- /*This constructor builds an ArrayList that is initialized to have an initial capacity equal to capacity. The capacity of the ArrayList can grow automatically as elements are added to the list.*/
-```
-
-Take a few minutes to apply the different constructors of an ArrayList.
-Then, try adding and removing elements from the List,
-
-The HashMap class also has a few overloaded constructors, but for now, we will work with these two:
-
-```java
-HashMap map = new HashMap(); //Constructs an empty HashMap
-
-HashMap map1 = new HashMap(int initialCapacity); //Constructs an empty HashMap with the specified initial capacity
-
-```
-
-Some questions we may ask about our data structure
-
-1) If I put several elements into my data structure, is it possible to retrieve those same elements in that same order?
-
-2) If I put several elements (that can be compared/ that implement ```comparable```,  will they always be sorted by some criteria?)
-
-3) Can it contain duplicates?
-
-
-Take a few minutes to answer these questions for the previously-discussed data structures.
-
-
-## Definitions
-
-ArrayLists: Resizable-array implementation of the List interface. Implements all optional list operations, and permits all elements, including null. In addition to implementing the List interface, this class provides methods to manipulate the size of the array that is used internally to store the list.
-
-HashMap: Hash table based implementation of the Map interface. This implementation provides all of the optional map operations, and permits null values and the null key.
-
-ArrayLists and HashMaps are part of the [Collections package](http://docs.oracle.com/javase/tutorial/collections/intro/index.html) in Java.
-
-The abstract data types and interfaces allow collections to be manipulated independently of the details of their representation.
-
-
-## Exercise and Group-Review
-
-- Clone the following repo - https://github.com/abassawo/ParkingGarage and follow the README instructions.
-
-- [More Maps exercises](https://github.com/C4Q/AC3.3/blob/master/lessons/hashmaps-and-sets/exercises/maps-exercises.md)
