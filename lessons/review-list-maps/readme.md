@@ -140,8 +140,31 @@ ArrayLists are a very flexible data structure when it comes to adding elements i
 
 ### Maps, and HashMaps
 
+Maps are different from ArrayLists, in that entries in this data structure are stored as key/value pairs. Maps like HashMaps are often called dictionaries in other languages, because they are similar to how one can search for the definition (value) of a word (key) by simply finding the word (key) in the dictionary. Let's create a HashMap:
 
+```java
+HashMap<String, String> kindsOfPets = new HashMap<>();
+```
 
+This is very similar to how we created an ArrayList object earlier, except that this time, there are two **type parameters** - one for the **key** (the word you will use to get the value you wish to store), and one for the **value** (the actual value you wish to recall when using the key).
+
+Now that we have our HashMap, let's add some values to it:
+
+```java
+kindsOfPets.put("cat", "a domestic feline pet");
+kindsOfPets.put("dog", "a domestic canine pet");
+kindsOfPets.put("hamster", "a domestic rodent pet");
+```
+
+There are several obvious differences between an ArrayList and a HashMap, from what we can already see - there are no indices, meaning you do not add them to a certain location, or a certain order, within the data structure. Also, instead of assigning an elemnt to a particular index, we have made an association between a word, and a definition.
+
+Let's say, after putting a word and its definition into a HashMap, we also want to get a definition out of a HashMap, by using it's word:
+
+```java
+// This will retreive the definition "a domestic canine pet"
+
+kindsOfPets.get("dog");
+```
 <!--
 We have learned about these data structures before. They are actually just concrete implementations of some abstract classes defined in Java's Collections framework.  
 
