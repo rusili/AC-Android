@@ -44,6 +44,8 @@ int[] intArray = {7, 14, 21, 28, 35};
 int[] intArray = new int[5];
 ```
 
+Arrays have numbers associated with each element stored within them, corresponding to the order in which they appear. This number is called an index. The plural of index is indices. The first element of any array with at least one element is said to be at index 0 - this is because in Java, lists start at 0, and not 1. 
+
 A programmer who wants to know how many elements have been assigned to an array, or how many indices for elements have been allocated during initialization of this array, may use the ```.length``` property, which may be called on all array objects:
 
 ```java
@@ -91,7 +93,7 @@ int[] intArray = new int[5];
 
 You are essentially stating that the ArrayList you are instatiating will only accept elements of type ```Integer``` - this is called the ArrayList's **type parameter**. When we do this, under the hood, we are leveraging the power of something called **generics** (we will not cover this today, but soon).
 
-You might be asking yourself why we used the keyword ```Integer``` instead of the keyword ```int``` - that's because ArrayLists can only store objects. Remember in a previous lesson, where we explored how everything is an object, and even primitive types have corresponding wrapper classes? Please see the chart below:
+You might be asking yourself why we used the keyword ```Integer``` instead of the keyword ```int``` - that's because **ArrayLists can only store objects**. Remember in a previous lesson, where we explored how everything is an object, and even primitive types have corresponding wrapper classes? Please see the chart below to explore each primitive type, and its corresponding wrapper class:
 
 |Primitive Type|Wrapper Class|
 |:-:|:-:|
@@ -252,3 +254,23 @@ for (int i = 0; i < characterList.size(); i++) {
 }
 ```
 
+However, HashMaps are an unordered collection - this means that because values are stored with an associated key, there is no need to utilize an index! Although this is great if you know the key you are looking for, it is not very useful if you do not. This is why Java provides us with a new type of loop, just for instance variables or objects - the **for-each** loop!
+
+The for-each loop allows us to search for a certain object within a collection, using a parameter of a certain type. Let's see how this works with ArrayLists first:
+
+```java
+ArrayList<String> hairBands = new ArrayList<>();
+
+for (String band : hairBands) {
+  System.out.println(band);
+}
+```
+
+We can see here that because we know that every element in the ArrayList is of type ```String```, we can do whatever we like with any element that is of that type. We are essentially saying "While there are ```Strings``` in ```hairBands``` for each ```String``` in ```hairBands```, print whatever that ```String``` is. When we iterate this way, we don't have to worry about the length of the ArrayList or avoiding index out of bounds exceptions, since it doesn't need to know how many loops to make - it only needs to loop through the elements that exist in it.
+
+Let's do the same thing with a HashMap:
+
+```java
+```
+
+```
