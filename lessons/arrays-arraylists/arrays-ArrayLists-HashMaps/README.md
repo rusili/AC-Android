@@ -164,6 +164,8 @@ integerArrayList.contains(42);
 integerArrayList.contains(999);
 ```
 
+#### You may begin working on exercises 4, 5, and 6
+
 ArrayLists are a very flexible data structure when it comes to adding elements in a numbered order. However, unless you know the index of the element you wish to access, you will most likely have to check every single element to confirm that you are accessing the correct one. Also, the values stored at each index might change with use, and so calling an element by its index might bring unexpected results.
 
 ### Maps, and HashMaps
@@ -292,3 +294,5 @@ for (String animal : animalFoods.keySet()){
 ```
 
 A HashMap entry doesn't just have one type parameter, it has two - one for its key, and one for its value. So we can't simply look through the HashMap directly, like we did with the ArrayList. We have to call a method on the HashMap object called ```.keySet()```, which is exactly what the method name implies - it returns the set containing all the keys for each entry in the HashMap. A ```Set``` is another data structure we will go into later - a ```Set``` can only contain unique values - since HashMaps can only have unique keys, a list of all the keys is also technically a set.
+
+#### You may begin working on exercises 7, 8, and 9
