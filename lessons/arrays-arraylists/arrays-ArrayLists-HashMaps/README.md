@@ -75,6 +75,8 @@ intArray[2] = 99;
 
 ```
 
+#### You may begin working on exercises 1, 2, and 3
+
 Arrays are great, but they are not terribly flexible. Java has a library called ```Collections```, and importing parts of that library can give us access to a number of robust data structures, such as Lists and Maps.
 
 ### Lists, and ArrayLists
