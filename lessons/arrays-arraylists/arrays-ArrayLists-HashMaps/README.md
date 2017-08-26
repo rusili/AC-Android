@@ -93,7 +93,7 @@ int[] intArray = new int[5];
 
 You are essentially stating that the ArrayList you are instatiating will only accept elements of type ```Integer``` - this is called the ArrayList's **type parameter**. When we do this, under the hood, we are leveraging the power of something called **generics** (we will not cover this today, but soon).
 
-You might be asking yourself why we used the keyword ```Integer``` instead of the keyword ```int``` - that's because ArrayLists can only store objects. Remember in a previous lesson, we explored how everything is an object, and even primitive types have corresponding wrapper classes? Please see the chart below:
+You might be asking yourself why we used the keyword ```Integer``` instead of the keyword ```int``` - that's because ArrayLists can only store objects. Remember in a previous lesson, where we explored how everything is an object, and even primitive types have corresponding wrapper classes? Please see the chart below:
 
 |Primitive Type|Wrapper Class|
 |:-:|:-:|
@@ -106,12 +106,14 @@ You might be asking yourself why we used the keyword ```Integer``` instead of th
 |char|Character|
 |boolean|Boolean|
 
-Now that we have this ArrayList object called ```stringArrayList```, let's add elements to it! We can do this with a method called ```.add()```, and we simply pass an argument of type ```String``` into the method's parameter:
+Because of the ```Integer``` wrapper class, we can now add int values to the ArrayList!
+
+Now that we have this ArrayList object called ```integerArrayList```, let's add elements to it! We can do this with a method called ```.add()```, and we simply pass an argument of type ```String``` into the method's parameter:
 
 ```java
-stringArrayList.add("Juan-Carlos");
-stringArrayList.add("Ashique");
-stringArrayList.add("Oksana");
+integerArrayList.add(25);
+integerArrayList.add(50);
+integerArrayList.add(75);
 ```
 
 The method ```.add()``` will add a new element to the end of the ArrayList.
@@ -119,29 +121,29 @@ The method ```.add()``` will add a new element to the end of the ArrayList.
 Now that we've added elements to our ArrayList, let's find out its length. The method we can call for that is ```.size()```:
 
 ```java
-stringArrayList.size();
+integerArrayList.size();
 ```
 
 If we want to update a value at a certain index that already exists, you can use the method ```.set()```:
 
 ```java
-stringArrayList.set(1, "Pawel");
+integerArrayList.set(1, 256);
 ```
 
-With that method call, we have just updated the value of the element at index 1 from "Ashique", to "Pawel"!
+With that method call, we have just updated the value of the element at index 1 from 50, to 256!
 
 If we want to add an element between two other elements, we can call the method ```.add()```, but with the specific index we want to add our element to:
 
 ```java
-stringArrayList.add(1, "Selma");
+integerArrayList.add(1, 42);
 ```
 
-This will shift all of the other elements to the next index, while adding the string "Selma" to index 1.
+This will shift all of the other elements to the next index, while adding the ```Integer``` 42 to index 1.
 
 If we want to remove an element, we can call the method ```remove()```, passing in an index to the parameter:
 
 ```java
-stringArrayList.remove(1);
+integerArrayList.remove(1);
 ```
 
 This will shift all of the other elements after the passed-in index, back by one index, effectively removing the element at that index.
@@ -151,11 +153,11 @@ ArrayLists also have a very handy method called ```.contains()```, which allows 
 ```java
 // This will return true
 
-stringArrayList.contains("Ashique");
+integerArrayList.contains(42);
 
 // This will return false
 
-stringArrayList.contains("Alan");
+integerArrayList.contains(999);
 ```
 
 ArrayLists are a very flexible data structure when it comes to adding elements in a numbered order. However, unless you know the index of the element you wish to access, you will most likely have to check every single element to confirm that you are accessing the correct one. Also, the values stored at each index might change with use, and so calling an element by its index might bring unexpected results.
@@ -165,43 +167,43 @@ ArrayLists are a very flexible data structure when it comes to adding elements i
 Maps are different from ArrayLists, in that entries in this data structure are stored as key/value pairs. Maps like HashMaps are often called dictionaries in other languages, because they are similar to how one can search for the definition (value) of a word (key) by simply finding the word (key) in the dictionary. Let's create a HashMap:
 
 ```java
-HashMap<String, String> kindsOfPets = new HashMap<>();
+HashMap<Integer, String> importantBirthdays = new HashMap<>();
 ```
 
-This is very similar to how we created an ArrayList object earlier, except that this time, there are two **type parameters** - one for the **key** (the word you will use to get the value you wish to store), and one for the **value** (the actual value you wish to recall when using the key).
+This is very similar to how we created an ArrayList object earlier, except that this time, there are two **type parameters** - one for the **key** (the key you will use to get the value you wish to store), and one for the **value** (the actual value you wish to recall when using the key).
 
-Now that we have our HashMap, let's add some values to it, by using the method ```.put()```, and passing in two ```String``` values - one for the key, and one for the value:
+Now that we have our HashMap, let's add some values to it, by using the method ```.put()```, and passing in an ```Integer``` for the key, and a ```String``` for the value:
 
 ```java
-kindsOfPets.put("cat", "a domestic feline pet");
-kindsOfPets.put("dog", "a domestic canine pet");
-kindsOfPets.put("hamster", "a domestic rodent pet");
+importantBirthdays.put(18, "you can now vote");
+importantBirthdays.put(21, "you can now drink");
+importantBirthdays.put(65, "you can now retire");
 ```
 
-There are several obvious differences between an ArrayList and a HashMap, from what we can already see - there are no indices, meaning you do not add them to a certain location, or a certain order, within the data structure. Also, instead of assigning an element to a particular index, we have made an association between a word, and a definition.
+There are several obvious differences between an ArrayList and a HashMap, from what we can already see - there are no indices, meaning you do not add them to a certain location, or a certain order, within the data structure. Also, instead of assigning an element to a particular index, we have made an association between a birthday, and a milestone.
 
-Let's say, after putting a word and its definition into a HashMap, we also want to get a definition (value) out of a HashMap, by using it's word (key). We can simply use the method ```.get()``` on the HashMap object:
+Let's say, after putting a birthday and its milestone into a HashMap, we also want to get a milestone (value) out of a HashMap, by using your birthday age (key). We can simply use the method ```.get()``` on the HashMap object:
 
 ```java
-// This will retreive the definition "a domestic canine pet"
+// This will retreive the milestone "you can now drink"
 
-kindsOfPets.get("dog");
+importantBirthdays.get(21);
 ```
 
-There is a catch to using a HashMap - although each value may be different, all of the keys you put into this data structure must be unique. This means that if you use the key "dog" more than once to enter a definition, you won't be adding a second definition, you will instead effectively replace the previous one:
+There is a catch to using a HashMap - although each value may be different, all of the keys you put into this data structure must be unique. This means that if you use the key ```21``` more than once to enter a milestone, you won't be adding a second milestone, you will instead effectively replace the previous one:
 
 ```java
 // Original entry
-kindsOfPets.put("dog", "a domestic canine pet");
+importantBirthdays.put(21, "you can now drink");
 
 // Replaced entry
-kindsOfPets.put("dog", "a person's most hyperbolically bestest friend ever!");
+importantBirthdays.put(21, "you may also graduate from college");
 ```
 
 If you wish to remove an entry, you may call the ```.remove()``` method on the HashMap:
 
 ```java
-kindsOfPets.remove("hamster");
+importantBirthdays.remove(65);
 ```
 
 As with ArrayLists and the method ```.contains()```, HashMaps have a similar method to check if a key already exists within the HashMap, called ```.containsKey()```:
@@ -209,9 +211,9 @@ As with ArrayLists and the method ```.contains()```, HashMaps have a similar met
 ```java
 // This will return true
 
-kindsOfPets.containsKey("dog");
+importantBirthdays.containsKey(18);
 
 // This will return false
 
-kindsOfPets.containsKey("parrot");
+importantBirthdays.containsKey(99);
 ```
