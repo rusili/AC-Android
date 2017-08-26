@@ -108,7 +108,7 @@ You might be asking yourself why we used the keyword ```Integer``` instead of th
 
 Because of the ```Integer``` wrapper class, we can now add int values to the ArrayList!
 
-Now that we have this ArrayList object called ```integerArrayList```, let's add elements to it! We can do this with a method called ```.add()```, and we simply pass an argument of type ```String``` into the method's parameter:
+Now that we have this ArrayList object called ```integerArrayList```, let's add elements to it! We can do this with a method called ```.add()```, and we simply pass an argument of type ```Integer``` into the method's parameter:
 
 ```java
 integerArrayList.add(25);
@@ -138,9 +138,9 @@ If we want to add an element between two other elements, we can call the method 
 integerArrayList.add(1, 42);
 ```
 
-This will shift all of the other elements to the next index, while adding the ```Integer``` 42 to index 1.
+This will shift all of the other elements to the next index, while adding the ```Integer``` 42, to index 1.
 
-If we want to remove an element, we can call the method ```remove()```, passing in an index to the parameter:
+If we want to remove an element, we can call the method ```.remove()```, passing in an index to the parameter:
 
 ```java
 integerArrayList.remove(1);
@@ -217,3 +217,40 @@ importantBirthdays.containsKey(18);
 
 importantBirthdays.containsKey(99);
 ```
+
+### Iterating Through ArrayLists and HashMaps
+
+When you work with a new data structure, you should always ask yourself these questions:
+- How do I create it?
+- How do I store values?
+- How do I retrieve values?
+- How do I iterate through it, or traverse it?
+
+You can iterate through a  ```String``` object with something like this:
+
+```java
+String word = "awesomesauce";
+for (int i = 0; i < word.length(); i++) {
+    System.out.println(word.charAt(i));
+}
+```
+
+Using a ```for``` loop, you may also iterate through an array object, by using its indices:
+
+```java
+int[] numbers = {1, 3, 5, 7, 9};
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println(numbers[i]);
+}
+```
+
+Not surprisingly, you may also use a ```for``` loop to iterate through an ArrayList object, using the ```get()``` method:
+
+```java
+ArrayList<Character> characterList = new ArrayList<>();
+
+for (int i = 0; i < characterList.size(); i++) {
+    System.out.println(characterList.get(i));
+}
+```
+
