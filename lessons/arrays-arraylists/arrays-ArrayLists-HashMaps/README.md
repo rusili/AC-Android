@@ -75,6 +75,8 @@ intArray[2] = 99;
 
 ```
 
+Arrays are great, but they are not terribly flexible. Java has a library called ```Collections```, and importing parts of that library can give us access to a number of robust data structures, such as Lists and Maps.
+
 ### Lists, and ArrayLists
 
 An ArrayList behaves very much like an array, in that you may find out the number of elements in it, add elements only of a certain type, where each element has an index, and you can access/change the value of an element by calling it with its index. However, with an array, you cannot increase its size once you have initialized it, without replacing the entire array with a new one, containing both the old and new elements. You can, however, do this with an ArrayList.
@@ -221,6 +223,7 @@ importantBirthdays.containsKey(99);
 ### Iterating Through ArrayLists and HashMaps
 
 When you work with a new data structure, you should always ask yourself these questions:
+
 - How do I create it?
 - How do I store values?
 - How do I retrieve values?
@@ -244,7 +247,7 @@ for (int i = 0; i < numbers.length; i++) {
 }
 ```
 
-Not surprisingly, you may also use a ```for``` loop to iterate through an ArrayList object, using the ```get()``` method:
+Not surprisingly, you may also use a ```for``` loop to iterate through an ArrayList object, using the ```.get()``` method:
 
 ```java
 ArrayList<Character> characterList = new ArrayList<>();
@@ -254,23 +257,36 @@ for (int i = 0; i < characterList.size(); i++) {
 }
 ```
 
-However, HashMaps are an unordered collection - this means that because values are stored with an associated key, there is no need to utilize an index! Although this is great if you know the key you are looking for, it is not very useful if you do not. This is why Java provides us with a new type of loop, just for instance variables or objects - the **for-each** loop!
+However, HashMaps are an unordered collection - this means that because values are stored with an associated key, there is no need to utilize an index! Although this is great if you know the key you are looking for, it is not very useful if you do not. This is why Java provides us with an extremely useful loop - the **for-each**, or **enhanced for** loop!
 
 The for-each loop allows us to search for a certain object within a collection, using a parameter of a certain type. Let's see how this works with ArrayLists first:
 
 ```java
 ArrayList<String> hairBands = new ArrayList<>();
+hairBands.add("Poison");
+hairBands.add("Ratt");
+hairBands.add("Quiet Riot");
+hairBands.add("Van Halen");
 
 for (String band : hairBands) {
   System.out.println(band);
 }
 ```
 
-We can see here that because we know that every element in the ArrayList is of type ```String```, we can do whatever we like with any element that is of that type. We are essentially saying "While there are ```Strings``` in ```hairBands``` for each ```String``` in ```hairBands```, print whatever that ```String``` is. When we iterate this way, we don't have to worry about the length of the ArrayList or avoiding index out of bounds exceptions, since it doesn't need to know how many loops to make - it only needs to loop through the elements that exist in it.
+We can see here that because we know that every element in the ArrayList is of type ```String```, we can do whatever we like with any element that is of that type. We are essentially saying "While there are ```Strings``` in ```hairBands``` - for each ```String``` in ```hairBands```, print whatever that ```String``` is. When we iterate this way, we don't have to worry about the length of the ArrayList or avoiding index out of bounds exceptions, since it doesn't need to know how many loops to make - it only needs to loop through the elements that exist in it.
 
 Let's do the same thing with a HashMap:
 
 ```java
+HashMap<String, String> animalFoods = new HashMap<>();
+animalFoods.put("chipmunks", "seeds");
+animalFoods.put("squirrels", "acorns");
+animalFoods.put("bats", "mosquitoes");
+animalFoods.put("park pigeons", "human souls");
+
+for (String animal : animalFoods.keySet()){
+    System.out.println(animalFoods.get(animal));
+}
 ```
 
-```
+A HashMap entry doesn't just have one type parameter, it has two - one for its key, and one for its value. So we can't simply look through the HashMap directly, like we did with the ArrayList. We have to call a method on the HashMap object called ```.keySet()```, which is exactly what the method name implies - it returns the set containing all the keys for each entry in the HashMap. A ```Set``` is another data structure we will go into later - a ```Set``` can only contain unique values - since HashMaps can only have unique keys, a list of all the keys is also technically a set.
