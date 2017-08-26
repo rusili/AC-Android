@@ -1,9 +1,9 @@
-# Review of Abstract Classes, Lists, and Maps
+# Lists, and Maps
 
 ## Objectives:
-- Review abstract classes
-- Review ArrayLists
-- Review HashMaps
+- Review Arrays in Java
+- Explore ArrayLists and their Methods
+- Explore HashMaps and their Methods
 
 ## Vocabulary
 
@@ -16,11 +16,6 @@
 |**Abstract Class**|classes that contain one or more abstract methods. An abstract method is a method that is declared, but contains no implementation. Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods.|
 
 ## Resources
-
-### Documents
-
-- [Java docs](http://docs.oracle.com/javase/tutorial/collections/intro/index.html)
-- [Abstract Classes](http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 
 ### Videos
 
@@ -37,18 +32,18 @@ Data structures are an important part of any programming language, especially Ja
 
 ### Arrays
 
-Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of String elements ( String[] ) can be seen in the code snippets below:
+Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippets below:
 
 ```java
-// String elements directly assigned to an int array, setting its length to only 5 elements
+// int elements directly assigned to an int array, setting its length to only 5 elements
 
-String[] stringArray = {"John", "Amy", "Theo", "Bharat", "Cristella"};
+int[] intArray = {7, 14, 21, 28, 35};
 ```
 
 ```java
-// String array declared, and initialized with an array of exactly 5 int elements
+// int array declared, and initialized with an array of exactly 5 int elements
 
-String[] stringArray = new String[5];
+int[] intArray = new int[5];
 ```
 
 A programmer who wants to know how many elements have been assigned to an array, or how many indices for elements have been allocated during initialization of this array, may use the ```.length``` property, which may be called on all array objects:
@@ -56,8 +51,10 @@ A programmer who wants to know how many elements have been assigned to an array,
 ```java
 // This will return the length, or the number of elements assigned to the array object
 
-stringArray.length;
+intArray.length;
 ```
+
+Notice how the property ```.length``` does not have parentheses at the end of it - this is because calling a property is not the same as calling a method in Java.
 
 All elements in an array have an index number. The first element has an index number of 0, and the index of the last element is equal to the length of the array, minus 1.
 
@@ -66,15 +63,15 @@ A programmer may also access or reassign elements within the array, by using the
 ```java
 // This will allow a user to access the first element of the array, at index 0
 
-stringArray[0];
+intArray[0];
 
 // This will allow the user to access the last element of the array, regardless of actual index number
 
-stringArray[stringArray.length - 1];
+intArray[intArray.length - 1];
 
 // This will allow the user to access an element in the array, by its index, and assign it a value
 
-stringArray[2] = "Hyun";
+intArray[2] = 99;
 
 ```
 
@@ -85,16 +82,29 @@ An ArrayList behaves very much like an array, in that you may find out the numbe
 ```java
 // First, you instantiate an ArrayList
 
-ArrayList<String> stringArrayList = new ArrayList<>();
+ArrayList<Integer> integerArrayList = new ArrayList<>();
 ```
 
-You might have seen the keyword ```String``` in angle brackets next to the static type **ArrayList**, as in ```ArrayList<String>``` - this is similar to how you might create an array of type ```String[]```:
+You might have seen the keyword ```Integer``` in angle brackets next to the static type **ArrayList**, as in ```ArrayList<Integer>``` - this is similar to how you might create an array of type ```int[]```:
 
 ```java
-String[] stringArray = new String[5];
+int[] intArray = new int[5];
 ```
 
-You are essentially stating that the ArrayList you are instatiating will only accept elements of type ```String``` - this is called the ArrayList's **type parameter**. When we do this, under the hood, we are leveraging the power of something called **generics** (we will not cover this today, but soon).
+You are essentially stating that the ArrayList you are instatiating will only accept elements of type ```Integer``` - this is called the ArrayList's **type parameter**. When we do this, under the hood, we are leveraging the power of something called **generics** (we will not cover this today, but soon).
+
+You might be asking yourself why we used the keyword ```Integer``` instead of the keyword ```int``` - that's because ArrayLists can only store objects. Remember in a previous lesson, we explored how everything is an object, and even primitive types have corresponding wrapper classes? Please see the chart below:
+
+|Primitive Type|Wrapper Class|
+|:-:|:-:|
+|byte|Byte|
+|short|Short|
+|int|Integer|
+|long|Long|
+|float|Float|
+|double|Double|
+|char|Character|
+|boolean|Boolean|
 
 Now that we have this ArrayList object called ```stringArrayList```, let's add elements to it! We can do this with a method called ```.add()```, and we simply pass an argument of type ```String``` into the method's parameter:
 
