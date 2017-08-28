@@ -116,6 +116,10 @@ So Why Generics
 3. Add a typed constructor with vargs 
  
 [In-class exercise] 
+
+---
+
+# Break time / Mid-day checkins
  
 --- 
  
