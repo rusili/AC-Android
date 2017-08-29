@@ -111,7 +111,7 @@ So Why Generics
 # Code With Me - A simple list of strings 
  
 1. Create a class `StringList` to represent a list of strings (similar to arraylist of integers) 
-    - methods add, length, largest, toString 
+    - methods add, size, toString, and clear
 2. Customize string list above to represent a list of Donuts, call it `DonutsList` 
 3. Add a typed constructor with vargs 
  
@@ -126,7 +126,8 @@ So Why Generics
 # Code With Me - Abstracting over the string type 
  
 1. Let's take a closer look at [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) 
-2. Create a `SmartList` that is similar to `StringList` but using type parameters 
+2. Create a `SmartList` that is similar to `StringList` but using type parameters.
+    - The only special thing about is just passing values during instantiation 
 3. Update the methods in `StringList` to be type-blind 
  
 Here is an interface that describes `SmartList` 
@@ -144,11 +145,13 @@ public interface SmartListI <E> {
  
 --- 
  
-# Debug Time: More Test Cases 
+# Refinements and More Test Cases 
  
 1. Create test cases for SmartList in Program 
 2. Test it with a `foreach` loop 
 3. Print an instance of SmartList and compare to ArrayList 
+4. Can we use it with the List interface?
+5. Can we re-use the code in ArrayList instead?
  
 See [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) 
  
