@@ -5,7 +5,6 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 ## Highlights
 
 - Line length limited to 100 characters.
-- Two-space indent.  **No tabs.**
 - Spaces around operators.
 - Space after `if`, `for`, `while`.
 - Use `{` and `}` even for one-line blocks.
@@ -15,8 +14,6 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 - Lowercase `camelCase` for variable names.
 - `UPPERCASE_WITH_UNDERSCORES` for constant names.
 -  `alllowercase` for package names.
-
-# Other Resources
 
 ## Jargon
 
@@ -41,13 +38,16 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 
 ## Git
 
+- [The Essentials](http://rogerdudler.github.io/git-guide/)
+- [The Cheat Sheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 - [Interactive - try.github.io](https://try.github.io/)
 - [Reading - Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/introduction#start)
 - [Video - Learn Version Control with Git](https://www.git-tower.com/learn/git/videos/#episodes)
 - [Quick Reference - Git Docs](https://git-scm.com/docs)
 
-## Command Line
+## Bash (Command Line)
 
+- [The Essentials](https://gist.github.com/raineorshine/9898350)
 - [Interactive - Codecademy: Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
 - [Reading - Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
 - [Video - Mac OS X from the Command Line](https://www.youtube.com/playlist?list=PLtNErhYMkHnFgzIVC6tV-zk2yHSeNwb3y)
