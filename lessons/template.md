@@ -1,5 +1,5 @@
-- title: 
-- tags: 
+# Title: 
+Tags: 
 
 # Objectives
 
@@ -16,4 +16,6 @@
 Teaching materials here. 
 
 Include pair programming exercises here, or add them in a separate Markdown file and link it.
+
+# Summary
 

@@ -63,11 +63,15 @@ AC3.3 uses the [Google Java Style Guide](https://google.github.io/styleguide/jav
 - [Video - Mac OS X from the Command Line](https://www.youtube.com/playlist?list=PLtNErhYMkHnFgzIVC6tV-zk2yHSeNwb3y)
 - [Quick Reference - Terminal Cheatsheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
 
-## Java
-- [Interactive - Codeacademy: Java](https://www.codecademy.com/learn/learn-java)
+## Java 
+- [Java Docs](https://docs.oracle.com/javase/tutorial/java/index.html): Java tutorial from the creators of Java itself
 - [Reading - Think Java](http://greenteapress.com/thinkjava6/thinkjava.pdf)
+- [Tutorial's Point](https://www.tutorialspoint.com/java/): Very concise Java tutorial, well organized too.
+- [Java Point](https://www.javatpoint.com/java-tutorial): Another concise and GRAPHIC tutorial. More pieced down and categorized.
+- [HackerRank](https://www.hackerrank.com/domains/java/java-strings/difficulty/all/page/1): Very good source of code to use for exercises (with good problem statement - and test cases)
+- [CodingBat](http://codingbat.com/java): Good for learning through problem solving and finding exercises at the very beginner level
+- [Codeacademy (interactive)](https://www.codecademy.com/learn/learn-java)
+- [Video - Udemy](https://www.udemy.com/java-tutorial/): Best bank of Java video tutorials
 - [Video - Derek Banas's Java](https://www.youtube.com/watch?v=TBWX97e1E9g&list=PLE7E8B7F4856C9B19)
-- [Quick Reference - Java API](https://docs.oracle.com/javase/7/docs/api/)
-
-## Other Resources 
-* [StackOverflow](https://stackoverflow.com/)
+- [StackOverflow](https://stackoverflow.com/): The last bus stop for your questions.
+- [Java Reference - The Manual](https://docs.oracle.com/javase/7/docs/api/)
