@@ -155,6 +155,8 @@ result += 1;
 result -= 1;
 ```
 
+##### Unit 3
+
 The **Unary** operators require only one operand:
 
 ```java
@@ -189,6 +191,30 @@ int result = 3 / 4; // Evaluates to 0
 double result = 7.0/2.0;
 ```
 
+## More printing + Strings
+
+String is the most commonly used class in Java. It represents a "character string", or sequence of characters.
+
+The full documentation for the String class is here: [Java Docs: Strings](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
+
+Let's complete some more exercises to experiment with Strings and printing:
+
+
+## Summary
+
+
+| D Type |       use      |
+|:------:|:--------------:|
+| int    | integers       |
+| double | long decimal   |
+| float  | short decimal  |
+| String | words          |
+| boolean| true or false  |
+| char   | single letter  |
+
+
+
+
 | symbol |       use      |
 |:------:|:--------------:|
 |    +   |    Addition    |
@@ -198,16 +224,4 @@ double result = 7.0/2.0;
 |    %   |     Modulo     |
 |   ++   |    Increment   |
 |   --   |    Decrement   |
-
-[Exercises: Math and Arithmetic Expressions](exercises.md#math)
-
-## More printing + Strings
-
-String is the most commonly used class in Java. It represents a "character string", or sequence of characters.
-
-The full documentation for the String class is here: [Java Docs: Strings](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
-
-Let's complete some more exercises to experiment with Strings and printing:
-
-# Summary
 

@@ -1,11 +1,12 @@
-# Control Structures in Java
+##### Lesson 3: Unit 1
+# Control Structures 
+Tags: Java Programming
 
 ## Objectives
 
 - Write an If statement
 - Write an If - Else statement
 - Write a Switch statement
-- Write a Ternary Operator Expression
 
 ## Resources
 
@@ -350,15 +351,6 @@ if (studentName.equals(teacherName)) {
 if (studentName == teacherName) {
     System.out.println("This is not a good idea!");
 }
-```
-## Ternary Operator Statements
-
-Another control statement which may come in handy when making decisions is called the Ternary Operator Statement, or the If-Then-Else statement. It gets its name from the ```?``` operator it uses to control the flow of a program.
-
-The statement "If 5 is greater than 3, the expression is correct - otherwise, it is incorrect" can be written in code like this:
-
-```java
-boolean isCorrectExpression = (5 > 3) ? true : false
 ```
 
 Let's break it down step-by-step:
