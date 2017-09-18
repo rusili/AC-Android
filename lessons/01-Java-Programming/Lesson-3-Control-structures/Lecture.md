@@ -28,7 +28,14 @@
 
 ## Warm up exercise
 
+```
+public int average(int a, int b, int c) {
+    int average = 0; // update this code to return the average of a,b,c
+    return average;
+}
+```
 
+* How can we make `average` more precise?
 
 ---
 
@@ -154,7 +161,10 @@ while (isThirsty) {
 
 ```
 
-Convert this to `for` loop
+* Convert this to `for` loop.
+* Create an infinite `while` loop.
+* Create an infinite `for` loop.
+
 
 ---
 
