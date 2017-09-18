@@ -104,10 +104,19 @@ The AND operator
 
 ## Ternary Operators
 
+* Simplified `if else` statement.
+* Ideal for single statement, non-void statements
+
+```
+int carMileage = 500;
+int minCarAge = carMileage > 300000 ? 15 : 5
+```
+
 ---
 
-
 ## Questions?
+
+[CodingBat](http://codingbat.com/prob/p159531)
 
 ---
 
@@ -115,7 +124,41 @@ The AND operator
 
 ---
 
-## Unit 2: If...Else Statements
+## Unit 2: While and For Loops
+
+While Loop
+```
+initializer;
+while (condition) {
+    execute_some_commands();
+}
+```
+
+For Loop
+```
+for (initializer; condition; increment/interval) {
+    execute_some_commmands();
+}
+```
+
+---
+
+While Loop Example
+
+```
+boolean isThirsty = true;
+int cup = 1;
+while (isThirsty) {
+    System.out.println("drinking water");
+    ++cup;
+    if(cup == 3) {
+        isThirsty = false;
+    }
+}
+
+```
+
+Convert this to `for` loop
 
 ---
 
