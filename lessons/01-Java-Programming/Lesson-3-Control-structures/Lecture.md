@@ -120,10 +120,6 @@ int minCarAge = carMileage > 300000 ? 15 : 5
 
 ---
 
-## In-Class Exercises
-
----
-
 ## Unit 2: While and For Loops
 
 While Loop
@@ -162,3 +158,6 @@ Convert this to `for` loop
 
 ---
 
+## In-Class Exercises
+
+---
