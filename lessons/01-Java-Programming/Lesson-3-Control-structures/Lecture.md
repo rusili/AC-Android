@@ -67,11 +67,7 @@ Operators that yield a `boolean` result. They ask `true`, `false` questions.
 |```>=```|Greater than or equal to|
 |```<=```|Less than or equal to|
 |```&&```|Conditional And|
-|```\|\|```|Conditional Or|
-
----
-
-## Break
+|```||```|Conditional Or|
 
 
 ---
@@ -106,6 +102,10 @@ The AND operator
 * Given `p = true`, what is the result of `!p`
 * Given `p = true` and `q = false`, what is the result of `p == !q`
 * Given `p = true` and `q = false`, what is the result of `(p && q) || (!q)`
+
+---
+
+## Break
 
 ---
 
