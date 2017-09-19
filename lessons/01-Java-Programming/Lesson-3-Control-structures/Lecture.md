@@ -146,7 +146,7 @@ for (initializer; condition; increment/interval) {
 
 ---
 
-While Loop Example
+# Warm Up
 
 ```
 boolean isThirsty = true;
@@ -168,6 +168,75 @@ while (isThirsty) {
 
 ---
 
-## In-Class Exercises
+## For Loops
+
+Learn by doing...
+
+* Printing all numbers within a range
+* Printing all multiples of 5 till 50
+* Printing all prime numbers till 100
+
+---
+
+
+## Switch Statement
+
+* Very similar to If...else if...else chain
+* `default` case is the equivalent of `else`
+
+```
+switch(expression){    
+case value1:    
+ //code to be executed;    
+ break;  //optional  
+case value2:    
+ //code to be executed;    
+ break;  //optional  
+......    
+    
+default:     
+ code to be executed if all cases are not matched;    
+}
+```
+
+---
+
+## Switch Example
+
+```
+public class SwitchExample {  
+    public static void main(String[] args) {  
+        int number=20;  
+        switch(number){  
+        case 10: System.out.println("10");break;  
+        case 20: System.out.println("20");break;  
+        case 30: System.out.println("30");break;  
+        default:System.out.println("Not in 10, 20 or 30");  
+        }  
+    }  
+}  
+```
+
+---
+
+## Exercises
+
+* Solve the cigar problem using switch statement [CodingBat](http://codingbat.com/prob/p159531)
+* Can all `if` statements be written as `switch` statements? When do you use which?
+* Can all `while` statements be written as `for` statements?
+* Can we infinitely nest loops? How about if and switch?
+* Write an infinite while and for loop. What could be a possible use case?
+
+---
+
+## More programming using loops and control structures
+
+* Calculate the sum of all even numbers between 0 and 50
+* Print the first 10 fibonacci numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+* [CodingBat](http://codingbat.com/prob/p159531)
+
+---
+
+## In-class exercises and mid-day check in
 
 ---
