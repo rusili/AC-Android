@@ -240,3 +240,99 @@ public class SwitchExample {
 ## In-class exercises and mid-day check in
 
 ---
+
+# Unit 3: Do-while, For-each, continue keyword
+[InstaFeedback](https://goo.gl/forms/eU2n0BrkMdooQ2kx1)
+
+* 
+
+---
+
+## Do while
+
+The Java do-while loop is executed at least once because condition is checked after loop body.
+
+```
+public class DoWhileExample {  
+    public static void main(String[] args) {  
+        int i=1;  
+        do{  
+            System.out.println(i);  
+        i   ++;  
+        } while(i<=10);  // note the semi-colon after while.
+    }  
+} 
+```
+
+---
+
+## For each 
+
+* Simplified, yet robust way for iterating over arrays and collections
+* No initialization, condition and incrementer
+
+```
+public class Main {
+   public static void main(String[] args) {
+      int[] numbers = { 1,2,3,4};
+      for(int i: numbers) {
+          System.out.print(i);
+      }
+   }
+}
+```
+Prints "1234"
+
+---
+
+## Continue keyword
+
+* Skips the current iteration on any loop - for, while, do-while, for-each 
+
+```
+public class Main {
+   public static void main(String[] args) {
+      int[] numbers = { 1,2,3,4};
+      for(int i: numbers) {
+          if(i == 2) {
+              continue;
+          }
+          System.out.println(i);
+      }
+   }
+}
+```
+Prints "134"
+
+---
+
+## Exercise
+
+* Write a Java program to input week number(1-7) and print day of week name using switch case. *
+
+Example Input week number(1-7): 2
+Output: Tuesday
+
+---
+
+## Exercise
+
+Write a Java program to create menu driven calculator that performs basic arithmetic operations (add, subtract, multiply and divide) using switch case and functions. The calculator should input two numbers and an operator from user. It should perform operation according to the operator entered and must take input in given format.
+
+public static double calc(String operator, int a, int b) {
+    // code here
+}
+
+// calc('+', 3, 5): 8
+// calc('*', 3, 5): 15
+
+---
+
+## HackerRank
+
+[Hacker Rank Java Problems](https://www.hackerrank.com/domains/java/java-introduction)
+* If...Else
+* Data types and convertions
+* Loops
+
+---
