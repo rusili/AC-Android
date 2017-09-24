@@ -422,11 +422,11 @@ public int getDiameter() {
 	return diameter;
 }
 
-public void getCrust(String crust) {
+public void setCrust(String newCrust) {
 	crust = newCrust;
 }
 
-public void getPieFilling(String newPieFilling) {
+public void setPieFilling(String newPieFilling) {
 	pieFilling = newPieFilling;
 }
 
