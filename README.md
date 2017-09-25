@@ -1,7 +1,7 @@
 # Access Code 4.4
 ## Units
 
-0. [Fundamentals]()Java Fundamentals - Control structures, Loops, Classes, Interfaces, Data Structures
+0. [Fundamentals]() Java Fundamentals - Control structures, Loops, Classes, Interfaces, Data Structures
 1. [Intro to Android]() Introduction to Android and Android Studio
 2. [Data Structures and Android]() RecyclerView, Retrofit, JSON
 3. [Networking + More Data Structures]() Connecting our apps to the interwebs 
