@@ -16,4 +16,3 @@ Welcome to Access Code!
 - [Resources](resources/)
 - [Github Classroom](https://classroom.github.com/classrooms/21197287-accesscode3-3)
 
---> installfest link https://github.com/jgarcia162/AC-Android/tree/master/lessons/env-and-tools
