@@ -64,4 +64,4 @@ Example:
 
 1. Create a package in your ~/Desktop/accesscode directory (like we did today) called HW_09-03. Run through the Git workflow like we did earlier today: [Git + IntelliJ workflow](../resources/git-intellij-workflow.md). Create the GitHub repo but DON'T DELETE IT AND RE-CLONE IT. That was just an exercise.
 
-2. Commit and push all work and submit your repo link using [this Canvas Link]() by **8pm on Saturday 08/26/2017**. Submitting this assignment in on time, and to completion, is expected of all participants.
+2. Commit and push all work and submit your repo link using [this Canvas Link](https://canvas.instructure.com/courses/1218009/assignments/7139090) by **8pm on Saturday 08/26/2017**. Submitting this assignment in on time, and to completion, is expected of all participants.
