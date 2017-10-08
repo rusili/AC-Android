@@ -39,7 +39,7 @@ public class Employee {
 }
 ```
 
-You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```PriorityQueue<E>```:
+You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```ArrayBlockingQueue<E>```:
 
 ```java
 package com.company;
@@ -49,18 +49,20 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class Main {
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+
+    private static Queue<Employee> retirementQueue = new ArrayBlockingQueue<>(10);
 
     public static void main(String[] args) {
 
-        retirementQueue.add(new Employee("Danny"));
-        retirementQueue.add(new Employee("Helen"));
-        retirementQueue.add(new Employee("Yojana"));
+        retirementQueue.offer(new Employee("Danny"));
+        retirementQueue.offer(new Employee("Helen"));
+        retirementQueue.offer(new Employee("Yojana"));
     }
 }
 ```
 
-We use the ```.add()``` method to add a new employee to ```retirementQueue```, and similarly to the way an ```ArrayList<E>``` user might call the ```.add()``` method, the employee is added to the end of the queue. 
+In the constructor for the ```ArrayBlockingQueue<>(10)```, you can see we added a number as an argument for its parameter. We did this because, like an ```ArrayList<E>```, an ```ArrayBlockingQueue<>()``` is supported under-the-hood by an array. However, unlike an ```ArrayList<E>``` implementation, which comes with a default initial capacity of 10, we have to add our own initial capacity at the moment of instantiation U+1F615....
+
 
 ## Stack
 
