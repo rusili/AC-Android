@@ -28,7 +28,7 @@ package com.company;
 
 import java.util.Date;
 
-public class Employee implements Comparable {
+public class Employee {
     private String name;
     private Date startDate;
 
@@ -44,27 +44,19 @@ public class Employee implements Comparable {
     public Date getStartDate() {
         return startDate;
     }
-
-    @Override
-    public int compareTo(Object o) {
-        return (int)((this.getStartDate().getTime() - ((Employee) o).getStartDate().getTime()));
-    }
 }
 ```
 
-This object implements something called ```Comparable``` - this is because a ```PriorityQueue<E>``` requires that objects entered into the queue are sortable, or comparable to each other - in this case, by ```startDate``` value. There are other implementations, like ```ArrayBlockingQueue<E>```, that just add elements to the queue without worring about sorting them, but these have their own caveats, so we'll use this implementation for now....
-
-So, you wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```PriorityQueue<E>```:
+You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```LinkedList<E>```:
 
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
 
@@ -86,12 +78,11 @@ The **Head** of a queue is the oldest entry in the queue, and the **Tail** is th
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
 
@@ -116,12 +107,11 @@ Perhaps someone passed away before they could retire :coffin::cry:, and you want
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
 
@@ -146,12 +136,11 @@ And, like many other data structures in Java, you can find out the size of the q
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
 
@@ -182,13 +171,11 @@ A ```Stack``` is a Last-In-First-Out (LIFO) data structure. It allows you to add
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     private static Stack<Employee> layOffStack = new Stack<>();
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
     
@@ -212,13 +199,11 @@ Great! We've successfully added three new employees to both lists, by calling ``
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     private static Stack<Employee> layOffStack = new Stack<>();
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
     
@@ -246,13 +231,11 @@ Alright, you followed company policy, and let that employee go. But what about t
 ```java
 package com.company;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     private static Stack<Employee> layOffStack = new Stack<>();
-    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+    private static Queue<Employee> retirementQueue = new LinkedList<>();
 
     public static void main(String[] args) {
     
