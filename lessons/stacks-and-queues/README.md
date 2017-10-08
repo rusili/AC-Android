@@ -241,7 +241,7 @@ public class Main {
 }
 ```
 
-Alright, you followed company policy, and let that employee go. But what about the retirementQueue - they can't be laid off, and retire from your company as well, right? So, how can we fix this? Simply remove the employee from the ```retirementQueue``` queue that was recently downsized from the ```layOffStack``` stack:
+Alright, you followed company policy, and let that employee go. But what about the ```retirementQueue``` - they can't be laid off, and retire from your company as well, right? So, how can we fix this? Simply remove the employee from the ```retirementQueue``` queue that was recently downsized from the ```layOffStack``` stack:
 
 ```java
 package com.company;
@@ -273,3 +273,5 @@ public class Main {
     }
 }
 ```
+
+Good work, you've maintained the integrity of your employment retention process, and learned about stacks and queues in the endeavor!
