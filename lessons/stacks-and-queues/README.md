@@ -207,4 +207,69 @@ public class Main {
 }
 ```
 
-Great! We've successfully added three new employees to both lists, by calling ```.offer()``` on the ```retirementQueue```, and ```.push()``` on the ```layOffStack()``` stack, which adds the element to the tail of the Stack! However, our company has recently been hit by hard financial times :chart_with_downwards_trend: - and we'll have to lay off an employee, but how do we know who to lay off first? Easy! Simply call the ```pop()``` method, which removes the most recent element added to the stack!
+Great! We've successfully added three new employees to both lists, by calling ```.offer()``` on the ```retirementQueue```, and ```.push()``` on the ```layOffStack()``` stack, which adds the element to the tail of the Stack! However, our company has recently been hit by hard financial times :chart_with_downwards_trend: - and we'll have to lay off an employee, but how do we know who to lay off first? Like a queue, you could always run the ```.peek()``` method to confirm, or call the ```.pop()``` method, which removes the most recent element added to the stack:
+
+```java
+package com.company;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Main {
+    private static Stack<Employee> layOffStack = new Stack<>();
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+
+    public static void main(String[] args) {
+    
+        Employee danny = new Employee("Danny");
+        Employee helen = new Employee("Helen");
+        Employee yojana = new Employee("Yojana");
+
+        retirementQueue.offer(danny);
+        layOffStack.push(danny);
+        retirementQueue.offer(helen);
+        layOffStack.push(helen);
+        retirementQueue.offer(yojana);
+        layOffStack.push(yojana);
+        
+        layOffStack.peek();
+        
+        layOffStack.pop();
+
+    }
+}
+```
+
+Alright, you followed company policy, and let that employee go. But what about the retirementQueue - they can't be laid off, and retire from your company as well, right? So, how can we fix this? Simply remove the employee from the ```retirementQueue``` queue that was recently downsized from the ```layOffStack``` stack:
+
+```java
+package com.company;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Main {
+    private static Stack<Employee> layOffStack = new Stack<>();
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+
+    public static void main(String[] args) {
+    
+        Employee danny = new Employee("Danny");
+        Employee helen = new Employee("Helen");
+        Employee yojana = new Employee("Yojana");
+
+        retirementQueue.offer(danny);
+        layOffStack.push(danny);
+        retirementQueue.offer(helen);
+        layOffStack.push(helen);
+        retirementQueue.offer(yojana);
+        layOffStack.push(yojana);
+        
+        layOffStack.peek();
+        
+        retirementQueue.remove(layOffStack.pop());
+    }
+}
+```
