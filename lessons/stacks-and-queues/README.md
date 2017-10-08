@@ -13,7 +13,7 @@
 
 ## Abstract Data Types Revisited
 
-Abstract Data Types (ADT's), and described previously, are not conrete classes for data storage, but rather constructs, or ideas for how data may be stored, retrieved, sorted, or removed. ```Maps``` for example, are an Abstract Data Type used to model the storage of data as Key/Value pairs. 
+Abstract Data Types (ADT's), and described previously, are not conrete classes for data storage, but rather constructs, or ideas for how data may be stored, retrieved, sorted, or removed. A ```Map``` for example, is an Abstract Data Type used to model the storage of data as Key/Value pairs. Although the classes that implement this model might be different, they should share the same behavior, or menthods which should be called to implement Map-like behavior. Although a ```HashMap<K, V>``` may be an unordered collection of Key/Value pairs, and a ```TreeMap<K, V>``` may be an ordered collection of Key/Value pairs, ordered by the keys entered, they both implement the methods that all Maps are expected to implement. The same can be said for the ```List``` Abstract Data Type, 
 
 ## Queues
 
