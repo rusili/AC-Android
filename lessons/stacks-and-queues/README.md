@@ -179,3 +179,32 @@ public class Main {
 
 A ```Stack``` is a Last-In-First-Out (LIFO) data structure. It allows you to add elements to the tail end of a list, and remove elements from that same end. You could think of Stacks the same way HR managers might determine who to let go during a layoff period - those who have been with the company longer have **Seniority**, and the first person to get laid off, is the most recent person to be hired by that company:
 
+```java
+package com.company;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Main {
+    private static Stack<Employee> layOffStack = new Stack<>();
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+
+    public static void main(String[] args) {
+    
+        Employee danny = new Employee("Danny");
+        Employee helen = new Employee("Helen");
+        Employee yojana = new Employee("Yojana");
+
+        retirementQueue.offer(danny);
+        layOffStack.push(danny);
+        retirementQueue.offer(helen);
+        layOffStack.push(helen);
+        retirementQueue.offer(yojana);
+        layOffStack.push(yojana);
+
+    }
+}
+```
+
+Great! We've successfully added three new employees to both lists, by calling ```.offer()``` on the ```retirementQueue```, and ```.push()``` on the ```layOffStack()``` stack, which adds the element to the tail of the Stack! However, our company has recently been hit by hard financial times :chart_with_downwards_trend: - and we'll have to lay off an employee, but how do we know who to lay off first? Easy! Simply call the ```pop()``` method, which removes the most recent element added to the stack!
