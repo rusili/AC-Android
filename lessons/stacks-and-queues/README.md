@@ -75,7 +75,41 @@ You might be asking yourself "Why Java, why must you always make our lives incre
 
 ### A Tale of Two Methods
 
-If capacity is important to you, then you should use the method ```.add()``` to add employees to your queue, since the program will throw an exception if you try to add a new employee after the queue has reached capacity. However, if the capacity of the queue is meaningless to you, like the number of employees at McDonald's (375,000 people and counting! :hamburger::fries:), then safely go with the ```.offer()``` method, which adds a new element to the queue regardless of initial capacity.
+If capacity is important to you, then you should use the method ```.add()``` to add employees to your queue, since the program will throw an exception if you try to add a new employee after the queue has reached capacity. You can avaoid this by using the method ```.remainingCapacity()``` to confirm how many spots are remaining. However, if the capacity of the queue is meaningless to you, like the number of employees at McDonald's (375,000 people and counting! :hamburger::fries:), then safely go with the ```.offer()``` method, which adds a new element to the queue regardless of initial capacity.
+
+### Heads and Tails
+
+The Head of a queue is the oldest entry in the queue, and the Tail is the most recent entry. If you want to confirm who the most senior employee is on your queue, you could run the ```.peek()``` method, which will return the head of the queue, without removing it. If you want to both get AND remove the most senior employee, you could use the method ```.poll()```:
+
+```java
+package com.company;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Main {
+
+    private static Queue<Employee> retirementQueue = new ArrayBlockingQueue<>(12);
+
+    public static void main(String[] args) {
+
+        retirementQueue.offer(new Employee("Danny"));
+        retirementQueue.offer(new Employee("Helen"));
+        retirementQueue.offer(new Employee("Yojana"));
+        retirementQueue.offer(new Employee("Ridita"));
+        retirementQueue.offer(new Employee("Lily"));
+        
+        retirementQueue.peek();
+        
+        retirementQueue.poll();
+        retirementQueue.poll();
+        
+    }
+}
+```
+
+Perhaps someone passed away before they could retire :sad:
 
 ## Stack
 
