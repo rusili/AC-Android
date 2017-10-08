@@ -47,7 +47,7 @@ public class Employee {
 }
 ```
 
-You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```ArrayBlockingQueue<E>```:
+You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called an ```ArrayBlockingQueue<E>```:
 
 ```java
 package com.company;
@@ -58,7 +58,7 @@ import java.util.Stack;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new ArrayBlockingQueue<>(10);
+    private static Queue<Employee> retirementQueue = new ArrayBlockingQueue<>(12);
 
     public static void main(String[] args) {
 
@@ -69,8 +69,13 @@ public class Main {
 }
 ```
 
-In the constructor for the ```ArrayBlockingQueue<>(10)```, you can see we added a number as an argument for its parameter. We did this because, like an ```ArrayList<E>```, an ```ArrayBlockingQueue<>()``` is supported under-the-hood by an array. However, unlike an ```ArrayList<E>``` implementation, which comes with a default initial capacity of 10, we have to add our own initial capacity at the moment of instantiation :confused:....
+In the constructor for the ```ArrayBlockingQueue<>(12)```, you can see we added a number as an argument for its parameter. We did this because, like an ```ArrayList<E>```, an ```ArrayBlockingQueue<>()``` is supported under-the-hood by an array. However, unlike an ```ArrayList<E>``` implementation, which comes with a default initial capacity of 10, we have to add our own initial capacity at the moment of instantiation :confused:
 
+You might be asking yourself "Why Java, why must you always make our lives increasingly difficult?!?!" - and that's fair. However, this is actually one of those cases where Java is doing us a favor. Think about it - what if your organization ran like the Kingsman Secret Service, modeled after the knights of the round table - where you could have no more than 12 agents at a time? If an agent retired, then you should replace them, but why add a new agent if your roster is already full? 
+
+### A Tale of Two Methods
+
+If capacity is important to you, then you should use the method ```.add()``` to add employees to your queue, since the program will throw an exception if you try to add a new employee after the queue has reached capacity. However, if the capacity of the queue is meaningless to you, like the number of employees at McDonald's (375,000 people and counting :hamburger:), then safely go with the ```.offer()``` method, which adds a new element to the queue regardless of initial capacity.
 
 ## Stack
 
