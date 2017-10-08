@@ -54,7 +54,7 @@ public class Employee implements Comparable {
 
 This object implements something called ```Comparable``` - this is because a ```PriorityQueue<E>``` requires that objects entered into the queue are sortable, or comparable to each other - in this case, by ```startDate``` value. There are other implementations, like ```ArrayBlockingQueue<E>```, that just add elements to the queue without worring about sorting them, but these have their own caveats, so we'll use this implementation for now....
 
-So, you wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called an ```PriorityQueue<E>```:
+So, you wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```PriorityQueue<E>```:
 
 ```java
 package com.company;
