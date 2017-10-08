@@ -13,11 +13,18 @@
 
 ## Abstract Data Types Revisited
 
-Abstract Data Types (ADT's), and described previously, are not concrete classes for data storage, but rather constructs, or ideas for how data may be stored, retrieved, sorted, or removed. A ```Map``` for example, is an Abstract Data Type used to model the storage of data as Key/Value pairs. Although the classes that implement this model might be different, they should share the same behavior, or methods which should be called to implement Map-like behavior. Although a ```HashMap<K, V>``` may be an unordered collection of Key/Value pairs, and a ```TreeMap<K, V>``` may be an ordered collection of Key/Value pairs, ordered by the keys entered, they both implement the methods that all Maps are expected to implement. The same can be said for the ```List``` Abstract Data Type, with such implementations as an ```ArrayList<E>```, with elements ordered by an index, and ```LinkedList<E>``` - with elements ordered by their relationships with other elements within the list itself.
+Abstract Data Types (ADT's), and described previously, are not concrete classes for data storage, but rather constructs, or ideas for how data may be stored, retrieved, sorted, or removed. A ```Map``` for example, is an Abstract Data Type used to model the storage of data as Key/Value pairs. Although the classes that implement this model might be different, they should share the same behavior, or methods which should be called to implement Map-like behavior. Although a ```HashMap<K, V>``` may be an unordered collection of Key/Value pairs, and a ```TreeMap<K, V>``` may be an ordered collection of Key/Value pairs, ordered by the keys entered, they both implement the methods that all Maps are expected to implement. The same can be said for the ```List``` Abstract Data Type, with such implementations as an ```ArrayList<E>``` (with elements ordered by an index), and ```LinkedList<E>``` (with elements ordered by their relationships with other elements within the list itself).
 
 Stacks and Queues are also Abstract Data Types - and just as Maps and Lists have varying types of data structures that implement their models, so too do Stacks and Queues. 
 
+## Queue
+
+A Queue is a First-In-First-Out (FIFO) data structure. It allows you to add elements to one end of a list, and remove elements from the opposite end. Queues can be used to provide a list ordered by the moment elements are added or removed to that data type. For example, imagine you are an HR Manager, and you are in charge of maintaining a list of employees by their start date, to determine who should be allowed to retire first. You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is call a ```PriorityQueue<E>```:
+
+
+
 ## Stack
+
 A Stack is a Last-In-First-Out (LIFO) data structure. It allows you to add
 elements to one end of a list, and remove elements from that same end. This is
 a form of memory organization that grows in one direction. Many embedded memory
