@@ -11,13 +11,9 @@
 
 # Lecture
 
-## The purpose of data structures
-Data structures are important because they are exact descriptions of code that
-computers can understand. When communicating with another programmer, it is
-important to be as exact as possible with how your program works. Using data
-structures, you can be both more precise and concise in your communication.
-Data structures are the equivalent of vocabulary among programmers, and the more
-you know, the better you will code.
+## Abstract Data Types Revisited
+
+Abstract Data Types (ADT's), and described previously, are not conrete classes for data storage, but rather constructs, or ideas for how data may be stored, retrieved, sorted, or removed. ```Maps``` for example, are an Abstract Data Type used to model the storage of data as Key/Value pairs. 
 
 ## Queues
 
