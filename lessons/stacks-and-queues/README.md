@@ -61,7 +61,7 @@ public class Main {
 }
 ```
 
-In the constructor for the ```ArrayBlockingQueue<>(10)```, you can see we added a number as an argument for its parameter. We did this because, like an ```ArrayList<E>```, an ```ArrayBlockingQueue<>()``` is supported under-the-hood by an array. However, unlike an ```ArrayList<E>``` implementation, which comes with a default initial capacity of 10, we have to add our own initial capacity at the moment of instantiation U+1F615....
+In the constructor for the ```ArrayBlockingQueue<>(10)```, you can see we added a number as an argument for its parameter. We did this because, like an ```ArrayList<E>```, an ```ArrayBlockingQueue<>()``` is supported under-the-hood by an array. However, unlike an ```ArrayList<E>``` implementation, which comes with a default initial capacity of 10, we have to add our own initial capacity at the moment of instantiation :confused:....
 
 
 ## Stack
