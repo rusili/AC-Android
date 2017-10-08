@@ -36,6 +36,14 @@ public class Employee {
         this.name = name;
         this.startDate = new Date();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Date getStartDate() {
+        return startDate;
+    }
 }
 ```
 
