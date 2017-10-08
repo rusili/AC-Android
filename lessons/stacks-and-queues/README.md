@@ -28,9 +28,9 @@ package com.company;
 
 import java.util.Date;
 
-public class Employee {
-    String name;
-    Date startDate;
+public class Employee implements Comparable {
+    private String name;
+    private Date startDate;
 
     public Employee(String name) {
         this.name = name;
@@ -44,10 +44,17 @@ public class Employee {
     public Date getStartDate() {
         return startDate;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return (int)(((this.getStartDate().getTime() - ((Employee) o).getStartDate().getTime()))/1000);
+    }
 }
 ```
 
-You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called an ```ArrayBlockingQueue<E>```:
+This object implements something called ```Comparable``` - this is because a ```PriorityQueue<E>``` requires that objects entered into the queue are sortable, or comparable to each other - in this case, by ```startDate``` value. There are other implementations, like ```ArrayBlockingQueue<E>```, that just add elements to the queue without worring about sorting them, but these have their own caveats, so we'll use this implementation for now....
+
+So, you wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called an ```PriorityQueue<E>```:
 
 ```java
 package com.company;
@@ -58,7 +65,7 @@ import java.util.Stack;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new ArrayBlockingQueue<>(12);
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
 
     public static void main(String[] args) {
 
@@ -69,17 +76,13 @@ public class Main {
 }
 ```
 
-In the constructor for the ```ArrayBlockingQueue<>(12)```, you can see we added a number as an argument for its parameter. We did this because, like an ```ArrayList<E>```, an ```ArrayBlockingQueue<>()``` is supported under-the-hood by an array. However, unlike an ```ArrayList<E>``` implementation, which comes with a default initial capacity of 10, we have to add our own initial capacity at the moment of instantiation :confused:
+### Adding to the Queue
 
-You might be asking yourself "Why Java, why must you always make our lives increasingly difficult?!?!" - and that's fair. However, this is actually one of those cases where Java is doing us a favor. Think about it - what if your organization ran like the Kingsman Secret Service, modeled after the knights of the round table - where you could have no more than 12 agents at a time? If an agent retired, then you should replace them, but why add a new agent if your roster is already full? 
-
-### A Tale of Two Methods
-
-If capacity is important to you, then you should use the method ```.add()``` to add employees to your queue, since the program will throw an exception if you try to add a new employee after the queue has reached capacity. You can avaoid this by using the method ```.remainingCapacity()``` to confirm how many spots are remaining. However, if the capacity of the queue is meaningless to you, like the number of employees at McDonald's (375,000 people and counting! :hamburger::fries:), then safely go with the ```.offer()``` method, which adds a new element to the queue regardless of initial capacity.
+Adding to the queue is simple, and similar to an ```ArrayList<E>```, in that calling the ```.add()``` or ```.offer()``` methods will allow you to add the element to the end of the queue, which makes sense, since every new employee will also be the most recent employee at that given time.
 
 ### Heads and Tails
 
-The Head of a queue is the oldest entry in the queue, and the Tail is the most recent entry. If you want to confirm who the most senior employee is on your queue, you could run the ```.peek()``` method, which will return the head of the queue, without removing it. If you want to both get AND remove the most senior employee, you could use the method ```.poll()```:
+The **Head** of a queue is the oldest entry in the queue, and the **Tail** is the most recent entry. If you want to confirm who the most senior employee is on your queue, you could run the ```.peek()``` method, which will return the head of the queue, without removing it. If you want to both get (return) AND retire (remove) the most senior employee, you could use the method ```.poll()```:
 
 ```java
 package com.company;
@@ -90,7 +93,7 @@ import java.util.Stack;
 
 public class Main {
 
-    private static Queue<Employee> retirementQueue = new ArrayBlockingQueue<>(12);
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
 
     public static void main(String[] args) {
 
@@ -110,7 +113,7 @@ public class Main {
 }
 ```
 
-Perhaps someone passed away before they could retire :coffin:, and you wanted to update your queue accordingly - you could use the method
+Perhaps someone passed away before they could retire :coffin:, and you wanted to update your queue accordingly - you could use the method ```.remove()```
 
 ## Stack
 
