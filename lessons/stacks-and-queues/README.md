@@ -47,7 +47,7 @@ public class Employee implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        return (int)(((this.getStartDate().getTime() - ((Employee) o).getStartDate().getTime()))/1000);
+        return (int)((this.getStartDate().getTime() - ((Employee) o).getStartDate().getTime()));
     }
 }
 ```
