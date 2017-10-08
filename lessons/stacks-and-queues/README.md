@@ -113,7 +113,36 @@ public class Main {
 }
 ```
 
-Perhaps someone passed away before they could retire :coffin:, and you wanted to update your queue accordingly - you could use the method ```.remove()```
+Perhaps someone passed away before they could retire :coffin::cry:, and you wanted to update your queue accordingly - you could use the method ```.remove()```
+
+```java
+package com.company;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Main {
+
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+
+    public static void main(String[] args) {
+
+        retirementQueue.offer(new Employee("Danny"));
+        retirementQueue.offer(new Employee("Helen"));
+        retirementQueue.offer(new Employee("Yojana"));
+        retirementQueue.offer(new Employee("Old Man Logan"))
+        retirementQueue.offer(new Employee("Ridita"));
+        retirementQueue.offer(new Employee("Lily"));
+        
+        for (Employee e : retirementQueue) {
+            if (e.getName().equals("Old Man Logan")) {
+                retirementQueue.remove(e);
+            }
+        }
+    }
+}
+```
 
 ## Stack
 
