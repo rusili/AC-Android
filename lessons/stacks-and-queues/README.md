@@ -97,6 +97,7 @@ public class Main {
         retirementQueue.offer(new Employee("Danny"));
         retirementQueue.offer(new Employee("Helen"));
         retirementQueue.offer(new Employee("Yojana"));
+        retirementQueue.offer(new Employee("Old Man Logan"))
         retirementQueue.offer(new Employee("Ridita"));
         retirementQueue.offer(new Employee("Lily"));
         
@@ -109,7 +110,7 @@ public class Main {
 }
 ```
 
-Perhaps someone passed away before they could retire :sad:
+Perhaps someone passed away before they could retire :coffin:, and you wanted to update your queue accordingly - you could use the method
 
 ## Stack
 
