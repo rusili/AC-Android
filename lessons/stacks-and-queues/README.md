@@ -19,9 +19,48 @@ Stacks and Queues are also Abstract Data Types - and just as Maps and Lists have
 
 ## Queue
 
-A ```Queue``` is a First-In-First-Out (FIFO) data structure. It allows you to add elements to one end of a list, and remove elements from the opposite end. Queues can be used to provide a list ordered by the moment elements are added or removed to that data type. For example, imagine you are an HR Manager, and you are in charge of maintaining a list of employees by their start date, to determine who should be allowed to retire first. You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is call a ```PriorityQueue<E>```:
+A ```Queue``` is a First-In-First-Out (FIFO) data structure. It allows you to add elements to one end of a list, and remove elements from the opposite end. Queues can be used to provide a list ordered by the moment elements are added or removed to that data type. For example, imagine you are an HR Manager, and you are in charge of maintaining a list of employees by their start date, to determine who should be allowed to retire first:
 
+Employee data can be stored in a ```class``` called ```Employee.java```:
 
+```java
+package com.company;
+
+import java.util.Date;
+
+public class Employee {
+    String name;
+    Date startDate;
+
+    public Employee(String name) {
+        this.name = name;
+        this.startDate = new Date();
+    }
+}
+```
+
+You wouldn't want employees hired in 2010 (assuming they're still under 65 years old), to be asked to retire before employees hired in 2005. One way to keep track of this is to create a program that stores each employee in a data structure, the day they get hired, so that people who are hired earlier, can be asked to retire before those who were hired more recently. A data structure we can use to do this is called a ```PriorityQueue<E>```:
+
+```java
+package com.company;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
+
+public class Main {
+    private static Queue<Employee> retirementQueue = new PriorityQueue<>();
+
+    public static void main(String[] args) {
+
+        retirementQueue.add(new Employee("Danny"));
+        retirementQueue.add(new Employee("Helen"));
+        retirementQueue.add(new Employee("Yojana"));
+    }
+}
+```
+
+We use the ```.add()``` method to add a new employee to ```retirementQueue```, and similarly to the way an ```ArrayList<E>``` user might call the ```.add()``` method, the employee is added to the end of the queue. 
 
 ## Stack
 
