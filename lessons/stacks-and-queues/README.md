@@ -258,3 +258,25 @@ public class Main {
 ```
 
 Good work, you've maintained the integrity of your employment retention process, and learned about stacks and queues in the endeavor!
+
+## Try/Catch Blocks for Handling Exceptions
+
+However, as you run the ```.pop()``` method on Stacks, you'll find that if you call the method on an empty stack, you'll encounter something called an **EmptyStackException**. This is normal, and you can avoid it in several ways - the most basic is with a try/catch code block:
+
+```java
+Stack<String> myStack = new Stack<>();
+
+myStack.push("Apple");
+myStack.push("Blueberry");
+myStack.push("Cherry");
+
+int i = 3;
+while(i >= 0) {
+    try{
+        System.out.println(myStack.pop());
+    } catch (EmptyStackException e) {
+        System.out.println("All empty!");
+    }
+    i--;
+}
+```
