@@ -1,0 +1,24 @@
+Homework 4 - Due Oct 15 by 8 pm
+
+This assignment is a two parter. For the first portion you will write a program with a partner and for the second portion you will read and interpret code on your own. 
+
+Part One
+
+Write a program that allows a user to simulate an edit history that would be used while writing a document. Your program should keep an edit history of 10 items.  There are several commands that the user should be able to input and that the program should store. The user should be able to input a string, “copy”, “delete”, “undo” and “quit”. 
+
+When a user inputs a string that string should be saved into the edit history. 
+When they copy the last string stored in the edit history should be re-entered into the history. When they delete the last string should be removed. 
+When they undo the last string removed should be added back into the history again. 
+And when they quit the program should terminate. 
+
+Part Two
+
+Being able to read code is just as important as being able to write it. As you work in group projects, and ultimately at a tech company, you will spend a lot of time reading code. You will need to know how to interpret existing code in order to add to it, or learn from it in order to implement something. 
+So in order to strengthen that skill, and in prep for a future project, take time to read the following code and documentation. When you are done reading it summarize what each part of the code is doing. Describe what methods are available to you when creating a slackbot, etc. 
+
+https://github.com/ramonaharrison/SlackBot/tree/master/src/nyc/c4q/ramonaharrison
+https://api.slack.com/web
+https://api.slack.com/types/user
+https://api.slack.com/docs/message-attachments
+
+Do your best!
