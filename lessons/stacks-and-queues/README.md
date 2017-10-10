@@ -122,11 +122,14 @@ public class Main {
         retirementQueue.offer(new Employee("Ridita"));
         retirementQueue.offer(new Employee("Lily"));
         
+        Employee emp = null;
+        
         for (Employee e : retirementQueue) {
             if (e.getName().equals("Old Man Logan")) {
-                retirementQueue.remove(e);
+                emp = e;
             }
         }
+        retirementQueue.remove(emp);
     }
 }
 ```
