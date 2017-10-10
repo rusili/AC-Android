@@ -122,14 +122,14 @@ public class Main {
         retirementQueue.offer(new Employee("Ridita"));
         retirementQueue.offer(new Employee("Lily"));
         
-        Employee emp = null;
+        Employee deceased = null;
         
         for (Employee e : retirementQueue) {
             if (e.getName().equals("Old Man Logan")) {
-                emp = e;
+                deceased = e;
             }
         }
-        retirementQueue.remove(emp);
+        retirementQueue.remove(deceased);
     }
 }
 ```
@@ -156,11 +156,14 @@ public class Main {
         
         System.out.println(retirementQueue.size());
         
+        Employee deceased = null;
+        
         for (Employee e : retirementQueue) {
             if (e.getName().equals("Old Man Logan")) {
-                retirementQueue.remove(e);
+                deceased = e;
             }
         }
+        retirementQueue.remove(deceased);
         
         System.out.println(retirementQueue.size());
     }
