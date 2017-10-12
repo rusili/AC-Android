@@ -5,11 +5,6 @@
 Students will become familiar with the project structure of a gradle Android Project
 and know how to use basic Android Studio features.
 
-####Pre-work
-
-[Download Android Studio and run Hello World.]
-(https://github.com/accesscode-2-1/unit-1/blob/master/lessons/week-0/0_Android-Prework.md)
-
 ####Do Now
 
 Write a program that takes in a number from 0 to 100,
@@ -65,10 +60,6 @@ of the letter. If you wish, you can try to make the
 letter different colors based on the grade. For a bonus challenge, add a notification that notifies the user of the grade when the submit button is pressed. The app should look like this.
 
 > ![](http://i.imgur.com/RgszB8z.png).
-
-####Assessment
-
-[Exit ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HieXNBgrNRTCiZRPfOgCdCxSW3hY1ZYNMMiBzNefj2s/viewform)
 
 ####Support materials
 
